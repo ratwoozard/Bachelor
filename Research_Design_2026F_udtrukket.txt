@@ -1,0 +1,408 @@
+--- SLIDE 1 ---
+Formulering af et Strategisk Research Design
+29.
+januar
+,
+2026
+JENS
+ANDERSEN
+jean@ek.dk
+
+--- SLIDE 2 ---
+AGENDA
+We look into:
+How to Write a Synopsis to your Bachelor-Supervisor
+How do you formulate your Research Design?
+The Four levels of Knowledge and their Continuums
+Choice of Strategy
+The Exam Assignment 2024
+Example on "How to approach your Company" for an interview
+Flow-Theory and other Neuroscientific Advices
+
+--- SLIDE 3 ---
+
+
+--- SLIDE 4 ---
+Grundforskning
+vs
+Anvendt Forskning
+Saunders 2016; Easterby-Smith et al. (2012); Hedrick et al. (1993)
+
+--- SLIDE 5 ---
+The Conduct of Applied Research
+Source:
+Bickman
+et al., 2008, p. 4
+
+--- SLIDE 6 ---
+Business "“ and Management Research
+Easterby
+-Smith et al. (2012) argue that three features combine to make business and management a distinctive focus for research:
+The eclectic nature
+of management and management research, drawing upon knowledge developed in different disciplines such as sociology, geography, psychology, economics and statistics, which have different underlying assumptions.
+The high levels of education of both managers and employees.
+Most now have undergraduate or master's degrees
+and, as such, tend often to be as well educated as those conducting research about them.
+The expectation for research to have some practical consequence and to lead directly to action.
+This means it either needs to contain the potential for taking some form of action or needs to take account of the practical consequences of the findings.
+It also means that managers are unlikely to allow research access unless they can see an advantage for their
+organisation
+or themselves.
+Saunders
+, 2015 s.6
+
+--- SLIDE 7 ---
+Rapportsynopsis som forarbejde til rapport "“ uddannelsesmæssig kontekst
+Synopsen som forarbejde til en (eksamens)rapport bruges ved videregående uddannelser "“ og er i denne forbindelse at betragte som et "arbejdspapir"
+Synopsen kan og vil ændres undervejs
+, hvis det viser sig, efter læsning af mere faglitteratur eller arbejdet med dit projekt, at hovedvægten skal lægges på noget andet, end det som du oprindelig skrev i din synopsis. Den endelige synopsis kan anvendes i din projektrapport i kondenseret form.
+En rapportsynopsis kan/skal altid så udførligt som I kan, 2-3 sider "“ indeholde disse punkter:
+Problemstilling:
+ emneområde, baggrund for overhovedet at stille problemformuleringens spørgsmål
+Problemformulering:
+ det meget kontant formulerede spørgsmål, som din endelige konklusion skal være svaret på
+Overvejelser overÂ
+teori og metode
+: din faglige indfaldsvinkel til emnet og den rent praktiske måde, du vil gennemføre undersøgelsen på
+Empiri:
+ de data eller andre kilder, du vil bruge som grundlag for undersøgelsen
+Første udkast tilÂ
+disposition
+: helt uforpligtende på dette tidspunkt om end obligatorisk*
+Første udkast tilÂ
+kildefortegnelse
+: den litteratur om emnet du har kendskab til på forhånd, også helt uforpligtende.
+(Salling, SDU, 2016)
+Det er vigtigt, at din vejleder godkender din synopsis, inklusiv din problemformulering. Dette skal ske inden for tre uger efter semesterstart.
+Deadline for at sende anmodning til din vejleder er den 16. februar 2026 kl. 10.00).
+
+--- SLIDE 8 ---
+MCKinsey
+& Co:
+"Professional
+fields
+of
+interest
+" "“
+e.g
+.
+IT
+battlegrounds
+
+--- SLIDE 9 ---
+Philosophy
+of Science "“ "Videnskabsteori"
+Teori
+om
+videnskab
+, der
+leverer
+begreber
+til
+systematiske
+og
+refleksive
+overvejelser
+over,
+hvad
+viden
+er,
+hvordan
+den
+erhverves
+og
+hvilken
+funktion
+den spiller.
+Metodisk
+katalog
+over diverse
+metoder
+til
+hvordan
+videnskabelige
+undersøgelser
+kan
+praktiseres
+og
+evalueres
+.
+Filosofisk
+redskab
+til
+reflektion
+over
+verden
+; over
+os
+som
+mennesker
+,
+vores
+relationer
+og
+samspil
+med
+omverdenen
+.
+Normativ
+konvention
+,
+som
+udstikker
+bestemte
+paradigmer
+og
+således
+særlige
+værdier
+og
+grundantagelser
+om
+verden
+og
+viden
+, der
+danner
+referenceramme
+for
+såvel
+hverdags
+-
+som
+videnskabshandlinger
+.
+(
+Rennison
+2015)
+
+--- SLIDE 10 ---
+Kuada (2012) -
+Virkelighedssyn
+(ontology) og
+Videnssyn
+(epistemology)
+
+--- SLIDE 11 ---
+Ontologi og Epistemologi .. fortsat
+Ontology:
+"As a first approximation,
+ontology is the study of what there is
+. Some contest this formulation of what ontology is, so it"™s only a first approximation. Many classical philosophical problems are problems in ontology: the question whether or not there is a god, or the problem of the existence of universals, etc..
+These are all problems in ontology in the sense that they deal with whether or not a certain thing, or more broadly entity, exists".
+The larger discipline of ontology can thus be seen as having four parts:
+(O1) the study of ontological commitment, i.e. what we or others are committed to,
+(O2) the study of what there is,
+(O3) the study of the most general features of what there is, and how the things there are relate to each other in the metaphysically most general ways,
+(O4) the study of meta-ontology, i.e. saying what task it is that the discipline of ontology should aim to accomplish, if any,
+how the questions it aims to answer should be understood, and with what methodology they can be answered.
+Stanford Encyclopedia of
+Philosophy
+2004/2017.
+
+--- SLIDE 12 ---
+Subjektive vs.
+Objektve
+dimensioner i Videnskabsteori
+Burrell
+& Morgan (1979)
+
+--- SLIDE 13 ---
+Ontologi og Epistemologi .. fortsat
+Epistemology:
+T
+he philosophical study of the nature, origin, and limits of human knowledge. The term is derived from the Greek
+epistÄ“mÄ“
+("knowledge") and logos ("reason"), and accordingly the field is sometimes
+referred to as the theory of knowledge
+. Epistemology has a long history within Western philosophy, beginning with the ancient Greeks and continuing to the present. Along with metaphysics, logic, and ethics,
+it is one of the four main branches of philosophy, and nearly every great philosopher has contributed to it.
+Source:
+Martinich
+/
+Britanica
+nd
+.
+Epistemologi
+Læren
+om
+viden
+(
+erkendelsesteori
+);
+angår
+vores
+muligheder
+for at
+tilvejebringe
+viden
+om
+vores
+genstandsfelt
+.
+Hvordan
+"
+erkender
+"
+og
+skaber
+vi
+principielt
+viden
+om
+vores
+genstand
+?
+Hvilken
+status har den
+viden
+vi
+opnår
+?
+Source:
+Rennison
+2015
+
+--- SLIDE 14 ---
+Kuada, 2012
+Ontologi og Epistemologi .. "Research Onion"
+
+--- SLIDE 15 ---
+Saunders (2015, s.124 )
+Saunders (2018, s.130 )
+Ontologi og Epistemologi .. Research Onion
+
+--- SLIDE 16 ---
+Strategy: Exclusive vs. Complementary approach
+
+--- SLIDE 17 ---
+Exclusive vs complementary approach
+Purist research:
+"Purists usually focus at the paradigm level and hold that qualitative and quantitative approaches
+derive from different, mutually exclusive
+epistemologic
+and
+ontologic
+assumptions about the nature of research and society
+(Collins, 1984; Bryman, 1984). Smith (1983) argues that the two approaches cannot be combined, and Burrell and Morgan (1979: 25) assert that different paradigms are mutually exclusive ....
+A synthesis is not possible, since in their pure forms they are contradictory
+, being based on at least one set of opposing metatheoretical assumptions"
+Rossman & Wilson 1985
+
+--- SLIDE 18 ---
+Exclusive vs complementary approach
+Situational Research:
+"In
+constrast
+to the purists,
+situationalists
+focus on research methods and maintain that both approaches have value. However, although both approaches may be used in a single study,
+situationalists
+feel that
+certain methods are most appropriate for specific situations
+. "
+"Thus, each method has usefulness in a specific situation or phase of the research process. However, even that attempt at rapprochement
+adheres to the belief that one should use either one method or another and that the situation dictates when to use each. The two approaches are viewed as complementary
+(
+Vidich
+and Shapiro, 1955: 33), but still as representing distant universes".
+Rossman & Wilson 1985
+
+--- SLIDE 19 ---
+Exclusive vs complementary approach
+Pragmatic Research:
+"Little integration is fostered by either the purist or the
+situationalist
+view. Not so far for the pragmatists
+who argue for the integration of methods in a single study.
+".
+Ex.
+"examining cultural behavior with a variety of
+different approaches greatly enhances the credibility of research results
+. Thus they define the work of the anthropologist-the
+examplar
+of qualitative research-as incorporating methods conventionally assigned to more quantitative sociologists or psychologists.
+"
+quantitative methods are not necessarily positivistic nor are qualitative ones necessarily
+phenomenologic
+.
+Sieber
+(1973: 1337) summarizes the case for such a perspective:
+If each technique has an inherent weakness, it also has an inherent strength
+unmatched by other techniques.
+The trick is to tap the relative strengths and to make the most efficient use of both in attempting to understand social phenomena".
+Rossman & Wilson 1985
+
+--- SLIDE 20 ---
+Exclusive vs complementary approach
+
+--- SLIDE 21 ---
+The Objective "“ Subjective Dimension
+Saunders
+, Lewis and
+Thornhill
+, 2019
+
+--- SLIDE 22 ---
+Epistimological
+Positions
+
+--- SLIDE 23 ---
+Home
+Assignment
+:
+This Research
+Structure
+has
+some
+flaws
+to it .. Try and
+identify
+them
+and
+produce
+a new
+congruent
+Research
+Structure
+!!
+
+--- SLIDE 24 ---
+Mixed Methods
+Source: Grey, 2014
+
+--- SLIDE 25 ---
+Steven
+Kotler
+"“ How to enter "flow
+state
+" on
+command
+?
+(YouTube, 2022)
+
+--- SLIDE 26 ---
+Steven
+Kotler
+"“ How to enter "flow
+state
+" on
+command
+? (YouTube, 2022)
+
+--- SLIDE 27 ---
+Steven
+Kotler
+"“ How "flow
+state
+"
+can
+heal Trauma?
+(YouTube, 2022)
+
+--- SLIDE 28 ---
+Andrew Huberman "“ Dont Type Notes on
+your
+Laptop!
+(YouTube, 2023)
+

@@ -1,0 +1,262 @@
+# Akademisk Ramme – Videnskabsteori, Metode og Teori
+
+## DEL A: VIDENSKABSTEORI
+
+### A.1 De fire hovedpositioner (overblik)
+
+| Position | Ontologi (hvad er virkelighed?) | Epistemologi (hvad er viden?) | Typisk metode | Typisk slutningsform |
+|---|---|---|---|---|
+| **Positivisme** | Én objektiv virkelighed der kan måles | Viden er objektiv, generaliserbar, lovmæssig | Kvantitativ, eksperimenter, statistik | Deduktiv (teori → hypotese → test) |
+| **Fortolkende / Hermeneutik** | Virkeligheden er socialt konstrueret | Viden er kontekstuel og fortolkningsbaseret | Kvalitativ, interviews, observation | Induktiv (data → mønstre → teori) |
+| **Kritisk realisme** | Virkelighed i lag: det faktiske, det aktualiserede, det empiriske | Viden er fejlbar men vi kan nærme os dybereliggende strukturer | Mixed, retroduktion | Retroduktiv (hvilke mekanismer forklarer det vi ser?) |
+| **Pragmatisme** ★ | Virkelighed er kompleks; vi fokuserer på det praktisk relevante | Viden vurderes på sin anvendelighed | Det der bedst besvarer spørgsmålet | Abduktiv (vekslen teori ↔ empiri) |
+
+★ = Jeres valgte position
+
+### A.2 Pragmatisme i dybden
+
+**Hovedtanke:** Forskningsspørgsmålet driver metodevalget. Ontologiske og epistemologiske debatter er sekundære i forhold til "hvad virker for at besvare dette spørgsmål?"
+
+**Nøgletænkere:** John Dewey, Charles Sanders Peirce, William James. I forskningsmetodesammenhæng: Saunders et al. (2019), Creswell & Creswell (2018).
+
+**Fire dimensioner i jeres projekt:**
+
+| Dimension | Pragmatisk position | Konsekvens for projektet |
+|---|---|---|
+| **Ontologi** | Virkeligheden er flertydig; vi fokuserer på det der har praktisk konsekvens | I behøver ikke argumentere for én sandhed. I kan sige "processen opleves forskelligt af direktør vs. projektleder – begge perspektiver er relevante" |
+| **Epistemologi** | Viden vurderes på anvendelighed, ikke absolut sandhed | Jeres fund skal være *nyttige* for SS og fagligt interessante – ikke universelle love |
+| **Slutningsform** | Abduktiv: vekslen mellem teori og empiri | I starter med at observere processen (empiri), bringer Lean/TOE ind (teori), og vender tilbage med nuancerede fund. Ikke ren deduktion (hypotesetest) eller ren induktion (grounded theory) |
+| **Metode** | Metodepluralisme | Legitimerer at I bruger interviews + artefaktanalyse + platformdata i samme studie, uden at det er "mixed methods" i traditionel forstand |
+
+**Hvorfor pragmatisme passer til dette projekt:**
+1. Problemformuleringen er handlingsorienteret ("Hvordan påvirker...") – ikke teoretisk abstrakt
+2. Empirien har naturlig dualitet: menneskers oplevelser (interviews) + teknisk artefakt (kode/data)
+3. Formålet er anvendelsesorienteret: at hjælpe SS med at forstå deres proces
+4. I ønsker ikke at bevise en universel lov, men at skabe kontekstuel forståelse
+
+**Typisk fejl studerende laver:**
+- Skriver "vi har valgt pragmatisme fordi det er det bredeste" → Det er ikke en begrundelse. Forklar *hvorfor* det passer til *jeres* PF.
+- Blander pragmatisme med "vi gør lidt af hvert" → Pragmatisme er ikke metodisk dovenskab, det er en bevidst position der siger at spørgsmålet driver metoden.
+- Glemmer abduktionen → Vis eksplicit i analysen at I veksler mellem empiri og teori.
+
+**Standardformulering:**
+> "Projektet anlægger en pragmatisk videnskabsteoretisk position (Saunders et al., 2019; Creswell & Creswell, 2018). Denne position er valgt, fordi problemformuleringen er handlingsorienteret og empirien har en naturlig dualitet: menneskers oplevelser (interviews med beslutningstagere) og et konkret digitalt artefakt (SoluTalent-platformen med kode, datamodeller og KPI'er). Pragmatismen legitimerer en metodepluralistisk tilgang med abduktiv slutningsform, hvor vi iterativt veksler mellem teoretiske begreber (Lean waste, TOE) og empiriske fund fra case og artefakt."
+
+### A.3 Abduktion – hvordan det fungerer i praksis
+
+```
+OBSERVATION (empiri):
+  "Matches venter i gennemsnit X timer på admin-godkendelse"
+       ↓
+TEORI (Lean):
+  "Dette er 'ventetid' – en af de 7 spildkategorier"
+       ↓
+NY OBSERVATION (empiri):
+  "Informant siger: Vi tør ikke auto-godkende fordi..."
+       ↓
+TEORI (DSS/TOE):
+  "Dette handler om tillid til beslutningsstøttesystemer
+   og organisatorisk modenhed"
+       ↓
+NUANCERET FUND:
+  "Ventetid i match-review skyldes ikke teknologisk begrænsning
+   men organisatorisk forsigtighedsprincip. Forudsætning for
+   automatisering: øget tillid til AI-scoringen, fx via
+   højere Precision@5-tærskel."
+```
+
+### A.4 Hvornår I IKKE skal bruge pragmatisme
+
+Pragmatisme er *forkert* valg hvis:
+- I vil teste en specifik hypotese (→ brug positivisme/deduktion)
+- I vil forstå dybe meningsstrukturer (→ brug hermeneutik)
+- I vil afdække skjulte magtstrukturer (→ brug kritisk realisme)
+- Jeres PF er "Hvorfor oplever X at..." (→ fortolkende)
+
+Jeres PF er "Hvordan påvirker..." med fokus på praktisk forståelse → pragmatisme passer.
+
+---
+
+## DEL B: METODE
+
+### B.1 Casestudie (Yin, 2018)
+
+**Type:** Eksplorativt single-case studie med indlejret analyseenhed (embedded unit design)
+
+| Yin-begreb | I jeres projekt |
+|---|---|
+| **Casen** | Support Solutions ApS og deres bemandingsproces |
+| **Indlejret enhed** | SoluTalent-platformen som teknologisk artefakt |
+| **Analyseenhed** | Bemandingsprocessen (staging → matched) |
+| **Kontekst** | Dansk IT-konsulentmarked, SMV-vilkår |
+
+**Fem komponenter i casestudie-design (Yin):**
+1. Forskningsspørgsmål → jeres PF (hvordan-spørgsmål passer til casestudie)
+2. Propositioner → jeres underspørgsmål giver retning
+3. Analyseenhed → bemandingsprocessen
+4. Logik der kobler data til propositioner → tematisk kodning + proceskortlægning
+5. Kriterier for fortolkning → Lean-kategorier + KPI-indikatorer
+
+**Analytisk generaliserbarhed:** I generaliserer ikke statistisk ("dette gælder for alle konsulenthuse"). I generaliserer analytisk ("vores fund understøtter/udfordrer TOE-frameworkets forudsigelse om at..."). Det er en styrke, ikke en svaghed.
+
+### B.2 Semistrukturerede interviews
+
+**Antal:** 4-6 informanter
+**Udvælgelse:** Purposive sampling – I vælger informanter der har forskellige roller i processen
+**Varighed:** 30-60 min per interview
+**Dokumentation:** Lydoptagelse + transskription (med samtykke)
+
+**Interviewguide-struktur:**
+1. Introduktion (formål, anonymitet, samtykke)
+2. Baggrund (rolle, erfaring, daglig involvering i processen)
+3. Tema 1: Nuværende praksis og spildtid (USP 1)
+4. Tema 2: AI-matchingens effekt (USP 2)
+5. Tema 3: Grænsen for automatisering (USP 3)
+6. Tema 4: Forudsætninger og barrierer (USP 4)
+7. Afrunding (noget vi ikke har spurgt om? tilføjelser?)
+
+**Spørgsmålstyper:**
+- Åbne spørgsmål: "Beskriv processen fra..." (ikke "Synes du AI er godt?")
+- Opfølgende: "Kan du give et eksempel?" "Hvad mener du med...?"
+- Kontrasterende: "Hvordan var det før SoluTalent?" "Hvad hvis AI'en tog fejl?"
+
+### B.3 Artefaktanalyse
+
+**Hvad:** Systematisk gennemgang af SoluTalent-platformen som digitalt artefakt
+**Ikke:** Code review eller teknisk evaluering
+**Men:** Funktionel analyse af hvad platformen gør i processen
+
+| Analysedimension | Hvad I kigger på |
+|---|---|
+| **Workflow-states** | Status-enums og transitions (staging → bidding → matched) |
+| **Manuelle vs. automatiserede trin** | Hvilke trin kræver admin-klik? Hvilke kører automatisk? |
+| **AI-pipeline** | Hvad gør hvert af de 6 stages? Hvad filtreres fra? |
+| **Auto-approval gates** | Betingelser for at springe curation over |
+| **KPI-struktur** | Hvad måles? Precision@5, override rate, beslutningstid |
+| **Rejection reasons** | Strukturerede årsager til afvisning af matches |
+
+### B.4 Tematisk analyse (Braun & Clarke, 2006)
+
+**6 faser:**
+1. Bliv fortrolig med data (læs transskriptioner gentagne gange)
+2. Generér initielle koder (fx "ventetid i kø", "tillid til AI", "manglende kompetencer")
+3. Søg efter temaer (gruppér koder under Lean-kategorier + emergente temaer)
+4. Gennemgå temaer (tjek mod data – holder de?)
+5. Definér og navngiv temaer
+6. Producér rapport
+
+**I jeres projekt:** Brug Lean-waste-kategorier som *foruddefinerede* (deduktive) temaer, men vær åben for *emergente* (induktive) temaer der opstår fra data. Det er abduktion i praksis.
+
+### B.5 Validitet og troværdighed
+
+| Kriterium (Lincoln & Guba) | Handling |
+|---|---|
+| **Troværdighed (credibility)** | Triangulering (interview + artefakt + data), informant-validering, langvarigt engagement (praktikperiode) |
+| **Overførbarhed (transferability)** | Tyk beskrivelse af kontekst så læser selv kan vurdere overførbarhed |
+| **Pålidelighed (dependability)** | Transparent interviewguide, kodningsstrategi og kædebevis |
+| **Bekræftbarhed (confirmability)** | Bias-refleksion, brug af data der viser systemets fejl/begrænsninger |
+
+---
+
+## DEL C: TEORETISK RAMME
+
+### C.1 Lean Waste (Womack & Jones, 2003)
+
+**Oprindelse:** Toyota Production System. Tilpasset vidensarbejde af bl.a. Staats & Upton (2011).
+
+**De 7 spildtyper tilpasset bemandingsprocessen:**
+
+| # | Spildtype | Originalt (produktion) | I jeres kontekst (bemanding) | Eksempel fra SoluTalent |
+|---|---|---|---|---|
+| 1 | **Ventetid** | Venter på maskine/materialer | Opgaver/matches venter i kø | Jobs i staging; pending matches |
+| 2 | **Overprocessering** | Mere bearbejdning end nødvendigt | Manuel behandling af noget der kunne auto-håndteres | Manuel curation af high-confidence jobs |
+| 3 | **Fejl/Rework** | Defekter → reparation | Forkerte matches der skal laves om | Rejection reasons: mismatch, skill_level |
+| 4 | **Uudnyttet talent** | Medarbejdere bruges forkert | Admin bruger tid på lavværdi-godkendelser | Projektleder reviewer matches manuelt |
+| 5 | **Transport** | Unødvendig flytning | Unødvendig videreformidling af information | Manuel trigger af notifikationer |
+| 6 | **Overproduktion** | Producerer mere end behov | System genererer matches der aldrig ses | AI matches der ikke reviewes |
+| 7 | **Lager (Inventory)** | Ophobning | Akkumulering af ubehandlede items | Voksende staging-kø eller match-kø |
+
+**Sådan bruger I det:** Lean er jeres *kategoriseringsværktøj* i USP 1. Når I finder flaskehalse i interviews eller data, klassificerer I dem efter waste-type. Det giver struktur og akademisk forankring.
+
+### C.2 Procesoptimering: As-is / To-be (Davenport, 1993)
+
+**Kerneidé:** Forstå nuværende proces (as-is), design forbedret proces (to-be), analysér gabet.
+
+**I jeres projekt:**
+- **As-is:** Processen *med* SoluTalents nuværende automatisering + manuelle trin (det I kortlægger)
+- **To-be:** Processen med *yderligere* automatisering (jeres anbefalinger baseret på fund)
+- **Gap:** Hvad forhindrer bevægelsen fra as-is til to-be? (→ USP 4, analyseret med TOE)
+
+**OBS:** I har en fordel. De fleste studerende må forestille sig to-be. I kan pege på konkrete auto-approval gates, KPI-tærskler og automation-muligheder der allerede er delvist implementeret.
+
+### C.3 TOE-frameworket (Tornatzky & Fleischer, 1990)
+
+**Formål:** Forklarer hvilke faktorer der påvirker adoption og implementering af teknologisk innovation.
+
+**Tre dimensioner:**
+
+| Dimension | Spørgsmål i jeres kontekst | Eksempler på fund |
+|---|---|---|
+| **Technology** | Er AI-matchingen præcis nok til at stole på? Er datakvaliteten tilstrækkelig? | Precision@5, override rate, enrichment confidence |
+| **Organization** | Har teamet kompetencer? Ledelsesopbakning? Kultur? Ressourcer? | Tillid til AI, ændringsvillighed, antal admin-medarbejdere |
+| **Environment** | Markedspres? Konkurrence? Regulering? Kundekrav? | Hastighed som konkurrenceparameter, GDPR, EU AI Act |
+
+**Sådan bruger I det:** TOE er jeres *struktureringsværktøj* i USP 4. Interviewfund om barrierer og forudsætninger sorteres i T, O og E.
+
+### C.4 Decision Support Systems (Keen & Scott Morton, 1978; Turban et al., 2014)
+
+**Kerneidé:** IT-systemer der *understøtter* menneskelige beslutninger, ikke erstatter dem.
+
+**Nøglebegreb: Human-in-the-loop**
+- AI genererer forslag (match_requests med scores)
+- Mennesket godkender/afviser (match review med rejection_reason)
+- Feedback forbedrer systemet (match_analytics til modeltræning)
+
+**I jeres projekt:** SoluTalents match-pipeline er et klassisk DSS. Spørgsmålet (USP 3) er: *hvornår giver human-in-the-loop mening, og hvornår er det unødvendigt spild?*
+
+**DSS-typologie (Turban):**
+| Type | Beskrivelse | SoluTalent-eksempel |
+|---|---|---|
+| **Data-drevet** | Analyse af store datasæt | Embeddings-baseret semantisk søgning |
+| **Model-drevet** | Beregningsmodeller | Scoring-pipeline med vægtede dimensioner |
+| **Vidensbaseret** | Ekspertsystem/AI | GPT-4o-mini evaluering af match-fit |
+
+### C.5 Hvordan teorierne samarbejder
+
+```
+USP 1 (Spildtid)          → LEAN WASTE klassificerer hvad der er spild
+                                    ↓
+USP 2 (AI-matchingens     → DAVENPORT strukturerer as-is vs. to-be
+       effekt)                  + DSS forklarer matchingen som beslutningsstøtte
+                                    ↓
+USP 3 (Grænsen for        → DSS (human-in-the-loop): hvornår giver
+       automatisering)       menneskelig vurdering merværdi?
+                                    ↓
+USP 4 (Forudsætninger)    → TOE strukturerer barrierer/enablers
+                                    ↓
+DISKUSSION                 → Alle fire teorier samles: "Lean identificerede
+                             spildtid X (USP1), som AI adresserer via DSS
+                             (USP2), men organisatoriske forudsætninger
+                             (TOE, USP4) begrænser automatiseringen
+                             (USP3)."
+```
+
+---
+
+## DEL D: NØGLEBEGREBER OG DEFINITIONER
+
+Brug disse definitioner konsistent gennem hele opgaven:
+
+| Begreb | Definition i dette projekt | Kilde |
+|---|---|---|
+| **Spildtid (waste)** | Procestrin eller ventetid der ikke direkte skaber værdi for slutresultatet (konsulent allokeret til opgave) | Womack & Jones (2003), tilpasset |
+| **Bemandingsproces** | Processen fra opgaveidentifikation til konsulentallokering (trin 1-8 i SoluTalent) | Projektets egen definition |
+| **AI-matching** | Automatiseret kobling af konsulentprofiler med projektopgaver via SoluTalents seksstegs pipeline | Projektets egen definition |
+| **Flaskehals** | Procestrin hvor kapacitet er lavere end efterspørgsel, hvilket skaber ophobning | Lean-terminologi |
+| **Human-in-the-loop** | Designprincip hvor AI genererer forslag og menneske træffer endelig beslutning | Turban et al. (2014) |
+| **Analytisk generaliserbarhed** | Generalisering fra case til teori (ikke fra sample til population) | Yin (2018) |
+| **Artefaktanalyse** | Systematisk analyse af et teknologisk artefakt (software) som empirisk kilde | Projektets metode |
+
+---
+
+**Se også (kontekst på tværs):** `CASE_KNOWLEDGE.md` (workflow, scope), `KVALITET_OG_SKRIVEGUIDE.md` (skrivning), `UDDANNELSE_OG_PENSUM.md` (kildeprioritering), `Undervisningsmateriale og guides/README.md` (supplerende materiale).

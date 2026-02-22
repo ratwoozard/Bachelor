@@ -1,0 +1,76 @@
+%% F1 — AI-matchningspipeline (Repo-afledt)
+%% Viser: Dataflow fra CV/job-input til admin-beslutning
+%% Notation: Se legend. Evidens: Se Appendix A, figur F1.
+%% REALITY LOCK:
+%%   - match_request oprettet med status:'pending' (ai-match/index.ts:866)
+%%   - match_results INSERT (ai-match/index.ts:907) — ingen weights_used kolonne
+%%   - weights_used returneres kun i API-response JSON (ai-match/index.ts:953)
+%%   - Admin ændrer status via update_match_request_status() RPC
+%%   - Trigger: on-demand (freelancer+job) eller admin-initieret, IKKE automatisk
+flowchart TB
+    %% ── INPUTS ──
+    subgraph InputData["① Data Input"]
+        CV["CV-data<br/><i>(tekst + billede)</i>"]
+        Job["Job-/projektdata"]
+    end
+
+    %% ── AI PROCESSING ──
+    subgraph AIProcessing["② AI-behandling"]
+        Parse["CV Parsing"]
+        Embed["Embedding-<br/>generering"]
+        Semantic["Semantisk<br/>similarity"]
+        RuleBased["Regelbaseret<br/>scoring"]
+        Combine["Samlet score<br/><i>(vægtet sum)</i>"]
+        Explain["Forklaring<br/><i>(GPT-genereret)</i>"]
+    end
+
+    %% ── PERSISTENCE ──
+    ResultsDB[("match_requests<br/><i>status: pending</i>")]
+    ResultsDetail[("match_results<br/><i>score + breakdown</i>")]
+
+    %% ── HUMAN DECISION ──
+    subgraph HumanDecision["③ Menneskelig beslutning"]
+        AdminReview{"Admin<br/>gennemgang"}
+        Approve["Godkendt →<br/>status: approved"]
+        Reject["Afvist →<br/>status: rejected"]
+    end
+
+    %% ── DATA FLOW ──
+    CV --> Parse
+    Parse --> Embed
+    Job --> Embed
+    Embed --> Semantic
+    Embed --> RuleBased
+    Semantic --> Combine
+    RuleBased --> Combine
+    Combine --> Explain
+    Explain -->|"Upsert<br/>(status: pending)"| ResultsDB
+    Explain -->|"Insert"| ResultsDetail
+    ResultsDB -.->|"Score +<br/>forklaring"| AdminReview
+    AdminReview -->|"Ja"| Approve
+    AdminReview -->|"Nej"| Reject
+
+    %% ── LEGEND ──
+    subgraph Legend[" "]
+        direction LR
+        LI["◻ Data input"]
+        LP["◻ AI-behandling"]
+        LD[("◻ Datastore")]
+        LH{"◇ Menneskelig beslutning"}
+        LA["── Dataflow"]
+        LB["- - Beslutningsstøtte"]
+    end
+
+    %% ── STYLES ──
+    style InputData fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style AIProcessing fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style HumanDecision fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style ResultsDB fill:#fce4ec,stroke:#c62828,stroke-width:2px
+    style AdminReview fill:#fff9c4,stroke:#f57f17,stroke-width:3px
+    style Approve fill:#c8e6c9,stroke:#2e7d32
+    style Reject fill:#ffcdd2,stroke:#c62828
+    style Legend fill:#fafafa,stroke:#bdbdbd,stroke-dasharray: 3
+    style LI fill:#e3f2fd,stroke:#1565c0
+    style LP fill:#e8f5e9,stroke:#2e7d32
+    style LD fill:#fce4ec,stroke:#c62828
+    style LH fill:#fff9c4,stroke:#f57f17

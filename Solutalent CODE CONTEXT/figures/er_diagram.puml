@@ -1,0 +1,137 @@
+@startuml
+' F8 — ER-diagram Light (Repo-afledt)
+' Viser: 10 centrale entiteter og nøglerelationer
+' Fokus: AI-matching flow + bidding-til-kontrakt flow
+' Evidens: Se Appendix A, figur F8
+
+title SoluTalent — Datamodel (centrale entiteter)
+
+skinparam linetype ortho
+skinparam entity {
+  BackgroundColor #FAFAFA
+  BorderColor #424242
+  ArrowColor #616161
+}
+skinparam legendBackgroundColor #FAFAFA
+
+!define PK(x) <b><color:#1565C0>x</color></b>
+!define FK(x) <color:#E65100>x</color>
+
+' ═══ AUTHENTICATION ═══
+
+entity "auth.users" as users <<Supabase Auth>> {
+  PK(id) : uuid
+  email : text
+}
+
+entity "profiles" as profiles {
+  PK(id) : uuid
+  FK(user_id) : uuid
+  role : app_role
+  is_active : boolean
+}
+
+' ═══ TALENT ═══
+
+entity "freelancers" as freelancers {
+  PK(id) : uuid
+  name : text
+  category : text
+  seniority : text
+}
+
+entity "freelancer_skills" as skills {
+  PK(id) : uuid
+  FK(freelancer_id) : uuid
+  skill : text
+  proficiency : text
+  years_of_experience : int
+}
+
+' ═══ JOBS ═══
+
+entity "jobs" as jobs {
+  PK(id) : uuid
+  title : text
+  category : text
+  status : text
+}
+
+' ═══ AI MATCHING ═══
+
+entity "match_requests" as match_req {
+  PK(id) : uuid
+  FK(freelancer_id) : uuid
+  FK(job_id) : uuid
+  FK(reviewed_by) : uuid
+  status : text
+}
+
+entity "match_results" as match_res {
+  PK(id) : uuid
+  FK(match_request_id) : uuid
+  overall_score : int
+  semantic_score : numeric
+  match_reasons : jsonb
+  skill_gaps : jsonb
+  embedding_version : text
+}
+
+' ═══ BIDDING & CONTRACT ═══
+
+entity "bids" as bids {
+  PK(id) : uuid
+  FK(job_id) : uuid
+  FK(freelancer_id) : uuid
+  status : bid_status
+  proposed_rate : numeric
+}
+
+entity "contracts" as contracts {
+  PK(id) : uuid
+  FK(freelancer_id) : uuid
+  FK(client_id) : uuid
+  status : contract_status
+}
+
+' ═══ TIDSREGISTRERING ═══
+
+entity "time_entries" as time_entries {
+  PK(id) : uuid
+  FK(freelancer_id) : uuid
+  FK(project_id) : uuid
+  hours : numeric
+  status : text
+}
+
+' ═══ RELATIONSHIPS ═══
+
+profiles }o--|| users : "user_id"
+
+freelancers ||--o{ skills : "freelancer_id"
+
+jobs ||--o{ match_req : "job_id"
+freelancers ||--o{ match_req : "freelancer_id"
+users ||--o{ match_req : "reviewed_by"
+match_req ||--|| match_res : "match_request_id"
+
+jobs ||--o{ bids : "job_id"
+freelancers ||--o{ bids : "freelancer_id"
+
+contracts }o--|| freelancers : "freelancer_id"
+contracts }o--|| users : "client_id"
+
+time_entries }o--|| freelancers : "freelancer_id"
+
+' ═══ LEGEND ═══
+
+legend right
+  |= Symbol |= Betydning |
+  | <color:#1565C0><b>id</b></color> | Primærnøgle (PK) |
+  | <color:#E65100>xxx_id</color> | Fremmednøgle (FK) |
+  | }o--\|\| | Mange-til-en |
+  | \|\|--o{ | En-til-mange |
+  | \|\|--\|\| | En-til-en |
+endlegend
+
+@enduml

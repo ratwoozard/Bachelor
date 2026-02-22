@@ -1,0 +1,29 @@
+%% C4-lignende kontekstdigram (repo-deriveret)
+flowchart LR
+    subgraph People["Brugere"]
+        Freelancer["Freelancer"]
+        Admin["Admin / Support Solutions"]
+        Company["Virksomhedskunde"]
+    end
+
+    SoluTalent["SoluTalent Platform"]
+
+    subgraph External["Eksterne services"]
+        OpenAI["OpenAI API\n(embeddings + chat)"]
+        Economic["E-conomic API\n(bogføring/fakturering)"]
+        OAuth["OAuth\n(Google token endpoint)"]
+        Resend["Resend\n(transaktionelle emails)"]
+    end
+
+    Freelancer --> SoluTalent
+    Admin --> SoluTalent
+    Company --> SoluTalent
+
+    SoluTalent --> OpenAI
+    SoluTalent --> Economic
+    SoluTalent --> OAuth
+    SoluTalent --> Resend
+
+    style SoluTalent fill:#e3f2fd,stroke:#1565c0
+    style External fill:#f5f5f5,stroke:#9e9e9e,stroke-dasharray: 5
+

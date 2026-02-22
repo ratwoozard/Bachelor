@@ -1,0 +1,4 @@
+# This directory contains exported figures for the bachelor report
+# Generated files: SVG and PNG formats
+# Run: npm run export:figures
+

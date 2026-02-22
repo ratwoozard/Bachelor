@@ -24,7 +24,7 @@
 > Denne ventetid kategoriseres som "waste type 1: waiting" (Womack & Jones, 2003).
 
 **Flere kilder der understøtter samme pointe:**
-> Casestudie-metoden er velegnet til "hvordan"-spørgsmål (Yin, 2018; Saunders et al., 2019).
+> Casestudie-metoden er velegnet til "hvordan"-spørgsmål, når designet begrundes metodisk (Holm, 2023; Kuada, 2012) og caselogikken præciseres (Yin, 2018).
 
 **Når I refererer til SoluTalent/artefaktet:**
 > En analyse af platformens workflow-konfiguration viser, at jobopgaver passerer gennem otte sekventielle trin, hvoraf fire kræver manuel handling (jf. artefaktanalyse, bilag X).
@@ -81,7 +81,7 @@ Hvert analyseafsnit bør følge dette mønster:
 ### 2.2 Metode (8-10 sider)
 
 **Struktur:**
-1. Videnskabsteoretisk position (pragmatisme) med begrundelse
+1. Videnskabsteoretisk position (pragmatisme) med begrundelse i 7. semesterpensum (Holm/Kuada, evt. Saunders 2023)
 2. Forskningsdesign (single-case studie, Yin)
 3. Empirikilder (interviews, artefakt, data)
 4. Operationalisering af nøglebegreber (spildtidsindikatorer)

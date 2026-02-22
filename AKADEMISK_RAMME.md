@@ -17,7 +17,7 @@
 
 **Hovedtanke:** Forskningsspørgsmålet driver metodevalget. Ontologiske og epistemologiske debatter er sekundære i forhold til "hvad virker for at besvare dette spørgsmål?"
 
-**Nøgletænkere:** John Dewey, Charles Sanders Peirce, William James. I forskningsmetodesammenhæng: Saunders et al. (2019), Creswell & Creswell (2018).
+**Nøgletænkere:** John Dewey, Charles Sanders Peirce, William James. I jeres 7. semesterkontekst forankres metodearbejdet i Holm (2023) og Kuada (2012), suppleret af Saunders et al. (2023).
 
 **Fire dimensioner i jeres projekt:**
 
@@ -40,7 +40,7 @@
 - Glemmer abduktionen → Vis eksplicit i analysen at I veksler mellem empiri og teori.
 
 **Standardformulering:**
-> "Projektet anlægger en pragmatisk videnskabsteoretisk position (Saunders et al., 2019; Creswell & Creswell, 2018). Denne position er valgt, fordi problemformuleringen er handlingsorienteret og empirien har en naturlig dualitet: menneskers oplevelser (interviews med beslutningstagere) og et konkret digitalt artefakt (SoluTalent-platformen med kode, datamodeller og KPI'er). Pragmatismen legitimerer en metodepluralistisk tilgang med abduktiv slutningsform, hvor vi iterativt veksler mellem teoretiske begreber (Lean waste, TOE) og empiriske fund fra case og artefakt."
+> "Projektet anlægger en pragmatisk videnskabsteoretisk position med forankring i 7. semesters metodepensum (Holm, 2023; Kuada, 2012), suppleret af Saunders et al. (2023). Denne position er valgt, fordi problemformuleringen er handlingsorienteret og empirien har en naturlig dualitet: menneskers oplevelser (interviews med beslutningstagere) og et konkret digitalt artefakt (SoluTalent-platformen med kode, datamodeller og KPI'er). Pragmatismen legitimerer en metodepluralistisk tilgang med abduktiv slutningsform, hvor vi iterativt veksler mellem teoretiske begreber (Lean waste, TOE) og empiriske fund fra case og artefakt."
 
 ### A.3 Abduktion – hvordan det fungerer i praksis
 

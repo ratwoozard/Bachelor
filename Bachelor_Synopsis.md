@@ -1,11 +1,16 @@
 # Synopsis – Bachelorprojekt, Økonomi & IT
 
 **Titel:**
-AI-automatisering i rekrutterings- og bemandingsprocessen: Et pragmatisk casestudie af spildtidsreduktion hos Support Solutions ApS
+AI-automatisering i bemandingsprocessen: Et pragmatisk casestudie af spildtidsreduktion hos Support Solutions ApS
 
 **Forfattere:** Benjamin & Luka
 **Uddannelse:** Bachelor i Økonomi & IT
 **Casevirksomhed:** Support Solutions ApS (SS)
+**Vejleder:** [Vejledernavn]
+**Uddannelsesinstitution:** KEA – Københavns Erhvervsakademi
+**Dato:** Februar 2026
+
+**Vejledergodkendelse:** Deadline for anmodning til vejleder 16. februar 2026 kl. 10.00.
 
 ---
 
@@ -13,7 +18,7 @@ AI-automatisering i rekrutterings- og bemandingsprocessen: Et pragmatisk casestu
 
 ### Makro: Branchen og tendensen
 
-Digitalisering og kunstig intelligens transformerer i stigende grad måden, virksomheder rekrutterer og allokerer ressourcer på. Ifølge McKinsey (2023) vurderer 75 % af virksomheder, at AI vil ændre deres talentprocesser fundamentalt inden for fem år. Særligt inden for videns- og konsulentbranchen, hvor den rette match mellem konsulent og opgave er direkte knyttet til omsætning og kundetilfredshed, er potentialet for AI-baseret effektivisering betydeligt.
+Digitalisering og kunstig intelligens transformerer i stigende grad måden, virksomheder allokerer ressourcer på. Særligt inden for videns- og konsulentbranchen, hvor den rette match mellem konsulent og opgave er direkte knyttet til omsætning og kundetilfredshed, er potentialet for AI-baseret effektivisering betydeligt.
 
 ### Meso: IT-konsulenthuse og matchudfordringen
 
@@ -25,41 +30,41 @@ Support Solutions ApS er et dansk IT-konsulenthus, der har adresseret denne udfo
 
 ### Problemidentifikation (tragten snævrer)
 
-Selvom SoluTalent repræsenterer en konkret digitaliseringsløsning, mangler der en systematisk analyse af, *hvor* i den samlede rekrutterings- og bemandingsproces spildtiden faktisk opstår, i hvilket omfang AI-automatiseringen adresserer denne spildtid, og hvilke organisatoriske forudsætninger der skal være opfyldt for at realisere potentialet. Denne undersøgelse udfylder det hul.
+Selvom SoluTalent repræsenterer en konkret digitaliseringsløsning, mangler der en systematisk analyse af, *hvor* i bemandingsprocessen spildtiden faktisk opstår, i hvilket omfang AI-automatiseringen adresserer den, og hvilke organisatoriske forudsætninger der skal være opfyldt for at realisere potentialet. Denne undersøgelse udfylder det hul.
 
 ---
 
 ## 2. Problemformulering (XYZ-princippet)
 
-> **Hvordan kan AI-baseret automatisering påvirke spildtid i rekrutterings- og bemandingsprocessen hos Support Solutions ApS?**
+> **Hvordan påvirker AI-baseret automatisering spildtid i bemandingsprocessen fra opgaveidentifikation til konsulentallokering hos Support Solutions ApS – og i hvilket omfang kan de resterende manuelle procestrin reduceres eller yderligere automatiseres?**
 
 | | Indhold |
 |---|---|
-| **X – Hvad undersøges** | Spildtid i rekrutterings- og bemandingsprocessen og AI-automatiseringens påvirkning heraf |
+| **X – Hvad undersøges** | Spildtid i bemandingsprocessen og AI-automatiseringens påvirkning heraf; muligheder for at reducere eller yderligere automatisere resterende manuelle trin |
 | **Y – Hvordan undersøges det** | Gennem et pragmatisk, eksplorativt casestudie med artefaktanalyse (SoluTalent-platformen), semistrukturerede interviews og proceskortlægning |
 | **Z – Hvorfor undersøges det** | For at forstå hvordan et mindre IT-konsulenthus konkret kan anvende AI til at reducere processpild og styrke ressourceudnyttelsen – og hvilke betingelser det kræver |
 
 ### Underspørgsmål
 
-1. **As-is:** Hvor i den nuværende rekrutterings- og bemandingsproces opstår spildtid, og hvad er de primære årsager?
-2. **Løsningsrum:** Hvilke dele af processen adresseres af AI-automatisering i SoluTalent, og hvilke kræver fortsat menneskelig vurdering?
-3. **Evaluering:** Hvilke fordele og begrænsninger vurderes der at være ved AI-automatiseringen i forhold til spildtidsreduktion?
-4. **Forudsætninger:** Hvilke organisatoriske, teknologiske og kompetencemæssige forudsætninger skal være til stede for at realisere potentialet?
+1. **As-is:** Hvor opstår spildtid i as-is-processen, og hvad er årsagerne?
+2. **Struktur/arbejdsdeling:** Hvilke procestrin automatiserer SoluTalent, og hvilke forbliver manuelle – og hvorfor?
+3. **Effekt og trade-offs:** Hvilke indikatorer ses i spildtidsmål (fx beslutningstid, time-to-match, override rate, rejection reasons) – og hvilke trade-offs opstår?
+4. **Forudsætninger:** Hvilke TOE-forudsætninger kræves for at reducere de resterende manuelle trin?
 
 ---
 
 ## 3. Afgrænsning
 
-- **Proces:** Fra opgaveidentifikation til konsulentallokering (match). Onboarding, løbende HR, lønhåndtering og ekstern sourcing via tredjepartsplatforme behandles ikke.
-- **Case og tid:** Udelukkende Support Solutions ApS og SoluTalent-platformen i perioden 2025–2026. Fund diskuteres i forhold til teori med henblik på analytisk generaliserbarhed (Yin, 2018), men der generaliseres ikke statistisk til branchen.
+- **Proces:** Processen analyseres fra *staging_imported* til *matched* i SoluTalent (2025–2026). Jobsourcing/ekstern rekruttering, onboarding, kontrakt, løn/fakturering er out of scope.
+- **Case og tid:** Udelukkende Support Solutions ApS og SoluTalent-platformen. Fund diskuteres i forhold til teori med henblik på analytisk generaliserbarhed (Holm, 2023; Kuada, 2012), men der generaliseres ikke statistisk til branchen.
 - **Teknisk:** AI og automatisering analyseres fra et forretnings- og organisationsperspektiv. Den bagvedliggende tekniske implementering (GPT-modeller, embeddingalgoritmer, Supabase-arkitektur) beskrives kontekstuelt, men selve ML-udviklingsprocessen er ikke genstand for analyse.
-- **Etik/data:** Projektet behandler ikke personhenførbare data direkte. GDPR-compliance og algoritmisk bias diskuteres som kontekstuel ramme, ikke som selvstændigt forskningsfokus. Der foreligger samtykke fra virksomheden til brug af platformen som empiri.
+- **Etik/data:** Projektet analyserer ikke personhenførbare data på individniveau i rapporten; data anvendes aggregeret/anonymiseret, og GDPR/bias behandles som kontekstuel ramme. Der foreligger samtykke fra virksomheden til brug af platformen som empiri.
 
 ---
 
 ## 4. Videnskabsteoretisk position: Pragmatisme
 
-Projektet anlægger en **pragmatisk** videnskabsteoretisk position (Saunders et al., 2019; Creswell & Creswell, 2018):
+Projektet anlægger en **pragmatisk** videnskabsteoretisk position med forankring i 7. semesters metodepensum (Holm, 2023; Kuada, 2012), suppleret af Saunders (2023):
 
 | Dimension | Pragmatisk position i dette projekt |
 |---|---|
@@ -76,7 +81,7 @@ Projektet anlægger en **pragmatisk** videnskabsteoretisk position (Saunders et 
 
 | Teori/framework | Rolle i analysen | Kobling til underspørgsmål |
 |---|---|---|
-| **Lean / Waste-teori (Womack & Jones)** | Definerer og kategoriserer spildtid (de 7/8 spildtyper tilpasset vidensarbejde: ventetid, overprocessering, dobbeltarbejde, fejl/rework, uudnyttet talent) | USP 1: Kortlægning af spildtid |
+| **Lean / Waste-teori (Womack & Jones)** | Definerer og kategoriserer spildtid (de 7/8 spildtyper tilpasset vidensarbejde: ventetid, overprocessering, dobbeltarbejde, fejl/rework, uudnyttet talent). (Anvendes som analytiske kategorier til mapping af spild i vidensarbejde.) | USP 1: Kortlægning af spildtid |
 | **TOE-frameworket (Tornatzky & Fleischer)** | Analyse af teknologiske, organisatoriske og miljømæssige forudsætninger for AI-adoption | USP 4: Forudsætninger |
 | **Procesoptimering / as-is → to-be (Davenport)** | Strukturerer analysen af nuværende vs. AI-understøttet workflow | USP 1 + USP 2 |
 | **Decision Support Systems (Keen & Scott Morton / Turban et al.)** | Ramme for at forstå AI-matching som beslutningsstøtte snarere end beslutningserstatning | USP 2 + USP 3 |
@@ -87,7 +92,7 @@ Projektet anlægger en **pragmatisk** videnskabsteoretisk position (Saunders et 
 
 ### Forskningsdesign
 
-Eksplorativt **single-case studie** (Yin, 2018) med **indlejret analyseenhed** (embedded unit): SoluTalent-platformen som teknologisk artefakt inden for casevirksomheden Support Solutions ApS.
+Eksplorativt **single-case studie** med **indlejret analyseenhed** (embedded unit), metodisk forankret i Holm (2023), Kuada (2012) og Saunders (2023): SoluTalent-platformen som teknologisk artefakt inden for casevirksomheden Support Solutions ApS. *Embedded unit:* bemandingsworkflowet i SoluTalent (*staging_imported* → *matched*) som delproces i SS' ressourceallokering.
 
 ### Empirikilder (tre ben)
 
@@ -97,18 +102,21 @@ Eksplorativt **single-case studie** (Yin, 2018) med **indlejret analyseenhed** (
 | **2. Artefaktanalyse: SoluTalent-platformen** | Kodebase, AI-matchingpipeline, datamodeller, KPI-dashboard, workflow-states | Systematisk gennemgang af platformens procesunderstøttelse, mapping af automatiserede vs. manuelle trin, analyse af KPI-strukturen | USP 2, 3 |
 | **3. Dokumentanalyse** | Procesbeskrivelser, matchdata-strukturer, analytics-log (anonymiseret) | Sekundær validering af interviewudsagn | USP 1, 2 |
 
-### Operationalisering af "spildtid"
+### Operationalisering af "spildtid" (Lean-kategorier + målelogik)
 
-| Indikator | Definition | Datakilde |
+| Indikator | Definition / målelogik | Datakilde |
 |---|---|---|
-| **Time-to-match** | Dage fra opgave oprettet til konsulent allokeret | Artefakt (projekt-states) + interview |
-| **Antal manuelle procestrin** | Trin der kræver menneskelig handling i workflowet | Artefakt (workflow-mapping) |
-| **Ventetid mellem trin** | Tid opgaver ligger stille mellem statusskift | Artefakt (timestamps i datamodel) + interview |
+| **Ventetid** | Tid mellem status-skift (queue time mellem trin) | Artefakt (timestamps i datamodel) + interview |
+| **Rework/fejl** | Override rate + rejection_reason-kategorier | Artefakt (match_analytics) |
+| **Overprocessering** | Antal berøringer pr. job/match (manuelle touchpoints) | Artefakt (workflow-mapping) |
+| **Time-to-match** | Fra opgave oprettet til konsulent allokeret | Artefakt (projekt-states) + interview |
 | **Mismatch-rate** | Andel matches der overrules, afvises eller re-allokeres | Artefakt (match_analytics: rejection_reason, override_rate) + interview |
+
+For hver indikator verificeres datatilgængelighed (timestamps/fields) i SoluTalents datamodel; hvor data ikke findes, suppleres med interview og dokumentation.
 
 ### Analysestrategi
 
-1. **Tematisk kodning** (Braun & Clarke, 2006) af interviewdata med foruddefinerede temaer fra Lean-waste-kategorier + emergente temaer.
+1. **Tematisk kodning** (Kuada, 2012; Saunders, 2023) af interviewdata med foruddefinerede temaer fra Lean-waste-kategorier + emergente temaer.
 2. **Proceskortlægning** af as-is (før/uden AI) og to-be (med SoluTalent) baseret på artefaktanalyse og interviews.
 3. **Krydsanalyse:** Interview-fund sammenholdes med artefaktets faktiske funktionalitet – oplever ledelsen de fordele, som platformen teknisk muliggør?
 4. **TOE-analyse:** Fund struktureres i teknologiske, organisatoriske og miljømæssige forudsætninger.
@@ -120,8 +128,12 @@ Eksplorativt **single-case studie** (Yin, 2018) med **indlejret analyseenhed** (
 | **Triangulering** | Tre empirikilder (interview + artefakt + dokumenter) krydstjekker fund |
 | **Informant-validering** | Nøglecitater og procesdiagrammer præsenteres for informanter |
 | **Transparent interviewguide** | Vedlægges som bilag, baseret på operationaliserede begreber |
-| **Bias-refleksion** | Begge forfattere har været praktikanter i SS og har udviklet SoluTalent → eksplicit positioneringsdiskussion i metodeafsnit. Risikoen håndteres ved at inkludere informanter vi ikke arbejdede direkte med, og ved at lade artefaktet "tale for sig selv" som supplerende datakilde |
+| **Bias-refleksion** | Begge forfattere har været praktikanter i SS og har udviklet SoluTalent → eksplicit positioneringsdiskussion i metodeafsnit. Modtræk: (1) Negativ-case analyse: opsøg cases hvor AI fejler (høje overrides, bestemte rejection reasons). (2) Kilde-triangulering med konflikt: når interview siger "AI sparer tid", skal platformdata understøtte det – ellers forklares afvigelsen. (3) Informantspredning: mindst én informant der ikke er tæt på SoluTalent i daglig drift (reduktion af halo-effekt). |
 | **Kædebevis (chain of evidence)** | Fra problemformulering → operationalisering → interviewguide → data → fund → konklusion |
+
+### Figurer og diagrammer
+
+Procesdiagrammer (as-is / to-be) for bemandingsworkflowet og konceptuelt framework (inputs → AI/DSS → beslutning → outcomes) findes i `Solutalent CODE CONTEXT/figures/` (process_as_is.mmd, process_to_be.mmd, framework.mmd; eksport som PNG/SVG i `figures/export/`). Rapportens analyse bruger disse eller en scope-tilpasset variant (*staging_imported* → *matched*). AI-pipeline og C4-kontekst anvendes i artefaktbeskrivelsen (jf. FIGURE_CAPTIONS.md i CODE CONTEXT). **Research structure-diagram vedlægges som Bilag A (jf. eksamenskrav).** Overblik over forskningsstrukturen er beskrevet i FIGUR_REFERENCE_SYNOPSIS.md; Mermaid-kildefil: `Solutalent CODE CONTEXT/figures/research_structure.mmd`.
 
 ---
 
@@ -135,7 +147,7 @@ Eksplorativt **single-case studie** (Yin, 2018) med **indlejret analyseenhed** (
 | **4. Empiri og analyse** | |
 | 4.1 As-is: Spildtid i nuværende proces | Proceskortlægning + interviewfund om flaskehalse og årsager | 8–10 |
 | 4.2 SoluTalents rolle: Automatiserede vs. manuelle trin | Artefaktanalyse af pipeline, KPI-struktur, workflow-mapping | 8–10 |
-| 4.3 Fordele og begrænsninger | Evaluering ud fra indikatorer + informantoplevelser | 6–8 |
+| 4.3 Målbar effekt og trade-offs | Evaluering ud fra spildtidsindikatorer (KPI) + informantoplevelser + trade-offs | 6–8 |
 | 4.4 Organisatoriske forudsætninger | TOE-struktureret analyse af barrierer og enablers | 5–7 |
 | **5. Diskussion** | Sammenfatning af fund, kritisk refleksion, begrænsninger ved studiet, teoretisk bidrag | 5–7 |
 | **6. Konklusion** | Svar på problemformulering + underspørgsmål, perspektivering | 3–4 |
@@ -150,7 +162,7 @@ Eksplorativt **single-case studie** (Yin, 2018) med **indlejret analyseenhed** (
 | 1–2 | Endelig problemformulering, litteratursøgning, interviewguide-design |
 | 3–4 | Gennemførelse af interviews (4–6 stk.), transskribering |
 | 4–5 | Artefaktanalyse: systematisk gennemgang af SoluTalent (workflow, pipeline, KPI'er) |
-| 5–7 | Kodning og analyse af empiri, proceskortlægning (as-is / to-be) |
+| 5–7 | Kodning og analyse af empiri, proceskortlægning (as-is / to-be), udtræk/validering af match_analytics (override, rejection reasons, decision time) |
 | 7–9 | Skriveperiode: teori, metode, analyse, diskussion |
 | 9–10 | Informant-validering, revision, korrektur |
 | 10–11 | Færdiggørelse, formatering, aflevering |
@@ -159,13 +171,14 @@ Eksplorativt **single-case studie** (Yin, 2018) med **indlejret analyseenhed** (
 
 ## 9. Foreløbig litteraturliste
 
-- Braun, V. & Clarke, V. (2006). Using thematic analysis in psychology. *Qualitative Research in Psychology*, 3(2), 77–101.
-- Creswell, J. W. & Creswell, J. D. (2018). *Research Design: Qualitative, Quantitative, and Mixed Methods Approaches* (5th ed.). Sage.
+*Metode og videnskabsteori (7. semesters kernepensum):*
+- Holm, A. B. (2023). *Videnskab i virkeligheden – En grundbog i videnskabsteori* (3. udg.). Samfundslitteratur.
+- Kuada, J. (2012). *Research Methodology: A Project Guide for University Students* (1st ed.). Samfundslitteratur.
+- Saunders, M. N. K., Lewis, P. & Thornhill, A. (2023). *Research Methods for Business Students* (9th ed.). Pearson.
+
+*Projektspecifik teori (domæne):*
 - Davenport, T. H. (1993). *Process Innovation: Reengineering Work through Information Technology*. Harvard Business School Press.
 - Keen, P. G. W. & Scott Morton, M. S. (1978). *Decision Support Systems: An Organizational Perspective*. Addison-Wesley.
-- McKinsey Global Institute (2023). *The State of AI in 2023: Generative AI's Breakout Year*.
-- Saunders, M., Lewis, P. & Thornhill, A. (2019). *Research Methods for Business Students* (8th ed.). Pearson.
 - Tornatzky, L. G. & Fleischer, M. (1990). *The Processes of Technological Innovation*. Lexington Books.
 - Turban, E., Sharda, R. & Delen, D. (2014). *Decision Support and Business Intelligence Systems* (10th ed.). Pearson.
 - Womack, J. P. & Jones, D. T. (2003). *Lean Thinking: Banish Waste and Create Wealth in Your Corporation*. Free Press.
-- Yin, R. K. (2018). *Case Study Research and Applications: Design and Methods* (6th ed.). Sage.

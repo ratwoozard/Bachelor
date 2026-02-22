@@ -4,33 +4,34 @@ Bachelor Økonomi & IT (KEA). Denne fil styrer **kildeprioritering** i AI-svar o
 
 ---
 
-## Tier 1 – Kernepensum (prioritér i svar og argumentation)
+## Tier 1 – 7. semester pensum (forår 2026)
 
-Brug disse kilder først, når du understøtter metode, teori eller definitioner.
+Brug disse kilder først, når du understøtter videnskabsteori, metodevalg og forskningsdesign i bacheloren.
 
-| Område | Kilde | Brug til |
-|--------|--------|----------|
-| **Videnskabsteori / metode** | Saunders et al. (2019) | Pragmatisme, metodevalg, forskningsdesign |
-| **Videnskabsteori / metode** | Creswell & Creswell (2018) | Pragmatisme, mixed/pluralistisk tilgang |
-| **Casestudie** | Yin (2018) | Casestudie-design, analytisk generalisering, embedded unit |
-| **Tematisk analyse** | Braun & Clarke (2006) | Kodning, temaer, 6 faser |
-| **Spild / Lean** | Womack & Jones (2003) | De 7 spildtyper, waste, flaskehals |
-| **Procesoptimering** | Davenport (1993) | As-is / to-be, procesinnovation |
-| **Adoption / forudsætninger** | Tornatzky & Fleischer (1990) | TOE – Technology, Organization, Environment |
-| **Beslutningsstøtte** | Keen & Scott Morton (1978); Turban et al. (2014) | DSS, human-in-the-loop |
+| Område | Kilde | Status i 7. sem | Brug til |
+|--------|--------|------------------|----------|
+| **Videnskabsteori** | Holm, A. B. (2023). *Videnskab i virkeligheden* (3. udg.) | **Obligatorisk** | Videnskabsteoretiske positioner, begreber og argumentation |
+| **Projektmetode** | Kuada, J. (2012). *Research Methodology: A Project Guide for University Students* | **Obligatorisk** | Problemformulering, undersøgelsesdesign, gennemførelse af projektarbejde |
+| **Forskningsmetoder** | Saunders, M. N. K. (2023). *Research Methods for Business Students* (9th ed.) | **Anbefalet** | Operationalisering, dataindsamling, validitet/reliabilitet, metodevalg |
 
-**Regel:** Ved videnskabsteori og metode → Saunders, Creswell, Yin, Braun & Clarke før andre. Ved spildtid → Womack & Jones. Ved forudsætninger/barrierer → TOE. Ved menneske vs. AI-beslutning → DSS (Turban/Laudon).
+**Regel:** Ved metode/videnskabsteori i synopsis og rapport bruges Holm (2023) og Kuada (2012) som primære henvisninger. Saunders (2023) bruges som supplerende metodekilde i samme semester.
 
 ---
 
-## Tier 2 – Supplerende (relevant, men ikke først)
+## Tier 2 – Tidligere semestre og projektspecifik teori (supplerende)
 
-- **Staats & Upton** – Lean til vidensarbejde (hvis I citerer overførsel fra produktion til bemanding).
-- **Laudon & Laudon** – DSS/BI (alternativ til Turban).
-- **McKinsey (2023)** – Branchekontekst, tal; ikke som teoretisk underbygning.
-- **Dumas m.fl.** – Procesmodellering (hvis specifikt anvendt på uddannelsen).
+Disse kilder må fortsat bruges i bacheloren, men de er ikke 7. semesters kernepensum.
 
-Tier 2 bruges til at understøtte eller nuancere – ikke som primær begrundelse for videnskabsteori eller kerne teori.
+| Område | Kilde | Brug i projektet |
+|--------|--------|------------------|
+| **Casestudie** | Holm (2023); Kuada (2012); evt. Saunders (2023) | Forskningsdesign, case-valg, analytisk generalisering – *ikke* Yin (bogen har I ikke haft) |
+| **Tematisk analyse** | Braun & Clarke (2006) | Kodning og temadannelse i interviewanalyse |
+| **Spild / Lean** | Womack & Jones (2003) | Spildkategorier og procesforbedring |
+| **Procesoptimering** | Davenport (1993) | As-is/to-be og procesinnovation |
+| **Adoption / forudsætninger** | Tornatzky & Fleischer (1990) | TOE-framework |
+| **Beslutningsstøtte** | Keen & Scott Morton (1978); Turban et al. (2014) | DSS og human-in-the-loop |
+
+**Regel:** Tier 2 bruges til domæneteori og analysekategorier, mens metode/videnskabsteori forankres i Tier 1.
 
 ---
 
@@ -42,8 +43,8 @@ Mappen **`Undervisningsmateriale og guides`** indeholder kursusmateriale (fx dig
 
 ## Kildehierarki i svar (mini-guide)
 
-1. **Metode/videnskabsteori:** Saunders, Creswell, Yin → derefter andre.
-2. **Definitioner (spildtid, flaskehals, DSS):** Projektets teorier (Womack & Jones, Davenport, TOE, Turban) med forfatter+år.
+1. **Metode/videnskabsteori:** Holm (2023), Kuada (2012), Saunders (2023) → derefter andre.
+2. **Definitioner (spildtid, flaskehals, DSS):** Projektets domæneteorier (Womack & Jones, Davenport, TOE, Turban m.fl.) med forfatter+år.
 3. **SoluTalent/empiri:** Aldrig opfundet data. Henvis til artefaktanalyse, CASE_KNOWLEDGE.md, eller konkrete datakilder (match_analytics, KPI'er).
 4. **Opfind aldrig referencer.** Hvis en kilde ikke findes i projektets litteraturliste eller denne fil, sig at den skal tjekkes/indsættes af forfatterne.
 
@@ -51,8 +52,8 @@ Mappen **`Undervisningsmateriale og guides`** indeholder kursusmateriale (fx dig
 
 ## Noter til uddannelsen
 
-- **Videnskabsteoriforløb:** Pragmatisme og abduktion bør være kendt fra pensum; referér til Saunders/Creswell som standard.
-- **Pensumkobling:** Når du anbefaler formuleringer eller teorivalg, tjek om KEA-pensum nævner specifikke udgaver (fx "Research Methods for Business Students 8th ed.") og brug samme edition i referencer.
+- **Videnskabsteoriforløb:** Forankres primært i Holm (2023) og Kuada (2012), med Saunders (2023) som metode-supplering.
+- **Pensumkobling:** Brug altid den aktuelle 7. semesters litteraturliste (forår 2026) som udgangspunkt, og marker tydeligt hvis en kilde stammer fra tidligere semestre.
 
 ---
 

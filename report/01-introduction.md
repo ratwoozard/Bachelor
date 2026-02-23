@@ -1,104 +1,64 @@
-# 1. Indledning
+# 1. Introduktion
 
-## 1.1 Problemfelt – Den omvendte trekant
-
-### Makro: Digitalisering og AI i rekrutteringsbranchen
-
-Digitalisering og kunstig intelligens transformerer i stigende grad måden, virksomheder allokerer ressourcer på. I videns- og konsulentbranchen, hvor den rette match mellem konsulent og opgave er direkte knyttet til omsætning og kundetilfredshed, er potentialet for AI-baseret effektivisering betydeligt. Automatisering af rutineopgaver, intelligent matching og datadrevet beslutningsstøtte repræsenterer konkrete muligheder for at reducere processpild og øge ressourceudnyttelsen.
-
-### Meso: IT-konsulenthuse og matchudfordringen
-
-For mindre og mellemstore IT-konsulenthuse er bemandingsprocessen ofte kendetegnet ved manuelle, erfaringsbaserede beslutninger. Konsulenter matches til opgaver baseret på personligt kendskab, uformelle vurderinger og ad hoc-processer. Denne praksis er sårbar over for skalering, videnstab ved personaleomsætning og skaber spildtid i form af langsomme matchforløb, mismatch og manuelle gentagelsesopgaver.
-
-Selvom større virksomheder har kapacitet til at investere i omfattende HR-systemer, mangler SMV-segmentet ofte ressourcer til sådanne løsninger. Det skaber en udfordring: hvordan kan mindre konsulenthuse realisere fordelene ved AI-automatisering uden at skulle gennemføre kostbare implementeringer?
-
-### Mikro: Support Solutions ApS og SoluTalent
-
-Support Solutions ApS er et dansk IT-konsulenthus, der har adresseret denne udfordring ved at udvikle SoluTalent – en AI-drevet talentplatform, som automatiserer dele af processen for matching af freelancekonsulenter til projektopgaver. Platformen omfatter en række funktioner:
-
-- **AI-matchingpipeline** med prefiltering, lokationsvurdering, regelbaseret scoring, AI-evaluering, ranking og persistering
-- **Automatisk CV-parsing** med kompetenceekstraktion via embeddings
-- **Workflow-automatisering** med auto-approval gates baseret på datakvalitet og tillid
-- **KPI-dashboard** med metrikker som Precision@5, Override Rate og gennemsnitlig beslutningstid
-
-Platformen opererer på et sæt workflow-states fra jobimport til konsulentallokering, hvor både automatiske og manuelle trin indgår.
-
-### Problemidentifikation – Tragten snævrer
-
-Selvom SoluTalent repræsenterer en konkret digitaliseringsløsning, mangler der en systematisk analyse af, *hvor* i bemandingsprocessen spildtiden faktisk opstår, i hvilket omfang AI-automatiseringen adresserer den, og hvilke organisatoriske forudsætninger der skal være opfyldt for at realisere potentialet.
-
-Eksisterende litteratur om Lean i vidensarbejde (Womack & Jones, 2003; Staats & Upton, 2011) tilbyder værktøjer til at kategorisere spildtid, men ofte i generisk form uden konkret kobling til AI-baseret beslutningsstøtte. DSS-litteraturen (Keen & Scott Morton, 1978; Turban et al., 2014) beskriver, hvordan IT-systemer kan understøtte beslutninger, men adresserer sjældent spørgsmålet om *hvor grænsen går* mellem nyttig automatisering og nødvendig menneskelig vurdering i en specifik processammenhæng.
-
-TOE-frameworket (Tornatzky & Fleischer, 1990) anvendes hyppigt til at forklare teknologiadoption generelt, men mindre ofte til at belyse, hvilke konkrete forudsætninger der skal være opfyldt for at reducere *resterende* manuelle procestrin i en delvist automatiseret workflow.
-
-Dette projekt udfylder dette hul ved at kombinere en konkret artefaktanalyse (SoluTalent-platformen) med en systematisk kortlægning af spildtid i bemandingsprocessen, evaluering af AI-matchingens effekt og en TOE-baseret analyse af forudsætninger for yderligere automatisering.
+Introduktionskapitlet er struktureret efter guiden til første leverance: **Indledning** (kort rammesætning og branchekontekst), **Problemanalyse** (evidensbaseret virksomheds- og casekontekst) og **Problemformulering inkl. afgrænsning** (HV-spørgsmål og tydelig afgrænsning). Samlet mål: op til ca. 2,5 A4-sider.
 
 ---
 
-## 1.2 Problemformulering
+## 1.1 Indledning
+
+Formålet med indledningen er at skabe en kort rammesætning af projektet og lede læseren fra det generelle felt ind i problemområdet, så problemet senere kan forankres i en konkret virksomheds- og case-sammenhæng.
+
+**Generel kontekstualisering.** Digitalisering og kunstig intelligens transformerer i stigende grad måden, hvorpå virksomheder allokerer menneskelige ressourcer. I videns- og konsulentbranchen er den rette match mellem konsulent og opgave direkte knyttet til omsætning og kundetilfredshed, og potentialet for AI-baseret effektivisering er betydeligt. Fokus trækkes herefter ind på branchen: IT-konsulenthuse og bemandingsprocessen.
+
+**Branchebeskrivelse.** For mindre og mellemstore IT-konsulenthuse (SMV) er bemandingsprocessen ofte kendetegnet ved manuelle, erfaringsbaserede beslutninger: konsulenter matches til opgaver ud fra personligt kendskab, uformelle vurderinger og ad hoc-processer. Større virksomheder har ofte kapacitet til omfattende HR- og rekrutteringssystemer, mens SMV-segmentet typisk har begrænsede ressourcer til sådanne investeringer. Konkurrenceparameteren i markedet er ofte hastighed og præcision i matching af konsulent til opgave.
+
+**Problembeskrivelse på brancheniveau.** Den manuelle praksis er sårbar over for skalering, videnstab ved personaleomsætning og skaber spildtid i form af langsomme matchforløb, mismatch og gentagelsesopgaver. Udfordringen for branchen er dermed: hvordan kan mindre konsulenthuse realisere fordelene ved AI-automatisering uden at skulle gennemføre disproportioneret store implementeringer?
+
+**Best practice og tendenser.** I branchen ses en stigende brug af AI til job-enrichment, CV-parsing og semantisk matching, ofte med menneskelig beslutning bevidst beholdt i loop (human-in-the-loop). Litteraturen om Lean i vidensarbejde (Womack & Jones, 2003; Staats & Upton, 2011) og beslutningsstøttesystemer (Keen & Scott Morton, 1978; Turban et al., 2014) tilbyder rammer til at forstå spildtid og grænsen mellem automatisering og menneskelig vurdering. Denne indledning skaber referencerammen, som virksomheden i problemanalysen kan sammenlignes med.
+
+---
+
+## 1.2 Problemanalyse
+
+Formålet med problemanalysen er at skabe en velunderbygget, kontekstuel ramme for projektets problemformulering. Analysen skal være tilstrækkeligt detaljeret og evidensbaseret til, at andre kan sammenligne egne resultater med undersøgelsen i en tilsvarende kontekst. Evidens understøttes gennem interviews med relevante nøglepersoner i virksomheden samt primære kilder (artefakt, procesbeskrivelser, data).
+
+**Virksomhedsbeskrivelse.** Support Solutions ApS er et dansk IT-konsulenthus med fokus på det skandinaviske marked. Virksomheden er en SMV, hvis kerneydelse er allokering af freelance IT-konsulenter til projektopgaver hos kunder. Konkurrenceparameteren er hastighed og præcision i matching af konsulent til opgave.
+
+**Produkt- eller ydelsesbeskrivelse.** Virksomheden har udviklet SoluTalent – en B2B talentmarkedsplads, der forbinder virksomheder med vettede freelancekonsulenter via AI-matching, budgivning og tilhørende funktioner. Platformen understøtter processen fra jobimport over enrichment og matching til bud og allokering. Det relevante produkt i denne undersøgelse er platformens funktioner i den afgrænsede del af bemandingsprocessen: fra opgave importeret og klar til behandling (`staging_imported`) til det tidspunkt, hvor en konsulent er matchet til opgaven (`matched`). SoluTalent omfatter bl.a. en AI-matchingpipeline (prefiltering, lokation, gate, AI-scoring, ranking, persistering), automatisk job-enrichment og CV-parsing, auto-approval gates baseret på datakvalitet og tillid, samt et KPI-dashboard med metrikker som Precision@5, Override Rate og gennemsnitlig beslutningstid. Kundesegmentet er virksomheder, der søger IT-konsulenter; værdiforslaget er hurtigere og mere præcis matching ved brug af AI under menneskelig kontrol.
+
+**Problembeskrivelse.** Det centrale problem, som projektet tager udgangspunkt i, er, at der mangler en systematisk analyse af, *hvor* i bemandingsprocessen spildtiden faktisk opstår hos Support Solutions, i hvilket omfang SoluTalents AI-automatisering adresserer den, og hvilke organisatoriske forudsætninger der skal være opfyldt for at reducere de resterende manuelle trin. Problemstillingen er konkret og afgrænset til processen i SoluTalent, men forankret i den bredere udfordring om spildtid og AI-adoption i SMV-konsulenthuse.
+
+**Mulige kilder til problemet.** Interne forhold kan omfatte begrænsede admin-ressourcer til manuelle trin (curation, match review, notifikation), forsigtighed over for fuld automatisering af beslutninger samt behov for at konsolidere processer og kompetencer omkring platformen. Eksterne forhold inkluderer konkurrence på hastighed, krav til transparens og fairness (fx i forlængelse af EU AI Act), samt teknologisk udvikling der gør AI-matching mulig. Underbygning sker gennem interviews med nøglepersoner (direktører, partnere, projektledere), artefaktanalyse af SoluTalent og – hvor tilgængeligt – interne rapporter eller procesbeskrivelser.
+
+**Tidligere eller igangværende løsningsforsøg.** Support Solutions har allerede adresseret problemet ved at udvikle og indføre SoluTalent med AI-enrichment, auto-approval gates og en seksstegs AI-matchingpipeline. Nogle procestrin er automatiseret (job import, enrichment, auto-approval, AI-matching), mens andre forbliver manuelle (manuel curation, match review, trigger af notifikation til freelancere). Analysen bør omfatte, hvorfor disse manuelle trin endnu ikke er fuldt automatiseret, og hvor tidligere løsninger har haft succes eller været utilstrækkelige – herunder evidens fra interviews og platformens design (fx betingelser for auto-approval og brugen af rejection reasons).
+
+**Konsekvenser ved ubehandlet problem (berettigelse af problemløsning).** Hvis problemet ikke håndteres systematisk, kan kortsigtede konsekvenser omfatte vedvarende ventetid i curation- og match-review-køer, forlænget time-to-match og dermed tab af potentielle allokeringer. Langsigtet kan det medføre forringet konkurrenceevne, at dyre admin-ressourcer bruges på gentagne manuelle vurderinger, og at potentialet for AI-understøttelse ikke realiseres. En mini risikoanalyse understøttes ved at inddrage både artefaktdata (fx gennemsnitlig beslutningstid, antal pending matches) og informantvurderinger fra interviews.
+
+---
+
+## 1.3 Problemformulering og afgrænsning
+
+Formålet er at formulere projektets akademiske kerne som et præcist og fokuseret spørgsmål, der udspringer af indledningen og problemanalysen og bygger direkte videre på de der legitimerade problemer og udfordringer.
+
+**Problemformulering (HV-spørgsmål).** På baggrund af indledning og problemanalyse formuleres problemformuleringen som et klart spørgsmål med start i *Hvordan*, hvilket på EK anses for særligt relevant for at åbne for analyse og praktisk nytte:
 
 > **Hvordan påvirker AI-baseret automatisering spildtid i bemandingsprocessen fra opgaveidentifikation til konsulentallokering hos Support Solutions ApS – og i hvilket omfang kan de resterende manuelle procestrin reduceres eller yderligere automatiseres?**
 
-### XYZ-princippet
+Alle centrale elementer (spildtid, AI-automatisering, bemandingsprocessen, resterende manuelle trin) har afsæt i de forhold, der er beskrevet i indledning og problemanalyse, så der sikres en logisk sammenhæng fra kontekst via problem til undersøgelse.
 
-| Komponent | Indhold |
-|-----------|---------|
-| **X – Hvad undersøges** | Spildtid i bemandingsprocessen og AI-automatiseringens påvirkning heraf; muligheder for at reducere eller yderligere automatisere resterende manuelle trin |
-| **Y – Hvordan undersøges det** | Gennem et pragmatisk, eksplorativt casestudie med artefaktanalyse (SoluTalent-platformen), semistrukturerede interviews og proceskortlægning |
-| **Z – Hvorfor undersøges det** | For at forstå hvordan et mindre IT-konsulenthus konkret kan anvende AI til at reducere processpild og styrke ressourceudnyttelsen – og hvilke betingelser det kræver |
+**Operationalisering gennem underspørgsmål.** Problemformuleringen operationaliseres gennem fire underspørgsmål:
 
-### Underspørgsmål
+1. **As-is: Hvor opstår spildtid i nuværende proces, og hvad er årsagerne?** (Kortlægning med fokus på manuel curation, match review og notifikationstrigger; Lean-kategorisering.)
+2. **Struktur/arbejdsdeling: Hvilke procestrin automatiserer SoluTalent, og hvilke forbliver manuelle – og hvorfor?** (Mapping af auto-approval gates, AI-pipeline og human-in-the-loop.)
+3. **Effekt og trade-offs: Hvilke indikatorer ses i spildtidsmål, og hvilke trade-offs opstår?** (KPI-struktur: Precision@5, override rate, beslutningstid, rejection reasons.)
+4. **Forudsætninger: Hvilke TOE-forudsætninger kræves for at reducere de resterende manuelle trin?** (Teknologiske, organisatoriske og miljømæssige barrierer og enablers.)
 
-Problemformuleringen operationaliseres gennem fire underspørgsmål:
+**Afgrænsning.** Projektet afgrænses eksplicit for at gøre problemformuleringen præcis og realiserbar:
 
-1. **As-is: Hvor opstår spildtid i nuværende proces, og hvad er årsagerne?**
-   - Kortlægning af SoluTalent-arbejdsgangen med fokus på de tre primære flaskehalse: manuel curation (trin 4), match review (trin 6) og notifikationstrigger (trin 7)
-   - Lean-kategorisering af identificeret spildtid
-
-2. **Struktur/arbejdsdeling: Hvilke procestrin automatiserer SoluTalent, og hvilke forbliver manuelle – og hvorfor?**
-   - Systematisk mapping af auto-approval gates, AI-pipeline og manuelle beslutningspunkter
-   - Analyse af human-in-the-loop som designprincip
-
-3. **Effekt og trade-offs: Hvilke indikatorer ses i spildtidsmål, og hvilke trade-offs opstår?**
-   - Evaluering baseret på KPI-struktur (Precision@5, override rate, beslutningstid, rejection reasons)
-   - Analyse af trade-offs mellem automatisering og menneskelig kontrol
-
-4. **Forudsætninger: Hvilke TOE-forudsætninger kræves for at reducere de resterende manuelle trin?**
-   - TOE-struktureret analyse af teknologiske, organisatoriske og miljømæssige barrierer/enablers
-
----
-
-## 1.3 Afgrænsning
-
-Projektet afgrænses efter følgende dimensioner:
-
-### Proces
-Processen analyseres fra `staging_imported` til `matched` i SoluTalent-platformen (2025–2026). Dette omfatter:
-- Trin 1: Job Import (automatisk)
-- Trin 2: AI Enrichment (automatisk)
-- Trin 3: Auto-Approval Gate (automatisk)
-- **Trin 4: Manuel Curation** (manuelt – flaskehals)
-- Trin 5: AI Matching (automatisk)
-- **Trin 6: Match Review** (manuelt – flaskehals)
-- **Trin 7: Notifikation til Freelancer** (manuelt – flaskehals)
-- Trin 8: Bud og Allokering (delvist manuelt)
-
-**Uden for scope:**
-- Jobsourcing og ekstern rekruttering (før import)
-- Onboarding af freelancere
-- Kontrakthåndtering, signering og fakturering (efter allokering)
-- Løn- og betalingsprocesser
-
-### Case og tid
-Undersøgelsen er et single-case studie af Support Solutions ApS og SoluTalent-platformen. Fund diskuteres i forhold til teori med henblik på analytisk generaliserbarhed (Holm, 2023; Kuada, 2012), men der generaliseres ikke statistisk til branchen.
-
-Tidsrammen er platformens tilstand i perioden 2025–2026, med særligt fokus på de seneste 30 dages data for KPI-evaluering (hvor tilgængeligt).
-
-### Teknisk
-AI og automatisering analyseres fra et forretnings- og organisationsperspektiv. Den bagvedliggende tekniske implementering (GPT-modeller, embeddingalgoritmer, Supabase-arkitektur) beskrives kontekstuelt for forståelse af artefaktets funktionalitet, men selve ML-udviklingsprocessen og algoritmeoptimering er ikke genstand for analyse.
-
-### Etik og data
-Projektet analyserer ikke personhenførbare data på individniveau i rapporten; data anvendes aggregeret og anonymiseret. GDPR og potentiel bias behandles som kontekstuelle rammer for diskussion. Der foreligger samtykke fra virksomheden til brug af platformen som empiri og til interview med nøglepersoner.
+- **Proces:** Kun processen fra `staging_imported` til `matched` i SoluTalent (2025–2026). Jobsourcing og ekstern rekruttering (før import), onboarding, kontrakthåndtering, signering, tidsregistrering og fakturering (efter allokering) er **uden for scope**.
+- **Platform:** Kun SoluTalent; teknisk fokus er funktionel analyse af platformens rolle i processen, ikke ML-udvikling eller algoritmeoptimering.
+- **Case og tid:** Single-case studie af Support Solutions ApS og SoluTalent; fund diskuteres med henblik på analytisk generaliserbarhed (Holm, 2023; Kuada, 2012), ikke statistisk generalisering til branchen.
+- **Data og etik:** Anvendelse af aggregeret og anonymiseret data; personhenførbare data analyseres ikke på individniveau. GDPR og bias behandles som kontekstuelle rammer; samtykke fra virksomheden til brug af platform og interviews forudsættes.
 
 ---
 
@@ -106,9 +66,9 @@ Projektet analyserer ikke personhenførbare data på individniveau i rapporten; 
 
 Rapporten er struktureret i seks kapitler:
 
-- **Kapitel 1 (Indledning)** præsenterer problemfeltet, problemformuleringen med underspørgsmål og afgrænsning
-- **Kapitel 2 (Metode)** redegør for den videnskabsteoretiske position (pragmatisme), casedesign, empirikilder, operationalisering af spildtid og validitet
-- **Kapitel 3 (Teori)** gennemgår Lean waste, Davenport's procesoptimering, DSS/human-in-the-loop og TOE-frameworket
-- **Kapitel 4 (Analyse)** besvarer de fire underspørgsmål gennem systematisk analyse af spildtid (4.1), automatisering vs. manuelle trin (4.2), KPI-indikatorer (4.3) og TOE-forudsætninger (4.4)
-- **Kapitel 5 (Diskussion)** sammenfatter fund, diskuterer teoretiske implikationer, begrænsninger og praktiske anbefalinger
-- **Kapitel 6 (Konklusion)** besvarer problemformuleringen, opsummerer underspørgsmål og perspektiverer
+- **Kapitel 1 (Introduktion)** præsenterer indledning, problemanalyse, problemformulering med underspørgsmål og afgrænsning.
+- **Kapitel 2 (Metode)** redegør for videnskabsteoretisk position (pragmatisme), casedesign, empirikilder, operationalisering af spildtid og validitet.
+- **Kapitel 3 (Teori)** gennemgår Lean waste, Davenports procesoptimering, DSS/human-in-the-loop og TOE-frameworket.
+- **Kapitel 4 (Analyse)** besvarer de fire underspørgsmål gennem analyse af spildtid (4.1), automatisering vs. manuelle trin (4.2), KPI-indikatorer (4.3) og TOE-forudsætninger (4.4).
+- **Kapitel 5 (Diskussion)** sammenfatter fund, diskuterer teoretiske implikationer, begrænsninger og praktiske anbefalinger.
+- **Kapitel 6 (Konklusion)** besvarer problemformuleringen, opsummerer underspørgsmål og perspektiverer.

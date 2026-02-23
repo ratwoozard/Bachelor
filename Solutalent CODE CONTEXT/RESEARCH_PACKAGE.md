@@ -81,7 +81,7 @@
 | MET-1 | Dewey, J. (1938). *Logic: The Theory of Inquiry.* New York: Holt, Rinehart and Winston. | Pragmatismens grundlag |
 | MET-2 | James, W. (1907). *Pragmatism: A New Name for Some Old Ways of Thinking.* New York: Longmans, Green. | Pragmatisk sandhedsbegreb |
 | MET-3 | Saunders, M., Lewis, P. & Thornhill, A. (2019). *Research Methods for Business Students.* 8th ed. Pearson. | Forskningsdesign, dataindsamling, analyse­strategi |
-| MET-4 | Yin, R.K. (2018). *Case Study Research and Applications: Design and Methods.* 6th ed. Sage. | Single-case design; validitet; analytisk generalisering |
+| MET-4 | Holm, A. B. (2023). *Videnskab i virkeligheden.* 3. udg. Samfundslitteratur; Kuada, J. (2012). *Research Methodology.* Samfundslitteratur. | Case-studie design (holistisk/indlejret); analytisk generalisering |
 | MET-5 | Creswell, J.W. & Creswell, J.D. (2018). *Research Design: Qualitative, Quantitative, and Mixed Methods Approaches.* 5th ed. Sage. | Metodisk pluralisme; mixed methods |
 
 ### 3.4 AI & NLP i rekruttering

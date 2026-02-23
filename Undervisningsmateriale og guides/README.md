@@ -7,7 +7,7 @@ Denne mappe indeholder **undervisningsmateriale og guides** fra uddannelsen, som
 ## Formål for AI/vejledning
 
 - Brug materialet her når spørgsmål handler om **digital transformation**, **digital modenhed**, **ledelse af digitalisering** eller **organisatorisk kontekst** (fx i forlængelse af TOE).
-- Prioriter altid **Tier 1-pensum** (Saunders, Yin, Womack & Jones, Davenport, TOE, Turban) til definitioner og kerneargumenter; brug undervisningsmaterialet til at understøtte eller nuancere, ikke som primær teoretisk underbygning.
+- Prioriter altid **Tier 1-pensum** (Holm, Kuada, Saunders – se `UDDANNELSE_OG_PENSUM.md`) samt domæneteorier (Womack & Jones, Davenport, TOE, Turban) til definitioner og kerneargumenter; brug undervisningsmaterialet til at understøtte eller nuancere, ikke som primær teoretisk underbygning.
 - Se `UDDANNELSE_OG_PENSUM.md` for det fulde kildehierarki.
 
 ---

@@ -34,7 +34,7 @@
 - **Platform:** SoluTalent som eneste artefakt. Andre rekrutteringsplatforme inddrages ikke.
 - **Teknisk dybde:** Matchingpipelinen beskrives funktionelt (hvad gør hvert trin for processen), ikke teknisk (GPT-promptdesign, embeddingmodeller, Supabase-arkitektur).
 - **Etik/data:** Algoritmisk bias og GDPR diskuteres kontekstuelt med inddragelse af `bias_detection_logs`. Fuld bias-audit ligger uden for scope.
-- **Generaliserbarhed:** Single-case med analytisk generaliserbarhed (Yin, 2018). Ikke statistisk.
+- **Generaliserbarhed:** Single-case med analytisk generaliserbarhed (Holm, 2023; Kuada, 2012). Ikke statistisk.
 
 ---
 

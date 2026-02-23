@@ -35,9 +35,32 @@ Disse kilder må fortsat bruges i bacheloren, men de er ikke 7. semesters kernep
 
 ---
 
+## Tier 3 – Klassikere og begrebsforankring (supplerende vidensbase)
+
+Disse kilder bruges til at understøtte epistemologi- og metodologibegreber med klassiske teoretikere. De erstatter **ikke** Tier 1-pensum, men giver dybere begrebsforståelse. Komplet liste og anvendelsesvejledning findes i **`docs/PENSUM_VIDENSBASE.md`**.
+
+| Område | Nøglekilde | Brug til |
+|--------|------------|----------|
+| **Social konstruktivisme** | Gergen, K. J. (1999/2015) | Fire grundantagelser, sprogfilosofi, viden som socialt produkt |
+| **Strukturalisme** | Saussure, F. de (1916/1983) | Underliggende strukturer, tegn, langue/parole, synkroni/diakroni |
+| **Paradigmer og revolution** | Kuhn, T. S. (1962/1970) | Normal science, paradigmeskift, incommensurability, viden som social konstruktion |
+| **Sprogfilosofi** | Wittgenstein, L. (1953/2009) | Meaning-as-use, language games, forms of life |
+| **Logisk positivisme** | Ayer, A. J. (1936); Carnap, R. (1934) | Verifikationsprincip, anti-metafysik |
+| **Empirisme** | Locke, J. (1689); Hume, D. (1739) | Tabula rasa, erfaring som vidensgrundlag |
+| **Rationalisme** | Descartes, R. (1641); Leibniz, G. W. (1704) | A priori viden, medfødte ideer |
+| **Kritisk rationalisme** | Popper, K. (1934/1959) | Falsifikation, kritisk test |
+| **Hermeneutik** | Gadamer, H.-G. (1960/2004) | Fortolkningscirkel, horisontsammensmeltning |
+| **Abduktion** | Peirce, C. S. (1931–1958) | Bedste forklaring, hypotesegenerering |
+| **Triangulering** | Denzin, N. K. (1978) | Data- og metodetriangulering |
+| **Mixed methods** | Creswell & Plano Clark (2018) | Sequential/parallel designs |
+
+**Regel:** Brug Tier 3 til at nuancere/uddybe begreber fra Tier 1, men **forankr altid primært i Holm/Kuada/Saunders** når I skriver om metode/videnskabsteori i rapporten.
+
+---
+
 ## Undervisningsmateriale (projektmappen)
 
-Mappen **`Undervisningsmateriale og guides`** indeholder kursusmateriale (fx digital transformation, digital modenhed, ledelse). Det bruges til at **nuancere** argumentation og kontekst – fx ved TOE/organisation, adoption og barrierer – men er **ikke** pensum i samme hierarki som Tier 1/2. Prioriter altid kernepensum til definitioner og centrale påstande; brug undervisningsmaterialet som supplerende kontekst. Se `Undervisningsmateriale og guides/README.md` for oversigt over indhold.
+Mappen **`Undervisningsmateriale og guides`** indeholder kursusmateriale (fx digital transformation, digital modenhed, ledelse). Det bruges til at **nuancere** argumentation og kontekst – fx ved TOE/organisation, adoption og barrierer – men er **ikke** pensum i samme hierarki som Tier 1/2/3. Prioriter altid kernepensum til definitioner og centrale påstande; brug undervisningsmaterialet som supplerende kontekst. Se `Undervisningsmateriale og guides/README.md` for oversigt over indhold.
 
 ---
 
@@ -57,4 +80,9 @@ Mappen **`Undervisningsmateriale og guides`** indeholder kursusmateriale (fx dig
 
 ---
 
-**Se også (kontekst på tværs):** `CASE_KNOWLEDGE.md` (workflow, scope), `AKADEMISK_RAMME.md` (videnskabsteori, teori), `KVALITET_OG_SKRIVEGUIDE.md` (skrivning), `Undervisningsmateriale og guides/README.md` (supplerende materiale).
+**Se også (kontekst på tværs):**
+- `AKADEMISK_RAMME.md` (videnskabsteori, metode, teori)
+- `CASE_KNOWLEDGE.md` (workflow, scope, datamodel)
+- `KVALITET_OG_SKRIVEGUIDE.md` (akademisk skrivning, kapitelstruktur)
+- `docs/PENSUM_VIDENSBASE.md` (komplet Tier 3-dokumentation med anvendelsesvejledning)
+- `Undervisningsmateriale og guides/README.md` (supplerende materiale)

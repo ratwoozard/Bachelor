@@ -13,6 +13,8 @@
 
 ★ = Jeres valgte position
 
+**Note:** For dybere forståelse af epistemologi-varianter (klassisk positivisme, logisk positivisme, empirisme, rationalisme, kritisk rationalisme, interpretivisme, moderne hermeneutik) med beslutningskriterier og case-eksempler, se `docs/PENSUM_VIDENSBASE.md`, sektion 10.2.
+
 ### A.2 Pragmatisme i dybden
 
 **Hovedtanke:** Forskningsspørgsmålet driver metodevalget. Ontologiske og epistemologiske debatter er sekundære i forhold til "hvad virker for at besvare dette spørgsmål?"
@@ -42,7 +44,18 @@
 **Standardformulering:**
 > "Projektet anlægger en pragmatisk videnskabsteoretisk position med forankring i 7. semesters metodepensum (Holm, 2023; Kuada, 2012), suppleret af Saunders et al. (2023). Denne position er valgt, fordi problemformuleringen er handlingsorienteret og empirien har en naturlig dualitet: menneskers oplevelser (interviews med beslutningstagere) og et konkret digitalt artefakt (SoluTalent-platformen med kode, datamodeller og KPI'er). Pragmatismen legitimerer en metodepluralistisk tilgang med abduktiv slutningsform, hvor vi iterativt veksler mellem teoretiske begreber (Lean waste, TOE) og empiriske fund fra case og artefakt."
 
-### A.3 Abduktion – hvordan det fungerer i praksis
+### A.3 Slutningsformer: Induktion, Deduktion og Abduktion
+
+**Hurtig oversigt:**
+| Slutningsform | Retning | Jeres brug |
+|---|---|---|
+| **Deduktion** | Teori → empiri (test) | Når I tester Lean-teoriens forudsigelser i SS |
+| **Induktion** | Empiri → teori (opdage mønstre) | Når I koder interviews og finder gentagne temaer (fx "tillid" nævnes af alle) |
+| **Abduktion** ★ | Empiri ↔ teori (bedste forklaring) | Jeres hovedmetode: iterativ vekslen mellem observation og teori |
+
+★ = Jeres primære slutningsform (pragmatisme)
+
+#### Abduktion i praksis (jeres case)
 
 ```
 OBSERVATION (empiri):
@@ -65,6 +78,10 @@ NUANCERET FUND:
    højere Precision@5-tærskel."
 ```
 
+**Forskel fra induktion:** Induktion ville stoppe ved "tillid nævnes ofte → tillid er vigtigt". Abduktion går videre: "Hvorfor er tillid vigtigt? → Teori (TOE/DSS) forklarer at organisatorisk modenhed og beslutningsstøttesystemer kræver tillid → dette er den bedste forklaring."
+
+**Note:** For dyb forklaring af de tre slutningsformer med beslutningsalgoritme og kilder (Peirce, Popper), se `docs/PENSUM_VIDENSBASE.md`, sektion 10.3.
+
 ### A.4 Hvornår I IKKE skal bruge pragmatisme
 
 Pragmatisme er *forkert* valg hvis:
@@ -79,25 +96,43 @@ Jeres PF er "Hvordan påvirker..." med fokus på praktisk forståelse → pragma
 
 ## DEL B: METODE
 
-### B.1 Casestudie (Yin, 2018)
+### B.1 Casestudie (Holm, 2023; Kuada, 2012; Saunders, 2023)
 
-**Type:** Eksplorativt single-case studie med indlejret analyseenhed (embedded unit design)
+**Note:** Case-studie-metoden forankres i 7. semesters pensum (Holm, 2023; Kuada, 2012; Saunders, 2023). Yin (2018) er **ikke** pensum jf. `UDDANNELSE_OG_PENSUM.md` og bruges derfor ikke som metodekilde.
 
-| Yin-begreb | I jeres projekt |
-|---|---|
-| **Casen** | Support Solutions ApS og deres bemandingsproces |
-| **Indlejret enhed** | SoluTalent-platformen som teknologisk artefakt |
-| **Analyseenhed** | Bemandingsprocessen (staging → matched) |
-| **Kontekst** | Dansk IT-konsulentmarked, SMV-vilkår |
+**Type:** Eksplorativt **indlejret single-case studie** (Holm, 2023; Kuada, 2012)
 
-**Fem komponenter i casestudie-design (Yin):**
-1. Forskningsspørgsmål → jeres PF (hvordan-spørgsmål passer til casestudie)
-2. Propositioner → jeres underspørgsmål giver retning
-3. Analyseenhed → bemandingsprocessen
-4. Logik der kobler data til propositioner → tematisk kodning + proceskortlægning
-5. Kriterier for fortolkning → Lean-kategorier + KPI-indikatorer
+#### Holistisk vs. indlejret casestudie (Holm, 2023)
+- **Holistisk:** Undersøgelse af organisationen som helhed (relevant for små organisationer op til ~30 medarbejdere)
+- **Indlejret:** Undersøgelse af specifikke enheder/processer inden for organisationen (jeres valg)
 
-**Analytisk generaliserbarhed:** I generaliserer ikke statistisk ("dette gælder for alle konsulenthuse"). I generaliserer analytisk ("vores fund understøtter/udfordrer TOE-frameworkets forudsigelse om at..."). Det er en styrke, ikke en svaghed.
+#### Jeres case-design
+
+| Element | I jeres projekt | Kilde/begrundelse |
+|---|---|---|
+| **Casen (helhed)** | Support Solutions ApS og deres bemandingsproces | Organisatorisk kontekst (SMV, dansk IT-marked) |
+| **Indlejret enhed 1** | SoluTalent-platformen som teknologisk artefakt | Konkret system der understøtter processen |
+| **Indlejret enhed 2** | Bemandingsprocessen (`staging_imported` → `matched`) | Den afgrænsede del af værdikæden I analyserer |
+| **Analyseniveau** | Proces- og systemniveau (ikke hele organisationen) | Scope matcher PF/USP |
+| **Kontekst** | Dansk IT-konsulentmarked, SMV-vilkår, konkurrence på hastighed | Påvirker hvilke løsninger der er mulige |
+
+#### Nøglekomponenter i case-design (tilpasset Holm/Kuada/Saunders)
+1. **Forskningsspørgsmål** → Jeres PF ("hvordan påvirker..."-spørgsmål passer til casestudie)
+2. **Underspørgsmål** → Giver retning for dataindsamling og analyse
+3. **Analyseenheder** → Bemandingsprocessen + SoluTalent-artefakt
+4. **Datakilder** → Interviews, artefaktanalyse, KPI-dataudtræk (triangulering)
+5. **Analytisk strategi** → Tematisk kodning + proceskortlægning + teoretisk ramme (Lean, TOE, DSS)
+6. **Fortolkningskriterier** → Lean-kategorier (spildtyper), TOE-dimensioner, DSS-principper
+
+#### Analytisk generaliserbarhed (Holm, 2023; Kuada, 2012)
+Case-studier generaliserer **analytisk til teori**, ikke statistisk til population (Holm, 2023). Dette betyder:
+- ✗ "Dette gælder for alle konsulenthuse" (statistisk generalisering – kræver repræsentativ stikprøve)
+- ✓ "Vores fund understøtter TOE-frameworkets forudsigelse om organisatoriske barrierer ved AI-adoption" (analytisk generalisering til teori)
+- ✓ "Lean-kategorien 'overprocessering' manifesterer sig i vidensarbejde som manuel curation af high-confidence jobs" (teoretisk udvidelse)
+
+**Styrke:** Analytisk generaliserbarhed tillader dybdegående forståelse af komplekse fænomener i deres naturlige kontekst—noget survey/eksperiment ikke kan levere (Kuada, 2012; Saunders et al., 2023, kap. 5).
+
+**Kontekstafhængighed:** "Kontekst bestemmer" betyder at jeres fund er gyldige for *denne kontekst* (SS, SoluTalent, dansk marked, 2026). Andre organisationer i andre kontekster kan have andre mønstre—men de teoretiske indsigter (fx om tillidsbarrierer ved AI) kan overføres analytisk (Holm, 2023).
 
 ### B.2 Semistrukturerede interviews
 
@@ -210,7 +245,7 @@ Jeres PF er "Hvordan påvirker..." med fokus på praktisk forståelse → pragma
 **Nøglebegreb: Human-in-the-loop**
 - AI genererer forslag (match_requests med scores)
 - Mennesket godkender/afviser (match review med rejection_reason)
-- Feedback forbedrer systemet (match_analytics til modeltræning)
+- Feedback kan påvirke systemet (match_analytics indgår i systemets læringsmekanisme)
 
 **I jeres projekt:** SoluTalents match-pipeline er et klassisk DSS. Spørgsmålet (USP 3) er: *hvornår giver human-in-the-loop mening, og hvornår er det unødvendigt spild?*
 
@@ -254,9 +289,14 @@ Brug disse definitioner konsistent gennem hele opgaven:
 | **AI-matching** | Automatiseret kobling af konsulentprofiler med projektopgaver via SoluTalents seksstegs pipeline | Projektets egen definition |
 | **Flaskehals** | Procestrin hvor kapacitet er lavere end efterspørgsel, hvilket skaber ophobning | Lean-terminologi |
 | **Human-in-the-loop** | Designprincip hvor AI genererer forslag og menneske træffer endelig beslutning | Turban et al. (2014) |
-| **Analytisk generaliserbarhed** | Generalisering fra case til teori (ikke fra sample til population) | Yin (2018) |
+| **Analytisk generaliserbarhed** | Generalisering fra case til teori (ikke fra sample til population) | Holm (2023); Kuada (2012) |
 | **Artefaktanalyse** | Systematisk analyse af et teknologisk artefakt (software) som empirisk kilde | Projektets metode |
 
 ---
 
-**Se også (kontekst på tværs):** `CASE_KNOWLEDGE.md` (workflow, scope), `KVALITET_OG_SKRIVEGUIDE.md` (skrivning), `UDDANNELSE_OG_PENSUM.md` (kildeprioritering), `Undervisningsmateriale og guides/README.md` (supplerende materiale).
+**Se også (kontekst på tværs):**
+- `CASE_KNOWLEDGE.md` (workflow, scope, datamodel)
+- `KVALITET_OG_SKRIVEGUIDE.md` (akademisk skrivning, kapitelstruktur)
+- `UDDANNELSE_OG_PENSUM.md` (kildeprioritering Tier 1/2, pensumregler)
+- `docs/PENSUM_VIDENSBASE.md` (dyb epistemologi, metodologi, klassikere, mixed methods)
+- `Undervisningsmateriale og guides/README.md` (supplerende materiale)

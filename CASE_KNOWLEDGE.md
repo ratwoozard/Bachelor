@@ -12,14 +12,14 @@
 
 **Stack:** React 19, TypeScript, Vite, Supabase (PostgreSQL, Auth, Realtime, Edge Functions), OpenAI
 
-**Hvad den gør:** B2B talentmarkedsplads for det skandinaviske marked. Forbinder virksomheder med vettede freelancekonsulenter via AI-matching, budgivning, kontrakthåndtering, tidsregistrering og fakturering.
+**Hvad den gør:** B2B talentmarkedsplads for det skandinaviske marked. Forbinder virksomheder med vettede freelancekonsulenter via AI-matching, budgivning, kontrakthåndtering, tidsregistrering og fakturering *(kontrakt/tidsregistrering/fakturering er uden for projektets scope—se trin 8)*.
 
 ### Hovedfunktioner
 
 | Område | Funktioner |
 |---|---|
 | **Offentligt** | Freelancer-katalog, jobopslag, projektbeskrivelser, ansøgningsformular |
-| **Admin** | Dashboard, statistik, curation, matching, matchmaker, bud-håndtering, kontrakter, tidsregistrering, kreditnotaer, integrationer, audit logs |
+| **Admin** | Dashboard, statistik, curation, matching, matchmaker, bud-håndtering, kontrakter*, tidsregistrering*, kreditnotaer*, integrationer, audit logs (*= uden for scope) |
 | **Freelancer** | Dashboard, muligheder/matches, bud, kontrakter, tidslog, betalinger, beskeder, statistik |
 | **AI** | Matching-pipeline, job-enrichment, CV-parsing, kompetenceekstraktion, embeddings |
 
@@ -200,4 +200,9 @@ RPC: `get_action_items_summary()` returnerer:
 
 ---
 
-**Se også (kontekst på tværs):** `AKADEMISK_RAMME.md` (videnskabsteori, teori), `KVALITET_OG_SKRIVEGUIDE.md` (skrivning), `UDDANNELSE_OG_PENSUM.md` (kildeprioritering), `Undervisningsmateriale og guides/README.md` (supplerende materiale).
+**Se også (kontekst på tværs):**
+- `AKADEMISK_RAMME.md` (videnskabsteori, metode, teori)
+- `KVALITET_OG_SKRIVEGUIDE.md` (akademisk skrivning, kapitelstruktur)
+- `UDDANNELSE_OG_PENSUM.md` (kildeprioritering Tier 1/2, pensumregler)
+- `docs/PENSUM_VIDENSBASE.md` (dyb epistemologi, metodologi, klassikere)
+- `Undervisningsmateriale og guides/README.md` (supplerende materiale)

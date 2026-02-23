@@ -24,7 +24,7 @@
 > Denne ventetid kategoriseres som "waste type 1: waiting" (Womack & Jones, 2003).
 
 **Flere kilder der understøtter samme pointe:**
-> Casestudie-metoden er velegnet til "hvordan"-spørgsmål, når designet begrundes metodisk (Holm, 2023; Kuada, 2012) og caselogikken præciseres (Yin, 2018).
+> Casestudie-metoden er velegnet til "hvordan"-spørgsmål, når designet begrundes metodisk (Holm, 2023; Kuada, 2012) og caselogikken præciseres med klar afgrænsning af analyseenheder (Saunders et al., 2023).
 
 **Når I refererer til SoluTalent/artefaktet:**
 > En analyse af platformens workflow-konfiguration viser, at jobopgaver passerer gennem otte sekventielle trin, hvoraf fire kræver manuel handling (jf. artefaktanalyse, bilag X).
@@ -81,8 +81,8 @@ Hvert analyseafsnit bør følge dette mønster:
 ### 2.2 Metode (8-10 sider)
 
 **Struktur:**
-1. Videnskabsteoretisk position (pragmatisme) med begrundelse i 7. semesterpensum (Holm/Kuada, evt. Saunders 2023)
-2. Forskningsdesign (single-case studie, Yin)
+1. Videnskabsteoretisk position (pragmatisme) med begrundelse i 7. semesterpensum (Holm, 2023; Kuada, 2012)
+2. Forskningsdesign (indlejret single-case studie, Holm/Kuada/Saunders – *ikke* Yin jf. `UDDANNELSE_OG_PENSUM.md`)
 3. Empirikilder (interviews, artefakt, data)
 4. Operationalisering af nøglebegreber (spildtidsindikatorer)
 5. Analysestrategi (tematisk kodning, proceskortlægning, krydsanalyse)
@@ -261,4 +261,9 @@ En eksaminator vil typisk stille sig selv disse spørgsmål:
 
 ---
 
-**Se også (kontekst på tværs):** `CASE_KNOWLEDGE.md` (workflow, scope), `AKADEMISK_RAMME.md` (videnskabsteori, teori), `UDDANNELSE_OG_PENSUM.md` (kildeprioritering), `Undervisningsmateriale og guides/README.md` (supplerende materiale).
+**Se også (kontekst på tværs):**
+- `CASE_KNOWLEDGE.md` (workflow, scope, datamodel)
+- `AKADEMISK_RAMME.md` (videnskabsteori, metode, teori)
+- `UDDANNELSE_OG_PENSUM.md` (kildeprioritering Tier 1/2, pensumregler)
+- `docs/PENSUM_VIDENSBASE.md` (dyb epistemologi, metodologi, klassikere)
+- `Undervisningsmateriale og guides/README.md` (supplerende materiale)

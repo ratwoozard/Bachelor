@@ -1,0 +1,12 @@
+{
+  "description": "Schema for brugerdata gemt i user://. Kun reference – runtime bruger Storage til user://saves/.",
+  "_version": 1,
+  "progress": {
+    "completed_lessons": ["array of strings: module_id/lesson_id"],
+    "_version": "number"
+  },
+  "settings": {
+    "volume": "0.0–1.0",
+    "last_module_id": "string (optional)"
+  }
+}

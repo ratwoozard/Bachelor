@@ -1,0 +1,8 @@
+{
+  "id": "videnskabsteori_basics",
+  "title": "Videnskabsteori – grundlæggende",
+  "lessons": [
+    { "id": "intro", "title": "Introduktion" },
+    { "id": "paradigmer", "title": "Videnskabelige paradigmer" }
+  ]
+}

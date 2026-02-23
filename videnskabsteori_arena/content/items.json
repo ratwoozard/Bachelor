@@ -1,0 +1,62 @@
+[
+  {
+    "id": "popper_falsifikation_1",
+    "lens": "Popper",
+    "prompt": "En supportleder siger: 'Vores nye AI-matching reducerer spildtid.' Hvordan kan påstanden gøres testbar?",
+    "options": [
+      "Formulér en falsificerbar hypotese og definer et målepunkt (fx tid pr. kandidat) før/efter",
+      "Gentag påstanden oftere for at skabe konsensus",
+      "Vælg kun cases hvor AI'en virker bedst"
+    ],
+    "correct_index": 0,
+    "explanation": "Popper: Videnskabelige udsagn skal kunne falsificeres; operationalisér påstanden og gør den testbar."
+  },
+  {
+    "id": "kuhn_paradigme_1",
+    "lens": "Kuhn",
+    "prompt": "Teamet er uenige om, hvad 'god matching' betyder. Hvilken Kuhn-forklaring passer bedst?",
+    "options": [
+      "De arbejder under forskellige paradigmer med forskellige standarder for 'rigtig' løsning",
+      "Det er et rent teknisk problem der kan løses uden begreber",
+      "Uenighed betyder at ingen metoder kan bruges"
+    ],
+    "correct_index": 0,
+    "explanation": "Kuhn: Paradigmer styrer, hvilke problemer/standarder der anses som legitime."
+  },
+  {
+    "id": "lakatos_program_1",
+    "lens": "Lakatos",
+    "prompt": "I tester AI-forslag, men ændrer løbende reglerne for hvad der tæller som 'match'. Hvordan kan det ses i Lakatos-termer?",
+    "options": [
+      "Som et forskningsprogram hvor hjælpeakser (auxiliaries) justeres for at beskytte en kerneantagelse",
+      "Som en endelig verifikation der stopper al videre udvikling",
+      "Som et bevis på at teori altid er ligegyldig"
+    ],
+    "correct_index": 0,
+    "explanation": "Lakatos: Et forskningsprogram har en 'hard core' og en beskyttende bælte af hjælpehypoteser."
+  },
+  {
+    "id": "feyerabend_metode_1",
+    "lens": "Feyerabend",
+    "prompt": "En udvikler foreslår at blande kvalitative interviews og logdata, selvom processen ikke er 'ren'. Hvilken Feyerabend-vinkel passer bedst?",
+    "options": [
+      "Metodisk pluralisme: 'anything goes' som kritik af metodisk dogmatisme",
+      "Kun RCT-studier er gyldige",
+      "Data uden teori er altid bedre"
+    ],
+    "correct_index": 0,
+    "explanation": "Feyerabend: Kritiserer metode-monopol; flere metoder kan give bedre indsigt i praksis."
+  },
+  {
+    "id": "pragmatisme_abduktion_1",
+    "lens": "Pragmatisme",
+    "prompt": "I ser et mønster: kandidater med bestemte tags matches hurtigere. I opstiller en mulig forklaring og tester den i næste sprint. Hvad kaldes det?",
+    "options": [
+      "Abduktion: bedste forklaring → efterprøvning i praksis",
+      "Deduktion: udledt direkte fra aksiomer uden empiri",
+      "Ren induktion uden hypotese"
+    ],
+    "correct_index": 0,
+    "explanation": "Pragmatisk/abduktiv tilgang: man danner en plausibel forklaring og afprøver den iterativt i casen."
+  }
+]

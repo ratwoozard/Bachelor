@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "modules": {
+    "videnskabsteori_basics": {
+      "id": "videnskabsteori_basics",
+      "title": "Videnskabsteori – grundlæggende",
+      "description": "Indføring i videnskabsteori og forskningsmetoder.",
+      "path": "res://content/modules/videnskabsteori_basics/"
+    }
+  }
+}

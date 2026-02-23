@@ -1,0 +1,8 @@
+{
+  "q1": {
+    "id": "q1",
+    "text": "Hvad kendetegner et videnskabeligt paradigme?",
+    "options": ["Et fælles sæt antagelser og metoder", "Kun naturvidenskab", "En enkelt teori"],
+    "correct_index": 0
+  }
+}

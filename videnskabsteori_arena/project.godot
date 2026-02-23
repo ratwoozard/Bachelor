@@ -1,0 +1,35 @@
+; Engine configuration file.
+; It is best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Videnskabsteori Arena"
+config/description="Offline læringsapp for videnskabsteori."
+run/main_scene="res://scenes/App.tscn"
+
+[autoload]
+
+ContentService="*res://scripts/autoload/ContentService.gd"
+EventLog="*res://scripts/autoload/EventLog.gd"
+Scheduler="*res://scripts/autoload/Scheduler.gd"
+Storage="*res://scripts/autoload/Storage.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[input]
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

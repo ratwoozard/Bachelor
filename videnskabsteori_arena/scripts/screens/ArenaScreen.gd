@@ -14,8 +14,10 @@ const MAX_REVIEWS := 10
 @onready var _conf_low_btn: Button = $Margin/VBox/ConfidenceRow/ConfidenceLowButton
 @onready var _conf_medium_btn: Button = $Margin/VBox/ConfidenceRow/ConfidenceMediumButton
 @onready var _conf_high_btn: Button = $Margin/VBox/ConfidenceRow/ConfidenceHighButton
+@onready var _tilbage_btn: Button = $Margin/VBox/TilbageBtn
 
 func _ready() -> void:
+	_tilbage_btn.pressed.connect(_go_home)
 	var pool: Array = ContentService.get_all_items()
 	var valid: Array = []
 	for it in pool:
@@ -131,3 +133,6 @@ func _on_next_pressed() -> void:
 	_review_count += 1
 	_current_index += 1
 	_show_current_item()
+
+func _go_home() -> void:
+	get_tree().current_scene.show_screen("res://scenes/screens/HomeScreen.tscn")

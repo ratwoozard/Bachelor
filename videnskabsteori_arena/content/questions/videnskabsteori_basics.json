@@ -3,6 +3,21 @@
     "id": "q1",
     "text": "Hvad kendetegner et videnskabeligt paradigme?",
     "options": ["Et fælles sæt antagelser og metoder", "Kun naturvidenskab", "En enkelt teori"],
-    "correct_index": 0
+    "correct_index": 0,
+    "explanation": "Kuhn: Et paradigme er et fælles sæt antagelser, metoder og standarder."
+  },
+  "q2": {
+    "id": "q2",
+    "text": "Hvad er abduktion i forskningssammenhæng?",
+    "options": ["At udvælge den bedste forklaring og afprøve den", "Kun logisk deduktion fra aksiomer", "At samle data uden hypotese"],
+    "correct_index": 0,
+    "explanation": "Abduktion: man foreslår en plausibel forklaring og tester den (pragmatisk tilgang)."
+  },
+  "q3": {
+    "id": "q3",
+    "text": "Hvad betyder falsifikation i Poppers forståelse?",
+    "options": ["At en teori kan afvises ved modstridende empiri", "At man beviser teorier definitivt", "At man kun bruger induktion"],
+    "correct_index": 0,
+    "explanation": "Popper: Videnskabelige teorier skal kunne falsificeres."
   }
 }

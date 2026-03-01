@@ -11,8 +11,10 @@ extends Control
 @onready var _export_path_label: Label = $Margin/VBox/ExportPathLabel
 @onready var _export_json_btn: Button = $Margin/VBox/ExportJsonButton
 @onready var _export_csv_btn: Button = $Margin/VBox/ExportCsvButton
+@onready var _tilbage_btn: Button = $Margin/VBox/TilbageBtn
 
 func _ready() -> void:
+	_tilbage_btn.pressed.connect(_go_home)
 	_variant_filter.clear()
 	_variant_filter.add_item("All", 0)
 	_variant_filter.add_item("A", 1)
@@ -85,3 +87,6 @@ func _on_export_csv() -> void:
 	var path := EventLog.export_attempts_csv()
 	_export_path_label.text = "Exported: " + path
 	print("[Stats] Export CSV: ", path)
+
+func _go_home() -> void:
+	get_tree().current_scene.show_screen("res://scenes/screens/HomeScreen.tscn")

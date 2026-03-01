@@ -6,6 +6,9 @@ extends Control
 func _ready() -> void:
 	_show_screen("res://scenes/screens/HomeScreen.tscn")
 
+func show_screen(scene_path: String) -> void:
+	_show_screen(scene_path)
+
 func _show_screen(scene_path: String) -> void:
 	for c in _screen_container.get_children():
 		c.queue_free()

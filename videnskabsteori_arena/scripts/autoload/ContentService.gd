@@ -25,8 +25,9 @@ func _reload_index() -> void:
 			_content_index = {}
 
 func get_module(module_id: String) -> Dictionary:
-	if _content_index.has("modules") and _content_index.modules is Dictionary:
-		return _content_index.modules.get(module_id, {})
+	var modules = _content_index.get("modules", {})
+	if modules is Dictionary:
+		return modules.get(module_id, {})
 	return {}
 
 func get_question(module_id: String, question_id: String) -> Dictionary:
@@ -61,33 +62,59 @@ func search_in_content(query: String) -> Array:
 	return results
 
 func _load_items() -> void:
-	var path := "res://content/items.json"
-	if not FileAccess.file_exists(path):
-		_items = []
-		push_error("[ContentService] Missing file: %s" % path)
-		print("[ContentService] items loaded: 0")
-		return
-	var f := FileAccess.open(path, FileAccess.READ)
-	if not f:
-		_items = []
-		push_error("[ContentService] Could not open file: %s" % path)
-		print("[ContentService] items loaded: 0")
-		return
-	var raw := f.get_as_text()
-	f.close()
-	var json := JSON.new()
-	if json.parse(raw) != OK:
-		_items = []
-		push_error("[ContentService] JSON parse error in %s" % path)
-		print("[ContentService] items loaded: 0")
-		return
-	var data = json.get_data()
 	_items = []
-	if data is Array:
-		for it in data:
-			if it is Dictionary and _is_valid_item(it):
-				_items.append(it)
+	var path := "res://content/items.json"
+	if FileAccess.file_exists(path):
+		var f := FileAccess.open(path, FileAccess.READ)
+		if f:
+			var raw := f.get_as_text()
+			f.close()
+			var json := JSON.new()
+			if json.parse(raw) == OK:
+				var data = json.get_data()
+				if data is Array:
+					for it in data:
+						if it is Dictionary and _is_valid_item(it):
+							_items.append(it)
+	_load_questions_from_modules()
 	print("[ContentService] items loaded: %d" % _items.size())
+
+func _load_questions_from_modules() -> void:
+	var modules := get_all_modules()
+	if not modules is Dictionary:
+		return
+	for module_id in modules:
+		var qpath := "res://content/questions/%s.json" % module_id
+		if not FileAccess.file_exists(qpath):
+			continue
+		var f := FileAccess.open(qpath, FileAccess.READ)
+		if not f:
+			continue
+		var raw := f.get_as_text()
+		f.close()
+		var json := JSON.new()
+		if json.parse(raw) != OK:
+			continue
+		var data = json.get_data()
+		if not data is Dictionary:
+			continue
+		for qid in data:
+			var q = data[qid]
+			if not q is Dictionary:
+				continue
+			var it := _normalize_question(q, qid, module_id)
+			if _is_valid_item(it):
+				_items.append(it)
+
+func _normalize_question(q: Dictionary, qid: String, module_id: String) -> Dictionary:
+	return {
+		"id": "%s_%s" % [module_id, qid],
+		"lens": module_id,
+		"prompt": q.get("text", q.get("prompt", "")),
+		"options": q.get("options", []),
+		"correct_index": int(q.get("correct_index", 0)),
+		"explanation": q.get("explanation", "Se lektion for forklaring.")
+	}
 
 func _is_valid_item(it: Dictionary) -> bool:
 	return it.has("id") \

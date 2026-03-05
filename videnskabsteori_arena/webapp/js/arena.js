@@ -5,6 +5,9 @@ const Arena = {
     sessionStats: { total: 0, correct: 0, xp: 0 },
     selectedCategory: null,
     selectedMode: 'standard',
+    selectedDifficulty: null,  // null = alle, "02", "7", "12"
+    selectedTheorist: null,    // null = ingen, "Popper", "Kuhn", "Hermeneutik", "Pragmatisme"
+    availableTheorists: ['Popper', 'Kuhn', 'Hermeneutik', 'Pragmatisme'],
     maxQuestions: 10,
     answered: false,
     currentShuffledOptions: [],
@@ -17,6 +20,8 @@ const Arena = {
     quickStart(category) {
         this.selectedCategory = category;
         this.selectedMode = 'standard';
+        this.selectedDifficulty = null;
+        this.selectedTheorist = null;
         this.startSession();
         App.showScreen('arena');
     },
@@ -25,16 +30,37 @@ const Arena = {
         const container = document.getElementById('arenaContent');
         const stats = Gamification.getStats();
         
+        // Get filtered items count based on current selections
+        const getFilteredCount = () => {
+            return this.getFilteredPool().length;
+        };
+        
         const categoryCounts = {
             all: Data.items.length,
             general: Data.items.filter(i => i.category !== 'case').length,
             videnskabsteori: Data.items.filter(i => i.category === 'videnskabsteori').length,
             metode: Data.items.filter(i => i.category === 'metode').length,
             teori: Data.items.filter(i => i.category === 'teori').length,
-            case: Data.items.filter(i => i.category === 'case').length
+            case: Data.items.filter(i => i.category === 'case').length,
+            teoretiker: this.availableTheorists.reduce((sum, t) => sum + Data.items.filter(i => i.lens === t).length, 0)
+        };
+        
+        // Get counts per theorist
+        const theoristCounts = {};
+        this.availableTheorists.forEach(t => {
+            theoristCounts[t] = Data.items.filter(i => i.lens === t).length;
+        });
+        
+        // Get counts per difficulty
+        const difficultyCounts = {
+            all: getFilteredCount(),
+            '02': this.getFilteredPool('02').length,
+            '7': this.getFilteredPool('7').length,
+            '12': this.getFilteredPool('12').length
         };
         
         const dueCount = Scheduler.getDueItems(Data.items).length;
+        const currentFilteredCount = getFilteredCount();
         
         let html = `
             <div class="arena-start">
@@ -71,7 +97,7 @@ const Arena = {
                 <div class="category-select">
                     <h4>Vælg kategori</h4>
                     <div class="category-chips">
-                        <button class="category-chip ${this.selectedCategory === null ? 'selected' : ''}" onclick="Arena.selectCategory(null)">
+                        <button class="category-chip ${this.selectedCategory === null && !this.selectedTheorist ? 'selected' : ''}" onclick="Arena.selectCategory(null)">
                             🎲 Alle (${categoryCounts.all})
                         </button>
                         <button class="category-chip ${this.selectedCategory === 'general' ? 'selected' : ''}" onclick="Arena.selectCategory('general')">
@@ -89,16 +115,102 @@ const Arena = {
                         <button class="category-chip ${this.selectedCategory === 'case' ? 'selected' : ''}" onclick="Arena.selectCategory('case')">
                             🎓 Case/Bachelor (${categoryCounts.case})
                         </button>
+                        <button class="category-chip ${this.selectedCategory === 'teoretiker' ? 'selected' : ''}" onclick="Arena.selectCategory('teoretiker')">
+                            🧑‍🏫 Teoretiker (${categoryCounts.teoretiker})
+                        </button>
                     </div>
                 </div>
                 
-                <button class="btn-start-arena" onclick="Arena.startSession()">
-                    Start Quiz
-                </button>
+                ${this.selectedCategory === 'teoretiker' ? `
+                <div class="theorist-select">
+                    <h4>Vælg teoretiker</h4>
+                    <div class="theorist-chips">
+                        ${this.availableTheorists.map(t => `
+                            <button class="theorist-chip ${this.selectedTheorist === t ? 'selected' : ''}" onclick="Arena.selectTheorist('${t}')">
+                                ${t} (${theoristCounts[t]})
+                            </button>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : ''}
+                
+                <div class="difficulty-select">
+                    <h4>Vælg sværhedsgrad</h4>
+                    <div class="difficulty-cards">
+                        <div class="difficulty-card ${this.selectedDifficulty === null ? 'selected' : ''}" onclick="Arena.selectDifficulty(null)">
+                            <span class="difficulty-icon">🎯</span>
+                            <div class="difficulty-info">
+                                <h5>Alle</h5>
+                                <p>Blandet sværhedsgrad</p>
+                            </div>
+                            <span class="difficulty-count">${difficultyCounts.all}</span>
+                        </div>
+                        <div class="difficulty-card difficulty-02 ${this.selectedDifficulty === '02' ? 'selected' : ''}" onclick="Arena.selectDifficulty('02')">
+                            <span class="difficulty-icon">📗</span>
+                            <div class="difficulty-info">
+                                <h5>02 - Bare minimum</h5>
+                                <p>Definitioner og grundbegreber</p>
+                            </div>
+                            <span class="difficulty-count">${difficultyCounts['02']}</span>
+                        </div>
+                        <div class="difficulty-card difficulty-7 ${this.selectedDifficulty === '7' ? 'selected' : ''}" onclick="Arena.selectDifficulty('7')">
+                            <span class="difficulty-icon">📘</span>
+                            <div class="difficulty-info">
+                                <h5>7 - Average researcher</h5>
+                                <p>Anvendelse og sammenligning</p>
+                            </div>
+                            <span class="difficulty-count">${difficultyCounts['7']}</span>
+                        </div>
+                        <div class="difficulty-card difficulty-12 ${this.selectedDifficulty === '12' ? 'selected' : ''}" onclick="Arena.selectDifficulty('12')">
+                            <span class="difficulty-icon">📕</span>
+                            <div class="difficulty-info">
+                                <h5>12 - Hardcore teoretiker</h5>
+                                <p>Kritik, syntese og eksamensformat</p>
+                            </div>
+                            <span class="difficulty-count">${difficultyCounts['12']}</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="start-quiz-section">
+                    <div class="quiz-summary">
+                        <span class="quiz-summary-count">${currentFilteredCount} spørgsmål matcher</span>
+                    </div>
+                    <button class="btn-start-arena" onclick="Arena.startSession()" ${currentFilteredCount === 0 ? 'disabled' : ''}>
+                        Start Quiz
+                    </button>
+                </div>
             </div>
         `;
         
         container.innerHTML = html;
+    },
+    
+    getFilteredPool(difficultyOverride) {
+        const difficulty = difficultyOverride !== undefined ? difficultyOverride : this.selectedDifficulty;
+        let pool = [...Data.items];
+        
+        // Filter by category
+        if (this.selectedCategory === 'general') {
+            pool = pool.filter(i => i.category !== 'case');
+        } else if (this.selectedCategory === 'teoretiker') {
+            // Filter by selected theorist if one is chosen
+            if (this.selectedTheorist) {
+                pool = pool.filter(i => i.lens === this.selectedTheorist);
+            } else {
+                // Show all theorist questions
+                pool = pool.filter(i => this.availableTheorists.includes(i.lens));
+            }
+        } else if (this.selectedCategory) {
+            pool = pool.filter(i => i.category === this.selectedCategory);
+        }
+        
+        // Filter by difficulty
+        if (difficulty) {
+            pool = pool.filter(i => i.difficulty === difficulty);
+        }
+        
+        return pool;
     },
 
     selectMode(mode) {
@@ -108,6 +220,20 @@ const Arena = {
 
     selectCategory(category) {
         this.selectedCategory = category;
+        // Reset theorist selection when changing category
+        if (category !== 'teoretiker') {
+            this.selectedTheorist = null;
+        }
+        this.showStart();
+    },
+    
+    selectTheorist(theorist) {
+        this.selectedTheorist = theorist;
+        this.showStart();
+    },
+    
+    selectDifficulty(difficulty) {
+        this.selectedDifficulty = difficulty;
         this.showStart();
     },
 
@@ -119,15 +245,13 @@ const Arena = {
             this.maxQuestions = 10;
         }
 
-        // Get items based on category selection
-        let pool;
-        if (this.selectedCategory === 'general') {
-            // All non-case questions
-            pool = Data.items.filter(i => i.category !== 'case');
-        } else if (this.selectedCategory) {
-            pool = Data.items.filter(i => i.category === this.selectedCategory);
-        } else {
-            pool = [...Data.items];
+        // Get items based on all current filters (category, theorist, difficulty)
+        let pool = this.getFilteredPool();
+        
+        // Check if we have any questions
+        if (pool.length === 0) {
+            alert('Ingen spørgsmål matcher dine valg. Prøv at justere filtrene.');
+            return;
         }
         
         this.sessionItems = [];

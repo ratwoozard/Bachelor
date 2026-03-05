@@ -1,0 +1,27 @@
+{
+  "id": "videnskabsteori",
+  "title": "Videnskabsteori",
+  "description": "De fire hovedpositioner og deres anvendelse i forskning",
+  "chapters": [
+    {
+      "id": "positioner",
+      "title": "De fire hovedpositioner",
+      "content": "## De fire hovedpositioner\n\n### 1. Positivisme\n- **Ontologi:** Én objektiv virkelighed der kan måles\n- **Epistemologi:** Viden er objektiv, generaliserbar, lovmæssig\n- **Metode:** Kvantitativ, eksperimenter, statistik\n- **Slutningsform:** Deduktiv (teori → hypotese → test)\n\n### 2. Fortolkende / Hermeneutik\n- **Ontologi:** Virkeligheden er socialt konstrueret\n- **Epistemologi:** Viden er kontekstuel og fortolkningsbaseret\n- **Metode:** Kvalitativ, interviews, observation\n- **Slutningsform:** Induktiv (data → mønstre → teori)\n\n### 3. Kritisk realisme\n- **Ontologi:** Virkelighed i lag: det faktiske, det aktualiserede, det empiriske\n- **Epistemologi:** Viden er fejlbar men vi kan nærme os dybereliggende strukturer\n- **Metode:** Mixed, retroduktion\n- **Slutningsform:** Retroduktiv (hvilke mekanismer forklarer det vi ser?)\n\n### 4. Pragmatisme ★\n- **Ontologi:** Virkelighed er kompleks; vi fokuserer på det praktisk relevante\n- **Epistemologi:** Viden vurderes på sin anvendelighed\n- **Metode:** Det der bedst besvarer spørgsmålet\n- **Slutningsform:** Abduktiv (vekslen teori ↔ empiri)\n\n★ = Jeres valgte position\n\n**Kilde:** AKADEMISK_RAMME.md sektion A.1"
+    },
+    {
+      "id": "pragmatisme",
+      "title": "Pragmatisme i dybden",
+      "content": "## Pragmatisme i dybden\n\n**Hovedtanke:** Forskningsspørgsmålet driver metodevalget. Ontologiske og epistemologiske debatter er sekundære i forhold til \"hvad virker for at besvare dette spørgsmål?\"\n\n**Nøgletænkere:** John Dewey, Charles Sanders Peirce, William James\n\n### Fire dimensioner i jeres projekt:\n\n| Dimension | Position | Konsekvens |\n|---|---|---|\n| **Ontologi** | Giver typisk mixed methods | I har brug for både at måle (KPI) og forstå (interviews) |\n| **Epistemologi** | Viden vurderes på anvendelighed | Fund skal være nyttige for SS, ikke universelle love |\n| **Slutningsform** | Abduktiv vekslen | I starter med empiri, bringer teori ind, vender tilbage med nuancerede fund |\n| **Metode** | Metodepluralisme | Legitimerer interviews + artefaktanalyse + platformdata i samme studie |\n\n### Hvorfor pragmatisme passer til dette projekt:\n1. PF er handlingsorienteret (\"Hvordan påvirker...\") – ikke teoretisk abstrakt\n2. Empirien har naturlig dualitet: menneskers oplevelser + teknisk artefakt\n3. Formålet er anvendelsesorienteret: at hjælpe SS med at forstå deres proces\n4. I ønsker ikke at bevise en universel lov, men at skabe kontekstuel forståelse\n\n### Typiske fejl:\n- ❌ \"Vi har valgt pragmatisme fordi det er det bredeste\" → Forklar HVORFOR det passer til JERES PF\n- ❌ Blander pragmatisme med \"vi gør lidt af hvert\" → Det er en bevidst position\n- ❌ Glemmer abduktionen → Vis eksplicit i analysen at I veksler mellem empiri og teori\n\n**Kilde:** Holm (2023); Kuada (2012); Saunders et al. (2023)"
+    },
+    {
+      "id": "slutningsformer",
+      "title": "Slutningsformer",
+      "content": "## Slutningsformer: Induktion, Deduktion og Abduktion\n\n### Deduktion (Teori → Empiri)\n- **Retning:** Fra teori til test\n- **Jeres brug:** Når I tester Lean-teoriens forudsigelser i SS\n- **Eksempel:** \"Lean siger at ventetid er spild\" → \"Vi måler ventetid i processen\" → \"Fund bekræfter/afkræfter\"\n\n### Induktion (Empiri → Teori)\n- **Retning:** Fra data til mønstre\n- **Jeres brug:** Når I koder interviews og finder gentagne temaer\n- **Eksempel:** \"Tillid nævnes af alle informanter\" → \"Tillid er et centralt tema\"\n\n### Abduktion ★ (Empiri ↔ Teori)\n- **Retning:** Iterativ vekslen – bedste forklaring\n- **Jeres brug:** Jeres hovedmetode\n\n### Abduktion i praksis (jeres case):\n\n```\nOBSERVATION: \"Matches venter i gennemsnit X timer på admin-godkendelse\"\n    ↓\nTEORI (Lean): \"Dette er ventetid – en spildkategori\"\n    ↓\nNY OBSERVATION: \"Informant: Vi tør ikke auto-godkende fordi...\"\n    ↓\nTEORI (DSS/TOE): \"Tillid til beslutningsstøttesystemer + organisatorisk modenhed\"\n    ↓\nNUANCERET FUND: \"Ventetid skyldes ikke teknologisk begrænsning\n    men organisatorisk forsigtighedsprincip\"\n```\n\n**Forskel fra induktion:** Induktion stopper ved \"tillid nævnes ofte → tillid er vigtigt\". Abduktion går videre og forklarer HVORFOR med teori.\n\n**Kilde:** Peirce; Saunders et al. (2023)"
+    },
+    {
+      "id": "hvornaar_ikke_pragmatisme",
+      "title": "Hvornår IKKE pragmatisme",
+      "content": "## Hvornår er pragmatisme det FORKERTE valg?\n\nPragmatisme passer IKKE hvis:\n\n| Situation | Brug i stedet |\n|---|---|\n| I vil teste én specifik hypotese | **Positivisme** + deduktion |\n| I vil forstå dybe meningsstrukturer | **Hermeneutik** |\n| I vil afdække skjulte magtstrukturer | **Kritisk realisme** |\n| Jeres PF er \"Hvorfor oplever X at...\" | **Fortolkende** position |\n\n### Jeres PF: \"Hvordan påvirker...\"\n- Handlingsorienteret ✓\n- Fokus på praktisk forståelse ✓\n- Kombinerer mennesker og teknologi ✓\n\n→ **Pragmatisme passer**\n\n**Kilde:** AKADEMISK_RAMME.md sektion A.4"
+    }
+  ]
+}

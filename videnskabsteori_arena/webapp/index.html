@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videnskabsteori Arena</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="header-left">
+                <h1 class="logo" onclick="App.showScreen('home')">🎯 VT Arena</h1>
+            </div>
+            <nav class="nav" id="mainNav">
+                <button class="nav-btn active" data-screen="home">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-text">Hjem</span>
+                </button>
+                <button class="nav-btn" data-screen="arena">
+                    <span class="nav-icon">⚔️</span>
+                    <span class="nav-text">Arena</span>
+                </button>
+                <button class="nav-btn" data-screen="lessons">
+                    <span class="nav-icon">📚</span>
+                    <span class="nav-text">Lektioner</span>
+                </button>
+                <button class="nav-btn" data-screen="stats">
+                    <span class="nav-icon">🏆</span>
+                    <span class="nav-text">Statistik</span>
+                </button>
+            </nav>
+            <div class="header-right">
+                <div class="xp-display" id="headerXP">
+                    <span class="xp-icon">⚡</span>
+                    <span class="xp-value">0 XP</span>
+                </div>
+                <div class="streak-display" id="headerStreak">
+                    <span class="streak-icon">🔥</span>
+                    <span class="streak-value">0</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <!-- Home Screen -->
+            <section id="homeScreen" class="screen active">
+                <div class="home-hero">
+                    <div class="hero-content">
+                        <h2>Videnskabsteori Arena</h2>
+                        <p class="hero-subtitle">Træn din viden i videnskabsteori, metode og teori</p>
+                        <button class="btn-hero" onclick="App.showScreen('arena')">
+                            <span class="btn-hero-icon">⚔️</span>
+                            Start Arena
+                        </button>
+                    </div>
+                    <div class="hero-stats" id="heroStats"></div>
+                </div>
+
+                <div class="home-grid">
+                    <div class="home-section daily-challenge" id="dailyChallenge">
+                        <div class="section-header">
+                            <h3>📅 Daglig udfordring</h3>
+                        </div>
+                        <div class="daily-content" id="dailyContent"></div>
+                    </div>
+
+                    <div class="home-section quick-actions">
+                        <div class="section-header">
+                            <h3>⚡ Hurtig start</h3>
+                        </div>
+                        <div class="action-buttons">
+                            <button class="action-btn" onclick="Arena.quickStart('general')">
+                                <span class="action-icon">📖</span>
+                                <span class="action-label">Generelle spørgsmål</span>
+                                <span class="action-count" id="countGeneral">0</span>
+                            </button>
+                            <button class="action-btn" onclick="Arena.quickStart('videnskabsteori')">
+                                <span class="action-icon">📚</span>
+                                <span class="action-label">Videnskabsteori</span>
+                                <span class="action-count" id="countVidenskabsteori">0</span>
+                            </button>
+                            <button class="action-btn" onclick="Arena.quickStart('metode')">
+                                <span class="action-icon">🔬</span>
+                                <span class="action-label">Metode</span>
+                                <span class="action-count" id="countMetode">0</span>
+                            </button>
+                            <button class="action-btn" onclick="Arena.quickStart('teori')">
+                                <span class="action-icon">🧠</span>
+                                <span class="action-label">Teori</span>
+                                <span class="action-count" id="countTeori">0</span>
+                            </button>
+                            <button class="action-btn" onclick="Arena.quickStart('case')">
+                                <span class="action-icon">🎓</span>
+                                <span class="action-label">Case (Bachelor)</span>
+                                <span class="action-count" id="countCase">0</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="home-section achievements" id="achievementsSection">
+                        <div class="section-header">
+                            <h3>🏅 Seneste præstationer</h3>
+                        </div>
+                        <div class="achievements-list" id="achievementsList"></div>
+                    </div>
+
+                    <div class="home-section leaderboard">
+                        <div class="section-header">
+                            <h3>📊 Din fremgang</h3>
+                        </div>
+                        <div class="progress-overview" id="progressOverview"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Arena Screen -->
+            <section id="arenaScreen" class="screen">
+                <div id="arenaContent"></div>
+            </section>
+
+            <!-- Lessons Screen -->
+            <section id="lessonsScreen" class="screen">
+                <div id="lessonsContent"></div>
+            </section>
+
+            <!-- Stats Screen -->
+            <section id="statsScreen" class="screen">
+                <div id="statsContent"></div>
+            </section>
+        </main>
+    </div>
+
+    <div class="toast-container" id="toastContainer"></div>
+    <div class="level-up-modal" id="levelUpModal">
+        <div class="level-up-content">
+            <div class="level-up-icon">🎉</div>
+            <h2>Level Up!</h2>
+            <p class="level-up-text"></p>
+            <button class="btn btn-primary" onclick="App.closeLevelUp()">Fortsæt</button>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/scheduler.js"></script>
+    <script src="js/gamification.js"></script>
+    <script src="js/lessons.js"></script>
+    <script src="js/arena.js"></script>
+    <script src="js/stats.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

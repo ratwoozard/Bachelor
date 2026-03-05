@@ -1,11 +1,43 @@
 {
-  "version": 1,
+  "version": 2,
   "modules": {
-    "videnskabsteori_basics": {
-      "id": "videnskabsteori_basics",
-      "title": "Videnskabsteori – grundlæggende",
-      "description": "Indføring i videnskabsteori og forskningsmetoder.",
-      "path": "res://content/modules/videnskabsteori_basics/"
+    "videnskabsteori": {
+      "id": "videnskabsteori",
+      "title": "Videnskabsteori",
+      "description": "De fire hovedpositioner, pragmatisme og slutningsformer",
+      "path": "res://content/lessons/videnskabsteori.json",
+      "icon": "📚"
+    },
+    "metode": {
+      "id": "metode",
+      "title": "Metode",
+      "description": "Casestudie, interviews, artefaktanalyse og validitet",
+      "path": "res://content/lessons/metode.json",
+      "icon": "🔬"
+    },
+    "teori": {
+      "id": "teori",
+      "title": "Teoretisk ramme",
+      "description": "Lean, TOE, DSS, Davenport og deres samspil",
+      "path": "res://content/lessons/teori.json",
+      "icon": "🧠"
+    }
+  },
+  "categories": {
+    "videnskabsteori": {
+      "id": "videnskabsteori",
+      "title": "Videnskabsteori",
+      "description": "Positioner, ontologi, epistemologi og slutningsformer"
+    },
+    "metode": {
+      "id": "metode",
+      "title": "Metode",
+      "description": "Casestudie, dataindsamling og analyse"
+    },
+    "teori": {
+      "id": "teori",
+      "title": "Teori",
+      "description": "Lean, TOE, DSS og Davenport"
     }
   }
 }

@@ -233,7 +233,7 @@ Forskningsmetode handler om at matche dit **forskningsspørgsmål** med den rigt
 ## 6. CASE-STUDIE OG SAMPLING (Holm/Kuada primært, Saunders supplerende)
 
 ### Kerneidé
-Et **case-studie** undersøger et afgrænsent fænomen i dybden og i sin virkelige kontekst. Forskellen fra survey/eksperiment: man accepterer at **kontekst bestemmer** – derfor generaliserer man *analytisk* (til teori), ikke *statistisk* (til population). Der findes to hovedtyper: **holistisk** (organisation som helhed) og **indlejret** (fokus på specifikke enheder/afdelinger).
+Et **case-studie** undersøger et afgrænsent fænomen i dybden og i sin virkelige kontekst. Forskellen fra survey/eksperiment: man accepterer at **kontekst bestemmer** – derfor generaliserer man *analytisk* (til teori), ikke *statistisk* (til population). Der findes to hovedtyper: **holistisk** (når man ønsker at forstå organisationen som helhed, frem for specifikke afdelinger) og **indlejret** (når man ønsker at forstå specifikke enheder/processer inden for organisationen).
 
 ### Nøglebegreber (Holm, 2023; Kuada, 2012)
 
@@ -305,12 +305,12 @@ Et **case-studie** undersøger et afgrænsent fænomen i dybden og i sin virkeli
 |---|---|---|
 | **Bekræftende (convergence)** | Data fra forskellige kilder peger i samme retning | Øger tillid – fremhæv dette som styrke |
 | **Uddybende (complementary)** | Forskellige kilder giver forskellige aspekter af samme fænomen | Giver dybere forståelse – brug til nuancering |
-| **Komplementerende** | Kilder belyser forskellige dele af problemet | Hver kilde bidrager unikt – forklar hvad hver giver |
+| **Komplementerende** | Kvantitative og kvalitative data viser forskellige resultater, men tilsammen giver en mere fuldkommen forståelse af det undersøgte fænomen | Hver kilde bidrager unikt – forklar hvordan forskellene samlet set beriger forståelsen |
 | **Modsigende (dissonance)** | Kilder modsiger hinanden | Kræver forklaring – hvad er årsagen til modsætningen? (fx direktør vs. projektleder perspektiv, eller artefakt vs. interview) |
 
 ### Risici ved triangulering
 - **Tidskrævende og omkostningsfuldt** – især hvis man skal indsamle store mængder data fra flere kilder
-- **Dataentropi (bias-forstærkning)** – hvis 2-3 kilder har *samme* bias, forstærkes det i stedet for at opvejes. Eksempel: hvis alle interviews er med ledere (ikke konsulenter), kan ledelsens bias dominere
+- **Dataentropi** – Datakvaliteten reduceres, og der sker dataforvanskning, hvor bias fra flere datakilder eller metoder forstærkes i stedet for at opvejes. Eksempel: hvis alle interviews er med ledere (ikke konsulenter), forstærkes ledelsens bias.
 
 ### Hvordan det bruges i jeres projekt
 
@@ -459,15 +459,9 @@ METODE OG TEKNIK (konkret værktøj til dataindsamling/analyse)
 2. **Forsvar valg:** Når censor spørger "hvorfor case-studie?", svar med reference til hele kæden
 3. **Vis bevidsthed:** I behøver ikke kalde det "research diagram", men vis at I forstår kæden
 
-### Eksempel 1 (fra jeres undervisning): KMD og cloud computing
-- **Ontologi:** Implementation kræver forandring (subjektivt perspektiv); standardisering er målbar (objektivt perspektiv)
-- **Epistemologi:** Både kvalitative (forandring) og kvantitative (effektivitet) data nødvendige
-- **Ontologisk ståsted:** **Pragmatisk** (begge perspektiver legitimeres)
-
-### Eksempel 2 (fra jeres undervisning): Telenor og ERP
-- **Ontologi:** Implementation kræver forbruger-perspektiv (subjektivt)
-- **Epistemologi:** Kun det subjektive perspektiv inddrages (fokus udelukkende på brugerne)
-- **Ontologisk ståsted:** **Situationel** (kontekst-afhængig, interpretivist)
+### Pragmatisk og situationel ontologi (fra jeres undervisning)
+- **Pragmatisk ontologi:** Vælges når problemløsningen skaber behov for *både* kvantitative og kvalitative data. Dette ontologiske ståsted giver typisk **mixed methods**. (Fx KMD/cloud-eksemplet, hvor der var behov for at måle både forandring og standardisering).
+- **Situationel ontologi:** Vælges når problemløsningen fodrer *enten* kvantitative *eller* kvalitative data. Dette ontologiske ståsted giver typisk **multi-metoder**. (Fx Telenor-eksemplet, hvor kun det subjektive forbruger-perspektiv inddrages).
 
 ### Jeres projekt (Support Solutions / SoluTalent)
 - **Ontologi:** Spildtid og automatisering har både objektive (målbare) og subjektive (oplevede) dimensioner
@@ -484,7 +478,7 @@ METODE OG TEKNIK (konkret værktøj til dataindsamling/analyse)
 - ❌ **"Vi valgte case-studie fordi det var nemmest"** – Metodologi følger af ontologi/epistemologi, ikke bekvemmelighed
 - ❌ **"Vi er positivister der laver interviews"** – Inkongruens (positivisme passer bedre til eksperimenter/surveys)
 - ❌ **"Ontologi er ligegyldigt, vi laver bare empiri"** – Nej, ontologien former hvad I ser som valid data
-- ✅ **Korrekt brug:** "Vores pragmatiske ontologiske position legitimerer at vi kombinerer kvalitative og kvantitative metoder, da vi fokuserer på hvad der fungerer for at besvare PF snarere end at holde fast i ét paradigme."
+- ✅ **Korrekt brug:** "Vores pragmatiske ontologiske position legitimerer at vi bruger mixed methods (kombinerer kvalitative og kvantitative data), da vi fokuserer på hvad der fungerer for at besvare PF. Havde vi anlagt en situationel ontologi med kun én datatype, ville vi i stedet have benyttet multi-metoder."
 
 ### Kilder
 - Holm, A. B. (2023). *Videnskab i virkeligheden* (3. udg.). Kap. 2-3 (videnskabsteori, metode)
@@ -702,7 +696,7 @@ Brug interpretivistisk evidens når I skal forklare *hvorfor* aktører handler s
 **Kerneidé:** Forståelse sker gennem en dialektisk proces (fortolkningscirklen) hvor del og helhed gensidigt belyser hinanden. Al forståelse er historisk situeret, og forforståelse (fordomme) er nødvendig, ikke hindrende.
 
 **Nøglekriterier:**
-- **Fortolkningscirklen:** Del ↔ helhed (fx én sætning forstås i kontekst af hele interviewet; hele interviewet forstås gennem enkeltudsagn)
+- **Fortolkningscirklen:** Den hermeneutiske cirkel bevæger sig mellem del og helhed gennem tre logiske processer: induktion, deduktion, abduktion. (Fx én sætning forstås i kontekst af hele interviewet, hvilket fører til iterativ tilpasning af teorien).
 - **Forforståelse/fordomme:** Vi forstår aldrig "rent"—vores historiske/kulturelle bagage former tolkningen (skal ekspliciteres, ikke elimineres)
 - **Horisontsammensmeltning:** Forskerens horisont møder tekstens/informantens horisont i produktiv dialog
 - Historisk-kulturel indlejring: Mening er ikke tidløs, men bundet til kontekst
@@ -858,7 +852,7 @@ Har I klar teori at teste?
 
 **Integration:** "Connecting"—den kvalitative fases resultater informerer design af kvantitativ fase (fx spørgeskema-items baseret på interview-temaer).
 
-**Eksempel:** Interview med 5 informanter identificerer "tillid til AI" som barriere → derefter survey til 100 medarbejdere med Likert-skala: "Hvor meget stoler du på AI-matching? (1-7)".
+**Eksempel:** En studerende bruger Gadamers hermeneutik til at forstå medarbejderudsagn i interviews, og tester derefter resultaterne/temaerne via en spørgeskemaundersøgelse. Dette kaldes en **sekventiel udforskende** metodisk tilgang.
 
 **I jeres case:** Delvist—hvis I først interviewede og derefter målte KPI'er baseret på interview-fund. Men sandsynligvis har I KPI-data allerede (platformen kører), så det er ikke rent sekventielt udforskende.
 

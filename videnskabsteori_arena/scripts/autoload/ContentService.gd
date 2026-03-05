@@ -1,13 +1,15 @@
 extends Node
 ## ContentService: Læser og validerer indhold fra res://content/
-## Udstiller API: hent modul, hent spørgsmål, søg i content, items (get_all_items, get_items_by_lens). Ingen netværk.
+## Udstiller API: hent modul, hent spørgsmål, søg i content, items (get_all_items, get_items_by_lens), lessons. Ingen netværk.
 
 var _content_index: Dictionary = {}
 var _items: Array = []
+var _lessons: Dictionary = {}
 
 func _ready() -> void:
 	_reload_index()
 	_load_items()
+	_load_lessons()
 
 func _reload_index() -> void:
 	var path := "res://content/content_index.json"
@@ -134,3 +136,43 @@ func get_items_by_lens(lens: String) -> Array:
 		if String(it.get("lens", "")).to_lower() == needle:
 			out.append(it)
 	return out
+
+func get_items_by_category(category: String) -> Array:
+	var out: Array = []
+	var needle := category.to_lower()
+	for it in _items:
+		if String(it.get("category", "")).to_lower() == needle:
+			out.append(it)
+	return out
+
+func _load_lessons() -> void:
+	_lessons = {}
+	var modules := get_all_modules()
+	for module_id in modules:
+		var m: Dictionary = modules[module_id]
+		var lesson_path: String = m.get("path", "")
+		if lesson_path.is_empty():
+			continue
+		if not FileAccess.file_exists(lesson_path):
+			continue
+		var f := FileAccess.open(lesson_path, FileAccess.READ)
+		if not f:
+			continue
+		var raw := f.get_as_text()
+		f.close()
+		var json := JSON.new()
+		if json.parse(raw) == OK:
+			var data = json.get_data()
+			if data is Dictionary:
+				_lessons[module_id] = data
+	print("[ContentService] lessons loaded: %d" % _lessons.size())
+
+func get_lesson(module_id: String) -> Dictionary:
+	return _lessons.get(module_id, {})
+
+func get_all_lessons() -> Dictionary:
+	return _lessons.duplicate(true)
+
+func get_lesson_chapters(module_id: String) -> Array:
+	var lesson := get_lesson(module_id)
+	return lesson.get("chapters", [])

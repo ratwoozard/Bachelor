@@ -2,6 +2,7 @@
   {
     "id": "popper_falsifikation_1",
     "lens": "Popper",
+    "category": "videnskabsteori",
     "prompt": "En supportleder siger: 'Vores nye AI-matching reducerer spildtid.' Hvordan kan påstanden gøres testbar?",
     "options": [
       "Formulér en falsificerbar hypotese og definer et målepunkt (fx tid pr. kandidat) før/efter",
@@ -9,11 +10,12 @@
       "Vælg kun cases hvor AI'en virker bedst"
     ],
     "correct_index": 0,
-    "explanation": "Popper: Videnskabelige udsagn skal kunne falsificeres; operationalisér påstanden og gør den testbar."
+    "explanation": "Popper: Videnskabelige udsagn skal kunne falsificeres; operationalisér påstanden og gør den testbar. Kilde: Popper, K. (1959) Logic of Scientific Discovery."
   },
   {
     "id": "kuhn_paradigme_1",
     "lens": "Kuhn",
+    "category": "videnskabsteori",
     "prompt": "Teamet er uenige om, hvad 'god matching' betyder. Hvilken Kuhn-forklaring passer bedst?",
     "options": [
       "De arbejder under forskellige paradigmer med forskellige standarder for 'rigtig' løsning",
@@ -21,11 +23,12 @@
       "Uenighed betyder at ingen metoder kan bruges"
     ],
     "correct_index": 0,
-    "explanation": "Kuhn: Paradigmer styrer, hvilke problemer/standarder der anses som legitime."
+    "explanation": "Kuhn: Paradigmer styrer, hvilke problemer/standarder der anses som legitime. Et paradigme er et fælles sæt antagelser og metoder. Kilde: Kuhn, T. (1962) The Structure of Scientific Revolutions."
   },
   {
     "id": "lakatos_program_1",
     "lens": "Lakatos",
+    "category": "videnskabsteori",
     "prompt": "I tester AI-forslag, men ændrer løbende reglerne for hvad der tæller som 'match'. Hvordan kan det ses i Lakatos-termer?",
     "options": [
       "Som et forskningsprogram hvor hjælpeakser (auxiliaries) justeres for at beskytte en kerneantagelse",
@@ -33,11 +36,12 @@
       "Som et bevis på at teori altid er ligegyldig"
     ],
     "correct_index": 0,
-    "explanation": "Lakatos: Et forskningsprogram har en 'hard core' og en beskyttende bælte af hjælpehypoteser."
+    "explanation": "Lakatos: Et forskningsprogram har en 'hard core' (uforanderlig kerne) og en beskyttende bælte af hjælpehypoteser der kan justeres. Kilde: Lakatos, I. (1978) The Methodology of Scientific Research Programmes."
   },
   {
     "id": "feyerabend_metode_1",
     "lens": "Feyerabend",
+    "category": "videnskabsteori",
     "prompt": "En udvikler foreslår at blande kvalitative interviews og logdata, selvom processen ikke er 'ren'. Hvilken Feyerabend-vinkel passer bedst?",
     "options": [
       "Metodisk pluralisme: 'anything goes' som kritik af metodisk dogmatisme",
@@ -45,11 +49,12 @@
       "Data uden teori er altid bedre"
     ],
     "correct_index": 0,
-    "explanation": "Feyerabend: Kritiserer metode-monopol; flere metoder kan give bedre indsigt i praksis."
+    "explanation": "Feyerabend: Kritiserer metode-monopol; flere metoder kan give bedre indsigt i praksis. Kilde: Feyerabend, P. (1975) Against Method."
   },
   {
     "id": "pragmatisme_abduktion_1",
     "lens": "Pragmatisme",
+    "category": "videnskabsteori",
     "prompt": "I ser et mønster: kandidater med bestemte tags matches hurtigere. I opstiller en mulig forklaring og tester den i næste sprint. Hvad kaldes det?",
     "options": [
       "Abduktion: bedste forklaring → efterprøvning i praksis",
@@ -57,6 +62,396 @@
       "Ren induktion uden hypotese"
     ],
     "correct_index": 0,
-    "explanation": "Pragmatisk/abduktiv tilgang: man danner en plausibel forklaring og afprøver den iterativt i casen."
+    "explanation": "Pragmatisk/abduktiv tilgang: man danner en plausibel forklaring og afprøver den iterativt. Peirce kaldte det 'inference to the best explanation'. Kilde: Peirce, C.S.; Saunders et al. (2023)."
+  },
+  {
+    "id": "positivisme_1",
+    "lens": "Positivisme",
+    "category": "videnskabsteori",
+    "prompt": "En forsker hævder at man kun kan opnå sand viden gennem systematisk måling og statistisk analyse. Hvilken position repræsenterer dette?",
+    "options": [
+      "Positivisme: viden er objektiv, generaliserbar og lovmæssig",
+      "Hermeneutik: viden er fortolkningsbaseret",
+      "Pragmatisme: viden vurderes på anvendelighed"
+    ],
+    "correct_index": 0,
+    "explanation": "Positivisme: Der eksisterer én objektiv virkelighed der kan måles. Viden opnås gennem kvantitative metoder, eksperimenter og statistik. Typisk slutningsform er deduktiv (teori → hypotese → test). Kilde: AKADEMISK_RAMME.md sektion A.1."
+  },
+  {
+    "id": "hermeneutik_1",
+    "lens": "Hermeneutik",
+    "category": "videnskabsteori",
+    "prompt": "En forsker ønsker at forstå hvordan projektledere oplever og fortolker deres arbejde med AI-værktøjer. Hvilken position passer bedst?",
+    "options": [
+      "Fortolkende/hermeneutisk: viden er kontekstuel og fortolkningsbaseret",
+      "Positivisme: viden kræver eksperimentel kontrol",
+      "Kritisk realisme: vi skal finde skjulte mekanismer"
+    ],
+    "correct_index": 0,
+    "explanation": "Hermeneutik: Virkeligheden er socialt konstrueret. Viden er kontekstuel og fortolkningsbaseret. Metode er typisk kvalitativ (interviews, observation). Slutningsform er induktiv (data → mønstre → teori). Kilde: AKADEMISK_RAMME.md sektion A.1."
+  },
+  {
+    "id": "kritisk_realisme_1",
+    "lens": "Kritisk realisme",
+    "category": "videnskabsteori",
+    "prompt": "En forsker vil forstå de underliggende strukturer der forklarer hvorfor AI-adoption ofte møder modstand. Hvilken position passer?",
+    "options": [
+      "Kritisk realisme: virkeligheden har lag, og vi søger dybereliggende mekanismer",
+      "Positivisme: kun det målbare er relevant",
+      "Pragmatisme: det der virker er sandt"
+    ],
+    "correct_index": 0,
+    "explanation": "Kritisk realisme: Virkelighed i lag (det faktiske, det aktualiserede, det empiriske). Viden er fejlbar men vi kan nærme os dybereliggende strukturer via retroduktion. Kilde: AKADEMISK_RAMME.md sektion A.1."
+  },
+  {
+    "id": "pragmatisme_ontologi_1",
+    "lens": "Pragmatisme",
+    "category": "videnskabsteori",
+    "prompt": "Jeres projekt kombinerer interviews (kvalitativt) og KPI-data (kvantitativt). Hvilken ontologisk position legitimerer dette?",
+    "options": [
+      "Pragmatisk ontologi: fokus på praktisk problemløsning, ikke én sandhed",
+      "Positivistisk ontologi: kun kvantitative data er gyldige",
+      "Hermeneutisk ontologi: kun fortolkning er mulig"
+    ],
+    "correct_index": 0,
+    "explanation": "Pragmatisme: Vælges når problemløsningen skaber behov for både kvantitative og kvalitative data. I behøver ikke argumentere for én sandhed, men for praktisk problemløsning. Kilde: AKADEMISK_RAMME.md sektion A.2."
+  },
+  {
+    "id": "deduktion_1",
+    "lens": "Slutningsformer",
+    "category": "metode",
+    "prompt": "I vil teste om Lean-teoriens forudsigelse om ventetid holder i jeres case. Hvilken slutningsform bruger I?",
+    "options": [
+      "Deduktion: teori → empiri (test af teoretiske forudsigelser)",
+      "Induktion: empiri → teori (opdage mønstre)",
+      "Abduktion: vekslen mellem teori og empiri"
+    ],
+    "correct_index": 0,
+    "explanation": "Deduktion går fra teori til empiri. Man starter med en teori, udleder en hypotese, og tester den med data. Kilde: AKADEMISK_RAMME.md sektion A.3."
+  },
+  {
+    "id": "induktion_1",
+    "lens": "Slutningsformer",
+    "category": "metode",
+    "prompt": "I koder interviews og finder at 'tillid' nævnes af alle informanter. Hvad er slutningsformen?",
+    "options": [
+      "Induktion: fra gentagne observationer til et mønster/tema",
+      "Deduktion: fra teori til test",
+      "Retroduktion: fra effekt til underliggende årsag"
+    ],
+    "correct_index": 0,
+    "explanation": "Induktion går fra empiri til teori. Man observerer mønstre i data og generaliserer til et tema eller teori. Kilde: AKADEMISK_RAMME.md sektion A.3."
+  },
+  {
+    "id": "abduktion_dybde_1",
+    "lens": "Slutningsformer",
+    "category": "metode",
+    "prompt": "I observerer lang ventetid → bruger Lean-teori → opdager at årsagen er organisatorisk forsigtighedsprincip → nuancerer forklaringen med TOE. Hvad hedder denne proces?",
+    "options": [
+      "Abduktion: iterativ vekslen mellem observation og teori for bedste forklaring",
+      "Ren induktion: kun data, ingen teori",
+      "Ren deduktion: kun teori, ingen data-drevet tilpasning"
+    ],
+    "correct_index": 0,
+    "explanation": "Abduktion er iterativ: Observation → Teori → Ny observation → Nuanceret teori. Det er 'inference to the best explanation'. Forskellig fra induktion der stopper ved mønsteret. Kilde: AKADEMISK_RAMME.md sektion A.3."
+  },
+  {
+    "id": "casestudie_type_1",
+    "lens": "Casestudie",
+    "category": "metode",
+    "prompt": "Jeres projekt analyserer en specifik proces (bemanding) og et specifikt system (SoluTalent) inden for SS. Hvilken casestudie-type er det?",
+    "options": [
+      "Indlejret single-case studie: specifikke enheder analyseres inden for én organisation",
+      "Holistisk casestudie: hele organisationen som helhed",
+      "Multiple-case studie: flere organisationer sammenlignes"
+    ],
+    "correct_index": 0,
+    "explanation": "Indlejret casestudie: Vælges når man ønsker at forstå specifikke enheder/processer inden for organisationen. Jeres indlejrede enheder er: SoluTalent-platformen + bemandingsprocessen. Kilde: Holm (2023); AKADEMISK_RAMME.md sektion B.1."
+  },
+  {
+    "id": "analytisk_generaliserbarhed_1",
+    "lens": "Casestudie",
+    "category": "metode",
+    "prompt": "En censor spørger: 'Hvordan kan jeres fund gælde for andre virksomheder?' Hvad er det korrekte svar?",
+    "options": [
+      "Casestudier generaliserer analytisk til teori, ikke statistisk til population",
+      "Vores fund gælder for alle konsulenthuse",
+      "Man kan ikke generalisere fra casestudier"
+    ],
+    "correct_index": 0,
+    "explanation": "Analytisk generaliserbarhed: 'Vores fund understøtter TOE-frameworkets forudsigelse om organisatoriske barrierer ved AI-adoption' (til teori) – IKKE 'Dette gælder for alle konsulenthuse' (statistisk). Kilde: Holm (2023); Kuada (2012)."
+  },
+  {
+    "id": "triangulering_1",
+    "lens": "Validitet",
+    "category": "metode",
+    "prompt": "Hvordan styrker I troværdigheden (credibility) af jeres fund?",
+    "options": [
+      "Triangulering: kombiner interview + artefaktanalyse + KPI-data",
+      "Kun interviews fra én informant",
+      "Kun platformdata uden menneskelig kontekst"
+    ],
+    "correct_index": 0,
+    "explanation": "Triangulering: Fund understøttes af mindst 2 empirikilder (interview + artefakt/data). Det er et af Lincoln & Gubas troværdighedskriterier. Kilde: AKADEMISK_RAMME.md sektion B.5."
+  },
+  {
+    "id": "informantvalidering_1",
+    "lens": "Validitet",
+    "category": "metode",
+    "prompt": "I sender jeres analyseudkast til informanterne for at tjekke om I har forstået dem korrekt. Hvad hedder denne teknik?",
+    "options": [
+      "Informantvalidering (member checking): deltagerne bekræfter tolkningen",
+      "Peer review: andre forskere vurderer",
+      "Bias-analyse: I undersøger jeres egne fordomme"
+    ],
+    "correct_index": 0,
+    "explanation": "Informantvalidering er et krav i kvalitativ forskning: deltagerne skal have mulighed for at bekræfte at forskernes tolkning repræsenterer dem korrekt. Kilde: Lincoln & Guba; AKADEMISK_RAMME.md sektion B.5."
+  },
+  {
+    "id": "lean_waste_ventetid_1",
+    "lens": "Lean",
+    "category": "teori",
+    "prompt": "Jobs ligger i staging-køen i gennemsnit 4 timer før behandling. Hvilken Lean waste-kategori er det?",
+    "options": [
+      "Ventetid: opgaver/matches venter i kø",
+      "Overprocessering: mere bearbejdning end nødvendigt",
+      "Fejl/Rework: forkerte matches"
+    ],
+    "correct_index": 0,
+    "explanation": "Lean: Ventetid er en af de 7 spildkategorier. I produktionskontekst er det 'venter på maskine/materialer' – i jeres kontekst er det 'jobs i staging; pending matches'. Kilde: Womack & Jones (2003); AKADEMISK_RAMME.md sektion C.1."
+  },
+  {
+    "id": "lean_waste_overprocessering_1",
+    "lens": "Lean",
+    "category": "teori",
+    "prompt": "En admin manuelt godkender matches som AI'en allerede har klassificeret med høj confidence. Hvilken waste-type?",
+    "options": [
+      "Overprocessering: manuel behandling af noget der kunne auto-håndteres",
+      "Ventetid: venter på ressourcer",
+      "Uudnyttet talent: medarbejdere bruges forkert"
+    ],
+    "correct_index": 0,
+    "explanation": "Overprocessering: 'Mere bearbejdning end nødvendigt'. I jeres case: manuel curation af high-confidence jobs der kunne auto-godkendes. Kilde: Womack & Jones (2003); AKADEMISK_RAMME.md sektion C.1."
+  },
+  {
+    "id": "lean_waste_fejl_1",
+    "lens": "Lean",
+    "category": "teori",
+    "prompt": "Et match afvises fordi konsulenten manglede en specifik kompetence som AI'en ikke fangede. Hvilken waste-type?",
+    "options": [
+      "Fejl/Rework: forkerte matches der skal laves om",
+      "Overproduktion: for mange forslag",
+      "Transport: unødvendig informationsflytning"
+    ],
+    "correct_index": 0,
+    "explanation": "Fejl/Rework: 'Defekter → reparation'. I jeres kontekst registreres det i rejection_reasons (mismatch, skill_level). Kilde: Womack & Jones (2003); AKADEMISK_RAMME.md sektion C.1."
+  },
+  {
+    "id": "lean_waste_talent_1",
+    "lens": "Lean",
+    "category": "teori",
+    "prompt": "En projektleder med dyb brancheviden bruger 2 timer om dagen på at reviewe trivielle matches. Hvilken waste-type?",
+    "options": [
+      "Uudnyttet talent: medarbejdere bruges til lavværdi-opgaver",
+      "Ventetid: venter på godkendelse",
+      "Lager: ophobning af items"
+    ],
+    "correct_index": 0,
+    "explanation": "Uudnyttet talent: 'Medarbejdere bruges forkert'. Projektlederen kunne skabe mere værdi på komplekse matches i stedet for trivielle godkendelser. Kilde: Womack & Jones (2003); AKADEMISK_RAMME.md sektion C.1."
+  },
+  {
+    "id": "toe_technology_1",
+    "lens": "TOE",
+    "category": "teori",
+    "prompt": "Override rate er 15% – dvs. admin ændrer 15% af AI's forslag. Hvilken TOE-dimension handler dette om?",
+    "options": [
+      "Technology: er AI-matchingen præcis nok til at stole på?",
+      "Organization: har teamet kompetencer?",
+      "Environment: markedspres og konkurrence?"
+    ],
+    "correct_index": 0,
+    "explanation": "TOE Technology-dimensionen: Er teknologien (AI) præcis nok? Måles via Precision@5, override rate, enrichment confidence. Kilde: Tornatzky & Fleischer (1990); AKADEMISK_RAMME.md sektion C.3."
+  },
+  {
+    "id": "toe_organization_1",
+    "lens": "TOE",
+    "category": "teori",
+    "prompt": "Teamet tøver med at aktivere auto-approval fordi de ikke stoler på AI'en endnu. Hvilken TOE-dimension?",
+    "options": [
+      "Organization: tillid til AI, ændringsvillighed, kultur",
+      "Technology: systemets præcision",
+      "Environment: kundekrav og regulering"
+    ],
+    "correct_index": 0,
+    "explanation": "TOE Organization-dimensionen: Organisatoriske faktorer som tillid, kompetencer, ledelsesopbakning, kultur og ressourcer påvirker adoption. Kilde: Tornatzky & Fleischer (1990); AKADEMISK_RAMME.md sektion C.3."
+  },
+  {
+    "id": "toe_environment_1",
+    "lens": "TOE",
+    "category": "teori",
+    "prompt": "Konkurrenter kan levere kandidater inden for 2 timer, hvilket presser SS til at automatisere hurtigere. Hvilken TOE-dimension?",
+    "options": [
+      "Environment: markedspres, konkurrence, hastighed som parameter",
+      "Organization: interne ressourcer",
+      "Technology: AI-performance"
+    ],
+    "correct_index": 0,
+    "explanation": "TOE Environment-dimensionen: Eksterne faktorer som markedspres, konkurrence, regulering (GDPR, EU AI Act), og kundekrav. Kilde: Tornatzky & Fleischer (1990); AKADEMISK_RAMME.md sektion C.3."
+  },
+  {
+    "id": "dss_human_in_loop_1",
+    "lens": "DSS",
+    "category": "teori",
+    "prompt": "SoluTalent genererer match-forslag med scores, og admin godkender/afviser med rejection_reason. Hvad kaldes dette designprincip?",
+    "options": [
+      "Human-in-the-loop: AI foreslår, mennesket beslutter",
+      "Full automation: ingen menneskelig involvering",
+      "Manual processing: ingen AI-assistance"
+    ],
+    "correct_index": 0,
+    "explanation": "Human-in-the-loop: AI genererer forslag (match_requests med scores), mennesket godkender/afviser (match review), feedback påvirker systemet (match_analytics). Kilde: Turban et al. (2014); AKADEMISK_RAMME.md sektion C.4."
+  },
+  {
+    "id": "dss_graense_1",
+    "lens": "DSS",
+    "category": "teori",
+    "prompt": "Hvad er det centrale spørgsmål for USP 3 (grænsen for automatisering)?",
+    "options": [
+      "Hvornår giver human-in-the-loop mening, og hvornår er det unødvendigt spild?",
+      "Hvordan bygger man en bedre AI?",
+      "Hvordan måler man ROI af software?"
+    ],
+    "correct_index": 0,
+    "explanation": "DSS-perspektivet på automatisering: Spørgsmålet er ikke 'kan vi automatisere?' men 'hvornår er menneskelig vurdering værdiskabende vs. spildtid?' Kilde: AKADEMISK_RAMME.md sektion C.4."
+  },
+  {
+    "id": "davenport_asis_1",
+    "lens": "Davenport",
+    "category": "teori",
+    "prompt": "I kortlægger den nuværende proces med SoluTalents automatisering + manuelle trin. Hvad kaldes dette?",
+    "options": [
+      "As-is analyse: forståelse af nuværende proces",
+      "To-be design: fremtidig ønsket proces",
+      "Gap-analyse: afstand mellem as-is og to-be"
+    ],
+    "correct_index": 0,
+    "explanation": "Davenport As-is: Forstå den nuværende proces. I jeres projekt: processen MED SoluTalents nuværende automatisering + manuelle trin. Kilde: Davenport (1993); AKADEMISK_RAMME.md sektion C.2."
+  },
+  {
+    "id": "davenport_tobe_1",
+    "lens": "Davenport",
+    "category": "teori",
+    "prompt": "I foreslår at aktivere auto-approval for matches med confidence > 0.9. Hvad er dette i procesoptimeringstermer?",
+    "options": [
+      "To-be design: forbedret proces med yderligere automatisering",
+      "As-is kortlægning: nuværende tilstand",
+      "Root cause analyse: årsag til problemer"
+    ],
+    "correct_index": 0,
+    "explanation": "Davenport To-be: Design den forbedrede proces. I har en fordel: I kan pege på konkrete auto-approval gates og KPI-tærskler der allerede er delvist implementeret. Kilde: Davenport (1993); AKADEMISK_RAMME.md sektion C.2."
+  },
+  {
+    "id": "teori_samspil_1",
+    "lens": "Helhedsbillede",
+    "category": "teori",
+    "prompt": "Lean identificerer ventetid (USP1), AI adresserer det via DSS (USP2), men organisatoriske faktorer begrænser automatiseringen (USP4). Hvilken teori strukturerer barriererne?",
+    "options": [
+      "TOE: strukturerer teknologiske, organisatoriske og miljømæssige barrierer",
+      "Lean: kategoriserer spildtyper",
+      "DSS: forklarer beslutningsstøttesystemer"
+    ],
+    "correct_index": 0,
+    "explanation": "Teorisamspil: Lean (USP1 spild) → Davenport + DSS (USP2 AI-effekt) → DSS human-in-loop (USP3 grænse) → TOE (USP4 forudsætninger). Kilde: AKADEMISK_RAMME.md sektion C.5."
+  },
+  {
+    "id": "bias_refleksion_1",
+    "lens": "Validitet",
+    "category": "metode",
+    "prompt": "I er praktikanter hos SS og har været med til at udvikle SoluTalent. Hvordan håndterer I denne potentielle bias?",
+    "options": [
+      "Reflekter eksplicit over bias, inkluder data der viser systemets begrænsninger",
+      "Ignorer det – praktikstatus er irrelevant",
+      "Fremhæv kun positive resultater"
+    ],
+    "correct_index": 0,
+    "explanation": "Bekræftbarhed (confirmability): I har privilegeret adgang MEN bias-risiko. Enhver positiv påstand om platformen skal have kritisk modvægt. Inkluder rejection reasons, override rate og begrænsninger. Kilde: AKADEMISK_RAMME.md adfærdsregler; Lincoln & Guba."
+  },
+  {
+    "id": "tematisk_analyse_1",
+    "lens": "Metode",
+    "category": "metode",
+    "prompt": "I bruger Lean waste-kategorier som udgangspunkt men er åbne for nye temaer fra data. Hvad hedder denne tilgang?",
+    "options": [
+      "Kombineret deduktiv/induktiv kodning: foruddefinerede + emergente temaer",
+      "Ren induktion: ingen forudgående kategorier",
+      "Ren deduktion: kun teori-drevne kategorier"
+    ],
+    "correct_index": 0,
+    "explanation": "Tematisk analyse: Brug Lean-waste som deduktive temaer, men vær åben for induktive/emergente temaer fra data. Det er abduktion i praksis. Kilde: Braun & Clarke (2006); AKADEMISK_RAMME.md sektion B.4."
+  },
+  {
+    "id": "interviewguide_1",
+    "lens": "Metode",
+    "category": "metode",
+    "prompt": "Jeres interviewguide har temaer koblet til USP 1-4. Hvilken spørgsmålstype bør I undgå?",
+    "options": [
+      "Ledende/lukkede spørgsmål som 'Synes du AI er godt?'",
+      "Åbne spørgsmål som 'Beskriv processen fra...'",
+      "Opfølgende spørgsmål som 'Kan du give et eksempel?'"
+    ],
+    "correct_index": 0,
+    "explanation": "Semistrukturerede interviews: Undgå ledende spørgsmål. Brug åbne ('Beskriv...'), opfølgende ('Kan du give et eksempel?') og kontrasterende ('Hvad hvis AI'en tog fejl?'). Kilde: AKADEMISK_RAMME.md sektion B.2."
+  },
+  {
+    "id": "artefaktanalyse_1",
+    "lens": "Metode",
+    "category": "metode",
+    "prompt": "I analyserer SoluTalent som artefakt. Hvad fokuserer I IKKE på?",
+    "options": [
+      "Code review eller teknisk evaluering af kodestruktur",
+      "Workflow-states og transitions",
+      "Manuelle vs. automatiserede trin"
+    ],
+    "correct_index": 0,
+    "explanation": "Artefaktanalyse: Funktionel analyse af hvad platformen gør i processen – IKKE code review eller teknisk evaluering. I kigger på workflow, states, AI-pipeline, auto-approval gates, KPI'er, rejection reasons. Kilde: AKADEMISK_RAMME.md sektion B.3."
+  },
+  {
+    "id": "kontekstafhaengighed_1",
+    "lens": "Casestudie",
+    "category": "metode",
+    "prompt": "Jeres fund om tillidsbarrierer gælder for SS i 2026. Kan de overføres til andre kontekster?",
+    "options": [
+      "De teoretiske indsigter kan overføres analytisk, men konteksten bestemmer de specifikke mønstre",
+      "Nej, casestudier kan aldrig overføres",
+      "Ja, fund gælder universelt for alle virksomheder"
+    ],
+    "correct_index": 0,
+    "explanation": "Kontekstafhængighed: Fund er gyldige for DENNE kontekst (SS, SoluTalent, dansk marked, 2026). Andre kontekster kan have andre mønstre – men teoretiske indsigter om fx tillidsbarrierer ved AI kan overføres analytisk. Kilde: Holm (2023); AKADEMISK_RAMME.md sektion B.1."
+  },
+  {
+    "id": "pragmatisme_forkert_brug_1",
+    "lens": "Pragmatisme",
+    "category": "videnskabsteori",
+    "prompt": "En studerende skriver: 'Vi har valgt pragmatisme fordi det er det bredeste paradigme.' Hvad er problemet?",
+    "options": [
+      "Det er ikke en begrundelse – man skal forklare hvorfor det passer til den specifikke PF",
+      "Det er en perfekt begrundelse",
+      "Pragmatisme er faktisk det smalleste paradigme"
+    ],
+    "correct_index": 0,
+    "explanation": "Typisk fejl: Pragmatisme er ikke 'det bredeste' eller 'vi gør lidt af hvert'. Det er en bevidst position der siger at spørgsmålet driver metoden. Forklar HVORFOR det passer til JERES PF. Kilde: AKADEMISK_RAMME.md sektion A.2."
+  },
+  {
+    "id": "pragmatisme_hvornaar_ikke_1",
+    "lens": "Pragmatisme",
+    "category": "videnskabsteori",
+    "prompt": "Hvornår er pragmatisme det FORKERTE valg?",
+    "options": [
+      "Når man vil teste én specifik hypotese (→ brug positivisme)",
+      "Når man har en 'hvordan påvirker...'-problemformulering",
+      "Når man kombinerer interviews og data"
+    ],
+    "correct_index": 0,
+    "explanation": "Pragmatisme er forkert hvis: man vil teste specifik hypotese (→ positivisme), forstå dybe meningsstrukturer (→ hermeneutik), afdække magtstrukturer (→ kritisk realisme), eller PF er 'hvorfor oplever X...' (→ fortolkende). Kilde: AKADEMISK_RAMME.md sektion A.4."
   }
 ]

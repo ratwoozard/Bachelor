@@ -1,0 +1,32 @@
+{
+  "id": "teori",
+  "title": "Teoretisk ramme",
+  "description": "Lean, TOE, DSS og Davenport – og hvordan de samarbejder",
+  "chapters": [
+    {
+      "id": "lean",
+      "title": "Lean Waste",
+      "content": "## Lean Waste (Womack & Jones, 2003)\n\n**Oprindelse:** Toyota Production System. Tilpasset vidensarbejde af bl.a. Staats & Upton (2011).\n\n### De 7 spildtyper tilpasset bemanding:\n\n| # | Spildtype | Produktion | Bemanding | SoluTalent-eksempel |\n|---|---|---|---|---|\n| 1 | **Ventetid** | Venter på maskine | Opgaver venter i kø | Jobs i staging; pending matches |\n| 2 | **Overprocessering** | Mere bearbejdning end nødv. | Manuel behandling der kunne automatiseres | Curation af high-confidence jobs |\n| 3 | **Fejl/Rework** | Defekter → reparation | Forkerte matches | Rejection: mismatch, skill_level |\n| 4 | **Uudnyttet talent** | Medarbejdere bruges forkert | Admin på lavværdi-godkendelser | PL reviewer trivielle matches |\n| 5 | **Transport** | Unødvendig flytning | Unødvendig videreformidling | Manuel trigger af notifikationer |\n| 6 | **Overproduktion** | Mere end behov | AI matches der aldrig ses | Forslag der ikke reviewes |\n| 7 | **Lager** | Ophobning | Ubehandlede items | Voksende staging-kø |\n\n### Jeres brug:\nLean er jeres **kategoriseringsværktøj** i USP 1. Når I finder flaskehalse, klassificerer I dem efter waste-type. Det giver struktur og akademisk forankring.\n\n**Kilde:** Womack & Jones (2003)"
+    },
+    {
+      "id": "davenport",
+      "title": "Procesoptimering (Davenport)",
+      "content": "## Procesoptimering: As-is / To-be (Davenport, 1993)\n\n**Kerneidé:** Forstå nuværende proces (as-is), design forbedret proces (to-be), analysér gabet.\n\n### I jeres projekt:\n\n| Tilstand | Beskrivelse | Hvad I gør |\n|---|---|---|\n| **As-is** | Nuværende proces med SoluTalents automatisering + manuelle trin | Det I kortlægger |\n| **To-be** | Proces med yderligere automatisering | Jeres anbefalinger |\n| **Gap** | Hvad forhindrer bevægelsen? | Analyseret med TOE (USP 4) |\n\n### Jeres fordel:\nDe fleste studerende må forestille sig to-be. I kan pege på konkrete:\n- Auto-approval gates\n- KPI-tærskler\n- Automation-muligheder der allerede er delvist implementeret\n\n**Kilde:** Davenport (1993); Dumas et al. for BPMN"
+    },
+    {
+      "id": "toe",
+      "title": "TOE-frameworket",
+      "content": "## TOE-frameworket (Tornatzky & Fleischer, 1990)\n\n**Formål:** Forklarer hvilke faktorer der påvirker adoption og implementering af teknologisk innovation.\n\n### Tre dimensioner:\n\n| Dimension | Spørgsmål | Eksempler fra jeres case |\n|---|---|---|\n| **Technology** | Er AI præcis nok til at stole på? | Precision@5, override rate, enrichment confidence |\n| **Organization** | Kompetencer? Ledelse? Kultur? | Tillid til AI, ændringsvillighed, antal admin |\n| **Environment** | Marked? Konkurrence? Regulering? | Hastighed som parameter, GDPR, EU AI Act |\n\n### Jeres brug:\nTOE er jeres **struktureringsværktøj** i USP 4. Interviewfund om barrierer og forudsætninger sorteres i T, O og E.\n\n### Eksempler på fund efter TOE:\n\n**Technology-barrierer:**\n- AI har 15% override rate → ikke høj nok præcision\n- Enrichment fejler på 10% af profiler\n\n**Organization-barrierer:**\n- Teamet stoler ikke på AI endnu\n- Manglende kompetencer til at forstå AI-output\n- Ledelsen har ikke kommunikeret strategi\n\n**Environment-enablers:**\n- Konkurrenter er hurtigere → pres for automatisering\n- Kunder forventer hurtig respons\n\n**Kilde:** Tornatzky & Fleischer (1990)"
+    },
+    {
+      "id": "dss",
+      "title": "Decision Support Systems",
+      "content": "## Decision Support Systems (Keen & Scott Morton, 1978; Turban et al., 2014)\n\n**Kerneidé:** IT-systemer der **understøtter** menneskelige beslutninger, ikke erstatter dem.\n\n### Human-in-the-loop\n\n```\nAI genererer forslag (match_requests med scores)\n        ↓\nMennesket godkender/afviser (match review med rejection_reason)\n        ↓\nFeedback kan påvirke systemet (match_analytics)\n```\n\n### DSS-typologie (Turban):\n\n| Type | Beskrivelse | SoluTalent-eksempel |\n|---|---|---|\n| **Data-drevet** | Analyse af store datasæt | Embeddings-baseret semantisk søgning |\n| **Model-drevet** | Beregningsmodeller | Scoring-pipeline med vægtede dimensioner |\n| **Vidensbaseret** | Ekspertsystem/AI | GPT-4o-mini evaluering af match-fit |\n\n### USP 3: Grænsen for automatisering\nSpørgsmålet er: **Hvornår giver human-in-the-loop mening, og hvornår er det unødvendigt spild?**\n\nIkke \"kan vi automatisere alt?\" men \"hvor skaber menneskelig vurdering værdi?\"\n\n**Kilde:** Turban et al. (2014)"
+    },
+    {
+      "id": "samspil",
+      "title": "Teoriernes samspil",
+      "content": "## Hvordan teorierne samarbejder\n\n```\nUSP 1 (Spildtid)\n    → LEAN WASTE klassificerer hvad der er spild\n            ↓\nUSP 2 (AI-matchingens effekt)\n    → DAVENPORT strukturerer as-is vs. to-be\n    + DSS forklarer matchingen som beslutningsstøtte\n            ↓\nUSP 3 (Grænsen for automatisering)\n    → DSS (human-in-the-loop): hvornår giver\n      menneskelig vurdering merværdi?\n            ↓\nUSP 4 (Forudsætninger)\n    → TOE strukturerer barrierer/enablers\n            ↓\nDISKUSSION\n    → Alle fire teorier samles:\n      \"Lean identificerede spildtid X (USP1),\n       som AI adresserer via DSS (USP2),\n       men organisatoriske forudsætninger\n       (TOE, USP4) begrænser automatiseringen\n       (USP3).\"\n```\n\n### Teori til formål:\n\n| Formål | Teori |\n|---|---|\n| Klassificere spildtid | Lean |\n| Processer as-is/to-be | Davenport/Dumas |\n| Forudsætninger/barrierer | TOE |\n| Menneske vs. AI, human-in-loop | DSS |\n\n**VIGTIGT:** Bland ikke vilkårligt. Brug teorien der passer til spørgsmålet.\n\n**Kilde:** AKADEMISK_RAMME.md sektion C.5"
+    }
+  ]
+}

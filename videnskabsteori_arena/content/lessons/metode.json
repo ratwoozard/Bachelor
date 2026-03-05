@@ -1,0 +1,32 @@
+{
+  "id": "metode",
+  "title": "Metode",
+  "description": "Casestudie, interviews, artefaktanalyse og validitet",
+  "chapters": [
+    {
+      "id": "casestudie",
+      "title": "Casestudie",
+      "content": "## Casestudie (Holm, 2023; Kuada, 2012; Saunders, 2023)\n\n**Note:** Case-studie-metoden forankres i 7. semesters pensum. Yin (2018) er IKKE pensum.\n\n**Jeres type:** Eksplorativt **indlejret single-case studie**\n\n### Holistisk vs. Indlejret\n\n| Type | Beskrivelse | Hvornår vælges |\n|---|---|---|\n| **Holistisk** | Hele organisationen som enhed | Forstå org. som helhed |\n| **Indlejret** ★ | Specifikke enheder inden for org. | Forstå specifikke processer/systemer |\n\n### Jeres case-design:\n\n| Element | I jeres projekt |\n|---|---|\n| **Casen (helhed)** | Support Solutions ApS |\n| **Indlejret enhed 1** | SoluTalent-platformen |\n| **Indlejret enhed 2** | Bemandingsprocessen (staging_imported → matched) |\n| **Analyseniveau** | Proces- og systemniveau |\n| **Kontekst** | Dansk IT-marked, SMV, konkurrence på hastighed |\n\n### Analytisk generaliserbarhed\n\nCasestudier generaliserer **analytisk til teori**, IKKE statistisk til population:\n\n- ❌ \"Dette gælder for alle konsulenthuse\" (statistisk)\n- ✓ \"Vores fund understøtter TOE-frameworkets forudsigelse om barrierer\" (analytisk)\n- ✓ \"Lean-kategorien manifesterer sig i vidensarbejde som...\" (teoretisk udvidelse)\n\n**Kontekstafhængighed:** Fund gælder for DENNE kontekst (SS, 2026). Teoretiske indsigter kan overføres analytisk.\n\n**Kilde:** Holm (2023); Kuada (2012)"
+    },
+    {
+      "id": "interviews",
+      "title": "Semistrukturerede interviews",
+      "content": "## Semistrukturerede interviews\n\n**Antal:** 4-6 informanter\n**Udvælgelse:** Purposive sampling\n**Varighed:** 30-60 min\n**Dokumentation:** Lydoptagelse + transskription (med samtykke)\n\n### Interviewguide-struktur:\n1. **Introduktion** – formål, anonymitet, samtykke\n2. **Baggrund** – rolle, erfaring, daglig involvering\n3. **Tema 1:** Nuværende praksis og spildtid (USP 1)\n4. **Tema 2:** AI-matchingens effekt (USP 2)\n5. **Tema 3:** Grænsen for automatisering (USP 3)\n6. **Tema 4:** Forudsætninger og barrierer (USP 4)\n7. **Afrunding** – noget vi ikke har spurgt om?\n\n### Spørgsmålstyper:\n\n| Type | Eksempel | Formål |\n|---|---|---|\n| **Åbne** | \"Beskriv processen fra...\" | Få informantens perspektiv |\n| **Opfølgende** | \"Kan du give et eksempel?\" | Uddybe og konkretisere |\n| **Kontrasterende** | \"Hvordan var det før SoluTalent?\" | Sammenligne før/efter |\n\n### Undgå:\n- ❌ \"Synes du AI er godt?\" (ledende)\n- ❌ \"Er du enig i at...\" (ledende)\n- ❌ Ja/nej-spørgsmål (lukkede)\n\n**Kilde:** AKADEMISK_RAMME.md sektion B.2"
+    },
+    {
+      "id": "artefaktanalyse",
+      "title": "Artefaktanalyse",
+      "content": "## Artefaktanalyse\n\n**Hvad:** Systematisk gennemgang af SoluTalent som digitalt artefakt\n\n**IKKE:** Code review eller teknisk evaluering\n**MEN:** Funktionel analyse af hvad platformen gør i processen\n\n### Analysedimensioner:\n\n| Dimension | Hvad I kigger på |\n|---|---|\n| **Workflow-states** | Status-enums og transitions (staging → bidding → matched) |\n| **Manuelle vs. auto trin** | Hvilke kræver admin-klik? Hvilke kører automatisk? |\n| **AI-pipeline** | Hvad gør hvert af de 6 stages? Hvad filtreres fra? |\n| **Auto-approval gates** | Betingelser for at springe curation over |\n| **KPI-struktur** | Precision@5, override rate, beslutningstid |\n| **Rejection reasons** | Strukturerede årsager til afvisning af matches |\n\n### Formål:\nForstå hvordan teknologien understøtter (eller hæmmer) processen – IKKE vurdere kodekvalieten.\n\n**Kilde:** AKADEMISK_RAMME.md sektion B.3"
+    },
+    {
+      "id": "tematisk_analyse",
+      "title": "Tematisk analyse",
+      "content": "## Tematisk analyse (Braun & Clarke, 2006)\n\n### 6 faser:\n\n1. **Bliv fortrolig med data** – læs transskriptioner gentagne gange\n2. **Generér initielle koder** – fx \"ventetid i kø\", \"tillid til AI\", \"manglende kompetencer\"\n3. **Søg efter temaer** – gruppér koder under Lean-kategorier + emergente temaer\n4. **Gennemgå temaer** – tjek mod data: holder de?\n5. **Definér og navngiv temaer**\n6. **Producér rapport**\n\n### Jeres tilgang: Kombineret deduktiv/induktiv\n\n| Tilgang | Beskrivelse | Eksempel |\n|---|---|---|\n| **Deduktiv** | Foruddefinerede temaer fra teori | Lean waste-kategorier |\n| **Induktiv** | Emergente temaer fra data | \"Tillid\" hvis det dukker op |\n\nDet er **abduktion i praksis**: teori giver struktur, men data kan udvide forståelsen.\n\n**Kilde:** Braun & Clarke (2006)"
+    },
+    {
+      "id": "validitet",
+      "title": "Validitet og troværdighed",
+      "content": "## Validitet og troværdighed (Lincoln & Guba)\n\n### Fire kriterier:\n\n| Kriterium | Handling i jeres projekt |\n|---|---|\n| **Troværdighed (credibility)** | Triangulering (interview + artefakt + data), informantvalidering, langvarigt engagement (praktikperiode) |\n| **Overførbarhed (transferability)** | Tyk beskrivelse af kontekst så læser selv kan vurdere |\n| **Pålidelighed (dependability)** | Transparent interviewguide, kodningsstrategi, kædebevis |\n| **Bekræftbarhed (confirmability)** | Bias-refleksion, data der viser systemets begrænsninger |\n\n### Triangulering:\nFund understøttes af mindst 2 empirikilder:\n- Interview + artefaktanalyse\n- Interview + KPI-data\n- Artefaktanalyse + KPI-data\n\n### Informantvalidering (KRAV):\nDeltagerne skal have mulighed for at bekræfte at I har forstået dem korrekt.\n\n### Bias-refleksion (VIGTIGT):\nI er praktikanter og medudviklere → privilegeret adgang MEN bias-risiko.\n- Inkluder data der viser begrænsninger\n- Kritisk modvægt til positive fund\n- Rejection reasons, override rate osv.\n\n**Kilde:** Lincoln & Guba (1985)"
+    }
+  ]
+}

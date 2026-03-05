@@ -25,7 +25,7 @@
 
 | Dimension | Pragmatisk position | Konsekvens for projektet |
 |---|---|---|
-| **Ontologi** | Virkeligheden er flertydig; vi fokuserer på det der har praktisk konsekvens | I behøver ikke argumentere for én sandhed. I kan sige "processen opleves forskelligt af direktør vs. projektleder – begge perspektiver er relevante" |
+| **Ontologi** | Pragmatisk ontologi vælges når problemløsningen skaber behov for både kvantitative og kvalitative data (giver typisk mixed methods) | I har brug for både at måle (KPI) og forstå (interviews). I behøver ikke argumentere for én sandhed, men for praktisk problemløsning. |
 | **Epistemologi** | Viden vurderes på anvendelighed, ikke absolut sandhed | Jeres fund skal være *nyttige* for SS og fagligt interessante – ikke universelle love |
 | **Slutningsform** | Abduktiv: vekslen mellem teori og empiri | I starter med at observere processen (empiri), bringer Lean/TOE ind (teori), og vender tilbage med nuancerede fund. Ikke ren deduktion (hypotesetest) eller ren induktion (grounded theory) |
 | **Metode** | Metodepluralisme | Legitimerer at I bruger interviews + artefaktanalyse + platformdata i samme studie, uden at det er "mixed methods" i traditionel forstand |
@@ -103,8 +103,8 @@ Jeres PF er "Hvordan påvirker..." med fokus på praktisk forståelse → pragma
 **Type:** Eksplorativt **indlejret single-case studie** (Holm, 2023; Kuada, 2012)
 
 #### Holistisk vs. indlejret casestudie (Holm, 2023)
-- **Holistisk:** Undersøgelse af organisationen som helhed (relevant for små organisationer op til ~30 medarbejdere)
-- **Indlejret:** Undersøgelse af specifikke enheder/processer inden for organisationen (jeres valg)
+- **Holistisk:** Vælges når man ønsker at forstå organisationen som helhed, frem for specifikke afdelinger
+- **Indlejret:** Vælges når man ønsker at forstå specifikke enheder/processer inden for organisationen (jeres valg)
 
 #### Jeres case-design
 
@@ -186,7 +186,7 @@ Case-studier generaliserer **analytisk til teori**, ikke statistisk til populati
 
 | Kriterium (Lincoln & Guba) | Handling |
 |---|---|
-| **Troværdighed (credibility)** | Triangulering (interview + artefakt + data), informant-validering, langvarigt engagement (praktikperiode) |
+| **Troværdighed (credibility)** | Triangulering (interview + artefakt + data), informantvalidering (krav, fordi deltagerne skal have mulighed for at bekræfte, at forskernes tolkning repræsenterer dem korrekt i den givne kontekst), langvarigt engagement (praktikperiode) |
 | **Overførbarhed (transferability)** | Tyk beskrivelse af kontekst så læser selv kan vurdere overførbarhed |
 | **Pålidelighed (dependability)** | Transparent interviewguide, kodningsstrategi og kædebevis |
 | **Bekræftbarhed (confirmability)** | Bias-refleksion, brug af data der viser systemets fejl/begrænsninger |

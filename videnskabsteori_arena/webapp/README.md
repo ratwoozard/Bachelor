@@ -10,6 +10,7 @@ A gamified learning platform for academic concepts in scientific theory, methodo
 - **Daily Challenges**: Complete daily goals for bonus rewards
 - **Progress Tracking**: Detailed statistics and category performance
 - **Lesson Content**: Structured learning materials
+- **Vercel Web Analytics**: Track visitor behavior and page views
 
 ## Deploy to Vercel
 
@@ -21,6 +22,7 @@ A gamified learning platform for academic concepts in scientific theory, methodo
 4. Import your GitHub repository
 5. Set **Root Directory** to `videnskabsteori_arena/webapp`
 6. Click "Deploy"
+7. After deployment, enable **Web Analytics** in your project's Analytics tab on the Vercel dashboard
 
 ### Option 2: Vercel CLI
 
@@ -75,3 +77,24 @@ webapp/
 - CSS3 with custom properties
 - localStorage for persistence
 - Static hosting compatible
+
+## Vercel Web Analytics
+
+This project includes Vercel Web Analytics for tracking visitor behavior and page views.
+
+### Enabling Analytics
+
+1. Deploy your project to Vercel
+2. Go to your project dashboard on Vercel
+3. Navigate to the **Analytics** tab
+4. Click **Enable** to activate Web Analytics
+5. After your next deployment, analytics will start tracking visitors
+
+The analytics script is already integrated in `index.html` and will automatically start collecting data once enabled on your Vercel dashboard. You can view analytics data including:
+
+- Page views and unique visitors
+- Traffic sources and referrers
+- Device and browser information
+- Geographic data
+
+No additional configuration or package installation is required for HTML sites.

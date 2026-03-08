@@ -172,6 +172,343 @@ const Data = {
             "correct_index": 1,
             "explanation": "Saunders et al. (2023): Etik omfatter bl.a. informeret samtykke, fortrolighed og ansvarlig databehandling."
         },
+        {
+            "id": "pensum_holm_epistemologi_1",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "02",
+            "prompt": "Når I skriver metodeafsnit, hvad bør epistemologi især bruges til?",
+            "options": [
+                "At erstatte empirisk dataindsamling",
+                "At beslutte layoutet af rapporten",
+                "At begrunde hvordan I opfatter gyldig viden i projektet"
+            ],
+            "correct_index": 2,
+            "explanation": "Holm (2023): Epistemologi handler om, hvad der tæller som viden, og hvordan viden opnås og begrundes."
+        },
+        {
+            "id": "pensum_kuada_afgransning_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "02",
+            "prompt": "Hvilken afgrænsning er metodisk stærkest tidligt i projektet?",
+            "options": [
+                "Ingen afgrænsning før konklusionen",
+                "Tydelig afgrænsning af målgruppe, kontekst og tidsramme",
+                "Kun afgrænsning af teori, men ikke data"
+            ],
+            "correct_index": 1,
+            "explanation": "Kuada (2012): En klar og tidlig afgrænsning gør projektet undersøgelsesbart og gennemførligt."
+        },
+        {
+            "id": "pensum_saunders_research_onion_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvad hjælper Saunders' research onion primært med?",
+            "options": [
+                "At vælge skrifttype til metodekapitlet",
+                "At strukturere metodiske valg fra filosofi til teknik",
+                "At erstatte dataanalyse med teori"
+            ],
+            "correct_index": 1,
+            "explanation": "Saunders et al. (2023): Research onion bruges til systematisk at koble filosofi, strategi, valg og metoder."
+        },
+        {
+            "id": "pensum_holm_metodepluralisme_1",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvornår er metodepluralisme fagligt legitim i pensumforståelse?",
+            "options": [
+                "Kun når begge metoder giver samme talresultat",
+                "Når metodekombinationen begrundes af problemets karakter",
+                "Kun i naturvidenskabelige eksperimenter"
+            ],
+            "correct_index": 1,
+            "explanation": "Holm (2023): Metodevalg skal følge problem og vidensinteresse, ikke metodisk dogme."
+        },
+        {
+            "id": "pensum_kuada_dataadgang_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "En problemformulering ser god ud teoretisk, men dataadgangen er uklar. Hvad er bedst praksis?",
+            "options": [
+                "Beholde den uændret og håbe på adgang senere",
+                "Tilpasse design/spørgsmål så de matcher realistisk dataadgang",
+                "Fjerne metodeafsnittet"
+            ],
+            "correct_index": 1,
+            "explanation": "Kuada (2012): Gennemførlighed kræver alignment mellem spørgsmål, design og faktisk adgang til data."
+        },
+        {
+            "id": "pensum_saunders_sampling_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvad er den bedste begrundelse for purposive sampling i et kvalitativt studie?",
+            "options": [
+                "At vælge tilfældige deltagere for repræsentativitet",
+                "At interviewe dem der svarer hurtigst",
+                "At vælge informanter med relevant indsigt i problemfeltet"
+            ],
+            "correct_index": 2,
+            "explanation": "Saunders et al. (2023): Purposive sampling vælges, når bestemte informanter har særlig viden om fænomenet."
+        },
+        {
+            "id": "pensum_holm_begrundelse_1",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Hvilken metodeargumentation er stærkest i et pragmatisk setup?",
+            "options": [
+                "Vi valgte interviews, fordi vi altid gør det",
+                "Vi valgte mixed methods, fordi problemets dele kræver forskellige datatyper",
+                "Vi valgte statistik, fordi tabeller ser objektive ud"
+            ],
+            "correct_index": 1,
+            "explanation": "Holm (2023): Metodevalg skal begrundes i relation til problemstruktur og vidensbehov."
+        },
+        {
+            "id": "pensum_kuada_forskningssporgsmal_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Hvad er et centralt kvalitetskriterium for forskningsspørgsmål?",
+            "options": [
+                "At de er så brede som muligt",
+                "At de først defineres efter analyse",
+                "At de er præcise, operationelle og koblet til analysestrategi"
+            ],
+            "correct_index": 2,
+            "explanation": "Kuada (2012): Forskningsspørgsmål bør være klare og styrende for design, data og analyse."
+        },
+        {
+            "id": "pensum_saunders_time_horizon_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Et studie samler data i én afgrænset periode. Hvilken tidshorisont er det?",
+            "options": [
+                "Longitudinal",
+                "Cross-sectional",
+                "Iterativ"
+            ],
+            "correct_index": 1,
+            "explanation": "Saunders et al. (2023): Cross-sectional design indsamler data på et afgrænset tidspunkt/periode."
+        },
+        {
+            "id": "pensum_holm_konsistens_1",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvad betyder intern metodisk konsistens i videnskabsteoretisk forstand?",
+            "options": [
+                "At alle kapitler har samme længde",
+                "At filosofi, spørgsmål, data og analyse hænger logisk sammen",
+                "At alle citater er fra én bog"
+            ],
+            "correct_index": 1,
+            "explanation": "Holm (2023): Kvalitet styrkes når antagelser og metodevalg er sammenhængende gennem hele designet."
+        },
+        {
+            "id": "pensum_kuada_scope_creep_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Projektet vokser løbende med nye delspørgsmål. Hvad er mest korrekt håndtering?",
+            "options": [
+                "Accepter scope creep uden ændringer",
+                "Frys problemformuleringen helt og ignorer ny viden",
+                "Revider afgrænsning og prioriter spørgsmål ift. formål og ressourcer"
+            ],
+            "correct_index": 2,
+            "explanation": "Kuada (2012): Projektledelse i forskning kræver løbende prioritering og kontrolleret afgrænsning."
+        },
+        {
+            "id": "pensum_saunders_interview_qa_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "02",
+            "prompt": "Hvilken formulering giver normalt den højeste kvalitet i interviewspørgsmål?",
+            "options": [
+                "Ledende spørgsmål med indbygget svar",
+                "Åbne, neutrale spørgsmål der inviterer til uddybning",
+                "Ja/nej-spørgsmål i lange serier"
+            ],
+            "correct_index": 1,
+            "explanation": "Saunders et al. (2023): Spørgsmål bør være klare og så lidt ledende som muligt for at forbedre datakvalitet."
+        },
+        {
+            "id": "pensum_holm_praksisviden_1",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Hvordan adskiller pragmatisk viden sig mest præcist fra rent teoretisk abstraktion?",
+            "options": [
+                "Pragmatisk viden vurderes også på dens anvendelse i konkret problemløsning",
+                "Pragmatisk viden afviser enhver teori",
+                "Pragmatisk viden kræver altid eksperimenter"
+            ],
+            "correct_index": 0,
+            "explanation": "Holm (2023): I pragmatisk orientering vægtes både forklaring og praktisk konsekvens."
+        },
+        {
+            "id": "pensum_kuada_litteraturreview_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Hvad er litteraturreviewets vigtigste funktion i projektets tidlige fase?",
+            "options": [
+                "At vise så mange referencer som muligt",
+                "At definere begreber, identificere videnshuller og afgrænse studiet",
+                "At erstatte metodeafsnittet"
+            ],
+            "correct_index": 1,
+            "explanation": "Kuada (2012): Reviewet skal skabe analytisk fokus og begrunde problemformuleringens relevans."
+        },
+        {
+            "id": "pensum_saunders_mixed_methods_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Hvornår er mixed methods særlig velbegrundet ifølge Saunders?",
+            "options": [
+                "Når én metode alene ikke dækker problemets forklaringsbehov",
+                "Kun når kvantitative resultater er signifikante",
+                "Kun når man vil skrive længere metodekapitel"
+            ],
+            "correct_index": 0,
+            "explanation": "Saunders et al. (2023): Mixed methods bruges når kombinationen giver stærkere svar end én metode isoleret."
+        },
+        {
+            "id": "pensum_holm_refleksion_2",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvilket udsagn beskriver bedst refleksivitet i et akademisk projekt?",
+            "options": [
+                "At forskeren ekspliciterer egne antagelser og deres mulige effekt på analysen",
+                "At forskeren ikke har nogen forforståelse",
+                "At analysen kun består af direkte citater"
+            ],
+            "correct_index": 0,
+            "explanation": "Holm (2023): Refleksivitet øger gennemsigtighed omkring forskerens rolle i vidensproduktionen."
+        },
+        {
+            "id": "pensum_kuada_validitetscheck_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvad er et stærkt validitetscheck under analysen?",
+            "options": [
+                "At fjerne afvigende fund",
+                "At skrive konklusion før kodning",
+                "At sammenholde konklusioner med data og alternative forklaringer"
+            ],
+            "correct_index": 2,
+            "explanation": "Kuada (2012): Analytisk kvalitet styrkes ved systematisk prøvning af fortolkninger mod data."
+        },
+        {
+            "id": "pensum_saunders_secondary_data_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "02",
+            "prompt": "Hvilken vurdering er vigtigst før brug af sekundærdata?",
+            "options": [
+                "Om datasættet er gratis",
+                "Om kilden er troværdig og data passer til jeres formål",
+                "Om tabellerne har mange decimaler"
+            ],
+            "correct_index": 1,
+            "explanation": "Saunders et al. (2023): Sekundærdata vurderes bl.a. på relevans, kvalitet, bias og aktualitet."
+        },
+        {
+            "id": "pensum_holm_argumentationskvalitet_1",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Hvad kendetegner stærk videnskabelig argumentation i metodekapitlet?",
+            "options": [
+                "At metodevalg fremstilles som selvindlysende",
+                "At konklusionen kommer før begrundelsen",
+                "At metodevalg begrundes eksplicit i problem, teori og datagrundlag"
+            ],
+            "correct_index": 2,
+            "explanation": "Holm (2023): Argumentation skal være transparent, begrundet og sammenhængende på tværs af designvalg."
+        },
+        {
+            "id": "pensum_kuada_fejlkilder_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Hvordan håndteres metodiske begrænsninger mest akademisk korrekt?",
+            "options": [
+                "Ved at skjule dem for ikke at svække projektet",
+                "Ved at beskrive dem tydeligt og diskutere konsekvenser for fund",
+                "Ved at flytte dem til bilag uden forklaring"
+            ],
+            "correct_index": 1,
+            "explanation": "Kuada (2012): Begrænsninger skal gøres eksplicitte for at understøtte troværdig tolkning af resultater."
+        },
+        {
+            "id": "pensum_saunders_ethics_data_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvilket valg følger bedst forskningsetik ved håndtering af interviewdata?",
+            "options": [
+                "Deling af råtransskriptioner i åbne mapper",
+                "Lagring med adgangsbegrænsning og tydelig anonymiseringspraksis",
+                "Sletning af samtykkeoplysninger"
+            ],
+            "correct_index": 1,
+            "explanation": "Saunders et al. (2023): Etisk datapraksis kræver fortrolighed, datasikkerhed og ansvarlig behandling."
+        },
+        {
+            "id": "pensum_holm_sporgsmalslogik_1",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "02",
+            "prompt": "Hvad er den bedste tommelfingerregel for koblingen mellem problemformulering og metode?",
+            "options": [
+                "Metoden vælges først, og problemformuleringen tilpasses bagefter",
+                "Metoden skal kunne producere viden, der direkte besvarer problemformuleringen",
+                "Metoden er sekundær, hvis teorien er stærk"
+            ],
+            "correct_index": 1,
+            "explanation": "Holm (2023): Der skal være logisk sammenhæng mellem spørgsmål, vidensmål og metodevalg."
+        },
+        {
+            "id": "pensum_kuada_empiri_teori_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvad er en stærk måde at koble teori og empiri i analysen?",
+            "options": [
+                "At adskille teori og empiri helt",
+                "At bruge teori som analytisk linse og løbende teste den mod fund",
+                "At lade teori kun stå i introduktionen"
+            ],
+            "correct_index": 1,
+            "explanation": "Kuada (2012): Teori og empiri bør arbejde sammen i analysen for at skabe forklaring og indsigt."
+        },
+        {
+            "id": "pensum_saunders_quality_criteria_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Hvad er mest centralt ved kvalitetskriterier i et metodeafsnit?",
+            "options": [
+                "At antage kvalitet uden dokumentation",
+                "At undgå begreber som validitet i kvalitative studier",
+                "At beskrive reliabilitet, validitet og begrænsninger med konkrete valg"
+            ],
+            "correct_index": 2,
+            "explanation": "Saunders et al. (2023): Kvalitet kræver tydelig dokumentation af kriterier og hvordan de håndteres i praksis."
+        },
+
 
         // ==========================================
         // CASE-SPECIFIKKE SPØRGSMÅL (Support Solutions / SoluTalent)

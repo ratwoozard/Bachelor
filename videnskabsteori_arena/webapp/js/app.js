@@ -97,17 +97,19 @@ const App = {
         
         // Category counts
         const counts = {
-            general: Data.items.filter(i => i.category !== 'case').length,
+            general: Data.items.filter(i => i.category !== 'case' && i.category !== 'pensum').length,
             videnskabsteori: Data.items.filter(i => i.category === 'videnskabsteori').length,
             metode: Data.items.filter(i => i.category === 'metode').length,
             teori: Data.items.filter(i => i.category === 'teori').length,
-            case: Data.items.filter(i => i.category === 'case').length
+            case: Data.items.filter(i => i.category === 'case').length,
+            pensum: Data.items.filter(i => i.category === 'pensum').length
         };
         document.getElementById('countGeneral').textContent = counts.general;
         document.getElementById('countVidenskabsteori').textContent = counts.videnskabsteori;
         document.getElementById('countMetode').textContent = counts.metode;
         document.getElementById('countTeori').textContent = counts.teori;
         document.getElementById('countCase').textContent = counts.case;
+        document.getElementById('countPensum').textContent = counts.pensum;
         
         // Recent achievements
         const achievementsList = document.getElementById('achievementsList');
@@ -134,7 +136,7 @@ const App = {
         // Progress overview
         const progressOverview = document.getElementById('progressOverview');
         const allAttempts = Storage.getAllAttempts();
-        const categoryProgress = { videnskabsteori: { correct: 0, total: 0 }, metode: { correct: 0, total: 0 }, teori: { correct: 0, total: 0 }, case: { correct: 0, total: 0 } };
+        const categoryProgress = { videnskabsteori: { correct: 0, total: 0 }, metode: { correct: 0, total: 0 }, teori: { correct: 0, total: 0 }, case: { correct: 0, total: 0 }, pensum: { correct: 0, total: 0 } };
         
         Object.keys(allAttempts).forEach(itemId => {
             const item = Data.items.find(i => i.id === itemId);
@@ -150,7 +152,8 @@ const App = {
             { key: 'videnskabsteori', name: 'Videnskabsteori' },
             { key: 'metode', name: 'Metode' },
             { key: 'teori', name: 'Teori' },
-            { key: 'case', name: 'Case (Bachelor)' }
+            { key: 'case', name: 'Case (Bachelor)' },
+            { key: 'pensum', name: 'Pensum' }
         ];
         
         progressOverview.innerHTML = categories.map(cat => {

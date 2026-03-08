@@ -2,6 +2,178 @@
 const Data = {
     items: [
         // ==========================================
+        // PENSUM-SPØRGSMÅL (strengt forankret i Holm, Kuada, Saunders)
+        // ==========================================
+        {
+            "id": "pensum_holm_pragmatisme_1",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "02",
+            "prompt": "Hvad passer bedst til en pragmatisk videnskabsteoretisk position i bachelorprojektet?",
+            "options": [
+                "At vælge de metoder der bedst besvarer problemformuleringen i praksis",
+                "At bruge kun én metode for at sikre teoretisk renhed",
+                "At undgå teori, så data kan stå helt alene"
+            ],
+            "correct_index": 0,
+            "explanation": "Holm (2023): En pragmatisk position begrunder metodevalg ud fra problemets karakter og anvendelig viden."
+        },
+        {
+            "id": "pensum_kuada_problem_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "02",
+            "prompt": "Ifølge Kuada bør en problemformulering først og fremmest være:",
+            "options": [
+                "Meget bred, så den kan rumme alle mulige temaer",
+                "Præcis, undersøgelig og tydeligt afgrænset",
+                "Uafhængig af dataadgang og metodevalg"
+            ],
+            "correct_index": 1,
+            "explanation": "Kuada (2012): Problemformuleringen skal være afgrænset og gennemførlig i forhold til design, data og tid."
+        },
+        {
+            "id": "pensum_saunders_reliability_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvilket valg styrker reliabiliteten i en semistruktureret interviewundersøgelse?",
+            "options": [
+                "At interviewe færre personer men uden interviewguide",
+                "At ændre spørgsmål spontant uden dokumentation",
+                "At bruge en klar interviewguide og dokumentere fremgangsmåden"
+            ],
+            "correct_index": 2,
+            "explanation": "Saunders et al. (2023): Reliabilitet forbedres gennem konsistente procedurer, dokumentation og transparens."
+        },
+        {
+            "id": "pensum_holm_abduktion_2",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "I finder et mønster i data, bruger teori til forklaring og går tilbage i empirien for at justere. Hvilken slutningslogik er det?",
+            "options": [
+                "Abduktion",
+                "Deduktion",
+                "Verifikation"
+            ],
+            "correct_index": 0,
+            "explanation": "Holm (2023): Abduktion er iterativ vekslen mellem empiri og teori for at finde den bedste forklaring."
+        },
+        {
+            "id": "pensum_kuada_design_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvornår er et single-case design metodisk stærkt begrundet i et studie?",
+            "options": [
+                "Når casen er valgt strategisk, fordi den belyser problemets kerne",
+                "Når casen er valgt tilfældigt uden teoretisk begrundelse",
+                "Når målet er statistisk generalisering til alle virksomheder"
+            ],
+            "correct_index": 0,
+            "explanation": "Kuada (2012): Casevalg skal begrundes analytisk i relation til forskningsspørgsmålet."
+        },
+        {
+            "id": "pensum_saunders_validity_2",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvad styrker validiteten i analysefasen mest?",
+            "options": [
+                "At skjule kodningsprocessen for at undgå bias-debat",
+                "At vise en tydelig kæde fra data til temaer og konklusioner",
+                "At bruge kun de citater der støtter den ønskede pointe"
+            ],
+            "correct_index": 1,
+            "explanation": "Saunders et al. (2023): Validitet styrkes, når analysebeslutninger kan følges og begrundes systematisk."
+        },
+        {
+            "id": "pensum_holm_position_match_1",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Hvilken kombination af position og metodevalg er mest konsistent?",
+            "options": [
+                "Pragmatisme + metodevalg ud fra hvad der bedst besvarer problemet",
+                "Pragmatisme + forbud mod at kombinere datatyper",
+                "Pragmatisme + krav om ren eksperimentel kontrol i alle studier"
+            ],
+            "correct_index": 0,
+            "explanation": "Holm (2023): Pragmatisme legitimerer metodisk fleksibilitet, så længe valgene er fagligt begrundede."
+        },
+        {
+            "id": "pensum_kuada_operationalisering_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "En gruppe skriver 'effektiv onboarding' som variabel. Hvad er det vigtigste næste skridt?",
+            "options": [
+                "At operationalisere begrebet med konkrete indikatorer og datakilder",
+                "At antage at begrebet er selvforklarende og ikke kræver definition",
+                "At udskyde definitionen til diskussionskapitlet"
+            ],
+            "correct_index": 0,
+            "explanation": "Kuada (2012): Begreber skal omsættes til observerbare indikatorer for at kunne undersøges metodisk."
+        },
+        {
+            "id": "pensum_saunders_triangulering_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Et projekt bruger interviews, dokumenter og KPI-data. Hvad er den stærkeste metodebegrundelse?",
+            "options": [
+                "At triangulering kan øge robusthed ved at belyse samme fænomen fra flere vinkler",
+                "At forskellige datatyper ophæver behovet for teoretisk ramme",
+                "At blandede kilder automatisk giver kausal evidens"
+            ],
+            "correct_index": 0,
+            "explanation": "Saunders et al. (2023): Metodetriangulering kan styrke kvaliteten, hvis datakilder integreres systematisk."
+        },
+        {
+            "id": "pensum_holm_refleksivitet_1",
+            "lens": "Holm",
+            "category": "pensum",
+            "difficulty": "7",
+            "prompt": "Hvordan håndteres forskerens forforståelse bedst i et fortolkende design?",
+            "options": [
+                "Ved at ignorere den, så analysen fremstår neutral",
+                "Ved at gøre den eksplicit og arbejde refleksivt gennem analysen",
+                "Ved at fjerne alle kvalitative data"
+            ],
+            "correct_index": 1,
+            "explanation": "Holm (2023): Refleksivitet kræver, at forskerens position og fortolkning synliggøres metodisk."
+        },
+        {
+            "id": "pensum_kuada_generalisering_1",
+            "lens": "Kuada",
+            "category": "pensum",
+            "difficulty": "12",
+            "prompt": "Hvad er den mest præcise formulering om generalisering fra et casestudie?",
+            "options": [
+                "Fund bruges primært til analytisk generalisering og teoretisk indsigt",
+                "Fund kan uden videre generaliseres statistisk til hele populationen",
+                "Fund kan ikke bruges uden et eksperiment"
+            ],
+            "correct_index": 0,
+            "explanation": "Kuada (2012): Casestudier sigter typisk mod analytisk generalisering, ikke statistisk repræsentativitet."
+        },
+        {
+            "id": "pensum_saunders_etik_1",
+            "lens": "Saunders",
+            "category": "pensum",
+            "difficulty": "02",
+            "prompt": "Hvilket etisk princip er centralt ved interviewbaseret dataindsamling?",
+            "options": [
+                "At deling af rådata altid skal ske med fuldt navn",
+                "At informeret samtykke og fortrolig behandling sikres",
+                "At deltagere ikke bør informeres om formålet"
+            ],
+            "correct_index": 1,
+            "explanation": "Saunders et al. (2023): Etik omfatter bl.a. informeret samtykke, fortrolighed og ansvarlig databehandling."
+        },
+
+        // ==========================================
         // CASE-SPECIFIKKE SPØRGSMÅL (Support Solutions / SoluTalent)
         // ==========================================
         {
@@ -2356,6 +2528,7 @@ IMPLEMENTERING: Hvad kræves?
     },
 
     categories: {
+        pensum: { id: 'pensum', title: 'Pensum', icon: '📘' },
         videnskabsteori: { id: 'videnskabsteori', title: 'Videnskabsteori', icon: '📚' },
         metode: { id: 'metode', title: 'Metode', icon: '🔬' },
         teori: { id: 'teori', title: 'Teori', icon: '🧠' },

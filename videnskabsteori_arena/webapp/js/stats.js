@@ -23,7 +23,7 @@ const Stats = {
         const accuracy = totalAnswers > 0 ? Math.round((totalCorrect / totalAnswers) * 100) : 0;
         
         // Category stats
-        const categoryStats = { videnskabsteori: { correct: 0, total: 0 }, metode: { correct: 0, total: 0 }, teori: { correct: 0, total: 0 }, case: { correct: 0, total: 0 } };
+        const categoryStats = { videnskabsteori: { correct: 0, total: 0 }, metode: { correct: 0, total: 0 }, teori: { correct: 0, total: 0 }, case: { correct: 0, total: 0 }, pensum: { correct: 0, total: 0 } };
         Object.keys(allAttempts).forEach(itemId => {
             const item = Data.items.find(i => i.id === itemId);
             if (item && item.category) {
@@ -107,7 +107,8 @@ const Stats = {
             { key: 'videnskabsteori', name: 'Videnskabsteori', icon: '📚' },
             { key: 'metode', name: 'Metode', icon: '🔬' },
             { key: 'teori', name: 'Teori', icon: '🧠' },
-            { key: 'case', name: 'Case (Bachelor)', icon: '🎓' }
+            { key: 'case', name: 'Case (Bachelor)', icon: '🎓' },
+            { key: 'pensum', name: 'Pensum', icon: '📘' }
         ];
         
         categories.forEach(cat => {

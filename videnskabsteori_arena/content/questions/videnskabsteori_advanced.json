@@ -1,0 +1,134 @@
+{
+  "q1": {
+    "id": "q1",
+    "text": "Hvad er hovedpointen i social konstruktivisme?",
+    "options": [
+      "At viden og mening skabes socialt gennem sprog og relationer",
+      "At kun målbare data er gyldig viden",
+      "At teori er irrelevant i praksis"
+    ],
+    "correct_index": 0,
+    "explanation": "Social konstruktivisme ser viden som socialt produceret, ikke som direkte afspejling af en neutral virkelighed."
+  },
+  "q2": {
+    "id": "q2",
+    "text": "Hvilken risiko opstår, hvis man siger at social konstruktivisme betyder 'alt er relativt'?",
+    "options": [
+      "Man overser krav om systematik, empiri og argumentation",
+      "Man bliver automatisk mere objektiv",
+      "Man undgår enhver form for bias"
+    ],
+    "correct_index": 0,
+    "explanation": "Selv i fortolkende forskning skal analyser være transparente, begrundede og empirisk forankrede."
+  },
+  "q3": {
+    "id": "q3",
+    "text": "Hvad betyder 'langue' hos Saussure?",
+    "options": [
+      "Det underliggende sprogsystem og dets regler",
+      "Den enkelte persons spontane tale i en situation",
+      "En metode til statistisk test"
+    ],
+    "correct_index": 0,
+    "explanation": "Langue er systemet; parole er den konkrete sprogbrug."
+  },
+  "q4": {
+    "id": "q4",
+    "text": "Hvad betyder falsifikation hos Popper?",
+    "options": [
+      "At en teori skal kunne modbevises af observationer",
+      "At teorier bevises endeligt som sande",
+      "At man undgår hypoteser i forskning"
+    ],
+    "correct_index": 0,
+    "explanation": "Popper kræver testbare og potentielt falsificerbare påstande."
+  },
+  "q5": {
+    "id": "q5",
+    "text": "Et team ændrer løbende hjælperegler for at beskytte sin kerneidé. Hvilken teoretiker passer bedst?",
+    "options": [
+      "Lakatos",
+      "Saussure",
+      "Taylor"
+    ],
+    "correct_index": 0,
+    "explanation": "Lakatos arbejder med 'hard core' og et beskyttende bælte af hjælpehypoteser."
+  },
+  "q6": {
+    "id": "q6",
+    "text": "Hvad er en central pointe hos Kuhn?",
+    "options": [
+      "Normalvidenskab foregår inden for et paradigme, indtil anomalier presser et skifte",
+      "Forskere forkaster altid deres teori ved første modstrid",
+      "Paradigmer er uden betydning for metodevalg"
+    ],
+    "correct_index": 0,
+    "explanation": "Kuhn beskriver perioder med normalvidenskab og mulige videnskabelige revolutioner."
+  },
+  "q7": {
+    "id": "q7",
+    "text": "Hvad kendetegner pragmatisme i jeres bachelor-kontekst?",
+    "options": [
+      "At metodevalg styres af hvad der bedst besvarer problemformuleringen",
+      "At man kun må bruge én datakilde",
+      "At man altid skal lave eksperimenter"
+    ],
+    "correct_index": 0,
+    "explanation": "Pragmatismen vælger den mest anvendelige metodemix ift. spørgsmålet."
+  },
+  "q8": {
+    "id": "q8",
+    "text": "Hvad er forskellen på primære og sekundære data?",
+    "options": [
+      "Primære data indsamles til projektets formål; sekundære data eksisterer i forvejen",
+      "Primære data er altid kvalitative og sekundære altid kvantitative",
+      "Sekundære data kan ikke bruges i akademiske projekter"
+    ],
+    "correct_index": 0,
+    "explanation": "Skellet handler om datakildens oprindelse, ikke kun datatypen."
+  },
+  "q9": {
+    "id": "q9",
+    "text": "Hvilket udsagn passer bedst til purposive sampling i et case-studie?",
+    "options": [
+      "Informanter vælges strategisk for analytisk relevans",
+      "Informanter vælges tilfældigt for statistisk repræsentativitet",
+      "Alle i organisationen skal nødvendigvis interviewes"
+    ],
+    "correct_index": 0,
+    "explanation": "I case-studier vælges typisk informanter efter rolle, erfaring og relevans."
+  },
+  "q10": {
+    "id": "q10",
+    "text": "Hvad er den vigtigste forskel mellem analytisk og statistisk generalisering?",
+    "options": [
+      "Analytisk generaliserer til teori; statistisk generaliserer til population",
+      "Analytisk kræver større sample end statistisk",
+      "Der er ingen reel forskel"
+    ],
+    "correct_index": 0,
+    "explanation": "Case-studier bruger typisk analytisk generalisering fremfor statistisk."
+  },
+  "q11": {
+    "id": "q11",
+    "text": "Hvornår er det mest korrekt at bruge betegnelsen 'mixed methods'?",
+    "options": [
+      "Når kvalitative og kvantitative data integreres systematisk i designet",
+      "Når man har mindst ét interview og én KPI",
+      "Når man laver to forskellige analyser uden sammenhæng"
+    ],
+    "correct_index": 0,
+    "explanation": "Det er integrationen i designet der gør det til mixed methods, ikke bare 'begge datatyper'."
+  },
+  "q12": {
+    "id": "q12",
+    "text": "Hvad bør man gøre ved interviewguide før dataindsamling?",
+    "options": [
+      "Pilot-teste den for at finde uklarheder og bias i spørgsmål",
+      "Undgå test for at bevare spontanitet",
+      "Kun bruge ja/nej-spørgsmål"
+    ],
+    "correct_index": 0,
+    "explanation": "Pilot-test forbedrer validitet og gør guiden mere robust i praksis."
+  }
+}

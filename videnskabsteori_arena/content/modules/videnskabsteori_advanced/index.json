@@ -1,0 +1,11 @@
+{
+  "id": "videnskabsteori_advanced",
+  "title": "Videnskabsteori – pensumtræning",
+  "lessons": [
+    { "id": "socialkonstruktivisme", "title": "Social konstruktivisme" },
+    { "id": "strukturalisme", "title": "Strukturalisme" },
+    { "id": "popper", "title": "Popper og falsifikation" },
+    { "id": "kuhn", "title": "Kuhn og paradigmer" },
+    { "id": "metode", "title": "Metodevalg og datakilder" }
+  ]
+}

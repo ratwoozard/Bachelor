@@ -6,6 +6,12 @@
       "title": "Videnskabsteori – grundlæggende",
       "description": "Indføring i videnskabsteori og forskningsmetoder.",
       "path": "res://content/modules/videnskabsteori_basics/"
+    },
+    "videnskabsteori_advanced": {
+      "id": "videnskabsteori_advanced",
+      "title": "Videnskabsteori – pensumtræning",
+      "description": "Udvidet spørgsmålssæt baseret på pensum- og censortræning.",
+      "path": "res://content/modules/videnskabsteori_advanced/"
     }
   }
 }

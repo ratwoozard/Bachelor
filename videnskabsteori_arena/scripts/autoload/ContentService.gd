@@ -134,3 +134,55 @@ func get_items_by_lens(lens: String) -> Array:
 		if String(it.get("lens", "")).to_lower() == needle:
 			out.append(it)
 	return out
+
+func get_module_lessons(module_id: String) -> Array:
+	var path := "res://content/modules/%s/index.json" % module_id
+	if not FileAccess.file_exists(path):
+		return []
+	var f := FileAccess.open(path, FileAccess.READ)
+	if not f:
+		return []
+	var raw := f.get_as_text()
+	f.close()
+	var json := JSON.new()
+	if json.parse(raw) != OK:
+		return []
+	var data = json.get_data()
+	if data is Dictionary:
+		var lessons = data.get("lessons", [])
+		if lessons is Array:
+			return lessons
+	return []
+
+func get_module_question_cards(module_id: String) -> Array:
+	var out: Array = []
+	var qpath := "res://content/questions/%s.json" % module_id
+	if not FileAccess.file_exists(qpath):
+		return out
+	var f := FileAccess.open(qpath, FileAccess.READ)
+	if not f:
+		return out
+	var raw := f.get_as_text()
+	f.close()
+	var json := JSON.new()
+	if json.parse(raw) != OK:
+		return out
+	var data = json.get_data()
+	if not data is Dictionary:
+		return out
+	for qid in data:
+		var q = data[qid]
+		if q is not Dictionary:
+			continue
+		var options: Array = q.get("options", [])
+		var correct_idx: int = int(q.get("correct_index", -1))
+		var correct_answer := ""
+		if options is Array and correct_idx >= 0 and correct_idx < options.size():
+			correct_answer = str(options[correct_idx])
+		out.append({
+			"id": qid,
+			"prompt": q.get("text", q.get("prompt", "")),
+			"answer": correct_answer,
+			"explanation": q.get("explanation", "")
+		})
+	return out

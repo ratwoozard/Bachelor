@@ -7,563 +7,923 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 3 0 obj
-<< /Length 2913 >>
+<< /Length 2570 >>
 stream
 BT
-/F2 15 Tf
+/F2 16 Tf
 1 0 0 1 50 792 Tm
 (1\) Title Page) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 762 Tm
-(Title: Kompetencebaseret matching i SoluTalent: Et positivistisk/kritisk-rationalistisk) Tj
+1 0 0 1 50 760 Tm
+(Title: SoluTalent-casen: Effektmling af AI-automatisering i bemandingsprocessen med fokus p) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 748 Tm
-(research design) Tj
+1 0 0 1 50 745 Tm
+(spildtid \(positivistisk/kritisk-rationalistisk vinkel\)) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 734 Tm
+1 0 0 1 50 730 Tm
 (Course: Theory of Science and Project Methodology \(2024E\)) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 720 Tm
+1 0 0 1 50 715 Tm
 (Assignment choice: 2\) Use your current bachelor thesis \(SoluTalent case\)) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 706 Tm
+1 0 0 1 50 700 Tm
 (Name: Luka) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 692 Tm
+1 0 0 1 50 685 Tm
 (Supervisor: [indst navn]) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 678 Tm
+1 0 0 1 50 670 Tm
 (Educational institution: KEA) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 664 Tm
+1 0 0 1 50 655 Tm
 (Date: [indst dato]) Tj
 ET
-50 622 m 545 622 l S
+50 610 m 545 610 l S
 BT
-/F2 15 Tf
-1 0 0 1 50 580 Tm
+/F2 16 Tf
+1 0 0 1 50 565 Tm
 (2\) Table of Contents) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 564 Tm
+1 0 0 1 50 548 Tm
 (1. Title Page) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 550 Tm
+1 0 0 1 50 533 Tm
 (2. Table of Contents) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 536 Tm
+1 0 0 1 50 518 Tm
 (3. Introduction \(scope: aims and objectives\)) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 522 Tm
+1 0 0 1 50 503 Tm
 (4. Problem formulation and delimitation) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 508 Tm
+1 0 0 1 50 488 Tm
 (5. Methodology \(research design\)) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 494 Tm
+1 0 0 1 50 473 Tm
 (6. Overview \(diagram\) of research structure) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 480 Tm
+1 0 0 1 50 458 Tm
 (7. Bibliography \(Harvard style\)) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 466 Tm
+1 0 0 1 50 443 Tm
 (8. Appendix) Tj
 ET
-50 424 m 545 424 l S
+50 398 m 545 398 l S
 BT
-/F2 15 Tf
-1 0 0 1 50 368 Tm
+/F2 16 Tf
+1 0 0 1 50 353 Tm
 (Individual hand-in note \(2 forfattere-regel\)) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 352 Tm
-(Denne synopsis er skrevet individuelt af Luka.) Tj
+1 0 0 1 50 336 Tm
+(Denne synopsis er skrevet individuelt af Luka. I overensstemmelse med eksamenskravet ved co-) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 338 Tm
-(I overensstemmelse med eksamenskravet ved co-writing af bachelorprojekt m kun) Tj
+1 0 0 1 50 321 Tm
+(writing af bachelorprojekt m kun problemformulering og researchdiagram vre flles med) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 324 Tm
-(problemformulering og researchdiagram vre flles med den anden synopsis.) Tj
+1 0 0 1 50 306 Tm
+(medforfatter.) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 310 Tm
-(Alle vrige afsnit \(introduktion, metodeargumentation, analyseplan, etik, refleksioner,) Tj
+1 0 0 1 50 276 Tm
+(Flles elementer i de to synopsis:) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 296 Tm
-(litteraturudvalg og appendiksdetaljer\) er individuelt formuleret.) Tj
-ET
-50 254 m 545 254 l S
-BT
-/F2 15 Tf
-1 0 0 1 50 212 Tm
-(3\) Introduction \(scope: aims and objectives\)) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 196 Tm
-(Denne synopsis tager udgangspunkt i bachelorprojektets SoluTalent-case. Casen handler om,) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 182 Tm
-(hvordan platformens kompetencebaserede matching kan forbedres, s kandidater og virksomheder) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 168 Tm
-(matches mere prcist.) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 140 Tm
-(Formlet er at opstille et testbart design, der kan vurdere, om ndringer i matchlogikken giver) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 126 Tm
-(en mlbar forbedring i matchkvalitet.) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 98 Tm
-(Aim: At undersge effekten af en justeret matchmodel i SoluTalent.) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 84 Tm
-(Objective: At etablere et forskningsdesign med klare variable, hypoteser og) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 70 Tm
-(evalueringskriterier.) Tj
-ET
-endstream
-endobj
-4 0 obj
-<< /Type /Page /Parent 9 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
-endobj
-5 0 obj
-<< /Length 3217 >>
-stream
-50 764 m 545 764 l S
-BT
-/F2 15 Tf
-1 0 0 1 50 722 Tm
-(4\) Problem formulation and delimitation) Tj
-ET
-BT
-/F2 13 Tf
-1 0 0 1 50 706 Tm
-(Problem formulation \(flles med medforfatter\)) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 690 Tm
-(Hvordan kan SoluTalent forbedre kvaliteten af match mellem kandidater og virksomheder gennem en) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 676 Tm
-(mere gennemsigtig og kompetencebaseret matchpraksis?) Tj
-ET
-BT
-/F2 13 Tf
-1 0 0 1 50 648 Tm
-(Delimitation) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 632 Tm
-(? Fokus: SoluTalents eksisterende bachelorcase og datakontekst.) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 618 Tm
-(? Fokus: matchkvalitet mlt p shortlist-relevans og efterflgende kontakt/konvertering.) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 604 Tm
-(? Ikke fokus: fuld markedsanalyse eller langsigtet organisationsforandring.) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 590 Tm
-(? Afgrnsning: evaluering i afgrnset testperiode.) Tj
-ET
-50 548 m 545 548 l S
-BT
-/F2 15 Tf
-1 0 0 1 50 506 Tm
-(5\) Methodology \(research design\)) Tj
-ET
-BT
-/F2 13 Tf
-1 0 0 1 50 490 Tm
-(Videnskabsteoretisk udgangspunkt) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 474 Tm
-(Individuel vinkel: kvantitativ effektvurdering af matchlogik \(positivistisk/kritisk-) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 460 Tm
-(rationalistisk\).) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 432 Tm
-(Synopsen er positivistisk med kritisk-rationalistisk testlogik:) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 418 Tm
-(? Centrale begreber operationaliseres til mlbare indikatorer.) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 404 Tm
-(? Hypoteser formuleres, s de kan falsificeres.) Tj
-ET
-BT
-/F2 13 Tf
-1 0 0 1 50 376 Tm
-(Hypoteser) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 360 Tm
-(? H1: Den justerede matchlogik ger andelen af relevante matches sammenlignet med nuvrende) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 346 Tm
-(  logik.) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 332 Tm
-(? H0: Der er ingen forskel i matchkvalitet mellem ny og eksisterende logik.) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 318 Tm
-(? H2: Effekten er strst i profiler med tydeligt dokumenterede kompetencer.) Tj
-ET
-BT
-/F2 13 Tf
-1 0 0 1 50 290 Tm
-(Design) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 274 Tm
-(Kvasi-eksperimentelt design \(A/B-lignende\):) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 260 Tm
-(? A \(kontrol\): nuvrende matching.) Tj
+1 0 0 1 50 261 Tm
+(? Problemformulering) Tj
 ET
 BT
 /F1 11 Tf
 1 0 0 1 50 246 Tm
-(? B \(intervention\): kompetencevgtet matching med justerede parametre.) Tj
-ET
-BT
-/F2 13 Tf
-1 0 0 1 50 218 Tm
-(Data and analysis) Tj
+(? Overordnet researchdiagram/struktur) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 202 Tm
-(Data: historiske matchdata, shortlist-data, respons/konvertering, profilkarakteristika.) Tj
+1 0 0 1 50 216 Tm
+(Individuelle elementer i denne version:) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 188 Tm
-(Analyse: deskriptiv statistik, forskel-i-midler, regressionskontrol for profil- og jobtyper.) Tj
+1 0 0 1 50 201 Tm
+(? Videnskabsteoretisk argumentation) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 160 Tm
-(Interviewsprgsml: Interviews er ikke obligatoriske i denne vinkel, men 3-4 korte) Tj
+1 0 0 1 50 186 Tm
+(? Metodeprioritering og analyseteknik) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 146 Tm
-(stakeholderinterviews kan bruges til at kvalificere indikatorvalg.) Tj
-ET
-BT
-/F2 13 Tf
-1 0 0 1 50 118 Tm
-(Quality criteria) Tj
+1 0 0 1 50 171 Tm
+(? KPI-valg, validitetsdiskussion, etiske prioriteringer) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 102 Tm
-(? Reliabilitet: ens evalueringskriterier for A- og B-match.) Tj
+1 0 0 1 50 156 Tm
+(? Litteraturudvalg og appendiksdetaljer) Tj
+ET
+50 111 m 545 111 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 66 Tm
+(3\) Introduction \(scope: aims and objectives\)) Tj
 ET
 BT
-/F1 11 Tf
-1 0 0 1 50 88 Tm
-(? Intern validitet: systematisk sammenligning mellem grupper.) Tj
-ET
-BT
-/F1 11 Tf
-1 0 0 1 50 74 Tm
-(? Begrebsvaliditet: tydelig definition af ?matchkvalitet?.) Tj
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 1/5) Tj
 ET
 endstream
 endobj
-6 0 obj
-<< /Type /Page /Parent 9 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+4 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
 endobj
-7 0 obj
-<< /Length 2687 >>
+5 0 obj
+<< /Length 3477 >>
 stream
 BT
 /F1 11 Tf
 1 0 0 1 50 792 Tm
-(? Begrnsning: resultater er kontekstafhngige af SoluTalents datagrundlag.) Tj
-ET
-BT
-/F2 13 Tf
-1 0 0 1 50 764 Tm
-(Ethics) Tj
+(SoluTalent-casen tager udgangspunkt i Support Solutions ApS og et centralt forretningsproblem:) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 748 Tm
-(? Dataminimering og anonymisering af kandidatdata.) Tj
+1 0 0 1 50 777 Tm
+(bemandingsprocessen indeholder tidskrvende manuelle led, som skaber spildtid, forsinket time-) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 734 Tm
-(? Transparens om automatiske beslutningskriterier.) Tj
+1 0 0 1 50 762 Tm
+(to-match og ujvn kvalitet i matchforslag.) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 720 Tm
-(? Refleksion over bias-risiko i kompetencevgtning.) Tj
-ET
-50 678 m 545 678 l S
-BT
-/F2 15 Tf
-1 0 0 1 50 636 Tm
-(6\) Overview \(diagram\) of your research structure \(flles med medforfatter\)) Tj
+1 0 0 1 50 732 Tm
+(Denne synopsis flger jeres researchdiagram og fokuserer p den del, der handler om mlbar) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 620 Tm
-(text) Tj
+1 0 0 1 50 717 Tm
+(effekt af AI-automatisering. Hvor den fortolkende version undersger, hvordan kvalitet forsts) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 606 Tm
-(SoluTalent bachelor case) Tj
+1 0 0 1 50 702 Tm
+(af aktrer, er denne version rettet mod at teste, om de justeringer, SoluTalent indfrer i) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 592 Tm
-(?) Tj
+1 0 0 1 50 687 Tm
+(workflowet, giver dokumenterbare forbedringer.) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 578 Tm
-(Operational definition of match quality) Tj
+1 0 0 1 50 657 Tm
+(Aim: At evaluere, om AI-automatisering i SoluTalent reducerer spildtid og forbedrer centrale) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 564 Tm
-(?) Tj
+1 0 0 1 50 642 Tm
+(performanceindikatorer i bemandingsprocessen.) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 550 Tm
-(Hypothesis setup \(H1/H0/H2\)) Tj
+1 0 0 1 50 627 Tm
+(Objective: At opstille et testbart research design med klare hypoteser, KPI?er, datakilder og) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 536 Tm
-(?) Tj
+1 0 0 1 50 612 Tm
+(evalueringskriterier, s konklusioner kan begrundes empirisk.) Tj
 ET
+50 567 m 545 567 l S
 BT
-/F1 11 Tf
+/F2 16 Tf
 1 0 0 1 50 522 Tm
-(A/B-like comparison \(current vs adjusted model\)) Tj
+(4\) Problem formulation and delimitation) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 505 Tm
+(Problem formulation \(flles med medforfatter\)) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 508 Tm
-(?) Tj
+1 0 0 1 50 488 Tm
+(Hvordan pvirker AI-automatisering spildtid i bemandingsprocessen hos Support Solutions ApS) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 494 Tm
-(Statistical evaluation) Tj
+1 0 0 1 50 473 Tm
+(\(staging_imported ? matched\), og hvordan kan effekten dokumenteres i SoluTalent-casen?) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 443 Tm
+(Delimitation \(i trd med researchdiagram\)) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 480 Tm
-(?) Tj
+1 0 0 1 50 426 Tm
+(? Tidsrum: SoluTalent-workflow 2025-2026.) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 466 Tm
-(Assessment of practical and methodological implications) Tj
-ET
-50 410 m 545 410 l S
-BT
-/F2 15 Tf
-1 0 0 1 50 368 Tm
-(7\) Bibliography \(Harvard style\)) Tj
+1 0 0 1 50 411 Tm
+(? Scope: processerne fra staging_imported til matched.) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 352 Tm
-(Popper, K., 2002. The Logic of Scientific Discovery. London: Routledge.) Tj
+1 0 0 1 50 396 Tm
+(? Out of scope: onboarding, kontrakt og ln.) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 338 Tm
-(Creswell, J.W. and Creswell, J.D., 2018. Research Design: Qualitative, Quantitative, and Mixed) Tj
+1 0 0 1 50 381 Tm
+(? Fokus: operationel procesperformance og dokumenterbar effekt.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 351 Tm
+(Arbejdsmssig afgrnsning) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 324 Tm
-(Methods Approaches. 5th ed. Thousand Oaks: SAGE.) Tj
+1 0 0 1 50 334 Tm
+(? KPI?er afgrnses til: decision time, time-to-match, override rate, rejection reasons.) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 310 Tm
-(Undervisningsmateriale \(KEA\), 2024. Positivisme, Kritisk Rationalisme, Empiri og Metoder.) Tj
-ET
-50 268 m 545 268 l S
-BT
-/F2 15 Tf
-1 0 0 1 50 226 Tm
-(8\) Appendix) Tj
-ET
-BT
-/F2 13 Tf
-1 0 0 1 50 210 Tm
-(Appendix A: Operationalization table \(draft\)) Tj
+1 0 0 1 50 319 Tm
+(? Evaluering foretages p afgrnset pilot-/testperiode.) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 194 Tm
-(? X: modeltype \(nuvrende vs justeret\).) Tj
+1 0 0 1 50 304 Tm
+(? Resultater fortolkes som kontekstspecifikke for casen og organisationen.) Tj
+ET
+50 259 m 545 259 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 214 Tm
+(5\) Methodology \(research design\)) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 197 Tm
+(Videnskabsteoretisk udgangspunkt) Tj
 ET
 BT
 /F1 11 Tf
 1 0 0 1 50 180 Tm
-(? Y1: shortlist-relevansscore.) Tj
+(Individuel vinkel: Kvantitativ effektvurdering af automatisering \(positivistisk/kritisk-) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 166 Tm
-(? Y2: kontakt/konverteringsrate.) Tj
+1 0 0 1 50 165 Tm
+(rationalistisk\).) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 152 Tm
-(? Kontrolvariable: branche, erfaringsniveau, datakomplethed.) Tj
+1 0 0 1 50 135 Tm
+(? Ontologi \(fra diagram\): Pragmatisk virkelighedsforstelse ? fokus p, hvad der virker i) Tj
 ET
 BT
-/F2 13 Tf
-1 0 0 1 50 124 Tm
-(Appendix B: Evaluation flow) Tj
+/F1 11 Tf
+1 0 0 1 50 120 Tm
+(  praksis.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 105 Tm
+(? Epistemologi \(fra diagram\): Anvendelsesorienteret viden med abduktiv slutningsform.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 90 Tm
+(? Videnskabsteoretisk prioritering i denne synopsis: Effektpstande operationaliseres, s de) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 75 Tm
+(  kan testes systematisk.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 2/5) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3521 >>
+stream
+BT
+/F2 14 Tf
+1 0 0 1 50 777 Tm
+(Delanalyser \(koblet til researchdiagrammets USP1-4\)) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 760 Tm
+(Analyse 1 ? USP1: Hvor opstr spildtid i as-is?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 743 Tm
+(? Metode: proceskortlgning + lean waste-kategorisering.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 728 Tm
+(? Output: baseline over ventetid, hndoff-tid og gentagelsesarbejde.) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 698 Tm
+(Analyse 2 ? USP2: Hvad automatiserer SoluTalent, og hvad er stadig) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 681 Tm
+(manuelt?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 664 Tm
+(? Metode: artefaktanalyse af workflow, pipeline og systemlogik.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 649 Tm
+(? Output: tydelig opdeling mellem automatiserede og manuelle beslutningsled.) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 619 Tm
+(Analyse 3 ? USP3: Hvilken mlbar effekt ses?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 602 Tm
+(? Metode: fr/efter- og/eller A/B-lignende sammenligning.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 587 Tm
+(? KPI?er: decision time, time-to-match, override rate, rejection reasons.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 572 Tm
+(? Output: statistisk vurdering af ndring i performance.) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 542 Tm
+(Analyse 4 ? USP4: Hvilke TOE-forudstninger krves for videre) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 525 Tm
+(automatisering?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 508 Tm
+(? Metode: struktureret vurdering af teknologiske, organisatoriske og miljmssige barrierer.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 493 Tm
+(? Output: prioriteret implementerings- og skaleringslogik.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 463 Tm
+(Hypoteser) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 446 Tm
+(? H1: AI-automatisering reducerer gennemsnitlig decision time signifikant.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 431 Tm
+(? H0: AI-automatisering medfrer ingen signifikant ndring i decision time.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 416 Tm
+(? H2: AI-automatisering reducerer time-to-match for profiler med hj datakomplethed.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 401 Tm
+(? H3: Override rate falder, nr matchkriterier er tydeligt operationaliserede.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 371 Tm
+(Data and analysis) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 354 Tm
+(Datagrundlag \(fra diagram\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 337 Tm
+(? Interviews \(supplerende\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 322 Tm
+(? Artefakter \(workflow-design, pipelineopstning, kravprofiler\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 307 Tm
+(? Dokumenter \(procesbeskrivelser, kvalitetskriterier\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 292 Tm
+(? Event logs / performanceudtrk) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 277 Tm
+(? Triangulering p tvrs af kilder) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 247 Tm
+(Analyseplan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 230 Tm
+(1. Etablering af baseline for as-is.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 215 Tm
+(2. Klassificering af automationsgrad per procestrin.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 200 Tm
+(3. KPI-beregning fr/efter eller A/B-lignende.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 185 Tm
+(4. Robusthedstjek \(fx segmentering p jobtyper/datakomplethed\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 170 Tm
+(5. Syntese af effekt, trade-offs og implementeringskrav.) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 140 Tm
+(Interviewrolle i denne vinkel) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 123 Tm
+(Interviews er ikke primr effekt-evidens, men bruges til:) Tj
 ET
 BT
 /F1 11 Tf
 1 0 0 1 50 108 Tm
-(1. Fastlggelse af evalueringsvindue.) Tj
+(? validering af procesforstelse,) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 94 Tm
-(2. Krsel af begge matchmodeller.) Tj
+1 0 0 1 50 93 Tm
+(? forklaring af outliers,) Tj
 ET
 BT
 /F1 11 Tf
-1 0 0 1 50 80 Tm
-(3. Datarensning og sammenligning.) Tj
+1 0 0 1 50 78 Tm
+(? kvalificering af KPI-fortolkning.) Tj
 ET
 BT
-/F1 11 Tf
-1 0 0 1 50 66 Tm
-(4. Rapportering af fund og begrnsninger.) Tj
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 3/5) Tj
 ET
 endstream
 endobj
 8 0 obj
-<< /Type /Page /Parent 9 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
 endobj
 9 0 obj
-<< /Type /Pages /Count 3 /Kids [4 0 R 6 0 R 8 0 R] >>
+<< /Length 3125 >>
+stream
+BT
+/F2 14 Tf
+1 0 0 1 50 777 Tm
+(Quality criteria) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 760 Tm
+(? Reliabilitet: ens KPI-definitioner, ens udtrkslogik, reproducerbar beregningsmetode.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 745 Tm
+(? Begrebsvaliditet: ?spildtid? og ?matchkvalitet? defineres operationelt fr analyse.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 730 Tm
+(? Intern validitet: sammenligningsdesign med tydelig kontrol for centrale forskelle.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 715 Tm
+(? Ekstern validitet: begrnset generaliserbarhed; kontekstnr anvendelighed prioriteres.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 685 Tm
+(Ethics) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 668 Tm
+(? Dataminimering og anonymisering af persondata.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 653 Tm
+(? Transparens om automatiserede beslutningskriterier.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 638 Tm
+(? Vurdering af bias-risiko i modelparametre.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 623 Tm
+(? Hensyn til human-in-the-loop, s kritiske beslutninger kan efterprves.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 593 Tm
+(Forelbig syntese og diskussion \(i trd med diagram\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 576 Tm
+(Resultater diskuteres som trade-offs mellem:) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 561 Tm
+(? effektivitet,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 546 Tm
+(? kvalitet,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 531 Tm
+(? human-in-the-loop,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 516 Tm
+(? bias,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 501 Tm
+(? GDPR.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 471 Tm
+(Mlet er ikke alene hj hastighed, men dokumenteret forbedring med ansvarlig beslutningssttte.) Tj
+ET
+50 426 m 545 426 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 381 Tm
+(6\) Overview \(diagram\) of your research structure \(flles med medforfatter\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 364 Tm
+(text) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 349 Tm
+(Research-diagram ? SoluTalent-casen) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 319 Tm
+(1\) Videnskabsteori) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 304 Tm
+(Ontologi: pragmatisk virkelighedsforstelse) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 289 Tm
+(Epistemologi: anvendelsesorienteret viden, abduktiv slutningsform) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 259 Tm
+(2\) Problem) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 244 Tm
+(Problemfelt: manuel bemanding skaber spildtid) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 229 Tm
+(Problemformulering: effekt af AI-automatisering p spildtid \(staging_imported ? matched\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 214 Tm
+(Afgrnsning: SoluTalent-workflow 2025-2026, out of scope: onboarding/kontrakt/ln) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 184 Tm
+(3\) Delanalyser) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 169 Tm
+(USP1: Spildtid i as-is \(lean waste + proceskort\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 154 Tm
+(USP2: Hvad er automatiseret vs manuelt? \(artefaktanalyse\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 139 Tm
+(USP3: Mlbar effekt \(KPI: decision time, time-to-match, override rate, rejection reasons\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 124 Tm
+(USP4: TOE-forudstninger for videre automatisering) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 94 Tm
+(4\) Data og metode) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 79 Tm
+(Datagrundlag: interviews + artefakter + dokumenter \(triangulering\)) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 4/5) Tj
+ET
+endstream
 endobj
 10 0 obj
-<< /Type /Catalog /Pages 9 0 R >>
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 2381 >>
+stream
+BT
+/F1 11 Tf
+1 0 0 1 50 777 Tm
+(5\) Syntese) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 762 Tm
+(Trade-offs: effektivitet, kvalitet, human-in-the-loop, bias, GDPR) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 747 Tm
+(Konklusion + perspektivering til lignende SMV-konsulenthuse) Tj
+ET
+50 687 m 545 687 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 642 Tm
+(7\) Bibliography \(Harvard style\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 625 Tm
+(Creswell, J.W. and Creswell, J.D., 2018. Research Design: Qualitative, Quantitative, and Mixed) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 610 Tm
+(Methods Approaches. 5th ed. Thousand Oaks: SAGE.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 595 Tm
+(Popper, K., 2002. The Logic of Scientific Discovery. London: Routledge.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 580 Tm
+(Womack, J.P. and Jones, D.T., 2003. Lean Thinking. London: Simon & Schuster.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 565 Tm
+(Undervisningsmateriale \(KEA\), 2024. Positivisme, Kritisk Rationalisme, Empiri og Metoder,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 550 Tm
+(Videnskab og Etik.) Tj
+ET
+50 505 m 545 505 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 460 Tm
+(8\) Appendix) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 443 Tm
+(Appendix A: KPI-definitioner \(draft\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 426 Tm
+(? Decision time: tid fra kandidat vises til beslutning registreres.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 411 Tm
+(? Time-to-match: tid fra staging_imported til matched.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 396 Tm
+(? Override rate: andel anbefalinger manuelt overstyret.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 381 Tm
+(? Rejection reasons: kategoriserede rsager til afvisning.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 351 Tm
+(Appendix B: Evalueringsflow \(draft\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 334 Tm
+(1. Udtag baseline \(as-is\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 319 Tm
+(2. Kr sammenligningsvindue med justeret automatisering.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 304 Tm
+(3. Beregn KPI-forskelle.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 289 Tm
+(4. Kr robusthedstjek.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 274 Tm
+(5. Dokumentr fund, begrnsninger og anbefalinger.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 244 Tm
+(Appendix C: Kort interviewguide \(supplement\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 227 Tm
+(? Hvor opstr ventetid i praksis?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 212 Tm
+(? Hvornr overstyrer teamet automatiske forslag?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 197 Tm
+(? Hvilke kvalitetskriterier vurderes som vigtigst i match?) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 5/5) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Count 5 /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
 endobj
 xref
-0 11
+0 15
 0000000000 65535 f 
 0000000015 00000 n 
 0000000085 00000 n 
 0000000160 00000 n 
-0000003125 00000 n 
-0000003261 00000 n 
-0000006530 00000 n 
-0000006666 00000 n 
-0000009405 00000 n 
-0000009541 00000 n 
-0000009610 00000 n 
+0000002782 00000 n 
+0000002919 00000 n 
+0000006448 00000 n 
+0000006585 00000 n 
+0000010158 00000 n 
+0000010295 00000 n 
+0000013472 00000 n 
+0000013610 00000 n 
+0000016044 00000 n 
+0000016183 00000 n 
+0000016267 00000 n 
 trailer
-<< /Size 11 /Root 10 0 R >>
+<< /Size 15 /Root 14 0 R >>
 startxref
-9660
+16318
 %%EOF

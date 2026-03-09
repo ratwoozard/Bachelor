@@ -1,6 +1,6 @@
 # 1) Title Page
 
-**Title:** Kompetencebaseret matching i SoluTalent: Et positivistisk/kritisk-rationalistisk research design  
+**Title:** SoluTalent-casen: Effektmåling af AI-automatisering i bemandingsprocessen med fokus på spildtid (positivistisk/kritisk-rationalistisk vinkel)  
 **Course:** Theory of Science and Project Methodology (2024E)  
 **Assignment choice:** 2) Use your current bachelor thesis (SoluTalent case)  
 **Name:** Luka  
@@ -22,106 +22,177 @@
 
 ---
 
-
 # Individual hand-in note (2 forfattere-regel)
-Denne synopsis er skrevet individuelt af Luka.
-I overensstemmelse med eksamenskravet ved co-writing af bachelorprojekt må kun problemformulering og researchdiagram være fælles med den anden synopsis.
-Alle øvrige afsnit (introduktion, metodeargumentation, analyseplan, etik, refleksioner, litteraturudvalg og appendiksdetaljer) er individuelt formuleret.
+Denne synopsis er skrevet individuelt af Luka. I overensstemmelse med eksamenskravet ved co-writing af bachelorprojekt må kun problemformulering og researchdiagram være fælles med medforfatter.
+
+Fælles elementer i de to synopsis:
+- Problemformulering
+- Overordnet researchdiagram/struktur
+
+Individuelle elementer i denne version:
+- Videnskabsteoretisk argumentation
+- Metodeprioritering og analyseteknik
+- KPI-valg, validitetsdiskussion, etiske prioriteringer
+- Litteraturudvalg og appendiksdetaljer
 
 ---
 
 # 3) Introduction (scope: aims and objectives)
-Denne synopsis tager udgangspunkt i bachelorprojektets SoluTalent-case. Casen handler om, hvordan platformens kompetencebaserede matching kan forbedres, så kandidater og virksomheder matches mere præcist.
+SoluTalent-casen tager udgangspunkt i Support Solutions ApS og et centralt forretningsproblem: bemandingsprocessen indeholder tidskrævende manuelle led, som skaber spildtid, forsinket time-to-match og ujævn kvalitet i matchforslag.
 
-Formålet er at opstille et testbart design, der kan vurdere, om ændringer i matchlogikken giver en målbar forbedring i matchkvalitet.
+Denne synopsis følger jeres researchdiagram og fokuserer på den del, der handler om **målbar effekt** af AI-automatisering. Hvor den fortolkende version undersøger, hvordan kvalitet forstås af aktører, er denne version rettet mod at teste, om de justeringer, SoluTalent indfører i workflowet, giver dokumenterbare forbedringer.
 
-**Aim:** At undersøge effekten af en justeret matchmodel i SoluTalent.  
-**Objective:** At etablere et forskningsdesign med klare variable, hypoteser og evalueringskriterier.
+**Aim:** At evaluere, om AI-automatisering i SoluTalent reducerer spildtid og forbedrer centrale performanceindikatorer i bemandingsprocessen.  
+**Objective:** At opstille et testbart research design med klare hypoteser, KPI’er, datakilder og evalueringskriterier, så konklusioner kan begrundes empirisk.
 
 ---
 
 # 4) Problem formulation and delimitation
 ## Problem formulation (fælles med medforfatter)
-**Hvordan kan SoluTalent forbedre kvaliteten af match mellem kandidater og virksomheder gennem en mere gennemsigtig og kompetencebaseret matchpraksis?**
+**Hvordan påvirker AI-automatisering spildtid i bemandingsprocessen hos Support Solutions ApS (staging_imported → matched), og hvordan kan effekten dokumenteres i SoluTalent-casen?**
 
-## Delimitation
-- Fokus: SoluTalents eksisterende bachelorcase og datakontekst.
-- Fokus: matchkvalitet målt på shortlist-relevans og efterfølgende kontakt/konvertering.
-- Ikke fokus: fuld markedsanalyse eller langsigtet organisationsforandring.
-- Afgrænsning: evaluering i afgrænset testperiode.
+## Delimitation (i tråd med researchdiagram)
+- Tidsrum: SoluTalent-workflow 2025-2026.
+- Scope: processerne fra staging_imported til matched.
+- Out of scope: onboarding, kontrakt og løn.
+- Fokus: operationel procesperformance og dokumenterbar effekt.
+
+## Arbejdsmæssig afgrænsning
+- KPI’er afgrænses til: decision time, time-to-match, override rate, rejection reasons.
+- Evaluering foretages på afgrænset pilot-/testperiode.
+- Resultater fortolkes som kontekstspecifikke for casen og organisationen.
 
 ---
 
 # 5) Methodology (research design)
 ## Videnskabsteoretisk udgangspunkt
-Individuel vinkel: kvantitativ effektvurdering af matchlogik (positivistisk/kritisk-rationalistisk).
+**Individuel vinkel:** Kvantitativ effektvurdering af automatisering (positivistisk/kritisk-rationalistisk).
 
-Synopsen er positivistisk med kritisk-rationalistisk testlogik:
-- Centrale begreber operationaliseres til målbare indikatorer.
-- Hypoteser formuleres, så de kan falsificeres.
+- **Ontologi (fra diagram):** Pragmatisk virkelighedsforståelse – fokus på, hvad der virker i praksis.
+- **Epistemologi (fra diagram):** Anvendelsesorienteret viden med abduktiv slutningsform.
+- **Videnskabsteoretisk prioritering i denne synopsis:** Effektpåstande operationaliseres, så de kan testes systematisk.
+
+## Delanalyser (koblet til researchdiagrammets USP1-4)
+### Analyse 1 – USP1: Hvor opstår spildtid i as-is?
+- Metode: proceskortlægning + lean waste-kategorisering.
+- Output: baseline over ventetid, håndoff-tid og gentagelsesarbejde.
+
+### Analyse 2 – USP2: Hvad automatiserer SoluTalent, og hvad er stadig manuelt?
+- Metode: artefaktanalyse af workflow, pipeline og systemlogik.
+- Output: tydelig opdeling mellem automatiserede og manuelle beslutningsled.
+
+### Analyse 3 – USP3: Hvilken målbar effekt ses?
+- Metode: før/efter- og/eller A/B-lignende sammenligning.
+- KPI’er: decision time, time-to-match, override rate, rejection reasons.
+- Output: statistisk vurdering af ændring i performance.
+
+### Analyse 4 – USP4: Hvilke TOE-forudsætninger kræves for videre automatisering?
+- Metode: struktureret vurdering af teknologiske, organisatoriske og miljømæssige barrierer.
+- Output: prioriteret implementerings- og skaleringslogik.
 
 ## Hypoteser
-- **H1:** Den justerede matchlogik øger andelen af relevante matches sammenlignet med nuværende logik.
-- **H0:** Der er ingen forskel i matchkvalitet mellem ny og eksisterende logik.
-- **H2:** Effekten er størst i profiler med tydeligt dokumenterede kompetencer.
-
-## Design
-Kvasi-eksperimentelt design (A/B-lignende):
-- **A (kontrol):** nuværende matching.
-- **B (intervention):** kompetencevægtet matching med justerede parametre.
+- **H1:** AI-automatisering reducerer gennemsnitlig decision time signifikant.
+- **H0:** AI-automatisering medfører ingen signifikant ændring i decision time.
+- **H2:** AI-automatisering reducerer time-to-match for profiler med høj datakomplethed.
+- **H3:** Override rate falder, når matchkriterier er tydeligt operationaliserede.
 
 ## Data and analysis
-**Data:** historiske matchdata, shortlist-data, respons/konvertering, profilkarakteristika.  
-**Analyse:** deskriptiv statistik, forskel-i-midler, regressionskontrol for profil- og jobtyper.
+### Datagrundlag (fra diagram)
+- Interviews (supplerende)
+- Artefakter (workflow-design, pipelineopsætning, kravprofiler)
+- Dokumenter (procesbeskrivelser, kvalitetskriterier)
+- Event logs / performanceudtræk
+- Triangulering på tværs af kilder
 
-**Interviewspørgsmål:** Interviews er ikke obligatoriske i denne vinkel, men 3-4 korte stakeholderinterviews kan bruges til at kvalificere indikatorvalg.
+### Analyseplan
+1. Etablering af baseline for as-is.
+2. Klassificering af automationsgrad per procestrin.
+3. KPI-beregning før/efter eller A/B-lignende.
+4. Robusthedstjek (fx segmentering på jobtyper/datakomplethed).
+5. Syntese af effekt, trade-offs og implementeringskrav.
+
+### Interviewrolle i denne vinkel
+Interviews er ikke primær effekt-evidens, men bruges til:
+- validering af procesforståelse,
+- forklaring af outliers,
+- kvalificering af KPI-fortolkning.
 
 ## Quality criteria
-- Reliabilitet: ens evalueringskriterier for A- og B-match.
-- Intern validitet: systematisk sammenligning mellem grupper.
-- Begrebsvaliditet: tydelig definition af “matchkvalitet”.
-- Begrænsning: resultater er kontekstafhængige af SoluTalents datagrundlag.
+- **Reliabilitet:** ens KPI-definitioner, ens udtrækslogik, reproducerbar beregningsmetode.
+- **Begrebsvaliditet:** “spildtid” og “matchkvalitet” defineres operationelt før analyse.
+- **Intern validitet:** sammenligningsdesign med tydelig kontrol for centrale forskelle.
+- **Ekstern validitet:** begrænset generaliserbarhed; kontekstnær anvendelighed prioriteres.
 
 ## Ethics
-- Dataminimering og anonymisering af kandidatdata.
-- Transparens om automatiske beslutningskriterier.
-- Refleksion over bias-risiko i kompetencevægtning.
+- Dataminimering og anonymisering af persondata.
+- Transparens om automatiserede beslutningskriterier.
+- Vurdering af bias-risiko i modelparametre.
+- Hensyn til human-in-the-loop, så kritiske beslutninger kan efterprøves.
+
+## Foreløbig syntese og diskussion (i tråd med diagram)
+Resultater diskuteres som trade-offs mellem:
+- effektivitet,
+- kvalitet,
+- human-in-the-loop,
+- bias,
+- GDPR.
+
+Målet er ikke alene høj hastighed, men dokumenteret forbedring med ansvarlig beslutningsstøtte.
 
 ---
 
 # 6) Overview (diagram) of your research structure (fælles med medforfatter)
 ```text
-SoluTalent bachelor case
-        ↓
-Operational definition of match quality
-        ↓
-Hypothesis setup (H1/H0/H2)
-        ↓
-A/B-like comparison (current vs adjusted model)
-        ↓
-Statistical evaluation
-        ↓
-Assessment of practical and methodological implications
+Research-diagram – SoluTalent-casen
+
+1) Videnskabsteori
+   Ontologi: pragmatisk virkelighedsforståelse
+   Epistemologi: anvendelsesorienteret viden, abduktiv slutningsform
+
+2) Problem
+   Problemfelt: manuel bemanding skaber spildtid
+   Problemformulering: effekt af AI-automatisering på spildtid (staging_imported → matched)
+   Afgrænsning: SoluTalent-workflow 2025-2026, out of scope: onboarding/kontrakt/løn
+
+3) Delanalyser
+   USP1: Spildtid i as-is (lean waste + proceskort)
+   USP2: Hvad er automatiseret vs manuelt? (artefaktanalyse)
+   USP3: Målbar effekt (KPI: decision time, time-to-match, override rate, rejection reasons)
+   USP4: TOE-forudsætninger for videre automatisering
+
+4) Data og metode
+   Datagrundlag: interviews + artefakter + dokumenter (triangulering)
+
+5) Syntese
+   Trade-offs: effektivitet, kvalitet, human-in-the-loop, bias, GDPR
+   Konklusion + perspektivering til lignende SMV-konsulenthuse
 ```
 
 ---
 
 # 7) Bibliography (Harvard style)
-Popper, K., 2002. *The Logic of Scientific Discovery*. London: Routledge.  
 Creswell, J.W. and Creswell, J.D., 2018. *Research Design: Qualitative, Quantitative, and Mixed Methods Approaches*. 5th ed. Thousand Oaks: SAGE.  
-Undervisningsmateriale (KEA), 2024. Positivisme, Kritisk Rationalisme, Empiri og Metoder.
+Popper, K., 2002. *The Logic of Scientific Discovery*. London: Routledge.  
+Womack, J.P. and Jones, D.T., 2003. *Lean Thinking*. London: Simon & Schuster.  
+Undervisningsmateriale (KEA), 2024. Positivisme, Kritisk Rationalisme, Empiri og Metoder, Videnskab og Etik.
 
 ---
 
 # 8) Appendix
-## Appendix A: Operationalization table (draft)
-- X: modeltype (nuværende vs justeret).
-- Y1: shortlist-relevansscore.
-- Y2: kontakt/konverteringsrate.
-- Kontrolvariable: branche, erfaringsniveau, datakomplethed.
+## Appendix A: KPI-definitioner (draft)
+- Decision time: tid fra kandidat vises til beslutning registreres.
+- Time-to-match: tid fra staging_imported til matched.
+- Override rate: andel anbefalinger manuelt overstyret.
+- Rejection reasons: kategoriserede årsager til afvisning.
 
-## Appendix B: Evaluation flow
-1. Fastlæggelse af evalueringsvindue.
-2. Kørsel af begge matchmodeller.
-3. Datarensning og sammenligning.
-4. Rapportering af fund og begrænsninger.
+## Appendix B: Evalueringsflow (draft)
+1. Udtag baseline (as-is).
+2. Kør sammenligningsvindue med justeret automatisering.
+3. Beregn KPI-forskelle.
+4. Kør robusthedstjek.
+5. Dokumentér fund, begrænsninger og anbefalinger.
+
+## Appendix C: Kort interviewguide (supplement)
+- Hvor opstår ventetid i praksis?
+- Hvornår overstyrer teamet automatiske forslag?
+- Hvilke kvalitetskriterier vurderes som vigtigst i match?

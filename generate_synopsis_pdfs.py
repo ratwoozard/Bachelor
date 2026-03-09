@@ -3,7 +3,7 @@ import textwrap
 
 PAGE_W, PAGE_H = 595, 842
 MARGIN = 50
-LINE_H = 14
+LINE_H = 15
 FONT_SIZE = 11
 
 
@@ -73,7 +73,7 @@ def render_pdf(lines, outpath: Path):
                 y -= LINE_H
                 continue
             if k == 'heading':
-                size = 15 if lv == 1 else 13 if lv == 2 else 12
+                size = 16 if lv == 1 else 14 if lv == 2 else 12
                 font = '/F2' if lv <= 2 else '/F1'
             else:
                 size = FONT_SIZE
@@ -98,8 +98,10 @@ def render_pdf(lines, outpath: Path):
 
     content_ids = []
     page_ids = []
-    for stream in pages:
-        s = stream.encode('latin-1', 'replace')
+    total_pages = len(pages)
+    for i, stream in enumerate(pages, 1):
+        footer = f"BT\n/F1 9 Tf\n1 0 0 1 {PAGE_W-120} 25 Tm\n(Page {i}/{total_pages}) Tj\nET"
+        s = (stream + '\n' + footer).encode('latin-1', 'replace')
         cid = add_obj(b'<< /Length ' + str(len(s)).encode() + b' >>\nstream\n' + s + b'\nendstream')
         content_ids.append(cid)
         page = (f'<< /Type /Page /Parent 0 0 R /MediaBox [0 0 {PAGE_W} {PAGE_H}] '

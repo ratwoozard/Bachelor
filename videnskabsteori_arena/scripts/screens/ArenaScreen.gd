@@ -80,11 +80,18 @@ func _prepare_item(it: Dictionary) -> Dictionary:
 	var item := it.duplicate(true)
 	var options: Array = item.get("options", []).duplicate(true)
 	var correct_index: int = item.get("correct_index", 0)
-	var correct_option = options[correct_index]
-	options.shuffle()
-	var new_correct_index := options.find(correct_option)
-	item["options"] = options
-	item["correct_index"] = new_correct_index if new_correct_index >= 0 else 0
+	var indexed_options: Array = []
+	for i in range(options.size()):
+		indexed_options.append({"idx": i, "text": options[i]})
+	indexed_options.shuffle()
+	var new_correct_index := 0
+	var shuffled_options: Array = []
+	for i in range(indexed_options.size()):
+		shuffled_options.append(indexed_options[i].text)
+		if indexed_options[i].idx == correct_index:
+			new_correct_index = i
+	item["options"] = shuffled_options
+	item["correct_index"] = new_correct_index
 	return item
 
 func _show_current_item() -> void:

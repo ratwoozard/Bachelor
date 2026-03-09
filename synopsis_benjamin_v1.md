@@ -22,6 +22,14 @@
 
 ---
 
+
+# Individual hand-in note (2 forfattere-regel)
+Denne synopsis er skrevet individuelt af Benjamin.
+I overensstemmelse med eksamenskravet ved co-writing af bachelorprojekt må kun problemformulering og researchdiagram være fælles med den anden synopsis.
+Alle øvrige afsnit (introduktion, metodeargumentation, analyseplan, etik, refleksioner, litteraturudvalg og appendiksdetaljer) er individuelt formuleret.
+
+---
+
 # 3) Introduction (scope: aims and objectives)
 Denne synopsis tager udgangspunkt i SoluTalent-casen fra bachelorprojektet, men med fokus på, hvordan forskellige aktører forstår begrebet “godt match”.
 
@@ -33,8 +41,8 @@ Formålet er at undersøge, hvordan kandidater, virksomheder og platformens inte
 ---
 
 # 4) Problem formulation and delimitation
-## Problem formulation
-**Hvordan konstrueres og forhandles forståelsen af “matchkvalitet” blandt aktører i SoluTalent-casen, og hvilke konsekvenser har det for platformens matchpraksis?**
+## Problem formulation (fælles med medforfatter)
+**Hvordan kan SoluTalent forbedre kvaliteten af match mellem kandidater og virksomheder gennem en mere gennemsigtig og kompetencebaseret matchpraksis?**
 
 ## Delimitation
 - Fokus: SoluTalent-casens centrale aktører (kandidater, virksomhedsrepræsentanter, platformteam).
@@ -46,6 +54,8 @@ Formålet er at undersøge, hvordan kandidater, virksomheder og platformens inte
 
 # 5) Methodology (research design)
 ## Videnskabsteoretisk udgangspunkt
+Individuel vinkel: fortolkning af aktørers forståelse af matchkvalitet (hermeneutisk/socialkonstruktivistisk).
+
 Synopsen placerer sig i en hermeneutisk/socialkonstruktivistisk ramme:
 - Hermeneutik: fokus på aktørernes fortolkninger.
 - Socialkonstruktivisme: “matchkvalitet” forstås som socialt konstrueret.
@@ -77,7 +87,7 @@ Kvalitativt case-design med semistrukturerede interviews og dokumentanalyse.
 
 ---
 
-# 6) Overview (diagram) of your research structure
+# 6) Overview (diagram) of your research structure (fælles med medforfatter)
 ```text
 SoluTalent bachelor case
         ↓

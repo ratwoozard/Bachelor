@@ -22,6 +22,14 @@
 
 ---
 
+
+# Individual hand-in note (2 forfattere-regel)
+Denne synopsis er skrevet individuelt af Luka.
+I overensstemmelse med eksamenskravet ved co-writing af bachelorprojekt må kun problemformulering og researchdiagram være fælles med den anden synopsis.
+Alle øvrige afsnit (introduktion, metodeargumentation, analyseplan, etik, refleksioner, litteraturudvalg og appendiksdetaljer) er individuelt formuleret.
+
+---
+
 # 3) Introduction (scope: aims and objectives)
 Denne synopsis tager udgangspunkt i bachelorprojektets SoluTalent-case. Casen handler om, hvordan platformens kompetencebaserede matching kan forbedres, så kandidater og virksomheder matches mere præcist.
 
@@ -33,8 +41,8 @@ Formålet er at opstille et testbart design, der kan vurdere, om ændringer i ma
 ---
 
 # 4) Problem formulation and delimitation
-## Problem formulation
-**I hvilken grad forbedrer en justeret, kompetencevægtet matchlogik i SoluTalent kvaliteten af match mellem kandidater og virksomheder?**
+## Problem formulation (fælles med medforfatter)
+**Hvordan kan SoluTalent forbedre kvaliteten af match mellem kandidater og virksomheder gennem en mere gennemsigtig og kompetencebaseret matchpraksis?**
 
 ## Delimitation
 - Fokus: SoluTalents eksisterende bachelorcase og datakontekst.
@@ -46,6 +54,8 @@ Formålet er at opstille et testbart design, der kan vurdere, om ændringer i ma
 
 # 5) Methodology (research design)
 ## Videnskabsteoretisk udgangspunkt
+Individuel vinkel: kvantitativ effektvurdering af matchlogik (positivistisk/kritisk-rationalistisk).
+
 Synopsen er positivistisk med kritisk-rationalistisk testlogik:
 - Centrale begreber operationaliseres til målbare indikatorer.
 - Hypoteser formuleres, så de kan falsificeres.
@@ -79,7 +89,7 @@ Kvasi-eksperimentelt design (A/B-lignende):
 
 ---
 
-# 6) Overview (diagram) of your research structure
+# 6) Overview (diagram) of your research structure (fælles med medforfatter)
 ```text
 SoluTalent bachelor case
         ↓

@@ -168,6 +168,39 @@ Research-diagram – SoluTalent-casen
    Konklusion + perspektivering til lignende SMV-konsulenthuse
 ```
 
+
+## Omfang og afleveringsramme
+Denne version er skrevet med mål om at lande i intervallet for synopsisomfanget (ca. 2400 anslag pr. side i et samlet 4-5 siders spænd ekskl. bilag), så den kan afleveres uden større omskrivning.
+
+## Obligatoriske pensumkilder (3) integreret i designet
+Følgende tre pensumkilder er behandlet som obligatoriske og anvendes eksplicit i argumentationen:
+1. **Empiri og metoder v.05.pptx** – bruges til begrundelse af KPI-logik, datagrundlag og evalueringstilgang.
+2. **Formulering af et Research Design 2026F.pptx** – bruges til sammenhæng mellem problemformulering, designvalg og afgrænsning.
+3. **Videnskab og Etik 2026F.pptx** – bruges til etiske afvejninger om data, bias og human-in-the-loop.
+
+Disse tre kilder er minimumsgrundlag; øvrig litteratur anvendes som supplement.
+
+## Konkret interviewplan (praktisk gennemførelse)
+Selv om denne vinkel er kvantitativt orienteret, planlægges korte interviews for at styrke tolkning og validitet.
+
+**Formål med interviews i denne version**
+- Validere hvor i processen KPI’er giver mest mening.
+- Forklare afvigelser i data (fx høj override rate i specifikke segmenter).
+- Kvalificere anbefalinger til videre automatisering.
+
+**Foreslåede interviewpersoner (3-4 stk.)**
+- 1 recruiter med daglig brug af matching.
+- 1 kundeansvarlig med ansvar for shortlists.
+- 1 intern system-/procesansvarlig.
+- (Valgfri) 1 ledelsesrepræsentant med fokus på KPI-opfølgning.
+
+**Mini-interviewguide (20-30 min)**
+1. Hvor i workflowet opleves mest spildtid?
+2. Hvornår overstyrer I systemets forslag, og hvorfor?
+3. Hvilke KPI’er opleves mest retvisende for matchkvalitet?
+4. Hvilke risici ser I ved mere automatisering?
+5. Hvad skal være opfyldt for at stole mere på modellen?
+
 ---
 
 # 7) Bibliography (Harvard style)

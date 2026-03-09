@@ -159,6 +159,39 @@ Research-diagram – SoluTalent-casen
    Konklusion + perspektivering til lignende SMV-konsulenthuse
 ```
 
+
+## Omfang og afleveringsramme
+Denne version er skrevet med mål om at ligge i synopsisintervallet (ca. 2400 anslag pr. side i et samlet 4-5 siders spænd ekskl. bilag), så den svarer til de praktiske afleveringsforventninger.
+
+## Obligatoriske pensumkilder (3) integreret i designet
+Følgende tre pensumkilder er behandlet som obligatoriske og bruges direkte i opbygningen:
+1. **Empiri og metoder v.05.pptx** – begrunder interview- og trianguleringsdesignet.
+2. **Formulering af et Research Design 2026F.pptx** – anvendes til alignment mellem problem, afgrænsning og metode.
+3. **Videnskab og Etik 2026F.pptx** – anvendes til samtykke, anonymisering og ansvarlig fortolkning.
+
+Øvrige kilder bruges som faglig udbygning ud over minimumskravet.
+
+## Konkret interviewsetup (primær empiri)
+I denne vinkel er interviews hovedkilde og gennemføres systematisk.
+
+**Udvælgelse (8-10 interviews)**
+- 3-4 interne brugere (recruitere/operatører).
+- 2-3 virksomhedsrepræsentanter (modtagere af matchforslag).
+- 2-3 kandidatrelevante perspektiver (hvis adgang er mulig) eller proxyperspektiver fra driftsteamet.
+
+**Semistruktureret interviewguide (30-45 min)**
+1. Hvordan definerer du et “godt match” i praksis?
+2. Hvornår oplever du mismatch mellem systemforslag og faglig vurdering?
+3. Hvad skaber tillid/mistillid til AI-støttede forslag?
+4. Hvordan opleves transparens i beslutningsgrundlaget?
+5. Hvor ser du bias-risici i nuværende praksis?
+6. Hvad skal forbedres, før yderligere automatisering giver mening?
+
+**Efterbehandling**
+- Transskript i kondenseret form.
+- Første kodningsrunde (åbne koder), anden runde (temaer).
+- Triangulering mod artefakter og dokumenter.
+
 ---
 
 # 7) Bibliography (Harvard style)

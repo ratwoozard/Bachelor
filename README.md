@@ -1,39 +1,31 @@
-# Bachelorprojekt: Økonomi & IT (KEA)
+# Bachelorprojekt: Økonomi & IT (KEA) - Vidensbase & Skabelon
 
-Dette repository indeholder alt akademisk og teknisk materiale i forbindelse med mit bachelorprojekt på KEA (Økonomi & IT).
+Dette repository fungerer som en generel vidensbase, metodisk rammeværk og skabelon for bachelorprojekter på KEA (Økonomi & IT). 
 
-## 📌 Projektets Fokus
-Projektet undersøger **AI-automatiseret matching og spildtid i bemandingsprocessen hos Support Solutions ApS** ved at analysere platformen SoluTalent.
+*(Bemærk: For at lade andre studerende få gavn af strukturen og kildematerialet, er vores specifikke case-filer og afleveringer afskærmet og fjernet fra den offentlige del af repositoriet).*
 
-* **Afgrænsning:** Processen dækker kun fra `staging_imported` til `matched`. Aktiviteter såsom jobsourcing, kontrakter og fakturering er uden for scope.
-* **Teoretisk ramme:** Inddrager bl.a. Lean (spildtidsanalyse), Davenport/Dumas (procesoptimering), TOE-frameworket (barrierer for adoption) og DSS (human-in-the-loop).
-* **Videnskabsteori:** Forankret i pragmatisme og abduktion.
+## 📌 Om Vidensbasen
+Dette repository indeholder guider, struktur og akademiske rammeværktøjer baseret på vores eget projekt (som omhandlede AI-automatisering og procesoptimering). Den teoretiske og metodiske struktur kan genbruges af andre studerende.
+
+* **Teoretisk inspiration:** Repositoriet indeholder guides til at inddrage Lean (spildtidsanalyse), Davenport/Dumas (procesoptimering), TOE-frameworket og DSS (human-in-the-loop).
+* **Videnskabsteori:** Konkrete eksempler på forankring i pragmatisme og abduktion (jf. Holm, Kuada m.fl.).
 
 ## 📁 Repository Struktur
 
-Repositoryet fungerer som en vidensbase og er struktureret således:
+Den offentlige del af repositoriet er struktureret således:
 
-### Kernefiler og Metodologi
-- **`AKADEMISK_RAMME.md`**: Videnskabsteori, metodisk overblik og anvendte teorier.
-- **`CASE_KNOWLEDGE.md`**: Case-virksomheden, SoluTalents 8-trins workflow og domæneviden.
-- **`KVALITET_OG_SKRIVEGUIDE.md`**: Standarder for akademisk skrivning og struktur.
-- **`UDDANNELSE_OG_PENSUM.md`**: Kildehierarki og uddannelsens retningslinjer.
-- **`BEGREBSKOMPENDIUM.md`**: Nøglebegreber og definitioner, der anvendes i projektet.
-- **`EKSAMENS_LÆREPLAN.md` & `EKSAMENS_STIKORDSKORT.md`**: Forberedelsesmateriale til det mundtlige forsvar.
-
-### Kodemiljø & Kontekst
-- **`Solutalent CODE CONTEXT/`**: Teknisk kontekst for platformen, herunder processer, figurarkiv og arkitektur-diagrammer. *(Bemærk: Fokus er på den funktionelle analyse af AI-pipelinen og processerne omkring den, ikke ML-udviklingen)*.
-
-### Synopsis og Eksamen
-- **`SYNOPSIS_*.md`**: Forskellige retninger og udkast til synopsisafleveringen.
-- **`RESEARCH_STRUCTURE_ASCII_DIAGRAM.md`**: Visuelt overblik over projektets research design.
+### Kernefiler og Metodologi (Skabeloner)
+- **`AKADEMISK_RAMME.md`**: Guide til videnskabsteori, metodisk overblik og anvendte teorier (indeholder eksempler fra vores case til inspiration).
+- **`KVALITET_OG_SKRIVEGUIDE.md`**: Standarder for akademisk skrivning, sandwich-modellen og struktur.
+- **`UDDANNELSE_OG_PENSUM.md`**: Kildehierarki og uddannelsens retningslinjer for Økonomi & IT.
 
 ### Supplerende Materiale
-- **`Bachelor underviser materiale/`**: Udleveret materiale, vejledningsguides og præsentationer fra undervisningen.
-- **`Undervisningsmateriale og guides/`**: Noter vedrørende digital transformation og ledelse.
+- **`Bachelor underviser materiale/`**: Udleveret materiale, vejledningsguides, eksamenskrav og præsentationer fra undervisningen.
+- **`Undervisningsmateriale og guides/`**: Noter vedrørende digital transformation, ledelse og metode.
+- **`docs/` & `videnskabsteori_arena/`**: Dybdegående noter om epistemologi og metodologi fra 7. semester.
 
-## ⚠️ Forbehold og Bias
-Som medudvikler og praktikant hos Support Solutions har jeg et "insider-perspektiv", hvilket giver dyb indsigt i koden og processerne. Dette håndteres i projektet via kritisk modvægt og triangulering (ved f.eks. aktivt at belyse *rejection reasons*, *override rates*, potentielle systemfejl og teknologiske begrænsninger).
+## 🔒 Afskærmet Case-materiale
+Filer med direkte relation til vores specifikke virksomhedscase (Support Solutions / SoluTalent) og vores personlige afleveringer (synopser, rapport-udkast, kode-kontekst) er afskærmet via `.gitignore` og holdt lokalt, så klassekammerater trygt kan forke/klone dette repo til deres eget projekt uden at få vores afleveringer med.
 
 ---
-*Udarbejdet som del af afgangsprojektet på Københavns Erhvervsakademi (KEA).*
+*Delt med henblik på at hjælpe medstuderende på afgangsprojektet på Københavns Erhvervsakademi (KEA).*

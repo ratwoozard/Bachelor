@@ -1,0 +1,4 @@
+# Ignorer specifikke bachelorprojekt case-filer og afleveringer
+# Dette sikrer at repositoriet kan deles som en generel vidensbase
+Min_Bachelor_Case/
+.cursor/

@@ -22,7 +22,7 @@ Den offentlige del af repositoriet er struktureret således:
 ### Supplerende Materiale
 - **`Bachelor underviser materiale/`**: Udleveret materiale, vejledningsguides, eksamenskrav og præsentationer fra undervisningen.
 - **`Undervisningsmateriale og guides/`**: Noter vedrørende digital transformation, ledelse og metode.
-- **`docs/` & `videnskabsteori_arena/`**: Dybdegående noter om epistemologi og metodologi fra 7. semester.
+- **`docs/` & `videnskabsteori_arena/`**: Dybdegående noter om epistemologi og metodologi fra 7. semester (bl.a. `docs/PENSUM_VIDENSBASE.md`, `docs/VEJLEDER_FEEDBACK_SYNOPSIS.md` for synopsis-tjekliste og eksamensforberedelse).
 
 ## 🔒 Afskærmet Case-materiale
 Filer med direkte relation til vores specifikke virksomhedscase (Support Solutions / SoluTalent) og vores personlige afleveringer (synopser, rapport-udkast, kode-kontekst) er afskærmet via `.gitignore` og holdt lokalt, så klassekammerater trygt kan forke/klone dette repo til deres eget projekt uden at få vores afleveringer med.

@@ -15,6 +15,7 @@ Specialiseret akademisk vejleder-AI for bachelorprojekt i Økonomi & IT (KEA): *
 | `AKADEMISK_RAMME.md` | Videnskabsteori (pragmatisme, abduktion), metode, teori (Lean, TOE, DSS, Davenport) |
 | `KVALITET_OG_SKRIVEGUIDE.md` | Akademisk skrivning, kapitelstruktur, sandwich, kildehenvisning |
 | `UDDANNELSE_OG_PENSUM.md` | Kildeprioritering Tier 1/2, kildehierarki, pensum først |
+| `docs/VEJLEDER_FEEDBACK_SYNOPSIS.md` | Vejlederens synopsis-/research design-tjekliste (fejlplaceringer, indlejret case, Kuada vs Rossman & Wilson, triangulering, tidshorisont, informantvalidering, etik); eksamensspørgsmål (Jens); krydsref. til `Lyd_feedback/.../MASTER_feedback_transcript.md` |
 | `Undervisningsmateriale og guides/` | Supplerende: digital transformation, modenhed, ledelse (se README.md); ikke erstatning for pensum |
 | `Bachelor underviser materiale/` | Eksamen Theory of Science 2024E (synopsis-struktur, individuel aflevering), Formulering Research Design 2026F, Research design in action (B&O CBS), LUSEM Harvard referencing, videnskabsteori-ppt’er |
 | `Solutalent CODE CONTEXT/` | Figurer (`figures/`, `figures/export/`), PROCESSER.md, FIGURLISTE.md, FIGURE_CAPTIONS.md – procesdiagrammer, framework, AI-pipeline, C4, evidens |

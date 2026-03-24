@@ -15,6 +15,7 @@
 | `UDDANNELSE_OG_PENSUM.md` Tier 1-3 | Kildehierarki og metodeforankring | Tier 1: Holm, Kuada, Saunders | Alle metodepåstande skal forankres i Tier 1 før supplerende litteratur | Forfatter+år på alle centrale metodepåstande |
 | `KVALITET_OG_SKRIVEGUIDE.md` Del 1-3 | Akademisk argumentation, sandwich-model, censorlogik | Projektintern skriveguide + metodepensum | Struktur og kvalitet i metode/analyse/diskussion | Påstand -> teori -> empiri -> analyse -> delkonklusion |
 | `docs/PENSUM_VIDENSBASE.md` sektion 1-12 | Dyb begrebsbase for epistemologi og metode | Klassikere + pensumkobling | Begrebsafklaring og forsvarsargumentation | Undgå kausalitet uden data; vis begrænsninger og bias |
+| `docs/VEJLEDER_FEEDBACK_SYNOPSIS.md` | Tjekliste: synopsis/research design (epistemologi, case, triangulering, tidshorisont, kildehygiejne, etik); eksamen (Jens) | Holm, Kuada, Rossman & Wilson, Saunders; vejledertransskription | Rette fejlplaceringer før aflevering; align med ToS-modul vs bachelor | Verificér mod `MASTER_feedback_transcript.md`; ingen performance-påstande uden data |
 
 ---
 

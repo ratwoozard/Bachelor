@@ -1,6 +1,6 @@
 # Vidensbase Status – Global Konsistensvalidering
 
-**Dato:** 2026-02-23  
+**Dato:** 2026-03-23  
 **Formål:** Dokumentere at alle vidensfiler er opdateret, harmoniseret og konsistente efter dyb epistemologi/metodologi-integration.
 
 ---
@@ -21,6 +21,85 @@
   - Induktion/deduktion/abduktion uddybet med Peirce-reference
   - Sekventielle/simultane designs med Creswell/Plano Clark
   - 50+ kilder (Tier 1 + klassikere + online-ressourcer)
+
+- ✅ **docs/VIDENSBASE_AFSNITSKORT.md**
+  - Konservativ afsnitsmapping af vidensbasens centrale filer
+  - Direkte kobling: afsnit -> begreb -> teori -> evidenskrav
+  - Kun høj-sikker kobling; tvivlstilfælde udeladt
+  - Hurtig reference til evidenskrav pr. analysetype
+
+- ✅ **docs/PENSUM_KILDEKORT_INDEX.md**
+  - Samlet indeks for bogkort til reeksamen
+  - Kobler kildevalg til anti-vaghed og censorberedskab
+
+- ✅ **docs/PENSUM_KILDEKORT_HOLM_2023.md**
+  - Kongruens, case-logik og analytisk generaliserbarhed til anvendt brug
+  - Indeholder konkrete "maa paastaa / kraever empiri / undgaa-formuleringer"
+
+- ✅ **docs/PENSUM_KILDEKORT_SAUNDERS_2023.md**
+  - Datadesign, sampling og metodegennemfoersel pa operationelt niveau
+  - Indeholder konkrete censor-svarlinjer til metodeforsvar
+
+- ✅ **docs/PENSUM_KILDEKORT_KUADA_2012.md**
+  - Metodisk projektstruktur og kvalitetskriterier med tydelig afgraensning
+  - Eksplicit regel: Kuada bruges ikke som primaer ontologi/epistemologi-kilde i jeres setup
+
+- ✅ **docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md**
+  - Pragmatisk integrationslogik for kvant/kval i samme studie
+  - Corroboration, elaboration og initiation operationaliseret til forsvar
+
+- ✅ **docs/UNDERVISNINGSFIGURER_KONTEKST.md**
+  - Konservativ figurmapping fra `pptx_extract` og undervisers materialer
+  - Tydelig markering af brugbar/udelades/kraever manuel review
+  - Figurbrug knyttet til konkrete paastande og kildeankre
+
+- ✅ **docs/AGENT_PLAYBOOK.md**
+  - Bindende agentregler for scope, kildehierarki, anti-vaghed og outputkontrakt
+
+- ✅ **docs/AGENT_QUICKSTART.md**
+  - 10-linjers indgang til samme regler + pointer til øvrige agentfiler
+
+- ✅ **docs/CLAIMS_EVIDENCE_MATRIX.md**
+  - Matrice for paastandstype -> evidenskrav -> tilladt formulering -> advarsel
+
+- ✅ **docs/FIGUR_REGISTER.md**
+  - Central figurstatus med godkendt/forsigtig/udelades/manuel_review
+
+- ✅ **docs/CITATION_MAP.md**
+  - Begreb -> primær/sekundær kilde -> intern filkobling
+
+- ✅ **docs/FORBUDTE_FORMULERINGER.md**
+  - Operationel sortliste med sikre alternativformuleringer
+
+- ✅ **docs/PF_DECISION_LOG.md**
+  - Sporbar PF-historik med afvisningsårsager og læringspunkter
+
+- ✅ **docs/INTERVIEW_CODEBOOK.md**
+  - Koderegler med inklusion/eksklusion, evidenseksempel og teorikobling
+
+- ✅ **teori_bibliotek/INDEX.md**
+  - Ny rodbaseret begrebsstruktur med én mappe pr. centralt begreb
+  - Dækker Tier 1-3 og centrale domæneteorier i mappeformat
+
+- ✅ **teori_bibliotek/governance/AKADEMISK_KVALITETSRAMME.md**
+  - Bindende acceptance criteria og review-checkliste
+  - Governance-flow for vedligehold og kildekontrol
+
+- ✅ **teori_bibliotek/governance/BEGREBS_SKABELON.md**
+  - Standardiseret kontekstskabelon med anti-vaghed og evidenskrav
+  - Ensarter censorberedskab på tværs af begreber
+
+- ✅ **teori_bibliotek/meta-videnskabsteori/***
+  - Kontekstfiler for centrale meta-begreber (fx pragmatisme, ontologi, epistemologi, abduktion, hermeneutik)
+  - Tier-markering, evidenskrav, censorspørgsmål og begrænsninger i hver fil
+
+- ✅ **teori_bibliotek/method-forskningsdesign/***
+  - Kontekstfiler for design- og metodebegreber (fx case-design, sampling, triangulering, metodepluralisme)
+  - Tydelig kobling mellem påstandstype og evidenstype
+
+- ✅ **teori_bibliotek/domain-okonomi-it/***
+  - Kontekstfiler for Lean, Davenport, TOE og DSS-human-in-the-loop
+  - Operationalisering rettet mod jeres case-scope
 
 - ✅ **UDDANNELSE_OG_PENSUM.md**
   - Tier 3 tilføjet med klassikere (Gergen, Saussure, Kuhn, Wittgenstein, Popper osv.)

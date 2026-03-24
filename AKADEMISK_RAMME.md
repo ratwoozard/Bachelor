@@ -25,7 +25,7 @@
 
 | Dimension | Pragmatisk position | Konsekvens for projektet |
 |---|---|---|
-| **Ontologi** | Pragmatisk ontologi vælges når problemløsningen skaber behov for både kvantitative og kvalitative data (giver typisk mixed methods) | I har brug for både at måle (KPI) og forstå (interviews). I behøver ikke argumentere for én sandhed, men for praktisk problemløsning. |
+| **Ontologi** | Pragmatisk ontologi vælges når problemløsningen skaber behov for både kvantitative og kvalitative data (giver typisk mixed methods) | I har brug for både at kunne maale (KPI-plan efter go-live) og forstaa (interviews). I behoever ikke argumentere for en sandhed, men for praktisk problemlosning. |
 | **Epistemologi** | Viden vurderes på anvendelighed, ikke absolut sandhed | Jeres fund skal være *nyttige* for SS og fagligt interessante – ikke universelle love |
 | **Slutningsform** | Abduktiv: vekslen mellem teori og empiri | I starter med at observere processen (empiri), bringer Lean/TOE ind (teori), og vender tilbage med nuancerede fund. Ikke ren deduktion (hypotesetest) eller ren induktion (grounded theory) |
 | **Metode** | Metodepluralisme | Legitimerer at I bruger interviews + artefaktanalyse + platformdata i samme studie, uden at det er "mixed methods" i traditionel forstand |
@@ -42,7 +42,7 @@
 - Glemmer abduktionen → Vis eksplicit i analysen at I veksler mellem empiri og teori.
 
 **Standardformulering:**
-> "Projektet anlægger en pragmatisk videnskabsteoretisk position med forankring i 7. semesters metodepensum (Holm, 2023; Kuada, 2012), suppleret af Saunders et al. (2023). Denne position er valgt, fordi problemformuleringen er handlingsorienteret og empirien har en naturlig dualitet: menneskers oplevelser (interviews med beslutningstagere) og et konkret digitalt artefakt (SoluTalent-platformen med kode, datamodeller og KPI'er). Pragmatismen legitimerer en metodepluralistisk tilgang med abduktiv slutningsform, hvor vi iterativt veksler mellem teoretiske begreber (Lean waste, TOE) og empiriske fund fra case og artefakt."
+> "Projektet anlaegger en pragmatisk videnskabsteoretisk position med forankring i 7. semesters metodepensum (Holm, 2023; Kuada, 2012), suppleret af Saunders et al. (2023). Denne position er valgt, fordi problemformuleringen er handlingsorienteret og empirien har en naturlig dualitet: menneskers oplevelser (interviews med beslutningstagere) og et konkret digitalt artefakt (SoluTalent-platformen med kode og datamodeller). KPI indgaar i denne fase som maaleplan efter go-live, ikke som eksisterende driftresultater. Pragmatismen legitimerer en metodepluralistisk tilgang med abduktiv slutningsform, hvor vi iterativt veksler mellem teoretiske begreber (Lean waste, TOE) og empiriske fund fra case og artefakt."
 
 ### A.3 Slutningsformer: Induktion, Deduktion og Abduktion
 
@@ -120,7 +120,7 @@ Jeres PF er "Hvordan påvirker..." med fokus på praktisk forståelse → pragma
 1. **Forskningsspørgsmål** → Jeres PF ("hvordan påvirker..."-spørgsmål passer til casestudie)
 2. **Underspørgsmål** → Giver retning for dataindsamling og analyse
 3. **Analyseenheder** → Bemandingsprocessen + SoluTalent-artefakt
-4. **Datakilder** → Interviews, artefaktanalyse, KPI-dataudtræk (triangulering)
+4. **Datakilder** → Interviews, artefaktanalyse, KPI-maaleplan/loggingkrav (triangulering i pre-go-live fase)
 5. **Analytisk strategi** → Tematisk kodning + proceskortlægning + teoretisk ramme (Lean, TOE, DSS)
 6. **Fortolkningskriterier** → Lean-kategorier (spildtyper), TOE-dimensioner, DSS-principper
 
@@ -167,7 +167,7 @@ Case-studier generaliserer **analytisk til teori**, ikke statistisk til populati
 | **Manuelle vs. automatiserede trin** | Hvilke trin kræver admin-klik? Hvilke kører automatisk? |
 | **AI-pipeline** | Hvad gør hvert af de 6 stages? Hvad filtreres fra? |
 | **Auto-approval gates** | Betingelser for at springe curation over |
-| **KPI-struktur** | Hvad måles? Precision@5, override rate, beslutningstid |
+| **KPI-struktur** | Hvad skal maales efter go-live? Precision@5, override rate, beslutningstid |
 | **Rejection reasons** | Strukturerede årsager til afvisning af matches |
 
 ### B.4 Tematisk analyse (Braun & Clarke, 2006)
@@ -232,7 +232,7 @@ Case-studier generaliserer **analytisk til teori**, ikke statistisk til populati
 
 | Dimension | Spørgsmål i jeres kontekst | Eksempler på fund |
 |---|---|---|
-| **Technology** | Er AI-matchingen præcis nok til at stole på? Er datakvaliteten tilstrækkelig? | Precision@5, override rate, enrichment confidence |
+| **Technology** | Er AI-matchingen praecis nok til at stole paa? Er datakvaliteten tilstraekkelig? | KPI-maaleplan: Precision@5, override rate, enrichment confidence |
 | **Organization** | Har teamet kompetencer? Ledelsesopbakning? Kultur? Ressourcer? | Tillid til AI, ændringsvillighed, antal admin-medarbejdere |
 | **Environment** | Markedspres? Konkurrence? Regulering? Kundekrav? | Hastighed som konkurrenceparameter, GDPR, EU AI Act |
 
@@ -245,7 +245,7 @@ Case-studier generaliserer **analytisk til teori**, ikke statistisk til populati
 **Nøglebegreb: Human-in-the-loop**
 - AI genererer forslag (match_requests med scores)
 - Mennesket godkender/afviser (match review med rejection_reason)
-- Feedback kan påvirke systemet (match_analytics indgår i systemets læringsmekanisme)
+- Feedback kan paavirke systemet (match_analytics er designet som del af laeringsmekanismen efter go-live)
 
 **I jeres projekt:** SoluTalents match-pipeline er et klassisk DSS. Spørgsmålet (USP 3) er: *hvornår giver human-in-the-loop mening, og hvornår er det unødvendigt spild?*
 

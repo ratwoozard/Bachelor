@@ -1,0 +1,28 @@
+# Usikkerhedslog - saif1.mp3
+
+- 00:05-00:06 | segment 2 | mange lav-konfidens ord (60%) | anden pass uden klar forbedring
+- 00:10-00:10 | segment 5 | mange lav-konfidens ord (50%) | anden pass uden klar forbedring
+- 00:58-00:59 | segment 11 | mange lav-konfidens ord (100%) | anden pass uden klar forbedring
+- 01:53-01:54 | segment 22 | mange lav-konfidens ord (67%) | anden pass uden klar forbedring
+- 02:21-02:24 | segment 26 | hoj no_speech_prob (0.84) | anden pass uden klar forbedring
+- 02:26-02:28 | segment 27 | hoj no_speech_prob (0.84) | anden pass uden klar forbedring
+- 02:28-02:30 | segment 28 | hoj no_speech_prob (0.84); mange lav-konfidens ord (50%) | anden pass uden klar forbedring
+- 02:30-02:34 | segment 29 | hoj no_speech_prob (0.84) | anden pass uden klar forbedring
+- 02:34-02:39 | segment 30 | hoj no_speech_prob (0.62) | anden pass uden klar forbedring
+- 02:41-02:42 | segment 31 | hoj no_speech_prob (0.60) | opdateret i valideringspass
+- 02:45-02:53 | segment 32 | hoj no_speech_prob (0.62) | anden pass uden klar forbedring
+- 02:53-02:58 | segment 33 | hoj no_speech_prob (0.62) | anden pass uden klar forbedring
+- 02:58-03:02 | segment 34 | hoj no_speech_prob (0.62) | anden pass uden klar forbedring
+- 03:02-03:09 | segment 35 | hoj no_speech_prob (0.71) | anden pass uden klar forbedring
+- 03:09-03:14 | segment 36 | hoj no_speech_prob (0.71) | anden pass uden klar forbedring
+- 03:15-03:16 | segment 37 | hoj no_speech_prob (0.71) | første pass
+- 03:16-03:20 | segment 38 | hoj no_speech_prob (0.71) | anden pass uden klar forbedring
+- 03:20-03:24 | segment 39 | hoj no_speech_prob (0.71) | anden pass uden klar forbedring
+- 03:25-03:30 | segment 40 | hoj no_speech_prob (0.71) | anden pass uden klar forbedring
+- 04:23-04:25 | segment 53 | hoj no_speech_prob (0.75) | anden pass uden klar forbedring
+- 04:26-04:27 | segment 54 | hoj no_speech_prob (0.75) | anden pass uden klar forbedring
+- 04:28-04:33 | segment 55 | hoj no_speech_prob (0.75) | anden pass uden klar forbedring
+- 04:33-04:37 | segment 56 | hoj no_speech_prob (0.75) | anden pass uden klar forbedring
+- 04:38-04:41 | segment 57 | hoj no_speech_prob (0.75) | anden pass uden klar forbedring
+- 04:41-04:46 | segment 58 | hoj no_speech_prob (0.75) | anden pass uden klar forbedring
+- 04:46-04:48 | segment 59 | hoj no_speech_prob (0.75) | anden pass uden klar forbedring

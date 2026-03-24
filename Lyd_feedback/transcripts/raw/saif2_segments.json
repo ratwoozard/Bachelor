@@ -1,0 +1,533 @@
+[
+  {
+    "segment_index": 1,
+    "start": 0.0,
+    "end": 15.64,
+    "raw_text": "Og det, at det nye AI-baseret automatisering skal jo også være noget, som brugende skal kunne bruge, fremmedrettet selv med automatikken, det kræver en dialog, altså en samling af data, og derfor så får I begge dele.",
+    "validated_text": "Og det, at det nye AI-baseret automatisering skal jo også være noget, som brugende skal kunne bruge, fremmedrettet selv med automatikken, det kræver en dialog, altså en samling af data, og derfor så får I begge dele.",
+    "avg_logprob": -0.31322312310889916,
+    "no_speech_prob": 0.12609538435935974,
+    "low_word_ratio": 0.13157894736842105,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 2,
+    "start": 15.98,
+    "end": 27.16,
+    "raw_text": "Uanset hvordan I gør det, så er det her efterfølgende sidste del, der kommer I med selv under her ontologien, hvad det er, altså selv problemet, og så lige decifrere den, altså lige bang den ned i atomerne.",
+    "validated_text": "Uanset hvordan I gør det, så er det her efterfølgende sidste del, der kommer I med selv under her ontologien, hvad det er, altså selv problemet, og så lige decifrere den, altså lige bang den ned i atomerne.",
+    "avg_logprob": -0.31322312310889916,
+    "no_speech_prob": 0.12609538435935974,
+    "low_word_ratio": 0.10526315789473684,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 3,
+    "start": 27.16,
+    "end": 36.38,
+    "raw_text": "Når I sammen her er færdige med det, så kommer den næste, det er selve undersøgelses-tilgangen, og det er så rigtigt, at det er en synergism, der hedder abduktion.",
+    "validated_text": "Når I sammen her er færdige med det, så kommer den næste, det er selve undersøgelses-tilgangen, og det er så rigtigt, at det er en synergism, der hedder abduktion.",
+    "avg_logprob": -0.21627177486214974,
+    "no_speech_prob": 0.5319477319717407,
+    "low_word_ratio": 0.13333333333333333,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 4,
+    "start": 37.4,
+    "end": 46.7,
+    "raw_text": "Abduktionen er jo kun for én af jer, og I kan ikke huske, om én af jer har været induktiv, og den anden har været abduktiv. Benjamin, du er abduktiv, for du og familien er en fra virksomheden, er det korrekt?",
+    "validated_text": "Abduktionen er jo kun for én af jer, og I kan ikke huske, om én af jer har været induktiv, og den anden har været abduktiv. Benjamin, du er abduktiv, for du og familien er en fra virksomheden, er det korrekt?",
+    "avg_logprob": -0.21627177486214974,
+    "no_speech_prob": 0.5319477319717407,
+    "low_word_ratio": 0.0975609756097561,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 5,
+    "start": 47.12,
+    "end": 49.18,
+    "raw_text": "Det er vi begge to. Ja, det er vi begge to faktisk.",
+    "validated_text": "Det er vi begge to. Ja, det er vi begge to faktisk.",
+    "avg_logprob": -0.21627177486214974,
+    "no_speech_prob": 0.5319477319717407,
+    "low_word_ratio": 0.08333333333333333,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 6,
+    "start": 49.66,
+    "end": 52.58,
+    "raw_text": "Okay, er I begge to fra samme afdeling? Ja.",
+    "validated_text": "Okay, er I begge to fra samme afdeling? Ja.",
+    "avg_logprob": -0.21627177486214974,
+    "no_speech_prob": 0.5319477319717407,
+    "low_word_ratio": 0.1111111111111111,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 7,
+    "start": 53.5,
+    "end": 56.22,
+    "raw_text": "Okay, jamen så giver det jo gode mening, at det er abduktiv for jer begge to.",
+    "validated_text": "Okay, jamen så giver det jo gode mening, at det er abduktiv for jer begge to.",
+    "avg_logprob": -0.21627177486214974,
+    "no_speech_prob": 0.5319477319717407,
+    "low_word_ratio": 0.1875,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 8,
+    "start": 56.22,
+    "end": 73.24,
+    "raw_text": "Og så er det så, at I kommer egentlig igen med noget teori, og der er det jo så, nu har I brugt Sounders, og den ligger jo også i John Cruella, som er den obligatoriske under pragmatismen, som er en epistemologi og ikke en ontologi, som nogen har fejlagtigt er referet til.",
+    "validated_text": "Og så er det så, at I kommer egentlig igen med noget teori, og der er det jo så, nu har I brugt Sounders, og den ligger jo også i John Cruella, som er den obligatoriske under pragmatismen, som er en epistemologi og ikke en ontologi, som nogen har fejlagtigt er referet til.",
+    "avg_logprob": -0.21782648763400597,
+    "no_speech_prob": 0.2669718265533447,
+    "low_word_ratio": 0.22641509433962265,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 9,
+    "start": 73.62,
+    "end": 85.64,
+    "raw_text": "Og der går I ind og så får skrevet, hvad det er, og jeg vil næsten anbefale af I to John Cruella, som er det første, og så kunne I så supplieret med Sounders, hvis I også gerne ville det.",
+    "validated_text": "Og der går I ind og så får skrevet, hvad det er, og jeg vil næsten anbefale af I to John Cruella, som er det første, og så kunne I så supplieret med Sounders, hvis I også gerne ville det.",
+    "avg_logprob": -0.21782648763400597,
+    "no_speech_prob": 0.2669718265533447,
+    "low_word_ratio": 0.1,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 10,
+    "start": 85.64,
+    "end": 109.69,
+    "raw_text": "Og så fortsætter I dernede efter, for når jeg så begynder at se på jeres epistemologi, jeg skal lige se epistemologien, den er nemlig, jeg skal lige se ontologi, slutning, ja, I går ind til abduktion, I har epistemologien i samme afdeling som ontologi.",
+    "validated_text": "Og så fortsætter I dernede efter, for når jeg så begynder at se på jeres epistemologi, jeg skal lige se epistemologien, den er nemlig, jeg skal lige se ontologi, slutning, ja, I går ind til abduktion, I har epistemologien i samme afdeling som ontologi.",
+    "avg_logprob": -0.19072622927122337,
+    "no_speech_prob": 0.3803829550743103,
+    "low_word_ratio": 0.11363636363636363,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 11,
+    "start": 109.69,
+    "end": 126.39,
+    "raw_text": "Og så står vores kontekst frem, formålet er derfor ikke alene i den svære målbare mønstre i processen, men også at forstå de unistruerse vurderinger og fortolkninger, der ligger bag bruglen, er I baseret.",
+    "validated_text": "Og så står, jeg skal vise i hvide, der er en korrekt organisatorisk kontekst, for formålet er derfor ikke alene at identificere målbar mønstre i processen, men også at forstå de organisatoriske vurderinger og fortolkninger, der ligger bag bruglen af AI-baseret.",
+    "avg_logprob": -0.35304990122395175,
+    "no_speech_prob": 0.8706400990486145,
+    "low_word_ratio": 0.0,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.87)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": true
+  },
+  {
+    "segment_index": 12,
+    "start": 126.63,
+    "end": 141.7,
+    "raw_text": "Det eneste, der ligger i det, det er den samme ud fra dens anvendelighed, så tager I nævnt nok ikke videnskabs teorierne på det epistemologiske niveau.",
+    "validated_text": "Det eneste, der ligger i det, det er, at når I skriver op viden, vurderes i den samme udfra dens anvendelighed, så tager I nævnt nok ikke videnskabs teorierne på det epistemologiske niveau.",
+    "avg_logprob": -0.25644821609769547,
+    "no_speech_prob": 0.657516360282898,
+    "low_word_ratio": 0.0,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.66)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": true
+  },
+  {
+    "segment_index": 13,
+    "start": 141.7,
+    "end": 149.3,
+    "raw_text": "Jeg vil næsten sige, brug det som en ren, ny ordnavstning, i stedet for at indlægge det samme som ontologi og epistemologi, som I har gjort.",
+    "validated_text": "Jeg vil næsten sige, brug det som en ren, ny ordnavstning, i stedet for at indlægge det samme som ontologi og epistemologi, som I har gjort.",
+    "avg_logprob": -0.20177972457540316,
+    "no_speech_prob": 0.8517023324966431,
+    "low_word_ratio": 0.038461538461538464,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.85)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 14,
+    "start": 149.9,
+    "end": 172.0,
+    "raw_text": "Det er adskilten fra hinanden, det gør det meget mere, så vil jeg sige, synergisme, jamen igen, vær herinde og gå ind og se, hvad er det for noget, og hvad er det, der argumenterer for, hvornår man vælger en synergisme.",
+    "validated_text": "Det er adskilten fra hinanden, det gør det meget mere, så vil jeg sige, synergisme, jamen igen, vær herinde og gå ind og se, hvad er det for noget, og hvad er det, der argumenterer for, hvornår man vælger en synergisme.",
+    "avg_logprob": -0.20177972457540316,
+    "no_speech_prob": 0.8517023324966431,
+    "low_word_ratio": 0.024390243902439025,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.85)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 15,
+    "start": 172.0,
+    "end": 181.18,
+    "raw_text": "Man vælger jo en synergisme, fordi man kender problemet indefra, i den rette kontekst, og hvordan den er opstået i organisationen.",
+    "validated_text": "Man vælger jo en synergisme, fordi man kender problemet indefra, i den rette kontekst, og hvordan den er opstået i organisationen.",
+    "avg_logprob": -0.21047169148921965,
+    "no_speech_prob": 0.7514410018920898,
+    "low_word_ratio": 0.09523809523809523,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.75)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 16,
+    "start": 181.32,
+    "end": 189.54,
+    "raw_text": "Og det er det, I skal skrive på en måde med jeres brug, at det er det, der gør, at I har valgt den her obduktionssynergisme som undersøgelse-tillegang.",
+    "validated_text": "Og det er det, I skal skrive på en måde med jeres brug, at det er det, der gør, at I har valgt den her obduktionssynergisme som undersøgelse-tillegang.",
+    "avg_logprob": -0.21047169148921965,
+    "no_speech_prob": 0.7514410018920898,
+    "low_word_ratio": 0.10344827586206896,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.75)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 17,
+    "start": 189.54,
+    "end": 195.3,
+    "raw_text": "Og så kan I fortsætte med metodisk tilgang, jamen der er slet ikke nogen redegørelse, som jeg kan huske.",
+    "validated_text": "Og så kan I fortsætte med metodisk tilgang, jamen der er slet ikke nogen redegørelse, som jeg kan huske.",
+    "avg_logprob": -0.2011989840659602,
+    "no_speech_prob": 0.7397056818008423,
+    "low_word_ratio": 0.10526315789473684,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.74)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 18,
+    "start": 195.48,
+    "end": 204.02,
+    "raw_text": "Der står metodvalg, I kalder den for metodvalg, og jeg ved ikke, om det så er den metodiske, nej det er det ikke engang, det er den nede i sin struktur i interviews.",
+    "validated_text": "Der står metodvalg, I kalder den for metodvalg, og jeg ved ikke, om det så er den metodiske, nej det er det ikke engang, det er den nede i sin struktur i interviews.",
+    "avg_logprob": -0.2011989840659602,
+    "no_speech_prob": 0.7397056818008423,
+    "low_word_ratio": 0.06060606060606061,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.74)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 19,
+    "start": 204.42,
+    "end": 210.1,
+    "raw_text": "Så metodisk tilgang, det er forklarende eller udforskende.",
+    "validated_text": "Så metodisk tilgang, det er forklarende eller udforskende.",
+    "avg_logprob": -0.2011989840659602,
+    "no_speech_prob": 0.7397056818008423,
+    "low_word_ratio": 0.0,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.74)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 20,
+    "start": 211.06,
+    "end": 216.08,
+    "raw_text": "Og så skal I gøre det stringent, og så siger I, at de fleste af jer vil være udforskende.",
+    "validated_text": "Og så skal I gøre det stringent, og så siger I, at de fleste af jer vil være udforskende.",
+    "avg_logprob": -0.15095818403642625,
+    "no_speech_prob": 0.7901043891906738,
+    "low_word_ratio": 0.15789473684210525,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.79)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 21,
+    "start": 216.34,
+    "end": 217.76,
+    "raw_text": "Hvorfor vælger I ikke udforskende?",
+    "validated_text": "Hvorfor vælger I ikke udforskende?",
+    "avg_logprob": -0.15095818403642625,
+    "no_speech_prob": 0.7901043891906738,
+    "low_word_ratio": 0.2,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.79)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 22,
+    "start": 218.0,
+    "end": 224.28,
+    "raw_text": "Og det er fordi I vælger den, fordi I ikke kender de her tilbyttede aspekter, der er knyttet til problemet.",
+    "validated_text": "Og det er fordi I vælger den, fordi I ikke kender de her tilbyttede aspekter, der er knyttet til problemet.",
+    "avg_logprob": -0.15095818403642625,
+    "no_speech_prob": 0.7901043891906738,
+    "low_word_ratio": 0.1,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.79)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 23,
+    "start": 224.44,
+    "end": 231.52,
+    "raw_text": "Derfor vil I gerne undersøge det først kvalitativt, for I spørger og I har et dialog, og så finder I nogle andre aspekter.",
+    "validated_text": "Derfor vil I gerne undersøge det først kvalitativt, for I spørger og I har et dialog, og så finder I nogle andre aspekter.",
+    "avg_logprob": -0.15095818403642625,
+    "no_speech_prob": 0.7901043891906738,
+    "low_word_ratio": 0.08695652173913043,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.79)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 24,
+    "start": 231.52,
+    "end": 240.36,
+    "raw_text": "Og når I har alt det, så er det meget nemmere og bedre at kunne undersøge det bagefter ved at sende en spørgskammer, som er mere bekræftende.",
+    "validated_text": "Og når I har alt det, så er det meget nemmere og bedre at kunne undersøge det bagefter ved at sende en spørgskammer, som er mere bekræftende.",
+    "avg_logprob": -0.1886126546914341,
+    "no_speech_prob": 0.28889769315719604,
+    "low_word_ratio": 0.14814814814814814,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 25,
+    "start": 240.76,
+    "end": 245.1,
+    "raw_text": "Så der er det den vinkel, den sekvenciel udforskende design.",
+    "validated_text": "Så der er det den vinkel, den sekvenciel udforskende design.",
+    "avg_logprob": -0.1886126546914341,
+    "no_speech_prob": 0.28889769315719604,
+    "low_word_ratio": 0.0,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 26,
+    "start": 246.26,
+    "end": 253.02,
+    "raw_text": "Og så kommer undersøgelsestrategien, og det er jo case studio, og det er en enkelt afdeling, forestiller man.",
+    "validated_text": "Og så kommer undersøgelsestrategien, og det er jo case studio, og det er en enkelt afdeling, forestiller man.",
+    "avg_logprob": -0.1886126546914341,
+    "no_speech_prob": 0.28889769315719604,
+    "low_word_ratio": 0.1111111111111111,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 27,
+    "start": 253.2,
+    "end": 254.82,
+    "raw_text": "Er det hele virksomheden i undersøg?",
+    "validated_text": "Er det hele virksomheden i undersøg?",
+    "avg_logprob": -0.1886126546914341,
+    "no_speech_prob": 0.28889769315719604,
+    "low_word_ratio": 0.16666666666666666,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 28,
+    "start": 255.22,
+    "end": 256.02,
+    "raw_text": "Nej, ingen afdeling.",
+    "validated_text": "Nej, ingen afdeling.",
+    "avg_logprob": -0.1886126546914341,
+    "no_speech_prob": 0.28889769315719604,
+    "low_word_ratio": 0.0,
+    "uncertain": false,
+    "uncertainty_reasons": [],
+    "second_pass_used": false,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 29,
+    "start": 257.28,
+    "end": 260.36,
+    "raw_text": "Og så ville det være en indlejde, men det betyder ikke så meget.",
+    "validated_text": "Og så ville det være en indlejde, men det betyder ikke så meget.",
+    "avg_logprob": -0.12540370464707032,
+    "no_speech_prob": 0.6431593894958496,
+    "low_word_ratio": 0.07692307692307693,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.64)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 30,
+    "start": 261.06,
+    "end": 264.32,
+    "raw_text": "Det er ikke et krav, at I skal sige indlejde.",
+    "validated_text": "Det er ikke et krav, at I skal sige indlejde.",
+    "avg_logprob": -0.12540370464707032,
+    "no_speech_prob": 0.6431593894958496,
+    "low_word_ratio": 0.2,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.64)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 31,
+    "start": 264.36,
+    "end": 265.44,
+    "raw_text": "I kan bare sige case studio.",
+    "validated_text": "I kan bare sige case studio.",
+    "avg_logprob": -0.12540370464707032,
+    "no_speech_prob": 0.6431593894958496,
+    "low_word_ratio": 0.16666666666666666,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.64)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 32,
+    "start": 266.0,
+    "end": 270.5,
+    "raw_text": "Hvis I så siger indlejde, så skal I bare være sikre på, at det kun er en delmængde af en organisation.",
+    "validated_text": "Hvis I så siger indlejde, så skal I bare være sikre på, at det kun er en delmængde af en organisation.",
+    "avg_logprob": -0.12540370464707032,
+    "no_speech_prob": 0.6431593894958496,
+    "low_word_ratio": 0.0,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.64)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 33,
+    "start": 270.9,
+    "end": 275.72,
+    "raw_text": "Men I kan stadigvæk forklare, hvorfor I har valgt indlejde, fordi det er en delmængde.",
+    "validated_text": "Men I kan stadigvæk forklare, hvorfor I har valgt indlejde, fordi det er en delmængde.",
+    "avg_logprob": -0.12540370464707032,
+    "no_speech_prob": 0.6431593894958496,
+    "low_word_ratio": 0.0,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.64)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 34,
+    "start": 276.04,
+    "end": 282.88,
+    "raw_text": "Hvorfor I har valgt case studio, fordi det er den bedste til at undersøge en aktuell konkret problem i en organisation.",
+    "validated_text": "Hvorfor I har valgt case studio, fordi det er den bedste til at undersøge en aktuell konkret problem i en organisation.",
+    "avg_logprob": -0.12540370464707032,
+    "no_speech_prob": 0.6431593894958496,
+    "low_word_ratio": 0.047619047619047616,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.64)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  },
+  {
+    "segment_index": 35,
+    "start": 282.88,
+    "end": 286.06,
+    "raw_text": "Altså, det er ordentligt, at vi sidder og skriver det med.",
+    "validated_text": "Altså, det er ordentligt, at vi sidder og skriver det med.",
+    "avg_logprob": -0.5500187142328783,
+    "no_speech_prob": 0.6829677224159241,
+    "low_word_ratio": 0.36363636363636365,
+    "uncertain": true,
+    "uncertainty_reasons": [
+      "hoj no_speech_prob (0.68)",
+      "mange lav-konfidens ord (36%)"
+    ],
+    "second_pass_used": true,
+    "second_pass_improved": false
+  }
+]

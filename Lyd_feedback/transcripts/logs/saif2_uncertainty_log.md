@@ -1,0 +1,22 @@
+# Usikkerhedslog - saif2.mp3
+
+- 01:50-02:06 | segment 11 | hoj no_speech_prob (0.87) | opdateret i valideringspass
+- 02:07-02:22 | segment 12 | hoj no_speech_prob (0.66) | opdateret i valideringspass
+- 02:22-02:29 | segment 13 | hoj no_speech_prob (0.85) | anden pass uden klar forbedring
+- 02:30-02:52 | segment 14 | hoj no_speech_prob (0.85) | anden pass uden klar forbedring
+- 02:52-03:01 | segment 15 | hoj no_speech_prob (0.75) | anden pass uden klar forbedring
+- 03:01-03:10 | segment 16 | hoj no_speech_prob (0.75) | anden pass uden klar forbedring
+- 03:10-03:15 | segment 17 | hoj no_speech_prob (0.74) | anden pass uden klar forbedring
+- 03:15-03:24 | segment 18 | hoj no_speech_prob (0.74) | anden pass uden klar forbedring
+- 03:24-03:30 | segment 19 | hoj no_speech_prob (0.74) | anden pass uden klar forbedring
+- 03:31-03:36 | segment 20 | hoj no_speech_prob (0.79) | anden pass uden klar forbedring
+- 03:36-03:38 | segment 21 | hoj no_speech_prob (0.79) | anden pass uden klar forbedring
+- 03:38-03:44 | segment 22 | hoj no_speech_prob (0.79) | anden pass uden klar forbedring
+- 03:44-03:52 | segment 23 | hoj no_speech_prob (0.79) | anden pass uden klar forbedring
+- 04:17-04:20 | segment 29 | hoj no_speech_prob (0.64) | anden pass uden klar forbedring
+- 04:21-04:24 | segment 30 | hoj no_speech_prob (0.64) | anden pass uden klar forbedring
+- 04:24-04:25 | segment 31 | hoj no_speech_prob (0.64) | anden pass uden klar forbedring
+- 04:26-04:30 | segment 32 | hoj no_speech_prob (0.64) | anden pass uden klar forbedring
+- 04:31-04:36 | segment 33 | hoj no_speech_prob (0.64) | anden pass uden klar forbedring
+- 04:36-04:43 | segment 34 | hoj no_speech_prob (0.64) | anden pass uden klar forbedring
+- 04:43-04:46 | segment 35 | hoj no_speech_prob (0.68); mange lav-konfidens ord (36%) | anden pass uden klar forbedring

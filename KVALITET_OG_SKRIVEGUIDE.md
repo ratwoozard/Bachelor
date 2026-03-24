@@ -43,7 +43,7 @@ Hvert analyseafsnit bør følge dette mønster:
 
 **Eksempel:**
 
-> Analysen viser, at match-review-trinnet udgør en primær flaskehals i bemandingsprocessen [PÅSTAND]. Ifølge Lean-terminologien (Womack & Jones, 2003) kategoriseres dette som "ventetid" – et procestrin der ikke direkte skaber værdi for slutresultatet [TEORI]. Platformdata indikerer en gennemsnitlig ventetid fra matchgenerering til admin-beslutning på X timer, mens informant B beskriver: "Matches kan ligge i to-tre dage hvis vi har travlt med andre ting" [EMPIRI]. Denne ventetid forsinker hele kæden ned til konsulentnotifikation og budgivning, og repræsenterer dermed et direkte tab af potentiel allokeringstid [ANALYSE]. Match-review-køen identificeres således som det mest tidskritiske manuelle trin i processen [DELKONKLUSION].
+> Analysen viser, at match-review-trinnet udgoer en primaer flaskehals i bemandingsprocessen [PAASTAND]. Ifolge Lean-terminologien (Womack & Jones, 2003) kategoriseres dette som "ventetid" - et procestrin der ikke direkte skaber vaerdi for slutresultatet [TEORI]. Artefaktgennemgangen viser flere manuelle gate-trin foer endelig godkendelse, mens informant B beskriver: "Matches kan ligge i to-tre dage hvis vi har travlt med andre ting" [EMPIRI]. Dette peger paa risiko for forsinkelse ned gennem kaeden til konsulentnotifikation og budgivning [ANALYSE]. Match-review-koeen identificeres dermed som et sandsynligt tidskritisk manuelt trin i pre-go-live fasen, som boer foelges op med KPI-maaling efter go-live [DELKONKLUSION].
 
 ### 1.4 Citathåndtering
 

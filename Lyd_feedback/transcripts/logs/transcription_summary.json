@@ -1,0 +1,50 @@
+[
+  {
+    "file": "saif1.mp3",
+    "segments_total": 59,
+    "segments_flagged": 26,
+    "segments_improved": 3
+  },
+  {
+    "file": "saif2.mp3",
+    "segments_total": 35,
+    "segments_flagged": 20,
+    "segments_improved": 2
+  },
+  {
+    "file": "saif3.mp3",
+    "segments_total": 47,
+    "segments_flagged": 6,
+    "segments_improved": 1
+  },
+  {
+    "file": "saif4.mp3",
+    "segments_total": 43,
+    "segments_flagged": 4,
+    "segments_improved": 1
+  },
+  {
+    "file": "saif5.mp3",
+    "segments_total": 17,
+    "segments_flagged": 14,
+    "segments_improved": 8
+  },
+  {
+    "file": "saif6.mp3",
+    "segments_total": 80,
+    "segments_flagged": 15,
+    "segments_improved": 0
+  },
+  {
+    "file": "saif7.mp3",
+    "segments_total": 71,
+    "segments_flagged": 15,
+    "segments_improved": 1
+  },
+  {
+    "file": "saif8.mp3",
+    "segments_total": 102,
+    "segments_flagged": 18,
+    "segments_improved": 2
+  }
+]

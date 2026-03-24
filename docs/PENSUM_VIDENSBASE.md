@@ -110,7 +110,7 @@ Videnskab udvikler sig ikke lineært ved at akkumulere sandhed, men gennem skift
 Kuhn argumenterer at forskere under normal science *ikke* konstant tester deres teori (som Popper hævdede), men anvender den ukritisk for at løse specifikke problemer. Først når anomalier virkelig truer systemet, åbnes der for revolution.
 
 ### Hvordan det bruges i jeres projekt
-- **Organisatorisk paradigme:** SS opererer under et paradigme hvor "human oversight er nødvendigt for kvalitet". Jeres projekt afdækker anomalier: høj override rate på high-confidence matches, spildtid i manuel review. Det kunne føre til paradigmeskift: "AI kan stå alene ved høj tillid"
+- **Organisatorisk paradigme:** SS opererer under et paradigme hvor "human oversight er noedvendigt for kvalitet". Jeres projekt kan afdække mulige anomalier via interviews og artefaktanalyse, og opstille en maaleplan for fx override rate efter go-live. Det kan potentielt udfordre paradigmet.
 - **Videnskabelig position:** Jeres pragmatisme *accepterer* at der findes flere paradigmer (Lean, TOE, DSS) og vælger det der bedst besvarer spørgsmålet – I behøver ikke vælge ét "sandt" paradigme
 - **"Incommensurability" i organisationen:** Direktør (effektivitetsparadigme) og projektleder (kvalitetsparadigme) kan have uforenelige syn på hvad "succes" er – begge er rationelle inden for deres paradigme
 
@@ -123,7 +123,7 @@ Kuhn argumenterer at forskere under normal science *ikke* konstant tester deres 
 ### Faldgruber/misbrug
 - ❌ **"Alt er subjektivt"** – Kuhn siger ikke videnskab er vilkårlig, men at det udvikler sig gennem sociale processer
 - ❌ **"Vi laver et paradigmeskift"** – Vær forsigtig med store ord. Jeres projekt er sandsynligvis normal science (problemløsning) inden for eksisterende paradigmer
-- ✅ **Korrekt brug:** "SS's organisatoriske praksis afspejler et paradigme hvor menneskelig vurdering er central. Vores fund (højt override rate på high-confidence jobs) udgør en anomali, der kunne udfordre dette paradigme."
+- ✅ **Korrekt brug:** "SS's organisatoriske praksis afspejler et paradigme hvor menneskelig vurdering er central. Vores pre-go-live fund fra interview og artefakt peger paa mulige anomalier, som kan testes med KPI-maaling efter go-live."
 
 ### Kilder
 - Kuhn, T. S. (1962/1970). *The Structure of Scientific Revolutions* (2nd ed.). University of Chicago Press.
@@ -183,7 +183,7 @@ Forskningsmetode handler om at matche dit **forskningsspørgsmål** med den rigt
 - **Sekundære data:** Eksisterer allerede (databaser, rapporter, virksomhedsdokumenter)
 
 #### Datatyper
-- **Kvantitative data:** Numeriske, målbare – spørgeskema med lukkede spørgsmål, dataudtræk, KPI'er
+- **Kvantitative data:** Numeriske, maalbare - spoergeskema med lukkede spoergsmaal, dataudtraek, KPI'er
 - **Kvalitative data:** Tekstuelle, fortolkningsbaserede – semi-strukturerede interviews, fokusgrupper, dokumentanalyse
 
 #### Indsamlingsmetoder (primær)
@@ -207,7 +207,7 @@ Forskningsmetode handler om at matche dit **forskningsspørgsmål** med den rigt
 |---|---|---|
 | **Interviews (4-6 informanter)** | Primære, kvalitative data; semi-struktureret | Afdække oplevelser, praksis og forståelser hos forskellige roller |
 | **Artefaktanalyse (kode/data)** | Primære, kvalitative data; dokumentanalyse | Forstå processtrukturen og automation-logik |
-| **KPI-data (match_analytics)** | Primære, kvantitative data; dataudtræk | Målbare indikatorer (Precision@5, override rate, beslutningstid) |
+| **KPI-design (match_analytics)** | Maaleplan i pre-go-live; datadefinitioner og loggingkrav | Metrikker der kan maales efter go-live (Precision@5, override rate, beslutningstid) |
 | **Purposive sampling** | Strategisk udvælgelse af informanter | Case-studie kræver roller relevante for processen (ikke repræsentativitet) |
 | **Etik** | Samtykke, anonymisering, transparent brug | Særligt vigtigt da I har privilegeret adgang + bias-risiko |
 
@@ -294,8 +294,8 @@ Et **case-studie** undersøger et afgrænsent fænomen i dybden og i sin virkeli
 
 | Type | Beskrivelse | Eksempel fra jeres projekt |
 |---|---|---|
-| **Datatriangulering** | Flere datakilder (personer, tidspunkter, steder) | Interviews (informanter) + artefaktanalyse (kode) + KPI-data (match_analytics) |
-| **Metodetriangulering** | Flere indsamlingsmetoder | Kvalitativ (interviews, dokumentanalyse) + kvantitativ (dataudtræk, KPI'er) |
+| **Datatriangulering** | Flere datakilder (personer, tidspunkter, steder) | Interviews (informanter) + artefaktanalyse (kode) + KPI-maaleplan |
+| **Metodetriangulering** | Flere indsamlingsmetoder | Kvalitativ (interviews, dokumentanalyse) + kvantitativ maaleplan (KPI-definitioner/loggingkrav) |
 | **Investigator-triangulering** | Flere forskere analyserer samme data | Mindre relevant i 2-persons bachelorprojekt (men I kan peer-review hinandens kodning) |
 | **Teoretisk triangulering** | Flere teoretiske perspektiver | Lean (spildtid) + TOE (forudsætninger) + DSS (beslutningsstøtte) |
 
@@ -330,13 +330,13 @@ KPI-DATA (målbare indikatorer, adfærd)
 **Eksempel:**
 - Interview: "Vi bruger meget tid på at reviewe matches manuelt" (oplevelse)
 - Artefakt: Koden viser at auto-approval gate kun springer curation over ved confidence ≥ 75% (struktur)
-- KPI-data: Gennemsnitlig beslutningstid = 18 timer, override rate på high-confidence = 12% (måling)
+- KPI-maaleplan: Definer beslutningstid, override rate paa high-confidence og datakrav til fremtidig maaling
 
 → Alle tre kilder bekræfter at manuel review er en flaskehals, men afslører også *hvorfor* (lav confidence, manglende tillid).
 
 ### Typiske censor-spørgsmål
 1. "Hvilke former for triangulering anvender I?"
-2. "Hvad gør I hvis jeres interviews modsiger KPI-data?"
+2. "Hvad goer I hvis interviews peger i en retning, men den senere KPI-maaling viser noget andet?"
 3. "Hvordan sikrer I at trianguleringen ikke bare forstærker bias?"
 4. "Er der eksempler på at jeres kilder giver *forskellige* perspektiver – og hvordan fortolker I det?"
 
@@ -344,7 +344,7 @@ KPI-DATA (målbare indikatorer, adfærd)
 - ❌ **"Flere kilder = automatisk bedre"** – Kun hvis kilderne har forskellige bias og perspektiver
 - ❌ **"Vi bruger tre metoder, så vi laver triangulering"** – Forklar *hvad* I triangulerer (er det samme spørgsmål eller forskellige dele af PF?)
 - ❌ **"Vores kilder er enige, så vi har ret"** – Konvergens øger tillid, men er ikke bevis for absolut sandhed
-- ✅ **Korrekt brug:** "Vi triangulerer gennem tre kilder: interviews afslører *hvordan* spildtid opleves (subjektivt), artefaktanalyse viser *hvor* i processen det opstår (strukturelt), og KPI-data kvantificerer *omfanget* (objektiv måling). Konvergensen mellem disse styrker troværdigheden af fund, mens nuancer (fx direktør vs. projektleder perspektiv) bidrager til dybere forståelse."
+- ✅ **Korrekt brug:** "Vi triangulerer gennem interview og artefaktanalyse i pre-go-live fasen, og specificerer KPI-maaling som et efterfoelgende valideringstrin efter go-live. Nuancer mellem roller (fx direktoer vs. projektleder) bidrager til dybere forstaaelse."
 
 ### Kilder
 - Denzin, N. K. (1978). *The Research Act: A Theoretical Introduction to Sociological Methods* (2nd ed.). McGraw-Hill.
@@ -373,27 +373,27 @@ KPI-DATA (målbare indikatorer, adfærd)
 - **Embedding:** Én metode indlejres i en større studie domineret af den anden
 
 ### Pragmatisk metodepluralisme (jeres tilgang)
-I har interviews (kval) + KPI-data (kvant) + artefaktanalyse (kval). Er det "mixed methods"?
+I har interviews (kval) + artefaktanalyse (kval) + KPI-maaleplan (kvant design). Er det "mixed methods"?
 
 **Teknisk set:** Nærmest **convergent parallel** eller **embedded**, men I kalder det **pragmatisk metodepluralisme** fordi:
 - I har ikke formelt integrationsdesign fra starten (emergent snarere end fixed)
 - Formålet er ikke at validere kvant med kval, men at belyse forskellige aspekter af PF
 - Jeres videnskabsteoretiske position (pragmatisme/abduktion) legitimerer "det der virker" frem for rigid mixed methods-procedure
 
-**Brug dette ordvalg:** "Vi anvender en metodepluralistisk tilgang med både kvalitative (interviews, artefaktanalyse) og kvantitative (KPI-data) elementer, forankret i en pragmatisk position. Dette ligner Creswell & Plano Clarks convergent parallel design, men er mere emergent og abduktivt orienteret."
+**Brug dette ordvalg:** "Vi anvender en metodepluralistisk tilgang med kvalitative data (interviews, artefaktanalyse) og et kvantitativt maaledesign (KPI-plan), forankret i en pragmatisk position. I pre-go-live fasen konkluderer vi ikke paa KPI-resultater, men paa maaleparathed og evidenslogik."
 
 ### Typiske censor-spørgsmål
 1. "I kalder det mixed methods – hvilket design er det?"
 2. "Hvordan integrerer I jeres kvalitative og kvantitative fund?"
 3. "Har I prioriteret én metode over den anden, eller er de lige vægtede?"
-4. "Hvad er styrker og svagheder ved at kombinere interviews og KPI-data?"
+4. "Hvad er styrker og svagheder ved at kombinere interviews med en KPI-maaleplan?"
 5. "Hvorfor ikke bare lave en ren kvalitativ eller kvantitativ undersøgelse?"
 
 ### Faldgruber/misbrug
 - ❌ **"Vi laver mixed methods fordi vi bruger begge slags data"** – Mixed methods kræver systematisk integration, ikke bare brug af begge
 - ❌ **"Kvant validerer kval"** – Det er ikke hierarkisk; begge bidrager forskelligt
 - ❌ **"Vi havde ikke råd til fuld mixed methods, så vi gjorde det billigt"** – Metodepluralisme er ikke "fattigmands mixed methods", det er et legitimt valg i pragmatisme
-- ✅ **Korrekt brug:** "Vi kombinerer kvalitative interviews (for at forstå *hvordan* og *hvorfor*) med kvantitative KPI-data (for at måle *hvad* og *hvor meget*). Denne metodepluralisme er forankret i vores pragmatiske position, hvor forskningsspørgsmålet driver metodevalget snarere end et rigid mixed methods-design."
+- ✅ **Korrekt brug:** "Vi kombinerer kvalitative interviews (for at forstaa *hvordan* og *hvorfor*) med et kvantitativt KPI-design (for at specificere *hvad* og *hvor meget* der senere skal maales). Denne metodepluralisme er forankret i vores pragmatiske position."
 
 ### Kilder
 - Creswell, J. W., & Plano Clark, V. L. (2018). *Designing and Conducting Mixed Methods Research* (3rd ed.). Sage.
@@ -428,7 +428,7 @@ METODOLOGI (overordnet tilgang til undersøgelse)
 METODE OG TEKNIK (konkret værktøj til dataindsamling/analyse)
        ↓
    Semi-strukturerede interviews, artefaktanalyse,
-   dataudtræk (KPI'er), tematisk kodning
+   KPI-maaleplan (definitioner/loggingkrav), tematisk kodning
 ```
 
 ### Jeres kæde (eksempel)
@@ -438,7 +438,7 @@ METODE OG TEKNIK (konkret værktøj til dataindsamling/analyse)
 | **ONTOLOGI** | Pragmatisk: Virkeligheden er kompleks; vi fokuserer på det praktisk relevante | PF er handlingsorienteret ("hvordan påvirker..."), ikke metafysisk ("hvad er sandheden om...") |
 | **EPISTEMOLOGI** | Viden vurderes på anvendelighed; metodepluralisme | Både subjektive oplevelser (interviews) og objektive målinger (KPI) er gyldige vidensformer |
 | **METODOLOGI** | Eksplorativt case-studie med abduktiv slutning | Vi undersøger ét case (SS/SoluTalent) i dybden og veksler mellem empiri og teori |
-| **METODE** | Semi-strukturerede interviews (3-5), artefaktanalyse, dataudtræk (match_analytics), tematisk kodning | Disse metoder matcher PF's behov for både forståelse (hvordan/hvorfor) og måling (hvor meget) |
+| **METODE** | Semi-strukturerede interviews (3-5), artefaktanalyse, KPI-maaleplan (match_analytics), tematisk kodning | Metoderne matcher PF's behov for forstaaelse nu og maalbarhed efter go-live |
 
 ### Eksempel på at kæden holder (vs. bryder)
 
@@ -446,7 +446,7 @@ METODE OG TEKNIK (konkret værktøj til dataindsamling/analyse)
 - **Ontologi:** Pragmatisk – spildtid er et praktisk fænomen (ikke metafysisk abstrakt)
 - **Epistemologi:** Vi kan vide noget om spildtid gennem både informantoplevelser og tidsdata
 - **Metodologi:** Case-studie (kontekstforståelse) + abduktion (teori og empiri vekselvirker)
-- **Metode:** Interviews (oplevelser) + KPI-data (målinger)
+- **Metode:** Interviews (oplevelser) + KPI-maaleplan (fremtidige maalinger)
 
 #### ❌ **Brudt kæde (inkongruens):**
 - **Ontologi:** Positivistisk – spildtid er objektiv, målbar virkelighed
@@ -502,7 +502,7 @@ I jeres projekt bruges teori **instrumentelt og problemdrevet**. Det betyder:
 
 | Spørgsmålstype | Epistemologi | Evidensform | Eksempel fra SS/SoluTalent |
 |---|---|---|---|
-| "Hvor meget/ofte?" | Positivisme/Empirisme | KPI, dataudtræk, måling | "Gennemsnitlig beslutningstid på match-review er 18 timer" |
+| "Hvor meget/ofte?" | Positivisme/Empirisme | KPI-design, datadefinitioner, maaleplan | "Efter go-live maales gennemsnitlig beslutningstid paa match-review" |
 | "Hvordan opleves?" | Interpretivisme/Hermeneutik | Interviews, observation | "Projektlederen oplever manuel review som nødvendig kvalitetssikring" |
 | "Hvad kan logisk udledes?" | Rationalisme | Begrebsanalyse, deduktion | "Hvis auto-approval kræver confidence ≥75%, må jobs under 75% manuelt kurateres" |
 | "Holder denne teori?" | Kritisk rationalisme | Test mod modbevis | "Hvis Lean-teorien holder, bør reduktion af ventetid øge output – tester vi via A/B" |
@@ -527,13 +527,13 @@ I jeres projekt bruges teori **instrumentelt og problemdrevet**. Det betyder:
 Auguste Comte (1798–1857) grundlagde positivismen i *Course on Positive Philosophy* (1830–1842), hvor han udviklede "de tre stadiers lov": teologisk → metafysisk → positivt (videnskabeligt) (Stanford Encyclopedia of Philosophy, 2023). Comtes positivisme var præget af 1800-tallets optimisme om videnskabelig fremskridt, men blev senere kritiseret for scientisme og reduktionisme. Moderne positivisme (fx neopositivisme) har udviklet sig væsentligt, men Comtes kerneprincip om empirisk forankring står stadig.
 
 **Anvendelse i jeres case:**  
-Klassisk positivistisk evidens ville være KPI-målinger (Precision@5, override rate), som kan observeres, måles systematisk og replikeres. Men vær forsigtig: I kan ikke antage kumulativ viden om AI-matching, da feltet er nyt og dynamisk—dette er en afvigelse fra klassisk positivisme.
+Klassisk positivistisk evidens vil i jeres setup vaere KPI-maalinger (Precision@5, override rate), som foerst kan observeres systematisk efter go-live. I pre-go-live fasen arbejder I med maaledesign, ikke resultatmaaling.
 
 **Typisk fejl:**  
 At tro klassisk positivisme legitimerer rene kvantitative påstande uden kontekst. Comte så positivisme som anvendt på samfundsvidenskab, hvor kontekst *altid* spiller ind—derfor er ren positivisme sjældent nok i organisationsforskning.
 
 **Beslutningskriterium:**  
-Brug klassisk positivistisk evidens når I skal underbygge "hvor meget/ofte"-påstande med målbare, reproducerbare data (fx tidsregistreringer i match_analytics).
+Brug klassisk positivistisk evidens naar I efter go-live skal underbygge "hvor meget/ofte"-paastande med maalbare, reproducerbare data (fx tidsregistreringer i match_analytics).
 
 **Kilder:**
 - Comte, A. (1830–1842). *Course on Positive Philosophy*.
@@ -591,7 +591,7 @@ Empiristisk tilgang = gå til SS uden forudindtagede teorier, observér processe
 Ren empirisme uden teori = beskrivelse uden forklaring. Moderne forskning kombinerer empirisk observation med teoretisk ramme (abduktion)—helt blank tavle er urealistisk, da I har forforståelse fra uddannelse.
 
 **Beslutningskriterium:**  
-Brug empiristisk evidens når I bygger argumentation op fra observerede data (fx tidsdata fra match_analytics) frem for at starte med teori og deducere.
+Brug empiristisk evidens naar I bygger argumentation op fra observerede data (fx tidsdata fra match_analytics efter go-live) frem for at starte med teori og deducere.
 
 **Kilder:**
 - Locke, J. (1689/1690). *An Essay Concerning Human Understanding*.
@@ -645,13 +645,13 @@ Brug rationalistisk argumentation når I udleder logiske implikationer af teorie
 Karl Popper (*The Logic of Scientific Discovery*, 1934/1959) udviklede falsifikationisme som svar på logisk positivismes verifikationsprincip (Stanford Encyclopedia of Philosophy). Poppers filosofi blev især relevant efter hans sammenligning af Einstein (falsificerbar) med Freud/Marx (ikke falsificerbare). Kritik: I praksis opgiver forskere sjældent teorier ved første modbevis—de justerer hjælpehypoteser (Lakatos, Kuhn). Men falsifikationsprincippet er stadig stærkt: teorier *skal* kunne modsiges for at være videnskabelige.
 
 **Anvendelse i jeres case:**  
-Kritisk rationalistisk tilgang = design jeres undersøgelse så den *kunne* modbevise jeres forventninger. Eksempel: "Vi forventer at AI-matching reducerer spildtid. Test: Hvis override rate er >50%, falsificeres denne forventning—AI skaber mere arbejde end den sparer." Transparens om hvad der ville modbevise jeres påstande styrker troværdigheden.
+Kritisk rationalistisk tilgang = design jeres undersoegelse saa den *kunne* modbevise jeres forventninger. Eksempel: "Vi forventer at AI-matching reducerer spildtid. Test efter go-live: Hvis override rate er >50%, falsificeres denne forventning." Transparens om hvad der ville modbevise jeres paastande styrker trovaerdigheden.
 
 **Typisk fejl:**  
 Confirmation bias = kun lede efter bekræftelse. Popper kræver at I aktivt søger modstridende evidens. Hvis I kun interviewer dem der er *for* automatisering, får I skæv data.
 
 **Beslutningskriterium:**  
-Brug kritisk rationalistisk logik når I formulerer forventninger/hypoteser: specificér hvad der ville modbevise dem, og test aktivt for det (fx override rate, rejection reasons, informanter der er skeptiske).
+Brug kritisk rationalistisk logik naar I formulerer forventninger/hypoteser: specificer hvad der ville modbevise dem, og planlaeg test efter go-live (fx override rate, rejection reasons, informanter der er skeptiske).
 
 **Kilder:**
 - Popper, K. (1934/1959). *The Logic of Scientific Discovery*. Routledge.
@@ -728,7 +728,7 @@ Brug hermeneutisk tilgang når I analyserer tekstuelle data (interviews, dokumen
 
 | Udsagn i rapporten | Epistemologi | Evidenskrav |
 |---|---|---|
-| "Gennemsnitlig beslutningstid er X timer" | Positivisme/Empirisme | Dataudtræk (match_analytics), replikerbar måling |
+| "Gennemsnitlig beslutningstid er X timer" | Positivisme/Empirisme | Dataudtraek (match_analytics) efter go-live, replikerbar maaling |
 | "Projektlederen oplever manuel review som nødvendig" | Interpretivisme | Interview-citat, kontekstualisering |
 | "Hvis confidence ≥75%, må jobs under dette kurateres manuelt" | Rationalisme | Logisk deduktion fra artefakt (kode) |
 | "Lean postulerer at ventetid er spild" | Rationalisme + test | Teori (Womack & Jones) + empirisk test (måler vi faktisk ventetid?) |
@@ -791,7 +791,7 @@ Jeres pragmatisme siger: Brug *den epistemologi der passer til spørgsmålet*, i
 
 **Eksempel fra SS:**
 ```
-Observation: Høj override rate (12%) på high-confidence matches (score ≥80)
+Observation (hypotetisk eksempel): Forhoejet override rate paa high-confidence matches (score >=80)
 Mulig forklaring 1: AI-scoren er fejlkalibreret
 Mulig forklaring 2: Admin har andre kvalitetskriterier end AI
 Mulig forklaring 3: Admin mangler tillid til AI, uanset score
@@ -799,7 +799,7 @@ Abduktiv slutning: Forklaring 3 er bedst fordi:
   - Interviews nævner tillid eksplicit
   - Override rate er uafhængig af score-niveau
   - TOE forudsiger organisatoriske barrierer
-→ Testes videre via flere interviews + dataudtræk
+-> Testes videre via flere interviews + senere KPI-maaling efter go-live
 ```
 
 **Forskel fra induktion/deduktion:**
@@ -854,7 +854,7 @@ Har I klar teori at teste?
 
 **Eksempel:** En studerende bruger Gadamers hermeneutik til at forstå medarbejderudsagn i interviews, og tester derefter resultaterne/temaerne via en spørgeskemaundersøgelse. Dette kaldes en **sekventiel udforskende** metodisk tilgang.
 
-**I jeres case:** Delvist—hvis I først interviewede og derefter målte KPI'er baseret på interview-fund. Men sandsynligvis har I KPI-data allerede (platformen kører), så det er ikke rent sekventielt udforskende.
+**I jeres case:** Delvist - hvis I foerst interviewer og derefter maaler KPI'er efter go-live. I pre-go-live fasen er det et designargument, ikke et fuldt sekventielt mixed methods-forloeb.
 
 **Kildekritisk note:** Creswell & Plano Clark (2018) beskriver dette som "exploratory sequential design". Typisk i sundhedsvidenskab, hvor man først kvalitativt identificerer faktorer (fx patientoplevelser) og derefter kvantificerer dem i større sample.
 
@@ -866,16 +866,16 @@ Har I klar teori at teste?
 
 **Hvornår:** Der findes allerede data eller viden om fænomenet. Tal viser "hvad", men ikke "hvorfor"—kvalitativ opfølgning forklarer.
 
-**Integration:** "Connecting"—kvantitative resultater (fx høj override rate) informerer hvilke spørgsmål der stilles i interviews.
+**Integration:** "Connecting" - foreloebige interviewfund informerer KPI-definitioner, og senere kvantitative resultater kan informere opfoelgende interviews.
 
 **Eksempel fra SS:**
 ```
-Fase 1 (QUANT): Dataudtræk viser override rate = 12% på high-confidence matches
-Fase 2 (qual): Interviews med admins: "Hvorfor afviser I matches med høj AI-score?"
+Fase 1 (pre-go-live): Definer KPI og datadictionary for override rate paa high-confidence matches
+Fase 2 (qual): Interviews med admins: "Hvorfor kan matches med hoej AI-score blive afvist?"
   → Svar: "Vi stoler ikke på scoren—vi tjekker selv kompetencer"
 ```
 
-**I jeres case:** **Højt fit!** I har KPI-data (gennemsnitlig beslutningstid, override rate, rejection reasons), og interviews forklarer *hvorfor* disse mønstre opstår (tillid, organisationskultur, ansvarsfølelse).
+**I jeres case:** **Betinget fit.** I pre-go-live har I interviews og artefaktanalyse; KPI indgaar som maaleplan, der foerst kan give moenstre efter go-live.
 
 **Kildekritisk note:** Creswell & Plano Clark (2018) beskriver dette som "explanatory sequential design". Meget brugt i evaluering og organisationsforskning, hvor kvantitative indikatorer skal forstås kontekstuelt.
 
@@ -893,7 +893,7 @@ Fase 2 (qual): Interviews med admins: "Hvorfor afviser I matches med høj AI-sco
 
 **Eksempel:** Samtidig survey (kvant) og fokusgrupper (kval) om medarbejdertilfredshed → sammenlign: Hvis survey viser lav score OG fokusgrupper nævner stress, er der konvergens.
 
-**I jeres case:** Lavt fit—I har sandsynligvis ikke kørt interviews og KPI-udtræk helt simultant (platformen har kørt længe, så KPI-data er historisk).
+**I jeres case:** Lavt fit - I har ikke simultan kval+kvant maaling i drift endnu; KPI-sporet er planlagt til efter go-live.
 
 **Kildekritisk note:** Creswell & Plano Clark (2018): "convergent parallel design". Kræver omhyggelig planlægning af hvordan data integreres (joint display tables, narrative weaving).
 
@@ -907,7 +907,7 @@ Fase 2 (qual): Interviews med admins: "Hvorfor afviser I matches med høj AI-sco
 
 **Integration:** "Embedding"—den sekundære datatype bruges til at belyse/validere aspekter af primær-casen.
 
-**I jeres case:** **Højt fit!** Jeres primære design er kvalitativt case-studie (interviews, artefaktanalyse). KPI-data (match_analytics) er embedded som kvantitativ støtte-evidens for omfanget af spildtid, men driver ikke analysen.
+**I jeres case:** **Pre-go-live fit.** Jeres primaere design er kvalitativt case-studie (interviews, artefaktanalyse), mens KPI (match_analytics) indgaar som embedded maaledesign til senere driftsevaluering.
 
 **Kildekritisk note:** Dette design tillader pragmatisk metodebrug uden fuld mixed methods-integration. Creswell & Plano Clark (2018) anbefaler det når én metode klart dominerer, men den anden bidrager med specifik indsigt.
 
@@ -920,7 +920,7 @@ Fase 2 (qual): Interviews med admins: "Hvorfor afviser I matches med høj AI-sco
 - **Pragmatisk metodepluralisme** med sekventielle elementer (KPI → interviews forklarer)
 
 **Hvordan I skriver det:**  
-"Vi anvender en metodepluralistisk tilgang forankret i pragmatisme, hvor kvalitative interviews og artefaktanalyse udgør hoveddata, mens kvantitative KPI'er (match_analytics) fungerer som embedded evidens for omfanget og mønstrene i spildtid. Dette design ligner Creswell & Plano Clarks 'embedded' eller 'sekventielt forklarende' design, men er mere emergent og abduktivt orienteret end rigid mixed methods."
+"Vi anvender en metodepluralistisk tilgang forankret i pragmatisme, hvor kvalitative interviews og artefaktanalyse udgoer hoveddata, mens kvantitative KPI'er (match_analytics) fungerer som embedded maaledesign for omfang og moenstre efter go-live. Dette design ligner Creswell & Plano Clarks 'embedded' eller 'sekventielt forklarende' design, men er i denne fase mere emergent og abduktivt orienteret."
 
 **Kilder:**
 - Creswell, J. W., & Plano Clark, V. L. (2018). *Designing and Conducting Mixed Methods Research* (3rd ed.). Sage.
@@ -1040,6 +1040,11 @@ Fase 2 (qual): Interviews med admins: "Hvorfor afviser I matches med høj AI-sco
 - Forklarer **case-studie** (Holm/Kuada) og **analytisk generalisering**
 - Viser **triangulering** (datatriangulering + metodetriangulering)
 - Præciserer forskellen på **mixed methods** (Creswell/Plano Clark) og jeres **metodepluralisme**
+- Slår op i **`docs/VIDENSBASE_AFSNITSKORT.md`** for hurtig kobling mellem afsnit -> begreb -> teori -> evidenskrav
+- Slår op i **`docs/PENSUM_KILDEKORT_INDEX.md`** for reeksamen-klar bogmapping (Holm, Saunders, Kuada, Rossman & Wilson)
+- Bruger **`docs/UNDERVISNINGSFIGURER_KONTEKST.md`** til konservativ figurbrug med anti-vaghed
+- Bruger **`teori_bibliotek/INDEX.md`** til mappebaseret begrebsopslag (én mappe pr. centralt begreb)
+- Starter evt. med **`docs/AGENT_QUICKSTART.md`** (10 linjer), derefter **`docs/AGENT_PLAYBOOK.md`** + **`docs/CLAIMS_EVIDENCE_MATRIX.md`** til agentstyret kvalitet i paastande/evidens
 
 ### Ved analyse af empiri
 - Anvender **Wittgenstein** (meaning-as-use) til at fortolke hvordan informanter *bruger* begreber
@@ -1055,5 +1060,5 @@ Fase 2 (qual): Interviews med admins: "Hvorfor afviser I matches med høj AI-sco
 
 ---
 
-**Sidst opdateret:** 2026-02-23  
+**Sidst opdateret:** 2026-03-23  
 **Vedligeholdes af:** BachelorGPT (supplerer AKADEMISK_RAMME.md, UDDANNELSE_OG_PENSUM.md, CASE_KNOWLEDGE.md)

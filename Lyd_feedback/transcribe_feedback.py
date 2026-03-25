@@ -9,7 +9,7 @@ import numpy as np
 from faster_whisper import WhisperModel
 
 
-INPUT_DIR = Path(r"C:\Users\Christian\Documents\GitHub\Bachelor\Lyd_feedback")
+INPUT_DIR = Path(__file__).resolve().parent
 TRANSCRIPTS_DIR = INPUT_DIR / "transcripts"
 RAW_DIR = TRANSCRIPTS_DIR / "raw"
 REVIEW_DIR = TRANSCRIPTS_DIR / "review"

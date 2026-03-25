@@ -20,7 +20,7 @@ Brug denne skabelon i alle `KONTEKST.md`-filer under `teori_bibliotek/`.
 
 ## 3. Brug i jeres case
 
-- Relevans for projektets scope: `staging_imported -> matched`.
+- Relevans for projektets scope: processen fra modtaget opgave til klientindstillet konsulent (funktionelt `staging_imported -> matched`).
 - Hvilket analysebehov begrebet loeser.
 
 ## 4. Operationalisering og evidenskrav

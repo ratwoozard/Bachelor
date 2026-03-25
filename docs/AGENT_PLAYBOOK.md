@@ -6,7 +6,7 @@ Formaal: Bindende arbejdsregler for AI-agenter i dette bachelorprojekt.
 
 ## 1) Scope og afgraensning
 
-- Analyse scope er `staging_imported -> matched`.
+- Analyse scope er processen **fra modtaget opgave til klientindstillet konsulent**. Dette svarer funktionelt til SoluTalent-feltet `staging_imported -> matched`.
 - Jobsourcing, kontrakt og fakturering er out-of-scope.
 - Teknisk fokus er funktionel analyse, ikke ML-udvikling.
 - Pre-go-live praemis: ingen rigtige brugere og ingen produktionsdata i SoluTalent endnu.
@@ -15,10 +15,11 @@ Formaal: Bindende arbejdsregler for AI-agenter i dette bachelorprojekt.
 ## 2) Kildehierarki (bindende)
 
 1. Tier 1: Holm (2023), Kuada (2012), Saunders (2023).
+1a. Ved synopsis/research design: Rossman & Wilson (1985) er bindende strategikilde til pragmatisme, mixed methods-logik og triangulering som strategi.
 2. Tier 2: domaeneteorier (Lean, Davenport, TOE, DSS, Braun & Clarke).
 3. Tier 3: klassikere til nuancering (fx Kuhn, Gergen, Gadamer, Popper).
 
-Regel: Tier 3 maa aldrig erstatte Tier 1 i metode/videnskabsteori.
+Regel: Tier 3 maa aldrig erstatte Tier 1 i metode/videnskabsteori. Ved synopsis maa Rossman & Wilson heller ikke erstattes af brede mixed methods-kilder alene.
 
 ## 3) Outputkontrakt (obligatorisk format)
 
@@ -46,7 +47,7 @@ Skal:
 
 - Ingen opfundne referencer.
 - Ingen performance-paastande uden datahenvisning.
-- Ingen brug af Kuada som primaer ontologi/epistemologi-fundament i denne ramme.
+- Ingen brug af Kuada som baerende pragmatismestrategi i denne ramme. Kuada maa bruges til korte begrebsdefinitioner og metode/kvalitetskriterier, men pragmatismestrategien skal forankres i Rossman & Wilson.
 - Ingen formuleringer der antyder live driftmaaling, hvis evidensen kun er test/artefakt.
 
 ## 6) Standard evidenskrav
@@ -64,7 +65,11 @@ Hvis paastanden vedroerer SoluTalent-kvalitet/effekt:
 ## 8) Krydsreferencer
 
 - `UDDANNELSE_OG_PENSUM.md`
+- `docs/SYNOPSIS_START_HERE.md`
+- `docs/REPO_FILE_ROLES.md`
 - `docs/PENSUM_KILDEKORT_INDEX.md`
+- `docs/VEJLEDER_FEEDBACK_SYNOPSIS.md`
+- `REGEL_OG_SKRIVEKOMPAS.md`
 - `docs/CLAIMS_EVIDENCE_MATRIX.md`
 - `docs/FORBUDTE_FORMULERINGER.md`
 - `teori_bibliotek/governance/AKADEMISK_KVALITETSRAMME.md`

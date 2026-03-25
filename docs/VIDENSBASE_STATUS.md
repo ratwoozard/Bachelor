@@ -42,7 +42,7 @@
 
 - ✅ **docs/PENSUM_KILDEKORT_KUADA_2012.md**
   - Metodisk projektstruktur og kvalitetskriterier med tydelig afgraensning
-  - Eksplicit regel: Kuada bruges ikke som primaer ontologi/epistemologi-kilde i jeres setup
+- Eksplicit regel: Kuada bruges ikke som baerende pragmatismestrategi i jeres setup, men gerne til korte begrebsdefinitioner og kvalitetskriterier
 
 - ✅ **docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md**
   - Pragmatisk integrationslogik for kvant/kval i samme studie
@@ -120,22 +120,18 @@
   - Korrekt pensumhierarki (Holm, Kuada, Saunders)
 
 ### Supportfiler (niveau 2)
-- ✅ **Solutalent CODE CONTEXT/RESEARCH_PACKAGE.md**
-  - Yin erstattet med Holm/Kuada i MET-4
-
-- ✅ **Bachelor_Forberedelsesdokument.md**
-  - Yin-reference til analytisk generaliserbarhed rettet
-
-- ✅ **report/06-conclusion.md**
-  - Kausalitetssprog rettet ("forbedrer" → "kan forbedre")
+- ℹ️ **Lokale/afskærmede filer**
+  - Nogle tidligere nævnte supportfiler findes kun lokalt eller i afskærmet case-materiale og kan derfor ikke valideres i den offentlige del af repoet.
+  - Eksempler: `Solutalent CODE CONTEXT/RESEARCH_PACKAGE.md`, `Bachelor_Forberedelsesdokument.md`, `report/06-conclusion.md`
+  - Brug ikke disse som aktiv sandhedskilde i den offentlige repo-version.
 
 ---
 
 ## ✅ Konsistenstjek (på tværs)
 
 ### Pensumregler
-- ✅ Yin nævnes kun som "*ikke* pensum" i 3 filer (UDDANNELSE_OG_PENSUM, AKADEMISK_RAMME, KVALITET_OG_SKRIVEGUIDE, PENSUM_VIDENSBASE)
-- ✅ Tier 1-hierarki respekteret: Holm (2023), Kuada (2012), Saunders (2023) som primære metodekilder
+- ✅ Yin nævnes kun som "*ikke* pensum" i centrale aktive vidensfiler
+- ✅ Tier 1-hierarki respekteret: Holm (2023), Kuada (2012), Saunders (2023) som primære metodekilder, med Rossman & Wilson som bindende synopsis-strategikilde
 - ✅ Case-studie forankres i Holm/Kuada/Saunders (ikke Yin) i alle aktive vidensfiler
 
 ### Kausalitetssprog
@@ -143,11 +139,11 @@
 - ✅ Ingen nye "forårsager" / "medfører" uden empirisk basis
 
 ### Scope-konsistens
-- ✅ `staging_imported` → `matched` scope nævnt i 12+ filer
+- ✅ Scope er harmoniseret som processen fra modtaget opgave til klientindstillet konsulent, med teknisk mapping til `staging_imported` → `matched`
 - ✅ Out-of-scope funktioner (kontrakt, fakturering) markeret eksplicit i CASE_KNOWLEDGE.md
 
 ### Cross-references (Se også)
-- ✅ Alle 4 kernefiler har konsistente 5-punkts cross-references:
+- ✅ De centrale kernefiler peger nu konsistent mod synopsis- og pensumfiler:
   - AKADEMISK_RAMME.md
   - CASE_KNOWLEDGE.md
   - KVALITET_OG_SKRIVEGUIDE.md

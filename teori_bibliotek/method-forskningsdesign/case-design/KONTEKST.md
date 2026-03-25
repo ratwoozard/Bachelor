@@ -9,7 +9,7 @@ Case-design undersøger et afgraenset fænomen i dybden i sin naturlige kontekst
 - Sekundaer forankring: Kuada (2012); Saunders et al. (2023)
 
 ## 3. Brug i jeres case
-Indlejret single-case med organisation + proces + artefakt som analyselag.
+Indlejret single-case, hvor casen afgraenses til en organisatorisk delmaengde hos Support Solutions ApS, mens proces og artefakt fungerer som analytiske fokusomraader inden for denne afgraensning.
 
 ## 4. Operationalisering og evidenskrav
 - Definer analyseenheder.
@@ -28,7 +28,7 @@ Indlejret single-case med organisation + proces + artefakt som analyselag.
 1. Hvorfor case her?  
    Svarlinje: PF er kontekstafhaengig og kraever dyb procesforstaaelse.
 2. Holistisk eller indlejret?  
-   Svarlinje: Indlejret, fordi specifikke procesenheder analyseres.
+   Svarlinje: Indlejret, fordi undersoegelsen er afgraenset til en organisatorisk delmaengde (fx afdeling/team), ikke hele organisationen; proces og artefakt er analytiske fokusomraader, ikke selve begrundelsen for embedded-designet.
 3. Hvad betyder konteksten?  
    Svarlinje: Den paavirker baade fundenes mening og overfoerbarhed.
 

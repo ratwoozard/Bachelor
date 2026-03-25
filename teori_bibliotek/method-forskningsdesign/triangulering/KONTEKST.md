@@ -4,12 +4,14 @@
 Triangulering kombinerer datakilder/metoder/teorier for at teste, nuancere eller udfordre fund.
 
 ## 2. Tier og kilder
-- Tier: 2
-- Primaer kilde: Denzin (1978)
+- Tier: 1/2
+- Primaer synopsisforankring: Kuada (2012)
+- Strategisk kobling: Rossman & Wilson (1985)
+- Breedere typologi: Denzin (1978)
 - Sekundaer forankring: Saunders et al. (2023); `docs/PENSUM_VIDENSBASE.md`
 
 ## 3. Brug i jeres case
-Kobler interview og artefakt for at afdaekke flaskehalse og forklaringsmekanismer pre-go-live; KPI indgaar som fremadrettet maaleplan efter go-live.
+I synopsis beskrives triangulering primaert som metodetriangulering forankret i et sekventielt udforskende design, hvor kvalitative og kvantitative logikker kombineres. Interview og artefakt bruges til at afdaekke flaskehalse og forklaringsmekanismer pre-go-live; KPI indgaar som fremadrettet maaleplan efter go-live.
 
 ## 4. Operationalisering og evidenskrav
 - Vis hvad hver kilde bidrager med.
@@ -18,6 +20,7 @@ Kobler interview og artefakt for at afdaekke flaskehalse og forklaringsmekanisme
 ## 5. Anti-vaghed
 ### Det maa I paastaa direkte
 - Flere datakilder kan styrke troværdighed, hvis de integreres tydeligt.
+- I jeres synopsis er metodetriangulering den vigtigste trianguleringstype; datatriangulering kan naevnes som sekundær nuance.
 ### Det kraever ekstra empiri
 - At "flere metoder" automatisk giver bedre validitet.
 ### Undgaa-formuleringer
@@ -25,7 +28,7 @@ Kobler interview og artefakt for at afdaekke flaskehalse og forklaringsmekanisme
 
 ## 6. Censorspoergsmaal og svarlinjer
 1. Hvordan triangulerer I konkret?  
-   Svarlinje: Ved at matche samme analysepunkt mod interview og artefakt, og supplere med KPI-maaleplan til senere drift.
+   Svarlinje: Ved at forankre designet i metodetriangulering: kvalitative interviews udforsker problemet, artefaktspor og kvantitative maaleplaner nuancerer og understoetter samme analysepunkter.
 2. Hvad gør I ved modsigelser?  
    Svarlinje: Vi bruger dem som analyseelement (dissonans), ikke som støj.
 3. Hvad er risikoen?  

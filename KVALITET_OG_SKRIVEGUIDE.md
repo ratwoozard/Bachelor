@@ -192,7 +192,7 @@ En eksaminator vil typisk stille sig selv disse spørgsmål:
 
 | # | Fejl | Konsekvens | Sådan undgår I det |
 |---|---|---|---|
-| 1 | Problemformuleringen er for bred | Overfladisk analyse | Jeres er afgrænset til trin 4-8 |
+| 1 | Problemformuleringen er for bred | Overfladisk analyse | Jeres er afgrænset til processen fra modtaget opgave til klientindstillet konsulent |
 | 2 | Metode er et referat af pensum | Virker umodent | Skriv kun jeres valg + begrundelse |
 | 3 | Teori bruges ikke i analysen | Struktur-brud | Nævn teorinavn i HVERT analyseafsnit |
 | 4 | Analysen er ren deskription | Mangler dybde | "Informant sagde X → dette eksemplificerer Y (teori) → hvilket indikerer Z" |

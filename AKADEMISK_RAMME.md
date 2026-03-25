@@ -19,16 +19,16 @@
 
 **Hovedtanke:** Forskningsspørgsmålet driver metodevalget. Ontologiske og epistemologiske debatter er sekundære i forhold til "hvad virker for at besvare dette spørgsmål?"
 
-**Nøgletænkere:** John Dewey, Charles Sanders Peirce, William James. I jeres 7. semesterkontekst forankres metodearbejdet i Holm (2023) og Kuada (2012), suppleret af Saunders et al. (2023).
+**Nøgletænkere:** John Dewey, Charles Sanders Peirce, William James. I jeres 7. semesterkontekst bruges Kuada (2012) til korte begrebsdefinitioner og metode/kvalitetsramme, Holm (2023) og Saunders et al. (2023) til anvendt videnskabsteori, og Rossman & Wilson (1985) til pragmatismestrategi og kombination af kvalitative/kvantitative logikker.
 
 **Fire dimensioner i jeres projekt:**
 
 | Dimension | Pragmatisk position | Konsekvens for projektet |
 |---|---|---|
-| **Ontologi** | Pragmatisk ontologi vælges når problemløsningen skaber behov for både kvantitative og kvalitative data (giver typisk mixed methods) | I har brug for både at kunne maale (KPI-plan efter go-live) og forstaa (interviews). I behoever ikke argumentere for en sandhed, men for praktisk problemlosning. |
-| **Epistemologi** | Viden vurderes på anvendelighed, ikke absolut sandhed | Jeres fund skal være *nyttige* for SS og fagligt interessante – ikke universelle love |
+| **Ontologi** | Ontologisk skal I kort definere begrebet og vise, at PF rummer baade observerbare procesforhold og fortolkede organisatoriske praksisser | I har brug for baade at kunne maale (KPI-plan efter go-live) og forstaa (interviews). Selve strategiargumentet for pragmatisme baeres dog af problemformuleringen og Rossman & Wilson - ikke af Kuada alene. |
+| **Epistemologi** | Epistemologisk skal I vise, hvordan forskellige evidensformer legitimeres i relation til PF | Jeres fund skal vaere nyttige for SS og fagligt interessante, men epistemologi maa ikke reduceres til den korte frase om "anvendelighed". Knyt i stedet evidenssynet til casen og metodevalget. |
 | **Slutningsform** | Abduktiv: vekslen mellem teori og empiri | I starter med at observere processen (empiri), bringer Lean/TOE ind (teori), og vender tilbage med nuancerede fund. Ikke ren deduktion (hypotesetest) eller ren induktion (grounded theory) |
-| **Metode** | Metodepluralisme | Legitimerer at I bruger interviews + artefaktanalyse + platformdata i samme studie, uden at det er "mixed methods" i traditionel forstand |
+| **Metode** | Metodepluralisme / sekventiel kombination af kvalitative og kvantitative logikker | Legitimerer at I bruger interviews + artefaktanalyse + platformdata i samme studie. I synopsis kan dette beskrives som en pragmatisk strategi, hvor Rossman & Wilson forklarer kombinationen af perspektiver, mens metodetriangulering forankres i sekventielt udforskende design. |
 
 **Hvorfor pragmatisme passer til dette projekt:**
 1. Problemformuleringen er handlingsorienteret ("Hvordan påvirker...") – ikke teoretisk abstrakt
@@ -104,23 +104,24 @@ Jeres PF er "Hvordan påvirker..." med fokus på praktisk forståelse → pragma
 
 #### Holistisk vs. indlejret casestudie (Holm, 2023)
 - **Holistisk:** Vælges når man ønsker at forstå organisationen som helhed, frem for specifikke afdelinger
-- **Indlejret:** Vælges når man ønsker at forstå specifikke enheder/processer inden for organisationen (jeres valg)
+- **Indlejret:** Vælges når man afgraenser casen til en organisatorisk delmaengde, fx en afdeling eller et team, inden for organisationen (jeres valg)
 
 #### Jeres case-design
 
 | Element | I jeres projekt | Kilde/begrundelse |
 |---|---|---|
-| **Casen (helhed)** | Support Solutions ApS og deres bemandingsproces | Organisatorisk kontekst (SMV, dansk IT-marked) |
-| **Indlejret enhed 1** | SoluTalent-platformen som teknologisk artefakt | Konkret system der understøtter processen |
-| **Indlejret enhed 2** | Bemandingsprocessen (`staging_imported` → `matched`) | Den afgrænsede del af værdikæden I analyserer |
-| **Analyseniveau** | Proces- og systemniveau (ikke hele organisationen) | Scope matcher PF/USP |
+| **Casen (helhed)** | Support Solutions ApS | Organisatorisk kontekst (SMV, dansk IT-marked) |
+| **Indlejret organisatorisk afgrænsning** | Den del af organisationen, der arbejder med matching/bemanding | Vejlederlinjen er, at embedded-design begrundes organisatorisk - ikke via workflow-states |
+| **Analytisk fokus 1** | SoluTalent-platformen som teknologisk artefakt | Konkret system der understøtter processen |
+| **Analytisk fokus 2** | Bemandingsprocessen fra modtaget opgave til klientindstillet konsulent | Den afgrænsede del af værdikæden I analyserer |
+| **Analyseniveau** | Proces- og systemniveau inden for den organisatoriske delmaengde | Scope matcher PF/USP |
 | **Kontekst** | Dansk IT-konsulentmarked, SMV-vilkår, konkurrence på hastighed | Påvirker hvilke løsninger der er mulige |
 
 #### Nøglekomponenter i case-design (tilpasset Holm/Kuada/Saunders)
 1. **Forskningsspørgsmål** → Jeres PF ("hvordan påvirker..."-spørgsmål passer til casestudie)
 2. **Underspørgsmål** → Giver retning for dataindsamling og analyse
-3. **Analyseenheder** → Bemandingsprocessen + SoluTalent-artefakt
-4. **Datakilder** → Interviews, artefaktanalyse, KPI-maaleplan/loggingkrav (triangulering i pre-go-live fase)
+3. **Analysefokus** → Bemandingsprocessen + SoluTalent-artefakt inden for en organisatorisk afgraenset case
+4. **Datakilder** → Interviews, artefaktanalyse, KPI-maaleplan/loggingkrav (metodetriangulering i pre-go-live fase)
 5. **Analytisk strategi** → Tematisk kodning + proceskortlægning + teoretisk ramme (Lean, TOE, DSS)
 6. **Fortolkningskriterier** → Lean-kategorier (spildtyper), TOE-dimensioner, DSS-principper
 

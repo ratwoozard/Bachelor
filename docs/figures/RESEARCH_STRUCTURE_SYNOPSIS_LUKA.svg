@@ -20,8 +20,8 @@
   <!-- Niveau 1: PF + fire vidensniveauer -->
   <rect class="boxAccent" x="20" y="28" width="160" height="72" rx="4"/>
   <text class="t h" x="100" y="52" text-anchor="middle">Problemformulering</text>
-  <text class="t s" x="100" y="70" text-anchor="middle">Afgr&#230;nsning: staging_imported</text>
-  <text class="t s" x="100" y="86" text-anchor="middle">-&gt; matched</text>
+  <text class="t s" x="100" y="70" text-anchor="middle">Afgr&#230;nsning: modtaget opgave</text>
+  <text class="t s" x="100" y="86" text-anchor="middle">-&gt; klientindstillet konsulent</text>
 
   <rect class="box" x="210" y="28" width="130" height="72" rx="4"/>
   <text class="t h" x="275" y="52" text-anchor="middle">Ontologi</text>

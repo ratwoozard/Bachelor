@@ -9,7 +9,7 @@ Et robust design viser logisk sammenhaeng fra ontologi til metode og analyse.
 - Sekundaer forankring: Saunders et al. (2023); Kuada (2012)
 
 ## 3. Brug i jeres case
-Bruges som strukturbevis for at PF styrer designvalg i `staging_imported -> matched`.
+Bruges som strukturbevis for at PF styrer designvalg i processen fra modtaget opgave til klientindstillet konsulent.
 
 ## 4. Operationalisering og evidenskrav
 - Vis kaede: ontologi -> epistemologi -> metodologi -> metode.

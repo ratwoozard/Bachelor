@@ -1,6 +1,6 @@
 # Pensum Vidensbase – Videnskabsteori & Metode
 
-**Formål:** Supplerende begrebsbase for KEA Bachelor Økonomi & IT. Understøtter jeres pensum (Holm, Kuada, Saunders) med klassiske teoretikere og metodebegreber. Alle case-koblinger henviser til Support Solutions ApS / SoluTalent-platformen med scope `staging_imported` → `matched`.
+**Formål:** Supplerende begrebsbase for KEA Bachelor Økonomi & IT. Understøtter jeres pensum (Holm, Kuada, Saunders) med klassiske teoretikere og metodebegreber. Alle case-koblinger henviser til Support Solutions ApS / SoluTalent-platformen med scope fra modtaget opgave til klientindstillet konsulent (funktionelt svarende til `staging_imported` → `matched`).
 
 **Brug:** Når BachelorGPT svarer på spørgsmål om videnskabsteori eller metode, trækker den på denne base + jeres kernefiler (`AKADEMISK_RAMME.md`, `UDDANNELSE_OG_PENSUM.md`, `CASE_KNOWLEDGE.md`).
 
@@ -222,7 +222,7 @@ Forskningsmetode handler om at matche dit **forskningsspørgsmål** med den rigt
 - ❌ **"Vi laver mixed methods"** – Medmindre I systematisk integrerer kvant+kval (convergent/sequential design), er det mere præcist at kalde det metodepluralisme
 - ❌ **"Vi interviewer bare dem vi kender"** – Purposive sampling skal begrundes strategisk (roller, variation), ikke være bekvemmelighedsudvælgelse
 - ❌ **"Alle spørgsmål skal være åbne"** – I semi-struktureret interview kan I godt have opfølgende lukkede spørgsmål (fx "bruger du X-funktionen?")
-- ✅ **Korrekt brug:** "Vi anvender purposive sampling til at udvælge 4-6 informanter, der repræsenterer nøgleroller i bemandingsprocessen (direktør, partner, projektleder, konsulent). Dette sikrer variation i perspektiver og direkte erfaring med de trin vi analyserer (staging → matched)."
+- ✅ **Korrekt brug:** "Vi anvender purposive sampling til at udvælge 4-6 informanter, der repræsenterer nøgleroller i bemandingsprocessen (direktør, partner, projektleder, konsulent). Dette sikrer variation i perspektiver og direkte erfaring med processen fra modtaget opgave til klientindstillet konsulent."
 
 ### Kilder
 - Saunders, M. N. K., Lewis, P., & Thornhill, A. (2023). *Research Methods for Business Students* (9th ed.). Pearson.
@@ -233,7 +233,7 @@ Forskningsmetode handler om at matche dit **forskningsspørgsmål** med den rigt
 ## 6. CASE-STUDIE OG SAMPLING (Holm/Kuada primært, Saunders supplerende)
 
 ### Kerneidé
-Et **case-studie** undersøger et afgrænsent fænomen i dybden og i sin virkelige kontekst. Forskellen fra survey/eksperiment: man accepterer at **kontekst bestemmer** – derfor generaliserer man *analytisk* (til teori), ikke *statistisk* (til population). Der findes to hovedtyper: **holistisk** (når man ønsker at forstå organisationen som helhed, frem for specifikke afdelinger) og **indlejret** (når man ønsker at forstå specifikke enheder/processer inden for organisationen).
+Et **case-studie** undersøger et afgrænset fænomen i dybden og i sin virkelige kontekst. Forskellen fra survey/eksperiment: man accepterer at **kontekst bestemmer** – derfor generaliserer man *analytisk* (til teori), ikke *statistisk* (til population). Der findes to hovedtyper: **holistisk** (når man ønsker at forstå organisationen som helhed, frem for specifikke afdelinger) og **indlejret** (når man afgrænser undersøgelsen til en organisatorisk delmængde, fx en afdeling eller et team, inden for organisationen).
 
 ### Nøglebegreber (Holm, 2023; Kuada, 2012)
 
@@ -245,7 +245,7 @@ Et **case-studie** undersøger et afgrænsent fænomen i dybden og i sin virkeli
 #### Indlejret case-studie (embedded)
 - **Definition:** Undersøgelse af specifikke enheder eller afdelinger inden for en større organisation
 - **Relevant for:** De fleste projekter – fx én afdeling, ét system, én proces
-- **I jeres projekt:** **Ja** – SoluTalent-platformen (artefakt) er indlejret i SS's bemandingsproces, som er indlejret i SS som organisation
+- **I jeres projekt:** **Ja** – undersoegelsen afgraenses til den del af organisationen, der arbejder med matching/bemanding. SoluTalent-platformen og bemandingsprocessen er analytiske fokusomraader inden for denne organisatoriske delmaengde.
 
 #### Analytisk generaliserbarhed (vs. statistisk)
 - **Statistisk:** Fra sample til population (kræver repræsentativ stikprøve, stor N)
@@ -260,7 +260,7 @@ Et **case-studie** undersøger et afgrænsent fænomen i dybden og i sin virkeli
 
 | Element | Jeres valg |
 |---|---|
-| **Type** | Indlejret single-case: SS som organisation → bemandingsprocessen som analysefokus → SoluTalent som artefakt |
+| **Type** | Indlejret single-case: SS som organisation → organisatorisk delmaengde med matching/bemanding → bemandingsprocessen og SoluTalent som analysefokus |
 | **Generalisering** | Analytisk: "Vores fund viser at Lean's waste-kategori 'overprocessering' manifesterer sig som manuel curation af high-confidence jobs – dette støtter Davenports argument om at procesautomatisering ofte møder organisatoriske barrierer" |
 | **Informanter (3-5)** | Purposive sampling: direktør (strategi), partner (daglig drift), projektleder (beslutningspraksis), evt. konsulent (modtager-perspektiv) |
 | **Kontekst** | Dansk IT-konsulenthus, SMV, skandinavisk marked, konkurrence på hastighed – alt dette påvirker hvordan spildtid opleves og håndteres |
@@ -276,7 +276,7 @@ Et **case-studie** undersøger et afgrænsent fænomen i dybden og i sin virkeli
 - ❌ **"Vi kan generalisere til alle bemandingsprocesser"** – Nej, statistisk generalisering kræver andet design
 - ❌ **"Det er bare ét case, så det er ikke videnskabeligt"** – Jo, analytisk generalisering er videnskabeligt valid
 - ❌ **"Vi interviewer bare dem vi kender"** – Informantvalg skal begrundes strategisk, ikke være convenience sampling
-- ✅ **Korrekt brug:** "Vi anvender et indlejret single-case design hvor SoluTalent-platformen og bemandingsprocessen (staging → matched) er analyseenheder indlejret i SS. Konteksten (SMV, dansk marked, konkurrence på hastighed) påvirker hvordan spildtid opleves og hvilke automatiseringsstrategier der er mulige. Vores fund generaliserer analytisk til teori (Lean, TOE, DSS), ikke statistisk til en population af konsulenthuse."
+- ✅ **Korrekt brug:** "Vi anvender et indlejret single-case design, fordi undersoegelsen er afgraenset til en organisatorisk delmaengde hos Support Solutions ApS. Inden for denne afgraensning analyseres SoluTalent-platformen og bemandingsprocessen fra modtaget opgave til klientindstillet konsulent. Konteksten (SMV, dansk marked, konkurrence paa hastighed) paavirker hvordan spildtid opleves og hvilke automatiseringsstrategier der er mulige. Vores fund generaliserer analytisk til teori (Lean, TOE, DSS), ikke statistisk til en population af konsulenthuse."
 
 ### Kilder
 - Holm, A. B. (2023). *Videnskab i virkeligheden* (3. udg.). Samfundslitteratur. (Kap. om case-studie)
@@ -288,14 +288,14 @@ Et **case-studie** undersøger et afgrænsent fænomen i dybden og i sin virkeli
 ## 7. TRIANGULERING
 
 ### Kerneidé
-**Triangulering** betyder at bruge flere datakilder, metoder, eller teoretiske perspektiver for at belyse samme fænomen fra forskellige vinkler. Dette øger **tillid til resultaterne** (troværdighed) ved at tjekke om forskellige tilgange peger i samme retning – eller afslører nuancer og modsigelser.
+**Triangulering** betyder at bruge flere datakilder, metoder, eller teoretiske perspektiver for at belyse samme fænomen fra forskellige vinkler. I jeres synopsislinje er den vigtigste type **metodetriangulering**, fordi vejlederens pensumkobling er kombinationen af kvalitative og kvantitative logikker. Dette øger **tillid til resultaterne** (troværdighed) ved at tjekke om forskellige tilgange peger i samme retning – eller afslører nuancer og modsigelser.
 
 ### Typer af triangulering (Denzin, 1978)
 
 | Type | Beskrivelse | Eksempel fra jeres projekt |
 |---|---|---|
-| **Datatriangulering** | Flere datakilder (personer, tidspunkter, steder) | Interviews (informanter) + artefaktanalyse (kode) + KPI-maaleplan |
-| **Metodetriangulering** | Flere indsamlingsmetoder | Kvalitativ (interviews, dokumentanalyse) + kvantitativ maaleplan (KPI-definitioner/loggingkrav) |
+| **Datatriangulering** | Flere datakilder (personer, tidspunkter, steder) | Interviews (informanter) + artefaktanalyse + KPI-maaleplan |
+| **Metodetriangulering** | Flere indsamlingsmetoder | Kvalitativ (interviews, dokumentanalyse) + kvantitativ maaleplan (KPI-definitioner/loggingkrav) - dette er den primaere synopsislinje |
 | **Investigator-triangulering** | Flere forskere analyserer samme data | Mindre relevant i 2-persons bachelorprojekt (men I kan peer-review hinandens kodning) |
 | **Teoretisk triangulering** | Flere teoretiske perspektiver | Lean (spildtid) + TOE (forudsætninger) + DSS (beslutningsstøtte) |
 
@@ -314,7 +314,7 @@ Et **case-studie** undersøger et afgrænsent fænomen i dybden og i sin virkeli
 
 ### Hvordan det bruges i jeres projekt
 
-Jeres triangulering:
+Jeres triangulering (primaert metodetriangulering i synopsis):
 ```
 INTERVIEWS (informant-perspektiv, oplevelser)
        ↓
@@ -494,7 +494,7 @@ I jeres projekt bruges teori **instrumentelt og problemdrevet**. Det betyder:
 - I bruger epistemologier til at **begrunde designvalg**, ikke til abstrakt filosofi for sin egen skyld
 - Saunders bruges på et **anvendt undersøgelsesniveau**: data, design, kvalitet, sampling, etik
 - Undgå at operere på for højt niveau (ren metateori uden PF-kobling) eller for lavt niveau (kun teknik uden videnskabsteoretisk begrundelse)
-- Hvert valg skal kunne kobles direkte til PF/USP og case-scope `staging_imported` → `matched`
+- Hvert valg skal kunne kobles direkte til PF/USP og case-scope fra modtaget opgave til klientindstillet konsulent (funktionelt `staging_imported` → `matched`)
 
 ### 10.2 Epistemologier: Dybdeforståelse og anvendelseskriterier
 
@@ -562,7 +562,7 @@ Logisk positivistisk tilgang = kræve præcise, verificerbare definitioner af "s
 At afvise kvalitative udsagn som "meningsløse" fordi de ikke kan verificeres numerisk. Moderne forståelse: kvalitative udsagn kan verificeres gennem systematisk empiri (interviewtransskriptioner), selvom de ikke er kvantitative.
 
 **Beslutningskriterium:**  
-Brug logisk positivisme når I definerer nøglebegreber—sørg for at de kan operationaliseres og verificeres empirisk (fx "match-kvalitet" defineres via rejection_reason-kategorier).
+Brug logisk positivisme som kontrast og inspirationskilde til præcise operationelle definitioner—ikke som jeres overordnede epistemologiske hovedvalg. Sørg for at nøglebegreber kan operationaliseres og verificeres empirisk (fx "match-kvalitet" defineres via rejection_reason-kategorier).
 
 **Kilder:**
 - Ayer, A. J. (1936/1946). *Language, Truth and Logic*. Gollancz.

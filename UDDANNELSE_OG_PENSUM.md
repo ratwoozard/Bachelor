@@ -14,7 +14,21 @@ Brug disse kilder først, når du understøtter videnskabsteori, metodevalg og f
 | **Projektmetode** | Kuada, J. (2012). *Research Methodology: A Project Guide for University Students* | **Obligatorisk** | Problemformulering, undersøgelsesdesign, gennemførelse af projektarbejde |
 | **Forskningsmetoder** | Saunders, M. N. K. (2023). *Research Methods for Business Students* (9th ed.) | **Anbefalet** | Operationalisering, dataindsamling, validitet/reliabilitet, metodevalg |
 
-**Regel:** Ved metode/videnskabsteori i synopsis og rapport bruges Holm (2023) og Kuada (2012) som primære henvisninger. Saunders (2023) bruges som supplerende metodekilde i samme semester.
+**Regel:** Ved metode/videnskabsteori i synopsis og rapport bruges Holm (2023), Kuada (2012) og Saunders (2023) som Tier 1-forankring. Til **pragmatismestrategi, mixed methods-logik og triangulering som strategi i synopsis/research design** bruges desuden **Rossman & Wilson (1985)** som bindende strategikilde.
+
+### Synopsis-tillæg (bindende for research design)
+
+Rossman & Wilson (1985) er ikke en del af den almindelige 7. semester-trio, men er i dette projekt en **bindende strategikilde** til synopsis og mundtligt forsvar, fordi vejleder eksplicit kræver den brugt til:
+
+- pragmatisme som strategi
+- kombinationen af kvalitative og kvantitative logikker
+- triangulering som analytisk strategi
+
+Det betyder i praksis:
+
+- **Kuada**: korte begrebsdefinitioner, metode og kvalitetskriterier
+- **Holm/Saunders**: anvendt videnskabsteori, design, case og metodegennemførelse
+- **Rossman & Wilson**: strategilogik i synopsis
 
 ---
 
@@ -51,10 +65,11 @@ Disse kilder bruges til at understøtte epistemologi- og metodologibegreber med 
 | **Kritisk rationalisme** | Popper, K. (1934/1959) | Falsifikation, kritisk test |
 | **Hermeneutik** | Gadamer, H.-G. (1960/2004) | Fortolkningscirkel, horisontsammensmeltning |
 | **Abduktion** | Peirce, C. S. (1931–1958) | Bedste forklaring, hypotesegenerering |
-| **Triangulering** | Denzin, N. K. (1978) | Data- og metodetriangulering |
-| **Mixed methods** | Creswell & Plano Clark (2018) | Sequential/parallel designs |
+| **Triangulering** | Denzin, N. K. (1978) | Data- og metodetriangulering som bred begrebsramme |
+| **Mixed methods** | Creswell & Plano Clark (2018) | Sequential/parallel designs som supplerende designforståelse |
+| **Synopsis-strategi** | Rossman & Wilson (1985) | Pragmatismestrategi, kombination af kval/kvant og triangulering som strategi |
 
-**Regel:** Brug Tier 3 til at nuancere/uddybe begreber fra Tier 1, men **forankr altid primært i Holm/Kuada/Saunders** når I skriver om metode/videnskabsteori i rapporten.
+**Regel:** Brug Tier 3 til at nuancere/uddybe begreber fra Tier 1, men **forankr altid primært i Holm/Kuada/Saunders**, og brug **Rossman & Wilson** når påstanden handler om pragmatisk strategi i synopsis.
 
 ---
 
@@ -66,7 +81,7 @@ Mappen **`Undervisningsmateriale og guides`** indeholder kursusmateriale (fx dig
 
 ## Kildehierarki i svar (mini-guide)
 
-1. **Metode/videnskabsteori:** Holm (2023), Kuada (2012), Saunders (2023) → derefter andre.
+1. **Metode/videnskabsteori:** Holm (2023), Kuada (2012), Saunders (2023) → og ved synopsis-strategi også Rossman & Wilson (1985) → derefter andre.
 2. **Definitioner (spildtid, flaskehals, DSS):** Projektets domæneteorier (Womack & Jones, Davenport, TOE, Turban m.fl.) med forfatter+år.
 3. **SoluTalent/empiri:** Aldrig opfundet data. Henvis til artefaktanalyse, CASE_KNOWLEDGE.md, eller konkrete datakilder (match_analytics, KPI'er).
 4. **Opfind aldrig referencer.** Hvis en kilde ikke findes i projektets litteraturliste eller denne fil, sig at den skal tjekkes/indsættes af forfatterne.
@@ -75,14 +90,14 @@ Mappen **`Undervisningsmateriale og guides`** indeholder kursusmateriale (fx dig
 
 ## Noter til uddannelsen
 
-- **Videnskabsteoriforløb:** Forankres primært i Holm (2023) og Kuada (2012), med Saunders (2023) som metode-supplering.
+- **Videnskabsteoriforløb:** Forankres primært i Holm (2023), Kuada (2012) og Saunders (2023). Når fokus er synopsis/research design, suppleres dette eksplicit med Rossman & Wilson (1985) som strategikilde.
 - **Pensumkobling:** Brug altid den aktuelle 7. semesters litteraturliste (forår 2026) som udgangspunkt, og marker tydeligt hvis en kilde stammer fra tidligere semestre.
 
 ---
 
 **Se også (kontekst på tværs):**
 - `AKADEMISK_RAMME.md` (videnskabsteori, metode, teori)
-- `CASE_KNOWLEDGE.md` (workflow, scope, datamodel)
 - `KVALITET_OG_SKRIVEGUIDE.md` (akademisk skrivning, kapitelstruktur)
-- `docs/PENSUM_VIDENSBASE.md` (komplet Tier 3-dokumentation med anvendelsesvejledning)
-- `Undervisningsmateriale og guides/README.md` (supplerende materiale)
+- `docs/VEJLEDER_FEEDBACK_SYNOPSIS.md` (vejlederens synopsislogik)
+- `REGEL_OG_SKRIVEKOMPAS.md` (operationel regelbog)
+- `docs/PENSUM_VIDENSBASE.md` (komplet dokumentation med anvendelsesvejledning)

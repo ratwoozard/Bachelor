@@ -6,7 +6,7 @@ Formaal: Sikre at alle kontekstfiler er censor-robuste, kildekorrekte og metodis
 
 1. Begrebet er forankret i korrekt tier (1/2/3).
 2. Tier 1-kilde er eksplicit ved metode/videnskabsteori.
-3. Begrebet er koblet til case-scope (`staging_imported -> matched`) hvor relevant.
+3. Begrebet er koblet til case-scope fra modtaget opgave til klientindstillet konsulent (funktionelt `staging_imported -> matched`) hvor relevant.
 4. Evidenskrav er specificeret (hvilken datatype understoetter hvilken paastand).
 5. Anti-vaghed-felt er udfyldt:
    - maa paastaa direkte
@@ -15,7 +15,7 @@ Formaal: Sikre at alle kontekstfiler er censor-robuste, kildekorrekte og metodis
 6. Min. 3 typiske censorspoergsmaal med svarlinjer er med.
 7. Mindst 1 tydelig begraensning er angivet.
 8. Kilder er angivet med forfatter + aar; ingen opfundne referencer.
-9. Kuada bruges ikke som primaer ontologi/epistemologi-kilde i denne ramme.
+9. Kuada bruges ikke som baerende pragmatismestrategi i denne ramme; han maa bruges til korte begrebsdefinitioner og metode/kvalitetskriterier.
 10. Terminologi matcher eksisterende vidensbase (`pragmatisme`, `metodepluralisme`, `indlejret case`, `analytisk generaliserbarhed`).
 
 ## Review-checkliste pr. fil

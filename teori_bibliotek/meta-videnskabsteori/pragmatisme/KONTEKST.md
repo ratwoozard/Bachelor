@@ -7,12 +7,13 @@ Pragmatisme vaelger metode efter hvad der bedst besvarer forskningsspoergsmaalet
 ## 2. Tier og kilder
 
 - Tier: 1
-- Primaer kilde: Holm (2023)
-- Sekundaer forankring: Saunders et al. (2023); Kuada (2012)
+- Primaer kilde for pragmatismestrategi: Rossman & Wilson (1985)
+- Primaer begrebs- og metodeforankring: Holm (2023); Kuada (2012)
+- Sekundaer forankring: Saunders et al. (2023)
 
 ## 3. Brug i jeres case
 
-Bruges til at begrunde kombinationen af interview og artefaktanalyse i scope `staging_imported -> matched`, samt en efterfoelgende KPI-maaleplan til post go-live.
+Bruges til at begrunde kombinationen af interview og artefaktanalyse i processen fra modtaget opgave til klientindstillet konsulent, samt en efterfoelgende KPI-maaleplan til post go-live.
 
 ## 4. Operationalisering og evidenskrav
 
@@ -25,6 +26,7 @@ Bruges til at begrunde kombinationen af interview og artefaktanalyse i scope `st
 ### Det maa I paastaa direkte
 - Forskningsspoergsmaalet styrer metodevalget.
 - Forskellige metoder kan kombineres i samme design med tydelig rollefordeling.
+- Kuada kan bruges til at definere ontologi/epistemologi kort, men ikke til at baere pragmatismestrategien i kapitel 5.
 
 ### Det kraever ekstra empiri
 - At kombinationen i sig selv giver bedre resultater end enkeltmetode.
@@ -33,11 +35,12 @@ Bruges til at begrunde kombinationen af interview og artefaktanalyse i scope `st
 ### Undgaa-formuleringer
 - "Vi valgte pragmatisme, fordi den er bred."
 - "Pragmatisme betyder at alt kan blandes."
+- "Kuada viser direkte, at vores PF er pragmatisk."
 
 ## 6. Typiske censorspoergsmaal og svarlinjer
 
 1. Hvorfor pragmatisme?  
-   Svarlinje: Fordi PF kraever baade maaling af omfang og fortolkning af organisatorisk praksis.
+   Svarlinje: Fordi PF kraever baade maaling af omfang og fortolkning af organisatorisk praksis; strategien forankres i Rossman & Wilson, mens de korte begrebsdefinitioner kan stoettes af Kuada.
 2. Er det ikke metodisk uklart?  
    Svarlinje: Nej, hver datakilde har en eksplicit analytisk funktion i designet.
 3. Hvor er jeres videnskabsteoretiske stringens?  
@@ -50,6 +53,7 @@ Pragmatisme kan blive for bredt, hvis datakildernes roller ikke afgraenses skarp
 ## 8. Koblinger
 
 - `docs/PENSUM_VIDENSBASE.md`
+- `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md`
 - `docs/PENSUM_KILDEKORT_HOLM_2023.md`
 - `docs/PENSUM_KILDEKORT_SAUNDERS_2023.md`
 

@@ -4,22 +4,22 @@ Dette bibliotek samler centrale begreber og teorier i selvstaendige mapper med a
 
 ## Struktur
 
-- [TAXONOMI](c:/Users/Christian/Documents/GitHub/Bachelor/teori_bibliotek/TAXONOMI.md)
-- [governance](c:/Users/Christian/Documents/GitHub/Bachelor/teori_bibliotek/governance/)
-- [meta-videnskabsteori](c:/Users/Christian/Documents/GitHub/Bachelor/teori_bibliotek/meta-videnskabsteori/)
-- [method-forskningsdesign](c:/Users/Christian/Documents/GitHub/Bachelor/teori_bibliotek/method-forskningsdesign/)
-- [domain-okonomi-it](c:/Users/Christian/Documents/GitHub/Bachelor/teori_bibliotek/domain-okonomi-it/)
+- [TAXONOMI](./TAXONOMI.md)
+- [governance](./governance/)
+- [meta-videnskabsteori](./meta-videnskabsteori/)
+- [method-forskningsdesign](./method-forskningsdesign/)
+- [domain-okonomi-it](./domain-okonomi-it/)
 
 ## Agent-styring (docs)
 
 - [AGENT_QUICKSTART](../docs/AGENT_QUICKSTART.md)
-- [AGENT_PLAYBOOK](c:/Users/Christian/Documents/GitHub/Bachelor/docs/AGENT_PLAYBOOK.md)
-- [CLAIMS_EVIDENCE_MATRIX](c:/Users/Christian/Documents/GitHub/Bachelor/docs/CLAIMS_EVIDENCE_MATRIX.md)
-- [FIGUR_REGISTER](c:/Users/Christian/Documents/GitHub/Bachelor/docs/FIGUR_REGISTER.md)
-- [CITATION_MAP](c:/Users/Christian/Documents/GitHub/Bachelor/docs/CITATION_MAP.md)
-- [FORBUDTE_FORMULERINGER](c:/Users/Christian/Documents/GitHub/Bachelor/docs/FORBUDTE_FORMULERINGER.md)
-- [PF_DECISION_LOG](c:/Users/Christian/Documents/GitHub/Bachelor/docs/PF_DECISION_LOG.md)
-- [INTERVIEW_CODEBOOK](c:/Users/Christian/Documents/GitHub/Bachelor/docs/INTERVIEW_CODEBOOK.md)
+- [AGENT_PLAYBOOK](../docs/AGENT_PLAYBOOK.md)
+- [CLAIMS_EVIDENCE_MATRIX](../docs/CLAIMS_EVIDENCE_MATRIX.md)
+- [FIGUR_REGISTER](../docs/FIGUR_REGISTER.md)
+- [CITATION_MAP](../docs/CITATION_MAP.md)
+- [FORBUDTE_FORMULERINGER](../docs/FORBUDTE_FORMULERINGER.md)
+- [PF_DECISION_LOG](../docs/PF_DECISION_LOG.md)
+- [INTERVIEW_CODEBOOK](../docs/INTERVIEW_CODEBOOK.md)
 
 ## Bindende biblioteksregler
 

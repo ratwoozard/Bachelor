@@ -58,7 +58,7 @@ const Data = {
                 "Data uden teori er altid bedre"
             ],
             "correct_index": 0,
-            "explanation": "Feyerabend: Kritiserer metode-monopol; flere metoder kan give bedre indsigt i praksis. Kilde: Feyerabend, P. (1975) Against Method."
+            "explanation": "Feyerabend: Kritiserer metode-monopol; flere metoder kan give bedre indsigt i praksis. Det er dog ikke det samme som, at jeres synopsis frit kan blande metoder uden kongruens eller kildebegrundelse. Kilde: Feyerabend, P. (1975) Against Method."
         },
         {
             "id": "pragmatisme_abduktion_1",
@@ -86,7 +86,7 @@ const Data = {
                 "Hermeneutisk ontologi: kun fortolkning er mulig"
             ],
             "correct_index": 0,
-            "explanation": "Pragmatisme: Vælges når problemløsningen skaber behov for både kvantitative og kvalitative data. I behøver ikke argumentere for én sandhed, men for praktisk problemløsning."
+            "explanation": "Pragmatisme: I jeres synopsis vælges strategien fordi PF kræver både kvalitative og kvantitative logikker. Dette skal begrundes med Rossman & Wilson som strategi, mens Kuada/Holm/Saunders bruges til begreber og metodeforankring."
         },
         {
             "id": "deduktion_1",
@@ -123,12 +123,12 @@ const Data = {
             "difficulty": "7",
             "prompt": "Jeres projekt analyserer en specifik proces (bemanding) og et specifikt system (SoluTalent) inden for SS. Hvilken casestudie-type er det?",
             "options": [
-                "Indlejret single-case studie: specifikke enheder analyseres inden for én organisation",
+                "Indlejret single-case studie: undersøgelsen afgrænses til en organisatorisk delmængde inden for én organisation",
                 "Holistisk casestudie: hele organisationen som helhed",
                 "Multiple-case studie: flere organisationer sammenlignes"
             ],
             "correct_index": 0,
-            "explanation": "Indlejret casestudie: Vælges når man ønsker at forstå specifikke enheder/processer inden for organisationen. Jeres indlejrede enheder er: SoluTalent-platformen + bemandingsprocessen. Kilde: Holm (2023)."
+            "explanation": "Indlejret casestudie: Vælges når undersøgelsen afgrænses til en organisatorisk delmængde inden for én organisation. I jeres projekt er matching/bemanding den organisatoriske afgrænsning, mens SoluTalent-platformen og bemandingsprocessen er analytiske fokusområder. Kilde: Holm (2023)."
         },
         {
             "id": "analytisk_generaliserbarhed_1",
@@ -151,12 +151,12 @@ const Data = {
             "difficulty": "7",
             "prompt": "Hvordan styrker I troværdigheden (credibility) af jeres fund?",
             "options": [
-                "Triangulering: kombiner interview + artefaktanalyse + KPI-data",
+                "Triangulering: kombiner kilder metodisk og forklar hvad hver kilde bidrager med",
                 "Kun interviews fra én informant",
                 "Kun platformdata uden menneskelig kontekst"
             ],
             "correct_index": 0,
-            "explanation": "Triangulering: Fund understøttes af mindst 2 empirikilder (interview + artefakt/data). Det er et af Lincoln & Gubas troværdighedskriterier."
+            "explanation": "Triangulering: Fund understøttes af mindst 2 empirikilder, men i synopsis skal triangulering også forklares som metodisk og analytisk logik. Rossman & Wilson bruges til strategien, mens Kuada/Lincoln & Guba bruges til troværdighedskriterierne."
         },
         {
             "id": "lean_waste_ventetid_1",
@@ -453,7 +453,7 @@ const Data = {
             "options": [
                 "Kritisk realisme: virkeligheden har lag, og vi søger dybereliggende mekanismer",
                 "Positivisme: kun det målbare er relevant",
-                "Pragmatisme: det der virker er sandt"
+                "Pragmatisme: enhver kombination af metoder er automatisk legitim"
             ],
             "correct_index": 0,
             "explanation": "Kritisk realisme: Virkelighed i lag (det faktiske, det aktualiserede, det empiriske). Viden er fejlbar men vi kan nærme os dybereliggende strukturer via retroduktion."
@@ -794,7 +794,7 @@ const Data = {
                 "At analysere data to gange"
             ],
             "correct_index": 0,
-            "explanation": "Mixed methods kombinerer fx surveys (kvant) og interviews (kval). Kan være sekventielt (kval → kvant eller omvendt) eller concurrent (samtidig). Kræver bevidst integration af fund. Kilde: Creswell & Plano Clark."
+            "explanation": "Mixed methods kombinerer fx surveys (kvant) og interviews (kval). Kan være sekventielt (kval → kvant eller omvendt) eller concurrent (samtidig). I jeres synopsis bruges sådanne kilder kun som supplerende designforståelse; strategien forankres i Rossman & Wilson og pragmatisk metodepluralisme."
         },
         {
             "id": "operationalisering",
@@ -1572,7 +1572,7 @@ const Data = {
                 "At lade tre uafhængige forskere analysere de samme data"
             ],
             "correct_index": 1,
-            "explanation": "Metodetriangulering: Kombinerer fx interviews, observation og dokumentanalyse. Hvis forskellige metoder peger i samme retning, styrkes tilliden til fundene. Kan også være datatriangulering, forskertriangulering, teoritriangulering. Kilde: Denzin."
+            "explanation": "Metodetriangulering: Kombinerer metoder med tydelig analytisk rollefordeling. I jeres synopsis er metodetriangulering den primære trianguleringstype; øvrige trianguleringstyper er sekundære nuanceringer. Kilde: Denzin; docs/VEJLEDER_FEEDBACK_SYNOPSIS.md."
         },
         {
             "id": "naturvidenskab_vs_samfundsvidenskab",
@@ -2107,14 +2107,14 @@ Pragmatisme passer IKKE hvis:
                     title: "Casestudie",
                     content: `## Casestudie (Holm, 2023; Kuada, 2012; Saunders, 2023)
 
-**Note:** Case-studie-metoden forankres i pensum. Yin (2018) bruges ofte men er ikke altid pensum.
+**Note:** Case-studie-metoden forankres i 7. semesters pensum. Yin (2018) er ikke pensum i jeres projektlinje.
 
 ### Holistisk vs. Indlejret
 
 | Type | Beskrivelse | Hvornår vælges |
 |---|---|---|
 | **Holistisk** | Hele organisationen som enhed | Forstå org. som helhed |
-| **Indlejret** | Specifikke enheder inden for org. | Forstå specifikke processer/systemer |
+| **Indlejret** | Organisatorisk delmængde inden for org. | Afgrænsning til afdeling eller team |
 
 ### Analytisk generaliserbarhed
 

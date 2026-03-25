@@ -4,10 +4,10 @@ Formaalet med disse kildekort er at undgaa vag, generisk metodeargumentation og 
 
 ## Kildekort (4 boeger)
 
-- [HOLM 2023](c:\Users\Christian\Documents\GitHub\Bachelor\docs\PENSUM_KILDEKORT_HOLM_2023.md)
-- [SAUNDERS 2023](c:\Users\Christian\Documents\GitHub\Bachelor\docs\PENSUM_KILDEKORT_SAUNDERS_2023.md)
-- [KUADA 2012](c:\Users\Christian\Documents\GitHub\Bachelor\docs\PENSUM_KILDEKORT_KUADA_2012.md)
-- [ROSSMAN & WILSON 1985](c:\Users\Christian\Documents\GitHub\Bachelor\docs\PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md)
+- [HOLM 2023](./PENSUM_KILDEKORT_HOLM_2023.md)
+- [SAUNDERS 2023](./PENSUM_KILDEKORT_SAUNDERS_2023.md)
+- [KUADA 2012](./PENSUM_KILDEKORT_KUADA_2012.md)
+- [ROSSMAN & WILSON 1985](./PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md)
 
 ## Saadan bruges kortene
 
@@ -27,10 +27,10 @@ Formaalet med disse kildekort er at undgaa vag, generisk metodeargumentation og 
 
 ## Centrale krydsreferencer
 
-- [UDDANNELSE_OG_PENSUM.md](c:\Users\Christian\Documents\GitHub\Bachelor\UDDANNELSE_OG_PENSUM.md)
-- [AKADEMISK_RAMME.md](c:\Users\Christian\Documents\GitHub\Bachelor\AKADEMISK_RAMME.md)
-- [docs/PENSUM_VIDENSBASE.md](c:\Users\Christian\Documents\GitHub\Bachelor\docs\PENSUM_VIDENSBASE.md)
-- [docs/VIDENSBASE_AFSNITSKORT.md](c:\Users\Christian\Documents\GitHub\Bachelor\docs\VIDENSBASE_AFSNITSKORT.md)
-- [teori_bibliotek/INDEX.md](c:\Users\Christian\Documents\GitHub\Bachelor\teori_bibliotek\INDEX.md)
+- [UDDANNELSE_OG_PENSUM.md](../UDDANNELSE_OG_PENSUM.md)
+- [AKADEMISK_RAMME.md](../AKADEMISK_RAMME.md)
+- [docs/PENSUM_VIDENSBASE.md](./PENSUM_VIDENSBASE.md)
+- [docs/VIDENSBASE_AFSNITSKORT.md](./VIDENSBASE_AFSNITSKORT.md)
+- [teori_bibliotek/INDEX.md](../teori_bibliotek/INDEX.md)
 
 Sidst opdateret: 2026-03-23

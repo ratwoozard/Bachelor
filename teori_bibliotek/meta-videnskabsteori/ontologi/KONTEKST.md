@@ -8,11 +8,11 @@ Ontologi handler om, hvad der antages at eksistere i den virkelighed, der unders
 
 - Tier: 1
 - Primaer kilde: Holm (2023)
-- Sekundaer forankring: Saunders et al. (2023)
+- Sekundaer forankring: Kuada (2012); Saunders et al. (2023)
 
 ## 3. Brug i jeres case
 
-Bruges til at begrunde, at spildtid/automatisering har baade operationelle og sociale dimensioner i `staging_imported -> matched`.
+Bruges til at begrunde, at spildtid/automatisering har baade operationelle og sociale dimensioner i processen fra modtaget opgave til klientindstillet konsulent.
 
 ## 4. Operationalisering og evidenskrav
 
@@ -24,6 +24,7 @@ Bruges til at begrunde, at spildtid/automatisering har baade operationelle og so
 
 ### Det maa I paastaa direkte
 - Ontologiske antagelser paavirker, hvad der anerkendes som relevant data.
+- Kuada kan bruges til en kort definition af ontologi som begreb, men ikke som eneste grundlag for pragmatismestrategien.
 
 ### Det kraever ekstra empiri
 - At en bestemt ontologi alene forklarer fundenes retning.

@@ -1,0 +1,7 @@
+{
+  "name": "videnskabsteori-arena-webapp",
+  "private": true,
+  "scripts": {
+    "build:rag": "node scripts/build-rag-index.mjs"
+  }
+}

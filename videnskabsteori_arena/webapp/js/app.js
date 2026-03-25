@@ -49,6 +49,9 @@ const App = {
             case 'stats':
                 Stats.init();
                 break;
+            case 'synopsis':
+                SynopsisBot.init();
+                break;
         }
         
         this.updateHeaderStats();

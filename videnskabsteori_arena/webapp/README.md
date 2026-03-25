@@ -10,6 +10,7 @@ A gamified learning platform for academic concepts in scientific theory, methodo
 - **Daily Challenges**: Complete daily goals for bonus rewards
 - **Progress Tracking**: Detailed statistics and category performance
 - **Lesson Content**: Structured learning materials
+- **Synopsis Bot (RAG)**: Generate structured synopsis drafts with repo-grounded context
 
 ## Deploy to Vercel
 
@@ -49,6 +50,47 @@ npx serve .
 ```
 
 Open http://localhost:8000 in your browser.
+
+## Synopsis Bot Setup (OpenRouter + RAG)
+
+The bot UI is available as a new top navigation tab: **Synopsis Bot**.
+
+### 1) Build the local repo index
+
+```bash
+cd videnskabsteori_arena/webapp
+npm run build:rag
+```
+
+This generates `data/rag-index.json` used by `/api/synopsis`.
+
+### 2) Configure environment variables
+
+Set these variables in your deployment (or local Vercel dev):
+
+- `OPENROUTER_API_KEY` (required)
+- `OPENROUTER_MODEL` (optional, default: `openai/gpt-4o-mini`)
+- `OPENROUTER_HTTP_REFERER` (optional, default: `http://localhost`)
+
+### 3) API endpoint
+
+- `POST /api/synopsis`
+- Request body:
+  - `topic` (string, required, max 500 chars)
+  - `gradeTarget` (`12` | `7` | `02`)
+  - `lengthTarget` (`short` | `medium` | `long`)
+  - `tone` (`academic` | `critical` | `practical`)
+  - `includeCounterarguments` (boolean)
+
+The endpoint returns structured JSON with sections (`problemField`, `theory`, `method`, `analysis`, `critique`, `conclusion`) plus `sourceNotes`, `coverageScore`, and RAG `citations`.
+
+### 4) Manual test checklist
+
+- Empty input topic -> user-facing validation error
+- Broad topic -> returns synopsis and citations
+- Narrow topic -> stronger repo grounding expected
+- Out-of-scope topic -> still returns synopsis, with lower coverage and explicit uncertainty
+- Very long topic (>500 chars) -> API validation error
 
 ## File Structure
 

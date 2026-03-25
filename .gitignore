@@ -2,3 +2,8 @@
 # Dette sikrer at repositoriet kan deles som en generel vidensbase
 Min_Bachelor_Case/
 .cursor/
+
+# Lokale miljøfiler (API keys m.m.)
+*.env
+*.env.*
+!.env.example

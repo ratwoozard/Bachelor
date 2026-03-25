@@ -76,9 +76,9 @@ function ensureShape(parsed) {
 }
 
 async function callOpenRouter(input, topChunks, coverageScore) {
-    const apiKey = process.env.OPENROUTER_API_KEY;
-    if (!apiKey) {
-        throw new Error('OPENROUTER_API_KEY mangler på serveren.');
+    const apiKey = String(process.env.OPENROUTER_API_KEY || '').trim();
+    if (!apiKey || apiKey.startsWith('indsæt_')) {
+        throw new Error('OPENROUTER_API_KEY mangler eller er ikke sat korrekt på serveren.');
     }
 
     const model = process.env.OPENROUTER_MODEL || 'openai/gpt-4o-mini';
@@ -102,6 +102,9 @@ async function callOpenRouter(input, topChunks, coverageScore) {
 
     if (!response.ok) {
         const text = await response.text();
+        if (response.status === 401) {
+            throw new Error('OpenRouter 401: ugyldig/manglende API key. Tjek OPENROUTER_API_KEY i Vercel Environment Variables.');
+        }
         throw new Error(`OpenRouter fejl (${response.status}): ${text.slice(0, 300)}`);
     }
 

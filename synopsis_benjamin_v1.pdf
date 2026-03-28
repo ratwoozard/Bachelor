@@ -1,0 +1,1064 @@
+%PDF-1.4
+%
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 2582 >>
+stream
+BT
+/F2 16 Tf
+1 0 0 1 50 792 Tm
+(1\) Title Page) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 760 Tm
+(Title: SoluTalent-casen: Fortolkning af matchkvalitet, transparens og fairness i AI-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 745 Tm
+(understttet bemanding \(hermeneutisk/socialkonstruktivistisk vinkel\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 730 Tm
+(Course: Theory of Science and Project Methodology \(2024E\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 715 Tm
+(Assignment choice: 2\) Use your current bachelor thesis \(SoluTalent case\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 700 Tm
+(Name: Benjamin) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 685 Tm
+(Supervisor: [indst navn]) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 670 Tm
+(Educational institution: KEA) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 655 Tm
+(Date: [indst dato]) Tj
+ET
+50 610 m 545 610 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 565 Tm
+(2\) Table of Contents) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 548 Tm
+(1. Title Page) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 533 Tm
+(2. Table of Contents) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 518 Tm
+(3. Introduction \(scope: aims and objectives\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 503 Tm
+(4. Problem formulation and delimitation) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 488 Tm
+(5. Methodology \(research design\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 473 Tm
+(6. Overview \(diagram\) of research structure) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 458 Tm
+(7. Bibliography \(Harvard style\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 443 Tm
+(8. Appendix) Tj
+ET
+50 398 m 545 398 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 353 Tm
+(Individual hand-in note \(2 forfattere-regel\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 336 Tm
+(Denne synopsis er skrevet individuelt af Benjamin. I overensstemmelse med eksamenskravet ved) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 321 Tm
+(co-writing af bachelorprojekt m kun problemformulering og researchdiagram vre flles med) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 306 Tm
+(medforfatter.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 276 Tm
+(Flles elementer i de to synopsis:) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 261 Tm
+(? Problemformulering) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 246 Tm
+(? Overordnet researchdiagram/struktur) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 216 Tm
+(Individuelle elementer i denne version:) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 201 Tm
+(? Fortolkende metodeargumentation) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 186 Tm
+(? Interviewdesign og kodningsstrategi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 171 Tm
+(? Refleksivitet, etiske prioriteringer og teoretisk syntese) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 156 Tm
+(? Litteraturvalg og appendiksdetaljer) Tj
+ET
+50 111 m 545 111 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 66 Tm
+(3\) Introduction \(scope: aims and objectives\)) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 1/6) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3343 >>
+stream
+BT
+/F1 11 Tf
+1 0 0 1 50 792 Tm
+(SoluTalent-casen omhandler AI-understttet bemanding i Support Solutions ApS, hvor mlet er at) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 777 Tm
+(reducere spildtid og forbedre kvaliteten i match mellem kandidater og virksomheder.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 747 Tm
+(Denne synopsis flger jeres researchdiagram, men fokuserer p den fortolkende side af) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 732 Tm
+(problemstillingen: hvordan aktrerne i og omkring processen forstr, legitimerer og eventuelt) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 717 Tm
+(problematiserer AI-stttede matchforslag.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 687 Tm
+(Aim: At undersge, hvordan matchkvalitet, transparens og fairness konstrueres af centrale) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 672 Tm
+(aktrer i SoluTalent-casen.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 657 Tm
+(Objective: At etablere et kvalitativt design, der kan forklare sociale mekanismer bag tillid,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 642 Tm
+(overstyring og vurdering af ?gode? matches.) Tj
+ET
+50 597 m 545 597 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 552 Tm
+(4\) Problem formulation and delimitation) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 535 Tm
+(Problem formulation \(flles med medforfatter\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 518 Tm
+(Hvordan pvirker AI-automatisering spildtid i bemandingsprocessen hos Support Solutions ApS) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 503 Tm
+(\(staging_imported ? matched\), og hvordan kan effekten dokumenteres i SoluTalent-casen?) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 473 Tm
+(Delimitation \(i trd med researchdiagram\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 456 Tm
+(? Tidsrum: SoluTalent-workflow 2025-2026.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 441 Tm
+(? Scope: processerne fra staging_imported til matched.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 426 Tm
+(? Out of scope: onboarding, kontrakt og ln.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 411 Tm
+(? Fortolkende fokus: aktrers oplevelse af relevans, kontrol og legitimitet.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 381 Tm
+(Analytisk afgrnsning) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 364 Tm
+(? Fokus p udvalgte roller: recruiter, kundeansvarlig, evt. teknisk/systemansvarlig.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 349 Tm
+(? Fokus p beslutningsjeblikke med hj usikkerhed eller hyppig overstyring.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 334 Tm
+(? Ikke fokus p fuld kausal effektberegning.) Tj
+ET
+50 289 m 545 289 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 244 Tm
+(5\) Methodology \(research design\)) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 227 Tm
+(Videnskabsteoretisk udgangspunkt) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 210 Tm
+(Individuel vinkel: Fortolkning af aktrers forstelse af matchkvalitet) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 195 Tm
+(\(hermeneutisk/socialkonstruktivistisk\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 165 Tm
+(? Ontologi \(fra diagram\): Pragmatisk virkelighedsforstelse ? hvad fungerer i praksis.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 150 Tm
+(? Epistemologi \(fra diagram\): Anvendelsesorienteret viden med abduktiv slutningsform.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 135 Tm
+(? Fortolkende prioritering i denne synopsis: Hvordan aktrer skaber mening omkring AI-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 120 Tm
+(  matchningens kvalitet og begrnsninger.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 90 Tm
+(Delanalyser \(koblet til researchdiagrammets USP1-4\)) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 73 Tm
+(Analyse 1 ? USP1: Hvor opstr spildtid i as-is?) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 2/6) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3638 >>
+stream
+BT
+/F1 11 Tf
+1 0 0 1 50 792 Tm
+(? Metode: interviewbaseret procesfortlling + supplerende proceskort.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 777 Tm
+(? Output: aktrnre beskrivelser af flaskehalse og ventetid.) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 747 Tm
+(Analyse 2 ? USP2: Hvad automatiserer SoluTalent, og hvad er stadig) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 730 Tm
+(manuelt?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 713 Tm
+(? Metode: artefakt- og dokumentanalyse kombineret med interviewvalidering.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 698 Tm
+(? Output: oplevet grnse mellem systembeslutning og menneskelig vurdering.) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 668 Tm
+(Analyse 3 ? USP3: Hvilken mlbar effekt ses?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 651 Tm
+(? Metode: fortolkning af KPI-brug i praksis \(ikke primr statistisk test\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 636 Tm
+(? Output: hvordan KPI?er bruges, udfordres og prioriteres af aktrer.) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 606 Tm
+(Analyse 4 ? USP4: Hvilke TOE-forudstninger krves for videre) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 589 Tm
+(automatisering?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 572 Tm
+(? Metode: tematisk analyse af barrierer/forudstninger p tvrs af aktrgrupper.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 557 Tm
+(? Output: organisatoriske og governance-relaterede forudstninger for skalering.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 527 Tm
+(Data and analysis) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 510 Tm
+(Datagrundlag \(fra diagram\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 493 Tm
+(? Semistrukturerede interviews \(primr empiri\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 478 Tm
+(? Artefakter \(workflow/pipeline\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 463 Tm
+(? Dokumenter \(interne beskrivelser, kvalitetskriterier\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 448 Tm
+(? Triangulering mellem kilder) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 418 Tm
+(Foreslet interviewdesign) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 401 Tm
+(? 8-10 interviews fordelt p centrale aktrgrupper.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 386 Tm
+(? 30-45 minutter pr. interview.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 371 Tm
+(? Fokus p konkrete beslutningseksempler frem for generelle holdninger.) Tj
+ET
+BT
+/F1 12 Tf
+1 0 0 1 50 341 Tm
+(Analyseplan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 324 Tm
+(1. Frste kodning: ben kodning af centrale meningsmnstre.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 309 Tm
+(2. Anden kodning: temaer om relevans, transparens, fairness, overstyring.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 294 Tm
+(3. Hermeneutisk bevgelse mellem enkeltytringer og samlet procesforstelse.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 279 Tm
+(4. Sammenhold med artefakt- og dokumentfund.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 264 Tm
+(5. Syntese af implikationer for videre automatisering.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 234 Tm
+(Quality criteria) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 217 Tm
+(? Trovrdighed: dataforankring gennem citater og casespecifikke eksempler.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 202 Tm
+(? Transparens: dokumenteret kodnings- og analysekde.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 187 Tm
+(? Refleksivitet: eksplicit hndtering af forskerposition og forforstelse.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 172 Tm
+(? Overfrbarhed: analytisk, ikke statistisk generalisering.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 142 Tm
+(Ethics) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 125 Tm
+(? Informeret samtykke og anonymisering.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 110 Tm
+(? Srlig hndtering af flsomme vurderinger af kollegaer/systembeslutninger.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 95 Tm
+(? Balanceret formidling uden stigmatisering af ?manuelle? eller ?automatiske? beslutninger.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 80 Tm
+(? Respekt for forretningskritiske oplysninger i caseartefakter.) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 3/6) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2964 >>
+stream
+BT
+/F2 14 Tf
+1 0 0 1 50 792 Tm
+(Forelbig syntese og diskussion \(i trd med diagram\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 775 Tm
+(Syntesen samler findings om trade-offs mellem:) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 760 Tm
+(? effektivitet,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 745 Tm
+(? kvalitet,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 730 Tm
+(? human-in-the-loop,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 715 Tm
+(? bias,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 700 Tm
+(? GDPR.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 670 Tm
+(Fokus er, hvordan disse trade-offs opleves og hndteres i praksis, samt hvilke betingelser der) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 655 Tm
+(skal vre opfyldt for ansvarlig videre automatisering.) Tj
+ET
+50 610 m 545 610 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 565 Tm
+(6\) Overview \(diagram\) of your research structure \(flles med medforfatter\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 548 Tm
+(text) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 533 Tm
+(Research-diagram ? SoluTalent-casen) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 503 Tm
+(1\) Videnskabsteori) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 488 Tm
+(Ontologi: pragmatisk virkelighedsforstelse) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 473 Tm
+(Epistemologi: anvendelsesorienteret viden, abduktiv slutningsform) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 443 Tm
+(2\) Problem) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 428 Tm
+(Problemfelt: manuel bemanding skaber spildtid) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 413 Tm
+(Problemformulering: effekt af AI-automatisering p spildtid \(staging_imported ? matched\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 398 Tm
+(Afgrnsning: SoluTalent-workflow 2025-2026, out of scope: onboarding/kontrakt/ln) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 368 Tm
+(3\) Delanalyser) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 353 Tm
+(USP1: Spildtid i as-is \(lean waste + proceskort\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 338 Tm
+(USP2: Hvad er automatiseret vs manuelt? \(artefaktanalyse\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 323 Tm
+(USP3: Mlbar effekt \(KPI: decision time, time-to-match, override rate, rejection reasons\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 308 Tm
+(USP4: TOE-forudstninger for videre automatisering) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 278 Tm
+(4\) Data og metode) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 263 Tm
+(Datagrundlag: interviews + artefakter + dokumenter \(triangulering\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 233 Tm
+(5\) Syntese) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 218 Tm
+(Trade-offs: effektivitet, kvalitet, human-in-the-loop, bias, GDPR) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 203 Tm
+(Konklusion + perspektivering til lignende SMV-konsulenthuse) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 143 Tm
+(Omfang og afleveringsramme) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 126 Tm
+(Denne version er skrevet med ml om at ligge i synopsisintervallet \(ca. 2400 anslag pr. side i) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 111 Tm
+(et samlet 4-5 siders spnd ekskl. bilag\), s den svarer til de praktiske) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 96 Tm
+(afleveringsforventninger.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 66 Tm
+(Obligatoriske pensumkilder \(3\) integreret i designet) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 4/6) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 3359 >>
+stream
+BT
+/F1 11 Tf
+1 0 0 1 50 792 Tm
+(Flgende tre pensumkilder er behandlet som obligatoriske og bruges direkte i opbygningen:) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 777 Tm
+(1. Empiri og metoder v.05.pptx ? begrunder interview- og trianguleringsdesignet.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 762 Tm
+(2. Formulering af et Research Design 2026F.pptx ? anvendes til alignment mellem problem,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 747 Tm
+(afgrnsning og metode.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 732 Tm
+(3. Videnskab og Etik 2026F.pptx ? anvendes til samtykke, anonymisering og ansvarlig) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 717 Tm
+(fortolkning.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 687 Tm
+(vrige kilder bruges som faglig udbygning ud over minimumskravet.) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 657 Tm
+(Konkret interviewsetup \(primr empiri\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 640 Tm
+(I denne vinkel er interviews hovedkilde og gennemfres systematisk.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 610 Tm
+(Udvlgelse \(8-10 interviews\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 595 Tm
+(? 3-4 interne brugere \(recruitere/operatrer\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 580 Tm
+(? 2-3 virksomhedsreprsentanter \(modtagere af matchforslag\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 565 Tm
+(? 2-3 kandidatrelevante perspektiver \(hvis adgang er mulig\) eller proxyperspektiver fra) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 550 Tm
+(  driftsteamet.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 520 Tm
+(Semistruktureret interviewguide \(30-45 min\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 505 Tm
+(1. Hvordan definerer du et ?godt match? i praksis?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 490 Tm
+(2. Hvornr oplever du mismatch mellem systemforslag og faglig vurdering?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 475 Tm
+(3. Hvad skaber tillid/mistillid til AI-stttede forslag?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 460 Tm
+(4. Hvordan opleves transparens i beslutningsgrundlaget?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 445 Tm
+(5. Hvor ser du bias-risici i nuvrende praksis?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 430 Tm
+(6. Hvad skal forbedres, fr yderligere automatisering giver mening?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 400 Tm
+(Efterbehandling) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 385 Tm
+(? Transskript i kondenseret form.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 370 Tm
+(? Frste kodningsrunde \(bne koder\), anden runde \(temaer\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 355 Tm
+(? Triangulering mod artefakter og dokumenter.) Tj
+ET
+50 310 m 545 310 l S
+BT
+/F2 16 Tf
+1 0 0 1 50 265 Tm
+(7\) Bibliography \(Harvard style\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 248 Tm
+(Berger, P.L. and Luckmann, T., 1966. The Social Construction of Reality. New York: Anchor) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 233 Tm
+(Books.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 218 Tm
+(Braun, V. and Clarke, V., 2006. Using thematic analysis in psychology. Qualitative Research in) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 203 Tm
+(Psychology, 3\(2\), pp.77-101.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 188 Tm
+(Gadamer, H.-G., 2004. Truth and Method. 2nd rev. ed. London: Continuum.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 173 Tm
+(Yin, R.K., 2018. Case Study Research and Applications: Design and Methods. 6th ed. Thousand) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 158 Tm
+(Oaks: SAGE.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 143 Tm
+(Undervisningsmateriale \(KEA\), 2024. Hermeneutik, Socialkonstruktivisme, Empiri og Metoder,) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 128 Tm
+(Videnskab og Etik.) Tj
+ET
+50 83 m 545 83 l S
+BT
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 5/6) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 1418 >>
+stream
+BT
+/F2 16 Tf
+1 0 0 1 50 777 Tm
+(8\) Appendix) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 760 Tm
+(Appendix A: Interview guide \(draft\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 743 Tm
+(1. Hvordan vurderer du, om et match er relevant i den konkrete opgave?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 728 Tm
+(2. Hvornr vlger du at overstyre et systemforslag, og hvorfor?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 713 Tm
+(3. Hvad gr et match transparent eller uigennemskueligt?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 698 Tm
+(4. Hvor oplever du den strste spildtid i processen?) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 683 Tm
+(5. Hvilke forudstninger skal vre opfyldt for mere automatisering?) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 653 Tm
+(Appendix B: Coding frame \(draft\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 636 Tm
+(? Tema 1: Relevansforstelse) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 621 Tm
+(? Tema 2: Tillid/transparens) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 606 Tm
+(? Tema 3: Fairness/bias) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 591 Tm
+(? Tema 4: Human-in-the-loop) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 576 Tm
+(? Tema 5: Effektivitet vs kvalitet) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 50 546 Tm
+(Appendix C: Triangulation matrix \(draft\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 529 Tm
+(? Interviewfund ? Artefaktfund ? Dokumentfund) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 514 Tm
+(? Enighed/uenighed mellem kilder) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 50 499 Tm
+(? Konsekvens for fortolkning og anbefaling) Tj
+ET
+BT
+/F1 9 Tf
+1 0 0 1 475 25 Tm
+(Page 6/6) Tj
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Pages /Count 6 /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R] >>
+endobj
+16 0 obj
+<< /Type /Catalog /Pages 15 0 R >>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000015 00000 n 
+0000000085 00000 n 
+0000000160 00000 n 
+0000002794 00000 n 
+0000002931 00000 n 
+0000006326 00000 n 
+0000006463 00000 n 
+0000010153 00000 n 
+0000010290 00000 n 
+0000013306 00000 n 
+0000013444 00000 n 
+0000016856 00000 n 
+0000016995 00000 n 
+0000018466 00000 n 
+0000018605 00000 n 
+0000018696 00000 n 
+trailer
+<< /Size 17 /Root 16 0 R >>
+startxref
+18747
+%%EOF

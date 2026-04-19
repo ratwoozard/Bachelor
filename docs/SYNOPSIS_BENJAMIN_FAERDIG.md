@@ -1,184 +1,117 @@
 # Synopsis — Theory of Science (videnskabsteori) — Benjamin Zeka
 
 **Emne:** AI som beslutningsstøtte i bemandingsprocessen — Support Solutions ApS / SoluTalent  
-**Afgrænsning:** `staging_imported` → `matched`  
+**Afgrænsning:** `staging_imported` → `matched` (funktionelt fra modtaget opgave i systemet til klientindstillet konsulent)  
 **Dato:** 13-03-2026
 
 ---
 
 ## 1. Indledning
 
-**Makroniveau (branchekontekst):**  
-Markedet for IT-konsulentydelser er præget af et dobbelt krav om både høj hastighed og dokumenteret kvalitet i leverancerne. Virksomheder konkurrerer på evnen til hurtigt at identificere og præsentere relevante specialister, samtidig med at de skal sikre et stabilt kvalitetsniveau i udvælgelsen. Leverandører i branchen fremhæver hurtig respons og strukturerede udvælgelsesprocesser som centrale konkurrenceparametre (Right People Group, n.d.).
+Konkurrencen på markedet for IT-konsulentydelser er præget af krav om både hurtig respons og dokumenteret kvalitet i leverancerne (Right People Group, n.d.). Leverandører fremhæver ofte hurtig respons og strukturerede udvælgelsesprocesser som centrale parametre (Right People Group, n.d.). Når beslutninger skal træffes hurtigt i bemandingsforløb, opstår samtidig et spænd mellem hastighed, kontrol og ansvar: fejlmatch eller forsinkelser kan have omkostninger for både kunde og leverandør, hvorfor manuel kontrol og gensidig afstemning mellem roller ofte opretholdes som led i risikostyring (Holm, 2023).
 
-**Mesoniveau (organisationskontekst):**  
-Support Solutions ApS opererer i denne kontekst og positionerer sig på hurtig fremdrift i bemandingsprocessen (Support Solutions, n.d.). Til at understøtte processen anvendes SoluTalent, hvor AI-baserede funktioner genererer matchforslag, som efterfølgende vurderes af medarbejdere (SoluTalent, n.d.). Platformen fungerer derfor som beslutningsstøtte frem for fuld automatisering.
+Support Solutions ApS er et dansk konsulentbureau, der formidler IT-specialister til projektbaserede opgaver hos kunder med behov for tekniske kompetencer (Support Solutions, n.d.). Virksomheden fremhæver hurtig fremdrift og muligheden for at præsentere relevante kandidater kort efter, at en opgave er kvalificeret (Support Solutions, n.d.). Til understøttelse af denne proces anvendes platformen SoluTalent, hvor funktioner baseret på kunstig intelligens producerer prioriterede matchforslag ud fra data om konsulentprofiler, kompetencer og opgavens krav (SoluTalent, n.d.). I praksis fungerer det som beslutningsstøtte snarere end som fuld automatisering: medarbejdere kan acceptere, afvise eller overstyre forslag, så menneskelig vurdering forbliver en integreret del af beslutningskæden. Med *overstyring* (override) menes her, at et systemforslag fravælges til fordel for et andet valg; med *AI-score* menes et prioriteringssignal, der ikke i sig selv erstatter faglig bedømmelse. Disse begreber er centrale, fordi de gør det muligt at tale præcist om samspillet mellem system og praksis uden at reducere processen til ren teknisk logik.
 
-**Mikroniveau (konkret problem):**  
-I praksis opstår der beslutningsled, hvor manuelle vurderinger, overstyringer og review-loops kan skabe ventetid. Udfordringen er ikke isoleret til teknologien, men knytter sig til samspillet mellem systemlogik, tillid, kontrol og organisatorisk ansvar i den konkrete proces.
+I den afgrænsede del af processen fra modtaget opgave til klientindstillet konsulent er der gennemført en forundersøgelse med semistrukturerede interviews med henholdsvis ledelse og teknisk ansvarlig (bilag B). Den har bidraget til at afgrænse problemfeltet og har peget på, at spildtid særligt knytter sig til ventetid i beslutningsled, gentagne gennemgange og uens praksis omkring registrering af afvisningsårsager (bilag B). Spørgsmålet er derfor ikke primært, om platformen som teknologi "virker", men hvordan samspillet mellem automatiske forslag og organisatorisk beslutningspraksis påvirker tidsforbrug og procesflow i den konkrete kontekst — herunder hvordan kontrol, tillid til score og intern koordinering kommer til udtryk (Holm, 2023).
 
-**Forskningsgab og synopsisformål:**  
-Der mangler en samlet videnskabsteoretisk ramme, der både kan belyse målbare mønstre i workflowet og forklare de fortolkninger, der former faktisk beslutningsadfærd. Formålet med denne synopsis er derfor at opstille et kongruent research design for casen hos Support Solutions ApS med fokus på SoluTalent-processen `staging_imported` → `matched` (Kuada, 2012; Holm, 2023; Saunders et al., 2023; Rossman & Wilson, 1985).
+Formålet med synopsen er at udvikle og begrunde et videnskabsteoretisk kongruent research design til den videre undersøgelse. Synopsen forsvarer position, design, empirisk logik og kvalitetskriterier; den erstatter ikke bachelorprojektets senere metode- og analysekapitel.
 
 ---
 
 ## 2. Problemformulering og afgrænsning
 
-**Problemformulering**  
-Hvordan påvirker AI-baseret automatisering spildtid i bemandingsprocessen fra modtaget opgave til klientindstillet konsulent hos Support Solutions ApS, og hvilke forudsætninger kræver reduktion af de resterende manuelle procestrin?
+**Hvordan påvirker AI-baseret automatisering spildtid i bemandingsprocessen fra modtaget opgave til klientindstillet konsulent hos Support Solutions ApS, og hvilke forudsætninger kræver reduktion af de resterende manuelle procestrin?**
 
-**Delspørgsmål**  
-1. Hvor opstår spildtid i den nuværende bemandingsproces, og hvad er de centrale årsager?  
-2. Hvilke trin automatiserer SoluTalent, og hvilke forbliver manuelle — og med hvilken begrundelse?  
-3. Hvilke kontrol- og tillidshensyn viser sig i medarbejdernes brug af AI-scoren?  
-4. Hvilke teknologiske, organisatoriske og styringsmæssige forudsætninger kræves for yderligere automatisering?
+Med *AI-baseret automatisering* menes i denne opgave de dele af processen, hvor SoluTalent automatisk genererer og prioriterer matchforslag og tilhørende signaler, som efterfølgende menneskeligt kvalificeres — ikke kontrakt, fakturering eller teknisk modeltræning uden for analyseens scope. Formuleringen er undersøgende: målet er kontekstbundet indsigt i spildtid og manuelle trin under menneske–system-samspil, ikke dokumentation af en entydig, generel kausal effekt af automatisering alene.
 
-### 2.1 Afgrænsning
+De analytiske dimensioner, som problemformuleringen åbner for, kan sammenfattes uden at opløses i en separat liste i hovedteksten: hvor spildtid opstår og hvilke forklaringsmønstre der knytter sig hertil; hvilke trin der er automatiserede kontra manuelle og med hvilken begrundelse; hvordan kontrol- og tillidshensyn kommer til udtryk i brugen af AI-score og relaterede beslutninger; samt hvilke organisatoriske, tekniske og styringsmæssige betingelser der gør sig gældende, hvis manuelle trin skal reduceres forsvarligt. Den konkrete operationalisering af målinger og analyseprocedurer for disse dimensioner hører under bachelorprojektets metodekapitel og bilag.
 
-Undersøgelsen omhandler den del af bemandingsprocessen, hvor opgaver er registreret i SoluTalent, og hvor progression kan følges i systemets workflow fra `staging_imported` til `matched`. Aktiviteter før systemregistrering (fx scouting, netværk og indledende dialog) belyses kvalitativt gennem interviews og case-rekonstruktion, men indgår ikke i den kvantitative måling af spildtid.
+Undersøgelsen afgrænses til den del af bemandingsprocessen, der efter registrering i SoluTalent kan følges fra workflow-tilstanden `staging_imported` til `matched`, svarende til den funktionelle kæde fra modtaget opgave til klientindstillet konsulent. Aktiviteter før systemregistrering (scouting, netværk, indledende dialog) kan indgå som kvalitativ kontekst gennem interviews og rekonstruktion, men indgår ikke i den kvantitative spildtidsmåling. Forløb efter klientgodkendelse, herunder kontrakt, onboarding, compliance samt time- og faktureringsprocesser, ligger uden for scope. Platformen behandles som organisatorisk og funktionelt artefakt i beslutningspraksis; ML-arkitektur som udviklingsprojekt ligger uden for denne videnskabsteorisynopsis.
 
-Administrative processer efter klientgodkendelse, herunder kontrakt, onboarding, compliance, time- og faktureringsforløb, ligger uden for analysens kernefelt. Projektet gennemføres som funktionel procesanalyse med fokus på organisatorisk beslutningsadfærd og dokumenterbare procesmønstre, ikke som teknisk evaluering af ML-arkitektur.
-
-### 2.2 Synopsisens analytiske sigte
-
-I tråd med research design-logikken struktureres redegørelsen på fire niveauer: ontologi, epistemologi, metodologi og metode-/teknisk niveau. Formålet er at sikre, at metodevalg og datagrundlag følger problemformuleringen og caseafgrænsningen, så undersøgelsen fremstår videnskabsteoretisk konsistent (Holm, 2023; Saunders et al., 2023; Kuada, 2012; Rossman & Wilson, 1985).
+Den kvantitative del planlægges som en tværsnitsundersøgelse med data fra et afgrænset observationsvindue (seneste kvartal i forhold til indsamlingstidspunkt), så mønstre sammenlignes inden for samme periode og samme afgrænsede sagspopulation, uden at resultaterne extrapoleres til hele branchen (Saunders et al., 2023).
 
 ---
 
-## 3. Redegørelse for research design
+## 3. Metodologi og research design
 
-### 3.1 Videnskabsteoretisk position: pragmatisme
+Research designet redegøres sekventielt på fire vidensniveauer, så det er tydeligt, hvordan metodevalg følger problemstilling og afgrænsning (Kuada, 2012; Saunders et al., 2023; Holm, 2023).
 
-Projektet anlægger en pragmatisk position, fordi problemformuleringen kræver både indsigt i målbare procesforhold og forståelse af organisatorisk beslutningspraksis. Pragmatisme vælges dermed ud fra spørgsmålets karakter og det anvendte formål i en konkret case (Kuada, 2012; Saunders et al., 2023).
+### 3.1 Ontologi
 
-Den strategiske kombination af kvalitative og kvantitative spor begrundes med Rossman og Wilson (1985), som viser, hvordan forskellige datatyper kan anvendes komplementært i samme undersøgelse. Kuada anvendes i denne synopsis til begrebsforankring, metodekontekst og kvalitetskriterier, mens Rossman og Wilson bærer mixed-methods-strategien.
+Ontologi vedrører spørgsmålet om, hvad der antages at eksistere som genstand for viden inden for undersøgelsens felt (Kuada, 2012). I denne case omfatter genstandsfeltet både observerbare systemforhold, herunder workflow-tilstande, tidsstempler, overstyring og mønstre i registrerede afvisningsårsager, og en socialt forankret beslutningspraksis, hvor medarbejdere fortolker opgavens krav, vurderer risiko og prioriterer kvalitet (Holm, 2023). Genstandsfeltet er dermed både systemisk og socialt; platformens tilstande er en del af det observerbare materiale, men casen defineres organisatorisk som den del af Support Solutions ApS, der arbejder med matching og klientindstilling i SoluTalent — ikke som enkelte tekniske tilstande i isolation.
 
-### 3.2 Ontologi
+### 3.2 Epistemologi
 
-Ontologi vedrører spørgsmålet om, hvad der eksisterer i undersøgelsens genstandsfelt (Kuada, 2012). I denne case omfatter genstandsfeltet både observerbare systemspor og socialt forankret beslutningspraksis.
+Epistemologi vedrører, hvordan gyldig viden om genstandsfeltet kan etableres (Kuada, 2012). Interviewsporet forankres i et fortolkende perspektiv med interpretivisme og moderne hermeneutik, fordi medarbejdernes begrundelser, fortolkning af "godt match" og handlingslogik skal forstås i kontekst (Holm, 2023; Saunders et al., 2023). Det kvantitative spor knytter til beskrivelse og sammenligning af observerbare mønstre i systemdata inden for den valgte periode og population af sager. De to spor skal holdes begrebsmæssigt adskilt, så fortolkende forklaringer ikke substitueres af måltal, og så måltal ikke læses som direkte adgang til meningsindhold uden fortolkende mediering.
 
-Den observerbare dimension består af workflow-states, tidsstempler, overstyringer og afvisningsmønstre i SoluTalent. Den sociale dimension består af medarbejdernes vurderinger af kvalitet, risiko og ansvar i matchbeslutninger. Ontologisk anerkendes dermed både systemiske og organisatoriske forhold som relevante objekter for analysen (Holm, 2023).
+### 3.3 Pragmatisk vidensvurdering i den konkrete undersøgelse
 
-### 3.3 Epistemologi
+Uafhængigt af ovenstående epistemologiske adskillelse er projektet anvendelsesorienteret: forskningsresultater forventes at kunne understøtte beslutninger om proces og styring i den konkrete organisation. Denne vidensvurdering — hvad der tæller som "nyttig" indsigt i praksis — er ikke en erstatning for epistemologisk redegørelse, men et udtryk for den pragmatiske ramme: kriteriet om anvendelighed i kontekst supplerer spørgsmålet om, hvordan viden etableres (Holm, 2023).
 
-Epistemologi vedrører, hvordan gyldig viden produceres om genstandsfeltet (Kuada, 2012). I denne undersøgelse adskilles to spor, som kombineres under den pragmatiske ramme.
+### 3.4 Metodologisk ramme: pragmatisme, mixed methods og abduktion
 
-Det fortolkende spor knyttes til interpretivisme og moderne hermeneutik, hvor interviews bruges til at forstå begrundelser, meningsdannelse og handlingslogikker bag manuelle beslutninger (Holm, 2023; Saunders et al., 2023).  
-Det positivistisk inspirerede spor knyttes til platformdata og KPI, hvor observerbare mønstre kan beskrives og sammenlignes på tværs af sager i den valgte periode.
+Den overordnede metodologiske ramme er pragmatisk, fordi problemformuleringen både kræver fortolkning af praksis og dokumentation af observerbare forløb (Kuada, 2012; Saunders et al., 2023). Pragmatisme begrundes først ud fra problemfeltets karakter: behov for både at forstå menings- og beslutningslogikker og at sammenligne dokumenterbare mønstre i samme proces. Derefter understøttes den strategiske beslutning om at kombinere kvalitative og kvantitative spor i samme undersøgelse af Rossman og Wilson (1985), som behandler komplementær anvendelse af kvantitative og kvalitative data — uden at disse forfattere kan tilskrives kendskab til denne konkrete problemformulering, hvilket ville være kildeforvanskning.
 
-Denne adskillelse sikrer, at ontologi og epistemologi ikke blandes i samme argument, og at påstande om "hvorfor" og "hvor meget" behandles med passende erkendelsesformer.
+Slutningsformen er overvejende abduktiv: observationer og begreber bringes i gensidig afprøvning, og forklaringer justeres, når empiri og foreløbige antagelser ikke stemmer overens (Holm, 2023; Saunders et al., 2023).
 
-### 3.4 Metodologi: slutningsform, design og case
+### 3.5 Metodisk tilgang og forskningsdesign
 
-Slutningsformen er abduktiv: empiriske observationer og teoretiske begreber bringes i løbende dialog, og forklaringer justeres, når data udfordrer foreløbige antagelser (Holm, 2023; Saunders et al., 2023).
+Den metodiske tilgang er sekventielt udforskende: der arbejdes først med kvalitative spor, der etablerer forforståelse og identificerer centrale temaer, hvorefter kvantitative spor kan anvendes målrettet som opfølgning. Forundersøgelsesinterviews (bilag B) er allerede gennemført og har bidraget til problemfeltets afgrænsning; yderligere interviews og artefaktgennemgang planlægges som led i hovedundersøgelsen. Den kvantitative opfølgning gennemføres som tværsnit i det nævnte tidsvindue. Dette er ikke et spørgsmål om hypotetisk fremtid alene, men om en allerede påbegyndt empirisk kæde, som den videre bachelorundersøgelse bygger videre på.
 
-Designet er sekventielt udforskende: der indsamles først kvalitative spor og derefter kvantitative spor, så den tidlige forståelse af praksis kan kvalificere de efterfølgende målinger og styrke metodetrianguleringen.
+Undersøgelsen udformes som et single-case studie med tydelig organisatorisk afgrænsning til den del af virksomheden, der arbejder med matching og klientindstilling i SoluTalent. Generalisering er primært analytisk til teori og procesforståelse, ikke statistisk til en bred branchepopulation (Holm, 2023; Kuada, 2012).
 
-Casen er et indlejret single-case studie, hvor undersøgelsen afgrænses til en organisatorisk delmængde hos Support Solutions ApS, nemlig den del der arbejder med matching i SoluTalent (Holm, 2023; Saunders et al., 2023). Indlejring forstås dermed organisatorisk, ikke som tekniske workflow-enheder.
+### 3.6 Metode- og teknisk niveau og triangulering
 
-### 3.5 Metode og triangulering
-
-Empirien kombinerer semistrukturerede interviews, artefaktanalyse af workflow og systemiske dataudtræk med KPI. Triangulering er ikke kun en metodekombination, men et analytisk redskab til at synliggøre spændet mellem formelle principper i systemets logik og faktisk beslutningsadfærd i praksis (Rossman & Wilson, 1985).
-
-Interviews har den forklarende funktion, artefakter beskriver den formelle beslutningslogik, og platformdata dokumenterer observerbare mønstre i forløbene. Når mindst to uafhængige kilder peger i samme retning, styrkes fundets robusthed; divergenser behandles som analytisk indhold.
-
-### 3.6 Tidshorisont og kvantitativ repræsentativitet
-
-Den kvantitative del beskrives som et tværsnit, hvor data afgrænses til det seneste kvartal. Resultater fortolkes som gyldige inden for den valgte periode og den afgrænsede population af sager i casen, ikke som generelle brancheresultater (Saunders et al., 2023).
+På metode- og teknisk niveau kombineres semistrukturerede interviews, analyse af artefakter (herunder workflow og beslutningsregler i platformen) og systemiske udtræk. Triangulering anvendes som analytisk redskab til at belyse spændet mellem formelle principper i systemets og organisationens *governance* — dvs. aftalte roller, kontrolpunkter og ansvarsfordeling — og den faktiske beslutningsadfærd (Rossman & Wilson, 1985). Interviewanalyse og kodning begrundes metodisk med reference til etableret kvalitativ praksis og pensum (Saunders et al., 2023; Kuada, 2012); Rossman og Wilson bruges ikke som primær kilde til selve kodningsproceduren.
 
 ---
 
-## 4. Empiri (oversigt)
+## 4. Empiri, etik og kvalitetskriterier
 
-Empirien består af tre spor, der tilsammen understøtter problemformuleringen:
+Empirien kombinerer tre spor. Primære data udgøres af semistrukturerede interviews med purposive udvalgte informanter med strategisk, operativ eller teknisk indsigt i den afgrænsede proces (Saunders et al., 2023). To forundersøgelsesinterviews er gennemført med ledelsesniveau og teknisk ansvarlig og indgår som grundlag for problemafklaring (bilag B). Sekundære data omfatter artefakter og dokumenterede udtræk fra platformen, der kan belyse beslutningsflow og tidsmæssige mønstre. Ingen enkelt kilde alene kan besvare problemformuleringen om spildtid og manuelle trin i samspillet mellem automatisering og praksis; derfor er kombinationen central.
 
-**Semistrukturerede interviews (4-6 informanter):**  
-Informanter vælges via purposive sampling fra roller med strategisk, teknisk og operationel indsigt i bemandingsprocessen. Interviewene fokuserer på tillid til AI-scoren, begrundelser for overrides og vurderinger af, hvilke trin der fortsat kræver manuel kontrol.
+Den kvantitative del understøtter beskrivelse af observerbare mønstre inden for tværsnittet. Detaljerede indikatordefinitioner, fuld liste over KPI og procedure for dataudtræk dokumenteres i bachelorprojektets metodebilag, ikke i denne synopsis.
 
-**Artefaktanalyse:**  
-Workflow-konfiguration, automatiseringsregler, manuelle gates og kategorier for rejection reasons gennemgås for at fastlægge systemets formelle beslutningslogik.
+Trianguleringens funktion er at sammenholde fortolkninger fra interviews med artefakters beskrivelse af den formelle logik og med mønstre i systemdata, så eventuelle uoverensstemmelser behandles som analytisk indhold snarere end som fejl (Rossman & Wilson, 1985).
 
-**Platformdata og KPI:**  
-Override-rate, rejection reasons, tid i state, tid fra AI-forslag til accept/afvisning og forekomst af review-loops bruges til at beskrive spildmønstre i den afgrænsede proces.
+Undersøgelsen involverer personer og virksomhedsdata og kræver derfor eksplicit etisk stillingtagen. Aksiologisk lægges vægt på informeret samtykke, klar formålsbeskrivelse, anonymisering af citater i offentlig fremstilling, ansvarlig håndtering af data og mulighed for tilbagetrækning (Kuada, 2012). Samtykke og dokumentationspraksis for forundersøgelse og videre dataindsamling beskrives konkret i bilag C. Mundtlig accept kan udgøre ét led i en samlet procedure, men erstatter ikke en redegørelse for, hvordan informanter er informeret, og hvordan persondata beskyttes; eventuel skriftlig bekræftelse indgår, hvor det er muligt og relevant.
 
-**Delspørgsmål, data og analysefokus:**  
-- Delspørgsmål 1: placering og årsager til spildtid (platformdata + proceskortlægning).  
-- Delspørgsmål 2: automatiserede og manuelle trin (artefaktanalyse + interviews).  
-- Delspørgsmål 3: kontrol- og tillidshensyn (interviews + kritisk efterprøvning i data).  
-- Delspørgsmål 4: forudsætninger for øget automatisering (interviewfund + artefakt + KPI-mønstre).
+For det kvalitative spor anvendes Lincoln og Gubas kriterier formidlet via Kuada (2012). Credibility understøttes gennem triangulering og informantvalidering, hvor centrale fortolkninger forelægges informanter i relevant kontekst, så de kan bekræfte, præcisere eller afvise gengivelsen. Transferability understøttes gennem tydelig beskrivelse af case og afgrænsning. Dependability understøttes gennem sporbar dokumentation af interviewguide, kodningsbeslutninger og analyseforløb. Confirmability understøttes gennem åbenhed om forskerposition og gennem at fastholde modstridende fund som en del af analysen. For det kvantitative spor lægges vægt på målepålidelighed i definitionerne, stabilitet inden for den valgte periode og repræsentativitet inden for den afgrænsede sagspopulation (Kuada, 2012; Saunders et al., 2023).
+
+Insider-nærhed til case kan styrke adgang og feltkendskab, men øger risiko for bekræftelsesbias. Det håndteres gennem transparens om position, inddragelse af flere roller i materialet og gennem systematisk opmærksomhed på negative indikatorer såsom hyppig overstyring, gentagne gennemgange og lange beslutningsforløb som fuldt legitime analytiske fund på linje med effektivitetsgevinster.
 
 ---
 
-## 5. Etik (aksiologi) og kvalitetskriterier
+## 5. Oversigt over research design
 
-Undersøgelsen involverer både personer og virksomhedsdata og kræver derfor eksplicit etisk stillingtagen. Aksiologisk prioriteres gennemsigtighed, respekt for informanters autonomi og ansvarlig datapraksis (Kuada, 2012). Informeret samtykke, tydelig formålsbeskrivelse og mulighed for tilbagetrækning indgår som procedurer.
+Nedenstående figur samler research designet fra vidensniveauer til empiriske spor og fungerer som strukturbevis for sammenhæng mellem problemformulering, filosofiske valg og datagrundlag.
 
-### 5.1 Kvalitative kvalitetskriterier
+![Figur 1 — Research design (Support Solutions / SoluTalent, Benjamin Zeka)](figures/RESEARCH_STRUCTURE_SYNOPSIS_LUKA.svg)
 
-Kriterierne følger Lincoln og Guba via Kuada (2012):
-
-- **Credibility:** Triangulering samt informantvalidering af centrale fortolkninger.  
-- **Transferability:** Tydelig kontekstbeskrivelse af case, afgrænsning og datagrundlag.  
-- **Dependability:** Sporbar dokumentation af interviewguide, kodningsbeslutninger og analyseforløb.  
-- **Confirmability:** Konklusioner forankres i data, og modstridende fund fastholdes analytisk.
-
-### 5.2 Kvantitative kvalitetskriterier
-
-De kvantitative spor vurderes med fokus på målepålidelighed (faste KPI-definitioner), stabilitet i den afgrænsede periode og repræsentativitet inden for den valgte population af sager (Kuada, 2012; Saunders et al., 2023).
-
-### 5.3 Insider-position og bias
-
-Insidernærhed kan forbedre adgang til praksis, men øger risikoen for bekræftelsesbias. Risikoen håndteres ved at inddrage flere roller i datagrundlaget og ved aktivt at behandle negative indikatorer (fx høj override-rate, gentagne loops og lange beslutningsforløb) som analytisk lige så centrale som positive mønstre.
+**Figur 1.** Egen figur, udarbejdet af forfatteren, baseret på undervisningsmateriale og på Kuada (2012), Holm (2023) og Saunders et al. (2023). Figuren visualiserer sammenhæng mellem ontologi, epistemologi, pragmatisk metodologi, abduktion, sekventielt udforskende design, single-case med organisatorisk afgrænsning, tværsnit og triangulering i undersøgelsen af AI som beslutningsstøtte og spildtid i den angivne procesafgrænsning. Den strategiske kombination af kvalitative og kvantitative spor forankres i Rossman og Wilson (1985).
 
 ---
 
-## 6. Redegørelse for research design: oversigtsfigur
-
-Afsnittet samler research designet i en oversigtsfigur efter de fire vidensniveauer (ontologisk, epistemologisk, metodologisk og metode-/teknisk). Figuren fungerer som visuelt bevis for sammenhængen mellem problemformulering, filosofi, design, dataindsamling og analyse.
-
-*[Indsæt figur her: tilpasset `pptx_extract/content/ppt/media/image28.png` eller en delt SVG i `docs/figures/` med Benjamin-specifik titel, dataperiode (seneste kvartal) og kildehenvisninger.]*  
-
-**Figur 1.** Research structure for undersøgelsen af AI som beslutningsstøtte i bemandingsprocessen hos Support Solutions ApS (SoluTalent: `staging_imported` → `matched`). Figuren viser pragmatisme som overordnet ramme, abduktiv slutningsform, sekventielt udforskende mixed-methods design samt triangulering mellem interviews, artefakter og platformdata. Begrebsforankring: Kuada (2012). Strategisk mixed-methods-begrundelse: Rossman & Wilson (1985). Design og metode: Holm (2023) og Saunders et al. (2023).
-
----
-
-## 7. Foreløbig disposition (bachelorrapport)
-
-1. Indledning og problemfelt  
-2. Problemformulering, delspørgsmål og afgrænsning  
-3. Teoretisk ramme  
-4. Metode og research design  
-5. Analyse (struktureret efter delspørgsmål)  
-6. Diskussion  
-7. Konklusion  
-8. Litteraturliste og bilag
-
----
-
-## 8. Litteraturliste (Harvard — foreløbig)
+## 6. Litteraturliste (Harvard)
 
 Holm, A. B. (2023). *Videnskab i virkeligheden – En grundbog i videnskabsteori* (3. udg.). Samfundslitteratur.
 
 Kuada, J. (2012). *Research Methodology: A Project Guide for University Students*. Samfundslitteratur.
 
-Right People Group. (n.d.). *Consultants, vendor management, IT recruitment*. https://rightpeoplegroup.com (tilgået 12. marts 2026).
+Right People Group. (n.d.). *Consultants, vendor management, IT recruitment*. Tilgået 12. marts 2026 fra https://rightpeoplegroup.com
 
-Right People Group. (n.d.). *People powering excellence*. https://rightpeoplegroup.com/services/consultants (tilgået 12. marts 2026).
+Right People Group. (n.d.). *People powering excellence*. Tilgået 12. marts 2026 fra https://rightpeoplegroup.com/services/consultants
 
-Rossman, G. B. & Wilson, B. L. (1985). Numbers and Words: Combining Quantitative and Qualitative Methods in a Single Large-Scale Study. *Evaluation Review*, 9(5), 627-643.
+Rossman, G. B. & Wilson, B. L. (1985). Numbers and Words: Combining Quantitative and Qualitative Methods in a Single Large-Scale Study. *Evaluation Review*, 9(5), 627–643.
 
 Saunders, M. N. K., Lewis, P. & Thornhill, A. (2023). *Research Methods for Business Students* (9. udg.). Pearson.
 
-SoluTalent. (n.d.). *SoluTalent – Premium Global Freelancers*. https://solutalent.com (tilgået 12. marts 2026).
+SoluTalent. (n.d.). *SoluTalent – Premium Global Freelancers*. Tilgået 12. marts 2026 fra https://solutalent.com
 
-Support Solutions. (n.d.). *IT konsulenter – første CV inden 48 timer*. https://support-solutions.dk (tilgået 12. marts 2026).
+Support Solutions. (n.d.). *IT konsulenter – første CV inden 48 timer*. Tilgået 12. marts 2026 fra https://support-solutions.dk
 
 ---
 
-## Bilag (oversigt)
+## 7. Bilag og disposition
 
-- **Bilag A:** Research structure-diagram.  
-- **Bilag B:** Forundersøgelsesnoter (Informant 1 og Informant 2).  
-- **Bilag C:** Samtykkeerklæring (anonymiseret).  
-
-Bilagsteksterne er tilgængelige i den originale PDF-version fra 13-03-2026 og kan ved behov flyttes til særskilte bilagsfiler i repo.
+Planlagte bilag omfatter (A) research structure-diagram som i figur 1, (B) forundersøgelsesnoter fra interviews med informant på ledelsesniveau og teknisk ansvarlig i anonymiseret form, og (C) samtykke- og informationsmateriale knyttet til informanter. En foreløbig disposition for bachelorrapporten følger den sædvanlige rækkefølge fra indledning og problemfelt over teori og metode til analyse, diskussion og konklusion; analysekapitlet kan struktureres efter problemformuleringens dimensioner uden at gentage dem som en skoleliste i rapportens indledende kapitler.

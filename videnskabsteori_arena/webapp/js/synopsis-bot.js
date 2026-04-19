@@ -3,7 +3,8 @@ const SynopsisBot = {
     state: {
         loading: false,
         lastResult: null,
-        lastError: ''
+        lastError: '',
+        activeController: null
     },
 
     init() {
@@ -87,6 +88,8 @@ const SynopsisBot = {
     },
 
     async handleSubmit(form) {
+        if (this.state.loading) return;
+
         const topic = (form.topic.value || '').trim();
         if (!topic) {
             this.renderError('Skriv et emne før du genererer.');
@@ -103,11 +106,21 @@ const SynopsisBot = {
         };
 
         try {
+            if (this.state.activeController) {
+                this.state.activeController.abort();
+            }
+
+            const controller = new AbortController();
+            this.state.activeController = controller;
+            const timeoutId = setTimeout(() => controller.abort(), 35000);
+
             const response = await fetch('/api/synopsis', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload)
+                body: JSON.stringify(payload),
+                signal: controller.signal
             });
+            clearTimeout(timeoutId);
 
             const rawText = await response.text();
             let data = {};
@@ -117,15 +130,20 @@ const SynopsisBot = {
                 data = {};
             }
             if (!response.ok) {
-                throw new Error(data.error || 'Uventet fejl ved generering.');
+                throw new Error(this.normalizeErrorMessage(data.error) || `Uventet fejl ved generering (${response.status}).`);
             }
 
             this.state.lastResult = data;
             this.state.lastError = '';
             this.renderResult(data);
         } catch (error) {
-            this.renderError(error.message || 'Der opstod en fejl under generering.');
+            if (error && error.name === 'AbortError') {
+                this.renderError('Anmodningen tog for lang tid og blev afbrudt. Prøv igen.');
+            } else {
+                this.renderError(this.normalizeErrorMessage(error && error.message ? error.message : error));
+            }
         } finally {
+            this.state.activeController = null;
             this.setLoading(false);
         }
     },
@@ -168,19 +186,22 @@ const SynopsisBot = {
         if (!output) return;
 
         const synopsis = result.synopsis || {};
+        const coverageMode = this.normalizeValue(result.coverageMode || 'unknown');
         const sections = [
-            { label: 'Problemfelt', value: synopsis.problemField },
-            { label: 'Teori', value: synopsis.theory },
-            { label: 'Metode', value: synopsis.method },
-            { label: 'Analyse', value: synopsis.analysis },
-            { label: 'Kritik og begrænsninger', value: synopsis.critique },
-            { label: 'Konklusion', value: synopsis.conclusion }
+            { label: 'Problemfelt', value: this.normalizeValue(synopsis.problemField) },
+            { label: 'Teori', value: this.normalizeValue(synopsis.theory) },
+            { label: 'Metode', value: this.normalizeValue(synopsis.method) },
+            { label: 'Analyse', value: this.normalizeValue(synopsis.analysis) },
+            { label: 'Kritik og begrænsninger', value: this.normalizeValue(synopsis.critique) },
+            { label: 'Konklusion', value: this.normalizeValue(synopsis.conclusion) }
         ];
+        const modeClass = this.getModeClass(coverageMode);
 
         output.innerHTML = `
             <div class="synopsis-meta">
                 <span>Repo-dækning: ${Math.round((result.coverageScore || 0) * 100)}%</span>
-                <span>Mode: ${this.escapeHtml(result.coverageMode || 'unknown')}</span>
+                <span>Mode: ${this.escapeHtml(coverageMode)}</span>
+                <span class="synopsis-mode-badge ${modeClass}">${this.escapeHtml(this.getModeLabel(coverageMode))}</span>
             </div>
             ${sections.map((section) => `
                 <article class="synopsis-section">
@@ -192,14 +213,14 @@ const SynopsisBot = {
                 <h3>Kilde- og grundlagsmarkering</h3>
                 <ul>
                     ${((result.sourceNotes || []).length ? result.sourceNotes : ['Ingen kildemarkering modtaget.'])
-                        .map((note) => `<li>${this.escapeHtml(note)}</li>`).join('')}
+                        .map((note) => `<li>${this.escapeHtml(this.normalizeValue(note))}</li>`).join('')}
                 </ul>
             </article>
             <article class="synopsis-section">
                 <h3>Repo-referencer (RAG)</h3>
                 <ul>
                     ${((result.citations || []).length ? result.citations : [{ path: 'Ingen direkte repo-match', score: 0 }])
-                        .map((citation) => `<li>${this.escapeHtml(citation.path)} (${Number(citation.score || 0).toFixed(2)})</li>`).join('')}
+                        .map((citation) => `<li>${this.escapeHtml(this.normalizeValue(citation.path))} (${Number(citation.score || 0).toFixed(2)})</li>`).join('')}
                 </ul>
             </article>
         `;
@@ -216,6 +237,42 @@ const SynopsisBot = {
 
     formatParagraph(value) {
         return this.escapeHtml(value).replace(/\n/g, '<br>');
+    },
+
+    normalizeValue(value) {
+        if (typeof value === 'string') return value;
+        if (typeof value === 'number' || typeof value === 'boolean') return String(value);
+        if (value == null) return '';
+        if (Array.isArray(value)) {
+            return value.map((entry) => this.normalizeValue(entry)).filter(Boolean).join('\n');
+        }
+        try {
+            return JSON.stringify(value, null, 2);
+        } catch {
+            return String(value);
+        }
+    },
+
+    normalizeErrorMessage(errorValue) {
+        const message = this.normalizeValue(errorValue).trim();
+        return message || 'Der opstod en fejl under generering.';
+    },
+
+    getModeClass(coverageMode) {
+        if (coverageMode === 'repo_grounded') return 'grounded';
+        if (coverageMode === 'generic_with_low_repo_support') return 'low-support';
+        if (coverageMode.indexOf('fallback') !== -1) return 'fallback';
+        return 'unknown';
+    },
+
+    getModeLabel(coverageMode) {
+        const map = {
+            repo_grounded: 'Repo-grounded',
+            generic_with_low_repo_support: 'Lav repo-støtte',
+            fallback_without_openrouter_key: 'Fallback (ingen API key)',
+            fallback_after_openrouter_error: 'Fallback (LLM-fejl)'
+        };
+        return map[coverageMode] || 'Ukendt mode';
     },
 
     escapeHtml(value) {

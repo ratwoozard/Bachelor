@@ -7,3 +7,4 @@ Min_Bachelor_Case/
 *.env
 *.env.*
 !.env.example
+.vercel

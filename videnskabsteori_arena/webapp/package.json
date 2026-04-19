@@ -2,6 +2,10 @@
   "name": "videnskabsteori-arena-webapp",
   "private": true,
   "scripts": {
-    "build:rag": "node scripts/build-rag-index.mjs"
+    "build:rag": "node scripts/build-rag-index.mjs",
+    "rag:version": "node scripts/version-rag-index.mjs",
+    "rag:build-and-version": "npm run build:rag && npm run rag:version",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "ci:check": "npm run build:rag && npm run test"
   }
 }

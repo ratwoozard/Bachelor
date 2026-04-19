@@ -42,14 +42,17 @@ vercel
 # Navigate to webapp folder
 cd videnskabsteori_arena/webapp
 
-# Start local server
-python -m http.server 8000
+# Install dependencies
+npm install
 
-# Or using Node.js
-npx serve .
+# Build RAG index
+npm run build:rag
+
+# Start local serverless runtime (required for /api/synopsis)
+vercel dev
 ```
 
-Open http://localhost:8000 in your browser.
+Open the URL shown by `vercel dev` (typically http://localhost:3000).
 
 ## Synopsis Bot Setup (OpenRouter + RAG)
 
@@ -69,8 +72,10 @@ This generates `data/rag-index.json` used by `/api/synopsis`.
 Set these variables in your deployment (or local Vercel dev):
 
 - `OPENROUTER_API_KEY` (required)
-- `OPENROUTER_MODEL` (optional, default: `openai/gpt-4o-mini`)
+- `OPENROUTER_MODEL` (optional, default: `openrouter/auto`)
 - `OPENROUTER_HTTP_REFERER` (optional, default: `http://localhost`)
+- `SYNOPSIS_BOT_ACCESS_TOKEN` (optional, enables header auth via `x-bot-token`)
+- `RAG_MIN_SCORE_THRESHOLD` (optional, default: `0.15`)
 
 ### 3) API endpoint
 
@@ -84,6 +89,16 @@ Set these variables in your deployment (or local Vercel dev):
 
 The endpoint returns structured JSON with sections (`problemField`, `theory`, `method`, `analysis`, `critique`, `conclusion`) plus `sourceNotes`, `coverageScore`, and RAG `citations`.
 
+Additional runtime behavior:
+- Per-IP rate limiting (HTTP 429 on burst abuse)
+- OpenRouter timeout/retry and fallback mode when provider fails
+- `requestId` in responses for traceability
+
+### 3b) Health endpoint
+
+- `GET /api/health`
+- Returns model, key/config status, token protection status, and RAG index metadata.
+
 ### 4) Manual test checklist
 
 - Empty input topic -> user-facing validation error
@@ -91,6 +106,25 @@ The endpoint returns structured JSON with sections (`problemField`, `theory`, `m
 - Narrow topic -> stronger repo grounding expected
 - Out-of-scope topic -> still returns synopsis, with lower coverage and explicit uncertainty
 - Very long topic (>500 chars) -> API validation error
+
+## Quality Evaluation Pack
+
+- Prompt suite: `evaluation/test-prompts.md`
+- Scoring rubric: `evaluation/scoring-rubric.md`
+
+Use these after changes to prompt, retriever, or model settings.
+
+## Operations
+
+See `docs/OPERATIONS.md` for release checklist, rollback steps, and diagnostics.
+
+## Scripts
+
+- `npm run build:rag` - build `data/rag-index.json`
+- `npm run rag:version` - snapshot active index into `data/versions`
+- `npm run rag:build-and-version` - build + snapshot
+- `npm run test` - run API/retriever/prompt tests
+- `npm run ci:check` - build index + run tests
 
 ## File Structure
 

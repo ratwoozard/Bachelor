@@ -6,7 +6,11 @@ function buildSystemPrompt() {
         'JSON skal have nøglerne:',
         'problemField, theory, method, analysis, critique, conclusion, sourceNotes.',
         'sourceNotes skal være en array af korte punkter.',
-        'Hvis kildedækning er svag, markér det tydeligt i sourceNotes og undgå overdrevne faktapåstande.'
+        'Alle værdier skal være rene tekststrenge (ikke objekter/arrays) undtagen sourceNotes.',
+        'Undgå [object Object] eller nested JSON i sektionerne.',
+        'Hvis kildedækning er svag, markér det tydeligt i sourceNotes og undgå overdrevne faktapåstande.',
+        'Påstande uden direkte kildeunderstøttelse skal markeres som antagelser.',
+        'Undgå kausalpåstande uden evidens.'
     ].join(' ');
 }
 
@@ -41,6 +45,10 @@ function buildUserPrompt(input, topChunks, coverageScore) {
         '- Undgå at opfinde konkrete data.',
         '- Markér hvad der er generisk viden versus repo-understøttet viden.',
         '- Hvis emnet er uden for kildedækning: lever stadig et brugbart udkast, men tydeliggør usikkerhed.',
+        '- Hver sektion skal være 80-180 ord ved short, 120-260 ord ved medium, 180-360 ord ved long.',
+        '- Inkludér mindst 3 evidenshuller i critique-sektionen.',
+        '- sourceNotes skal indeholde 4-6 korte punkter med kilde-/usikkerhedsmarkering.',
+        `- Prioritér niveau ${input.gradeTarget}: 12 = høj stringens/kritik, 7 = balanceret, 02 = grundlæggende.`,
         '',
         'Repo-kontekst (RAG):',
         retrievalContext

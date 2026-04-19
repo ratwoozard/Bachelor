@@ -23,6 +23,20 @@ const includeFiles = [
 ];
 
 const allowedExtensions = new Set(['.md', '.txt']);
+const excludedPathPatterns = [
+    /docs\/SYNOPSIS_.*(FAERDIG|FINAL|AFLEVERING|EKSAMEN|BENJAMIN|LUKA)/i,
+    /docs\/10_HURTIGE_TRAENINGSLOG_/i
+];
+const authoritativePathPatterns = [
+    /^README\.md$/i,
+    /^AKADEMISK_RAMME\.md$/i,
+    /^KVALITET_OG_SKRIVEGUIDE\.md$/i,
+    /^UDDANNELSE_OG_PENSUM\.md$/i,
+    /^CASE_KNOWLEDGE\.md$/i,
+    /^docs\/SYNOPSIS_START_HERE\.md$/i,
+    /^docs\/VEJLEDER_FEEDBACK_SYNOPSIS\.md$/i,
+    /^docs\/REPO_FILE_ROLES\.md$/i
+];
 const stopWords = new Set([
     'og', 'i', 'på', 'af', 'for', 'med', 'til', 'en', 'et', 'det', 'de', 'der',
     'som', 'er', 'at', 'om', 'den', 'har', 'fra', 'ved', 'kan', 'skal', 'man',
@@ -55,6 +69,17 @@ function tokenFrequency(tokens) {
 
 function toRelativePath(absPath) {
     return path.relative(repoRoot, absPath).replace(/\\/g, '/');
+}
+
+function classifyDoc(relativePath) {
+    if (authoritativePathPatterns.some((pattern) => pattern.test(relativePath))) {
+        return { type: 'authoritative', priority: 1.35 };
+    }
+    return { type: 'supporting', priority: 1.0 };
+}
+
+function isExcluded(relativePath) {
+    return excludedPathPatterns.some((pattern) => pattern.test(relativePath));
 }
 
 function chunkText(text, maxLength = 1400) {
@@ -109,7 +134,10 @@ function collectSourceFiles() {
         }
     });
 
-    return [...files];
+    return [...files].filter((absPath) => {
+        const rel = toRelativePath(absPath);
+        return !isExcluded(rel);
+    });
 }
 
 function buildIndex() {
@@ -123,18 +151,24 @@ function buildIndex() {
         if (!text) return;
 
         const fileChunks = chunkText(text);
+        const relativePath = toRelativePath(filePath);
+        const classification = classifyDoc(relativePath);
         docs.push({
-            path: toRelativePath(filePath),
-            chunkCount: fileChunks.length
+            path: relativePath,
+            chunkCount: fileChunks.length,
+            docType: classification.type,
+            docPriority: classification.priority
         });
 
         fileChunks.forEach((chunkTextValue, index) => {
             const tokens = tokenize(chunkTextValue);
             chunks.push({
-                id: `${toRelativePath(filePath)}#${index + 1}`,
-                path: toRelativePath(filePath),
+                id: `${relativePath}#${index + 1}`,
+                path: relativePath,
                 text: chunkTextValue,
-                tokenFreq: tokenFrequency(tokens)
+                tokenFreq: tokenFrequency(tokens),
+                docType: classification.type,
+                docPriority: classification.priority
             });
         });
     });

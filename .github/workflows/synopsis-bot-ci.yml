@@ -1,0 +1,35 @@
+name: Synopsis Bot CI
+
+on:
+  push:
+    paths:
+      - "videnskabsteori_arena/webapp/**"
+      - ".github/workflows/synopsis-bot-ci.yml"
+  pull_request:
+    paths:
+      - "videnskabsteori_arena/webapp/**"
+      - ".github/workflows/synopsis-bot-ci.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: videnskabsteori_arena/webapp
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install --no-fund --no-audit
+
+      - name: Build RAG index
+        run: npm run build:rag
+
+      - name: Run tests
+        run: npm run test

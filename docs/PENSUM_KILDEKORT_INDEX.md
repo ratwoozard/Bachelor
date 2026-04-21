@@ -7,7 +7,7 @@ Formaalet med disse kildekort er at undgaa vag, generisk metodeargumentation og 
 - [HOLM 2023](./PENSUM_KILDEKORT_HOLM_2023.md)
 - [SAUNDERS 2023](./PENSUM_KILDEKORT_SAUNDERS_2023.md)
 - [KUADA 2012](./PENSUM_KILDEKORT_KUADA_2012.md)
-- [ROSSMAN & WILSON 1985](./PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md)
+- [ROSSMAN & WILSON 1984](./PENSUM_KILDEKORT_ROSSMAN_WILSON_1984.md)
 
 ## Saadan bruges kortene
 
@@ -23,7 +23,7 @@ Formaalet med disse kildekort er at undgaa vag, generisk metodeargumentation og 
 | Holm (2023) | Videnskabsteoretisk kongruens og positionering i praksis |
 | Saunders et al. (2023) | Design, dataindsamling, sampling, forskningsfilosofi |
 | Kuada (2012) | Projektlogik og kvalitetskriterier i metodegennemfoersel |
-| Rossman & Wilson (1985) | Pragmatisk kombination af kvant/kval i samme studie |
+| Rossman & Wilson (1984) | Pragmatisk kombination af kvant/kval i samme studie |
 
 ## Centrale krydsreferencer
 

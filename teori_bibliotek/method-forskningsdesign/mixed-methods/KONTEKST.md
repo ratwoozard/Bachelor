@@ -36,7 +36,7 @@ For stive mixed methods-etiketter kan skjule pragmatiske designvalg.
 
 ## 8. Koblinger
 - `docs/PENSUM_VIDENSBASE.md` (sektion 8)
-- `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md`
+- `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1984.md`
 
 ## 9. Sidst opdateret
 - 2026-03-23

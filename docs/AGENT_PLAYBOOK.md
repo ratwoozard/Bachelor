@@ -15,7 +15,7 @@ Formaal: Bindende arbejdsregler for AI-agenter i dette bachelorprojekt.
 ## 2) Kildehierarki (bindende)
 
 1. Tier 1: Holm (2023), Kuada (2012), Saunders (2023).
-1a. Ved synopsis/research design: Rossman & Wilson (1985) er bindende strategikilde til pragmatisme, mixed methods-logik og triangulering som strategi.
+1a. Ved synopsis/research design: Rossman & Wilson (1984) er bindende strategikilde til pragmatisme, mixed methods-logik og triangulering som strategi.
 2. Tier 2: domaeneteorier (Lean, Davenport, TOE, DSS, Braun & Clarke).
 3. Tier 3: klassikere til nuancering (fx Kuhn, Gergen, Gadamer, Popper).
 

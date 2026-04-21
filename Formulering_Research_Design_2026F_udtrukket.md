@@ -106,7 +106,7 @@ Ontologi og epistemologi placeres i "Research Onion"-modellen.
 
 ## Strategy: Exclusive vs. Complementary approach (slides 16–20)
 
-**Purist research (Rossman & Wilson 1985):**  
+**Purist research (Rossman & Wilson 1984):**  
 Kvalitative og kvantitative tilgange stammer fra forskellige, gensidigt udelukkende epistemologiske og ontologiske antagelser; paradigmer kan ikke kombineres (Collins 1984; Bryman 1984; Smith 1983; Burrell & Morgan 1979).
 
 **Situational research:**  
@@ -114,7 +114,7 @@ Begge tilgange har værdi; visse metoder er mest passende i visse situationer. M
 
 **Pragmatic research:**  
 Integration af metoder i ét studie. Forskellige tilgange styrker troværdigheden. Kvantitative metoder er ikke nødvendigvis positivistiske, kvalitative ikke nødvendigvis fenomenologiske. Hver teknik har styrker og svagheder; pointen er at udnytte styrkerne (Sieber 1973).  
-Kilde: Rossman & Wilson 1985.
+Kilde: Rossman & Wilson 1984.
 
 ---
 

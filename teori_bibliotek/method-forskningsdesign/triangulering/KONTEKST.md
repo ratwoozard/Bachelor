@@ -6,7 +6,7 @@ Triangulering kombinerer datakilder/metoder/teorier for at teste, nuancere eller
 ## 2. Tier og kilder
 - Tier: 1/2
 - Primaer synopsisforankring: Kuada (2012)
-- Strategisk kobling: Rossman & Wilson (1985)
+- Strategisk kobling: Rossman & Wilson (1984)
 - Breedere typologi: Denzin (1978)
 - Sekundaer forankring: Saunders et al. (2023); `docs/PENSUM_VIDENSBASE.md`
 
@@ -39,7 +39,7 @@ Triangulering kan blive overfladisk uden klar integrationslogik.
 
 ## 8. Koblinger
 - `docs/PENSUM_VIDENSBASE.md` (sektion 7)
-- `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md`
+- `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1984.md`
 
 ## 9. Sidst opdateret
 - 2026-03-23

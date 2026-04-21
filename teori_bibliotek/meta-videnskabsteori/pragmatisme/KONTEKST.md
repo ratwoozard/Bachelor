@@ -7,7 +7,7 @@ Pragmatisme vaelger metode efter hvad der bedst besvarer forskningsspoergsmaalet
 ## 2. Tier og kilder
 
 - Tier: 1
-- Primaer kilde for pragmatismestrategi: Rossman & Wilson (1985)
+- Primaer kilde for pragmatismestrategi: Rossman & Wilson (1984)
 - Primaer begrebs- og metodeforankring: Holm (2023); Kuada (2012)
 - Sekundaer forankring: Saunders et al. (2023)
 
@@ -53,7 +53,7 @@ Pragmatisme kan blive for bredt, hvis datakildernes roller ikke afgraenses skarp
 ## 8. Koblinger
 
 - `docs/PENSUM_VIDENSBASE.md`
-- `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md`
+- `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1984.md`
 - `docs/PENSUM_KILDEKORT_HOLM_2023.md`
 - `docs/PENSUM_KILDEKORT_SAUNDERS_2023.md`
 

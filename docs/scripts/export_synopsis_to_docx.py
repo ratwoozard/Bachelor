@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 """Exam-ready Word export.
 
-docs/SYNOPSIS_LUKA_FAERDIG.md + docs/figures/RESEARCH_STRUCTURE_SYNOPSIS_LUKA.png
-    -> docs/SYNOPSIS_LUKA_FAERDIG.docx
+docs/SYNOPSIS_VIDENSKABSTEORI_EKSAMEN_KLAR.md
+    -> docs/SYNOPSIS_VIDENSKABSTEORI_EKSAMEN_KLAR.docx
+
+Optional figure: docs/figures/RESEARCH_STRUCTURE_SYNOPSIS.png (see svg_to_png.py).
 
 Includes: cover page, automatic TOC, page numbers in footer, Times New Roman 12pt,
-line spacing 1.5, 2.5 cm margins on all sides, figure embedded as PNG.
+line spacing 1.5, 2.5 cm margins on all sides, figure embedded as PNG when present.
 """
 from __future__ import annotations
 
@@ -20,9 +22,9 @@ from docx.shared import Cm, Mm, Pt
 
 
 ROOT = Path(__file__).resolve().parents[2]
-MD_PATH = ROOT / "docs" / "SYNOPSIS_LUKA_FAERDIG.md"
-DOCX_PATH = ROOT / "docs" / "SYNOPSIS_LUKA_FAERDIG.docx"
-FIG_PNG = ROOT / "docs" / "figures" / "RESEARCH_STRUCTURE_SYNOPSIS_LUKA.png"
+MD_PATH = ROOT / "docs" / "SYNOPSIS_VIDENSKABSTEORI_EKSAMEN_KLAR.md"
+DOCX_PATH = ROOT / "docs" / "SYNOPSIS_VIDENSKABSTEORI_EKSAMEN_KLAR.docx"
+FIG_PNG = ROOT / "docs" / "figures" / "RESEARCH_STRUCTURE_SYNOPSIS.png"
 
 COVER = {
     "institution": "Københavns Erhvervsakademi (KEA)",
@@ -33,7 +35,7 @@ COVER = {
         "AI-baseret automatisering i bemandingsprocessen for indstilling af "
         "konsulenter hos Support Solutions ApS"
     ),
-    "author": "Luka Christian Wigø",
+    "author": "[Indsæt fulde navn]",
     "student_id": "[indsæt studienummer]",
     "examiner": "Jens Rasmussen",
     "supervisor": "Saif",

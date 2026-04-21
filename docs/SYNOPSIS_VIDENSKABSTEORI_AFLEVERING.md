@@ -37,7 +37,7 @@ Designet struktureres derfor som progression fra ontologisk antagelse om genstan
 
 ### 5.1 Pragmatisk hovedposition
 
-Projektet anlægger en pragmatisk videnskabsteoretisk position, hvor problemformuleringen prioriteres som styrende for valg af evidens og metoder frem for at lade enten ren fortolkning eller ren måling dominere uden behov (Holm, 2023; Saunders m.fl., 2023). Den strategiske begrundelse for at kombinere kvalitative og kvantificerende spor i ét studie forankres i Rossman og Wilson (1985), som giver en ramme for at sammentænke tal og tekst i et fælles evaluerings- og undersøgelsesdesign. Kuada (2012) anvendes i det følgende primært til præcise begrebsafgrænsninger af ontologi og epistemologi samt til kvalitetskriterier for det kvalitative spor — ikke som eneste bærende argument for den overordnede pragmatiske strategi.
+Projektet anlægger en pragmatisk videnskabsteoretisk position, hvor problemformuleringen prioriteres som styrende for valg af evidens og metoder frem for at lade enten ren fortolkning eller ren måling dominere uden behov (Holm, 2023; Saunders m.fl., 2023). Den strategiske begrundelse for at kombinere kvalitative og kvantificerende spor i ét studie forankres i Rossman og Wilson (1984), som giver en ramme for at sammentænke tal og tekst i et fælles evaluerings- og undersøgelsesdesign. Kuada (2012) anvendes i det følgende primært til præcise begrebsafgrænsninger af ontologi og epistemologi samt til kvalitetskriterier for det kvalitative spor — ikke som eneste bærende argument for den overordnede pragmatiske strategi.
 
 ### 5.2 Ontologi
 
@@ -63,7 +63,7 @@ Empirien samles i tre spor: semistrukturerede interviews med aktører udvalgt ef
 
 ### 6.4 Triangulering
 
-Triangulering anvendes som analysestrategi med et afgrænset formål: at synliggøre spænd og sammenfald mellem platformens formelt designede principper og den faktiske beslutningsadfærd og tidsmæssige forløb, som interviews og udtræk kan belyse fra hver sin vinkel (Rossman & Wilson, 1985). Trianguleringen er således ikke kun en opremsning af kilder, men et redskab til at afstemme udsagn, artefakt og hændelsesmønstre og til at markere, hvor tolkning og måling understøtter hinanden, og hvor de står i konflikt eller åbner for alternative læsninger.
+Triangulering anvendes som analysestrategi med et afgrænset formål: at synliggøre spænd og sammenfald mellem platformens formelt designede principper og den faktiske beslutningsadfærd og tidsmæssige forløb, som interviews og udtræk kan belyse fra hver sin vinkel (Rossman & Wilson, 1984). Trianguleringen er således ikke kun en opremsning af kilder, men et redskab til at afstemme udsagn, artefakt og hændelsesmønstre og til at markere, hvor tolkning og måling understøtter hinanden, og hvor de står i konflikt eller åbner for alternative læsninger.
 
 ## 7. Kvalitet, bias og begrænsninger
 
@@ -93,7 +93,7 @@ Holm, A. B. (2023). *Videnskab i virkeligheden – En grundbog i videnskabsteori
 
 Kuada, J. (2012). *Research Methodology: A Project Guide for University Students*. Samfundslitteratur.
 
-Rossman, G. B. & Wilson, B. L. (1985). Numbers and Words: Combining Quantitative and Qualitative Methods in a Single Large-Scale Study. *Evaluation Review*, 9(5), 627–643.
+Rossman, G. B. & Wilson, B. L. (1984). Numbers and Words: Combining Quantitative and Qualitative Methods in a Single Large-Scale Study. *Evaluation Review*, 9(5), 627–643.
 
 Saunders, M. N. K., Lewis, P. & Thornhill, A. (2023). *Research Methods for Business Students* (9. udg.). Pearson.
 
@@ -124,7 +124,7 @@ flowchart TB
   ONTO --> EPIST --> METH --> MET
 ```
 
-**Figur 1.** Research design. Progression fra ontologi til metode, forankret i den pragmatiske ramme. Teorier: Kuada (2012); Holm (2023); Saunders m.fl. (2023). Strategi for krydsning af metoder: Rossman og Wilson (1985).
+**Figur 1.** Research design. Progression fra ontologi til metode, forankret i den pragmatiske ramme. Teorier: Kuada (2012); Holm (2023); Saunders m.fl. (2023). Strategi for krydsning af metoder: Rossman og Wilson (1984).
 
 ---
 
@@ -134,7 +134,7 @@ flowchart TB
 - [ ] Problemformulering er et HV-spørgsmål, afsluttet med `?`  
 - [ ] Ontologi og epistemologi er opdelt i to særskilte underafsnit  
 - [ ] Indlejret case er eksplicit defineret som en **organisatorisk delmængde** (ikke som workflow-states)  
-- [ ] Rossman & Wilson (1985) bruges alene til strategi/triangulering, mens Kuada (2012) bruges til begrebsdefinitioner og kvalitetskriterier  
+- [ ] Rossman & Wilson (1984) bruges alene til strategi/triangulering, mens Kuada (2012) bruges til begrebsdefinitioner og kvalitetskriterier  
 - [ ] Triangulering er beskrevet med et **analytisk formål** (at afdække forskellen på systemets design og menneskets adfærd)  
 - [ ] Undersøgelsen er beskrevet som et **tværsnit** (kvantitativ del)  
 - [ ] **Informantvalidering** indgår eksplicit under credibility-kriteriet  

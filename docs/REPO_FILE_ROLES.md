@@ -53,7 +53,6 @@ Hvis de siger noget andet end de primære filer, skal de rettes eller læses som
 
 Disse filer kan være meget nyttige, men de er ikke generel sandhed for hele repoet.
 
-- `docs/SYNOPSIS_INDHOLDSFORTEGNELSE_LUKA.md`
 - personlige træningslogs
 - lokale eller afskærmede filer nævnt i statusdokumenter
 

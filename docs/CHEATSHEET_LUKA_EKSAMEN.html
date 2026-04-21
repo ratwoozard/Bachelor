@@ -1,0 +1,1069 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Lukas eksamens-cheat sheet — Videnskabsteori</title>
+<style>
+  :root {
+    --bg: #fafaf7;
+    --bg-elev: #ffffff;
+    --bg-sunk: #f1f0ea;
+    --fg: #15171a;
+    --fg-dim: #4a4f57;
+    --fg-mute: #6b717a;
+    --accent: #1e4d8c;
+    --accent-soft: #e3ecf7;
+    --border: #d9d7cf;
+    --border-soft: #e8e6df;
+    --warn: #9a3a2a;
+    --warn-bg: #fbe9e4;
+    --ok: #1f6b3a;
+    --ok-bg: #e4f3e9;
+    --shadow: 0 1px 2px rgba(0,0,0,.04), 0 2px 6px rgba(0,0,0,.03);
+
+    --src-bh: #155e75; --src-bh-bg: #cff7fb;
+    --src-ku: #1f6b3a; --src-ku-bg: #dff1e3;
+    --src-sa: #6b3aa0; --src-sa-bg: #ece2fa;
+    --src-rw: #a0351a; --src-rw-bg: #fbe2d6;
+    --src-none: #7a6a00; --src-none-bg: #f7eec2;
+  }
+  [data-theme="dark"] {
+    --bg: #14161a;
+    --bg-elev: #1d2026;
+    --bg-sunk: #0f1115;
+    --fg: #eaeaea;
+    --fg-dim: #c1c4ca;
+    --fg-mute: #8a8f98;
+    --accent: #78b7ff;
+    --accent-soft: #1c2f48;
+    --border: #2b2f37;
+    --border-soft: #23262d;
+    --warn: #ff8e78;
+    --warn-bg: #3a1f1a;
+    --ok: #7bd39a;
+    --ok-bg: #13301e;
+    --shadow: 0 1px 2px rgba(0,0,0,.5), 0 2px 6px rgba(0,0,0,.3);
+
+    --src-bh: #7bd8e8; --src-bh-bg: #15363d;
+    --src-ku: #9ddcae; --src-ku-bg: #17381f;
+    --src-sa: #c2a7ee; --src-sa-bg: #2b1f40;
+    --src-rw: #ff9a7e; --src-rw-bg: #3a1d10;
+    --src-none: #e8d46a; --src-none-bg: #3a3210;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--fg);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 780px; margin: 0 auto; padding: 0 16px 96px; }
+  h1, h2, h3, h4 { line-height: 1.25; color: var(--fg); }
+  h1 { font-size: 1.6rem; margin: .6em 0 .2em; }
+  h2 { font-size: 1.2rem; margin: 1.8em 0 .4em; padding-top: .6em; border-top: 2px solid var(--border); }
+  h3 { font-size: 1.02rem; margin: 1.2em 0 .3em; color: var(--fg-dim); }
+  h4 { font-size: .95rem; margin: .8em 0 .2em; color: var(--fg-dim); }
+  p { margin: .5em 0; }
+  ul, ol { padding-left: 1.3em; margin: .4em 0; }
+  li { margin: .22em 0; }
+  code, kbd { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .88em; background: var(--bg-sunk); padding: 1px 5px; border-radius: 4px; border: 1px solid var(--border-soft); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Top bar */
+  .topbar {
+    position: sticky; top: 0; z-index: 20;
+    background: var(--bg-elev);
+    border-bottom: 1px solid var(--border);
+    backdrop-filter: saturate(1.1) blur(6px);
+  }
+  .topbar-inner { max-width: 780px; margin: 0 auto; padding: 8px 16px; display: flex; align-items: center; gap: 10px; }
+  .mantra {
+    flex: 1;
+    font-size: .82rem;
+    color: var(--fg-dim);
+    line-height: 1.35;
+  }
+  .mantra b { color: var(--fg); }
+  .theme-toggle {
+    flex: 0 0 auto;
+    appearance: none; border: 1px solid var(--border); background: var(--bg-sunk);
+    color: var(--fg); padding: 6px 10px; border-radius: 8px; font-size: .85rem;
+    cursor: pointer; min-width: 44px; min-height: 36px;
+  }
+  .theme-toggle:hover { border-color: var(--accent); }
+
+  /* Hero */
+  .hero {
+    padding: 14px 0 8px;
+  }
+  .hero .sub { color: var(--fg-mute); font-size: .92rem; margin-top: 0; }
+
+  /* Nav */
+  nav.toc {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 12px;
+    margin: 12px 0 20px;
+    box-shadow: var(--shadow);
+  }
+  nav.toc summary {
+    font-weight: 600;
+    cursor: pointer;
+    padding: 4px 0;
+    list-style: none;
+  }
+  nav.toc summary::after { content: "  ▾"; color: var(--fg-mute); font-weight: 400; }
+  nav.toc[open] summary::after { content: "  ▴"; }
+  nav.toc ol { columns: 2; column-gap: 18px; padding-left: 1.2em; margin: .5em 0 0; font-size: .92rem; }
+  nav.toc li { break-inside: avoid; }
+  @media (max-width: 520px) { nav.toc ol { columns: 1; } }
+
+  /* Source chips */
+  .src { display: inline-block; font-size: .72rem; font-weight: 600; letter-spacing: .02em;
+         padding: 1px 7px; border-radius: 999px; margin: 0 2px;
+         border: 1px solid transparent; vertical-align: baseline;
+         white-space: nowrap; }
+  .src-bh { color: var(--src-bh); background: var(--src-bh-bg); }
+  .src-ku { color: var(--src-ku); background: var(--src-ku-bg); }
+  .src-sa { color: var(--src-sa); background: var(--src-sa-bg); }
+  .src-rw { color: var(--src-rw); background: var(--src-rw-bg); }
+  .src-none { color: var(--src-none); background: var(--src-none-bg); text-decoration: line-through; }
+
+  /* Callouts */
+  .callout {
+    border-left: 4px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 10px 12px; margin: 12px 0;
+    border-radius: 0 8px 8px 0;
+  }
+  .callout.warn { border-left-color: var(--warn); background: var(--warn-bg); }
+  .callout.ok { border-left-color: var(--ok); background: var(--ok-bg); }
+  .callout .label { font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--fg-dim); }
+  .callout.warn .label { color: var(--warn); }
+  .callout.ok .label { color: var(--ok); }
+  .callout p:first-of-type { margin-top: 2px; }
+  .callout p:last-child { margin-bottom: 0; }
+
+  /* "If Jens asks" box */
+  .jens {
+    background: var(--bg-sunk);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 12px;
+    margin: 10px 0;
+  }
+  .jens .q { font-weight: 600; color: var(--fg); }
+  .jens .q::before { content: "Hvis Jens spørger: "; color: var(--warn); font-weight: 700; font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; display: block; margin-bottom: 2px; }
+  .jens .a { margin-top: 6px; color: var(--fg-dim); }
+  .jens .a::before { content: "Svar: "; font-weight: 700; color: var(--ok); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; display: block; margin-bottom: 2px; }
+
+  /* Quotes */
+  blockquote {
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-left: 3px solid var(--border);
+    background: var(--bg-sunk);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: var(--fg-dim);
+  }
+
+  /* Tables */
+  .tbl-wrap { overflow-x: auto; margin: 10px -4px; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  th, td { text-align: left; vertical-align: top; padding: 7px 10px; border-bottom: 1px solid var(--border-soft); }
+  th { background: var(--bg-sunk); font-weight: 600; font-size: .85rem; letter-spacing: .02em; color: var(--fg-dim); }
+  tr:last-child td { border-bottom: none; }
+  td.cell-ok { background: var(--ok-bg); }
+  td.cell-warn { background: var(--warn-bg); }
+  .tbl-compact th, .tbl-compact td { padding: 5px 8px; font-size: .88rem; }
+
+  /* Section wrapper */
+  section { scroll-margin-top: 70px; }
+
+  /* SVG figures */
+  .fig {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 12px 0;
+    box-shadow: var(--shadow);
+  }
+  .fig svg { display: block; width: 100%; height: auto; }
+  .fig-caption { font-size: .82rem; color: var(--fg-mute); margin-top: 6px; text-align: center; }
+
+  /* Tag / pill */
+  .tag {
+    display: inline-block; font-size: .72rem; font-weight: 600;
+    padding: 2px 8px; border-radius: 999px;
+    background: var(--bg-sunk); color: var(--fg-dim);
+    border: 1px solid var(--border-soft);
+    margin-right: 4px;
+  }
+  .tag-strong { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+  /* Collapsibles */
+  details.sect { border: 1px solid var(--border); background: var(--bg-elev); border-radius: 10px; padding: 6px 12px; margin: 8px 0; }
+  details.sect > summary { cursor: pointer; padding: 6px 0; font-weight: 600; }
+  details.sect[open] > summary { border-bottom: 1px solid var(--border-soft); margin-bottom: 6px; }
+
+  /* Oneliner grid */
+  .oneliners {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    counter-reset: ol;
+  }
+  .oneliner {
+    background: var(--bg-elev);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 8px 12px 8px 38px;
+    position: relative;
+    font-size: .95rem;
+  }
+  .oneliner::before {
+    counter-increment: ol;
+    content: counter(ol);
+    position: absolute; left: 10px; top: 8px;
+    width: 22px; height: 22px; line-height: 22px;
+    border-radius: 50%; text-align: center;
+    background: var(--accent); color: #fff; font-weight: 700; font-size: .78rem;
+  }
+
+  /* Pitfall list */
+  .pitfalls { list-style: none; padding: 0; }
+  .pitfalls li {
+    background: var(--bg-elev);
+    border-left: 4px solid var(--warn);
+    padding: 6px 12px;
+    margin: 4px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: .92rem;
+  }
+  .pitfalls b { color: var(--warn); }
+  .pitfalls em { color: var(--ok); font-style: normal; font-weight: 600; }
+
+  /* Footer */
+  footer { margin-top: 40px; padding-top: 12px; border-top: 1px solid var(--border); color: var(--fg-mute); font-size: .82rem; text-align: center; }
+
+  /* Print */
+  @media print {
+    :root { --bg: #fff; --bg-elev: #fff; --bg-sunk: #f4f4f4; --shadow: none; }
+    .topbar, nav.toc, .theme-toggle { display: none !important; }
+    main { max-width: none; padding: 0; }
+    section { page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    .callout, .jens, .fig, details.sect, .oneliner { break-inside: avoid; }
+    details.sect { border: 1px solid #ccc; }
+    details.sect > *:not(summary) { display: block !important; }
+    a { color: #000; }
+  }
+
+  @media (max-width: 480px) {
+    body { font-size: 15.5px; }
+    h1 { font-size: 1.4rem; }
+    h2 { font-size: 1.1rem; }
+    .mantra { font-size: .78rem; }
+  }
+</style>
+</head>
+<body data-theme="light">
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="mantra">
+      <b>Kongruenskæden:</b> Pragmatisk ontologi → blandet epistemologi (interpretivist + positivist) → Rossman &amp; Wilsons pragmatiske position → sekventielt udforskende single-case → triangulering.
+    </div>
+    <button class="theme-toggle" type="button" aria-label="Skift tema" id="themeBtn">Tema</button>
+  </div>
+</div>
+
+<main>
+
+<header class="hero">
+  <h1>Eksamens-cheat sheet</h1>
+  <p class="sub">Videnskabsteori &amp; research design — Lukas synopsis om Support Solutions / SoluTalent. Læs sekventielt eller spot-læs én sektion ad gangen.</p>
+  <p style="font-size:.82rem;color:var(--fg-mute);margin-top:6px;">
+    Kildefarver:
+    <span class="src src-bh">Beck Holm</span>
+    <span class="src src-ku">Kuada</span>
+    <span class="src src-sa">Saunders</span>
+    <span class="src src-rw">Rossman &amp; Wilson</span>
+    <span class="src src-none">ikke pensum</span>
+  </p>
+</header>
+
+<nav class="toc" open>
+  <details open>
+    <summary>Indhold (19 sektioner)</summary>
+    <ol>
+      <li><a href="#s1">Casen på 30 sekunder</a></li>
+      <li><a href="#s2">Kongruenskæden</a></li>
+      <li><a href="#s3">Ontologi: pragmatisk</a></li>
+      <li><a href="#s4">Epistemologi &amp; abduktion</a></li>
+      <li><a href="#s5">Metodologi: Rossman &amp; Wilson</a></li>
+      <li><a href="#s6">Research onion</a></li>
+      <li><a href="#s7">Single-case studiet</a></li>
+      <li><a href="#s8">Sekventielt udforskende</a></li>
+      <li><a href="#s9">Triangulering</a></li>
+      <li><a href="#s10">Tidshorisont &amp; sampling</a></li>
+      <li><a href="#s11">Kvalitetskriterier</a></li>
+      <li><a href="#s12">Generalisering</a></li>
+      <li><a href="#s13">Aksiologi &amp; insider</a></li>
+      <li><a href="#s14">KPI &amp; KQI</a></li>
+      <li><a href="#s15">Kilde-matrix</a></li>
+      <li><a href="#s16">Jens' svage-punkt-radar</a></li>
+      <li><a href="#s17">Top-15 faldgruber</a></li>
+      <li><a href="#s18">10 one-liners</a></li>
+    </ol>
+  </details>
+</nav>
+
+<!-- =========== SECTION 1: CASE =========== -->
+<section id="s1">
+  <h2>1. Casen på 30 sekunder</h2>
+  <p><b>Support Solutions ApS</b> er et dansk IT-konsulentbureau der matcher konsulenter med klienters IT-projekter via platformen <b>SoluTalent</b>. En algoritme rangerer konsulenterne, men medarbejderne <i>vurderer, accepterer, afviser eller overstyrer</i> inden endelig klientindstilling — det er et <b>beslutningsstøttesystem (DSS)</b> med <b>human-in-the-loop</b>.</p>
+
+  <div class="callout">
+    <div class="label">Problemformulering (ordret)</div>
+    <p>"Hvordan kan Support Solutions ApS implementere AI-baseret automatisering i bemandingsprocessen for indstilling af konsulenter til løsning af deres klienters IT-projekter?"</p>
+  </div>
+
+  <h3>Hvorfor netop den formulering?</h3>
+  <ul>
+    <li><b>"Hvordan"-spørgsmål</b> → begrunder case-studie som strategi <span class="src src-bh">Beck Holm</span></li>
+    <li><b>Åbent og undersøgende</b> → mål er kontekstuel indsigt, ikke kausal effekt</li>
+    <li><b>AI-baseret automatisering</b> = algoritmisk rangering i SoluTalent — <u>ikke</u> generativ AI</li>
+  </ul>
+
+  <h3>Afgrænsning</h3>
+  <p><b>Inden for scope:</b> Fra en opgave er registreret i SoluTalent → til en konsulent er klientindstillet.</p>
+  <p><b>Uden for scope:</b> jobsourcing/leadhåndtering før; kontrakt/løn/onboarding/fakturering efter; komparativ analyse af andre platforme; teknisk ML-evaluering.</p>
+
+  <h3>Kerneudfordringen (samstemmende fund fra 3 forundersøgelsesinterviews)</h3>
+  <p>Ikke mangel på kandidater, men <b>kvalitet og konsistens i udvælgelses- og beslutningsprocessen</b>:</p>
+  <blockquote>"Beslutninger kan blive liggende lidt for længe" (bilag A) · "Processen kan gå i stå i de manuelle led" (bilag B) · "Systemet peger, men ikke beslutter" (bilag B)</blockquote>
+
+  <div class="jens">
+    <div class="q">"Hvad menes der præcist med 'AI-baseret automatisering' i din problemformulering?"</div>
+    <div class="a">Algoritmisk rangering i SoluTalent — et beslutningsstøttesystem med human-in-the-loop. Ikke generativ AI, ikke fuld automatisering.</div>
+  </div>
+</section>
+
+<!-- =========== SECTION 2: KONGRUENS =========== -->
+<section id="s2">
+  <h2>2. Kongruenskæden — de fire vidensniveauer</h2>
+  <p>Hvert niveau skal <b>begrundes i det overliggende</b> — ikke bare nævnes <span class="src src-ku">Kuada</span> <span class="src src-sa">Saunders</span>. Jens' vigtigste krav: <b>koblinger skal være eksplicitte</b>, ikke implicitte <span class="src src-bh">Beck Holm</span>.</p>
+
+  <div class="fig" aria-label="Kongruenskæden som lodret diagram">
+    <svg viewBox="0 0 640 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fire vidensniveauer">
+      <defs>
+        <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="#1e4d8c"/>
+        </marker>
+        <style>
+          .lvl { fill: #e3ecf7; stroke: #1e4d8c; stroke-width: 1.5; }
+          .lvl-title { font: 700 15px sans-serif; fill: #1e4d8c; }
+          .lvl-val { font: 600 13px sans-serif; fill: #15171a; }
+          .lvl-q { font: italic 11px sans-serif; fill: #4a4f57; }
+          .bridge { font: italic 11px sans-serif; fill: #9a3a2a; }
+          .arrow { stroke: #1e4d8c; stroke-width: 2; fill: none; }
+        </style>
+      </defs>
+
+      <g>
+        <rect class="lvl" x="40" y="10" width="560" height="80" rx="10"/>
+        <text class="lvl-title" x="56" y="32">1. Ontologi</text>
+        <text class="lvl-q" x="56" y="48">Hvad antager vi eksisterer i feltet?</text>
+        <text class="lvl-val" x="56" y="72">Pragmatisk — spor + praksis som to sider af samme felt</text>
+      </g>
+      <path class="arrow" d="M320,92 L320,118" marker-end="url(#arr)"/>
+      <text class="bridge" x="330" y="110">peger frem mod…</text>
+
+      <g>
+        <rect class="lvl" x="40" y="124" width="560" height="80" rx="10"/>
+        <text class="lvl-title" x="56" y="146">2. Epistemologi</text>
+        <text class="lvl-q" x="56" y="162">Hvad kan vi vide, og hvordan?</text>
+        <text class="lvl-val" x="56" y="186">Blandet: interpretivist (interviews) + positivistisk (systemudtræk)</text>
+      </g>
+      <path class="arrow" d="M320,206 L320,232" marker-end="url(#arr)"/>
+      <text class="bridge" x="330" y="224">→ kravdrevet metodestrategi</text>
+
+      <g>
+        <rect class="lvl" x="40" y="238" width="560" height="80" rx="10"/>
+        <text class="lvl-title" x="56" y="260">3. Metodologi</text>
+        <text class="lvl-q" x="56" y="276">Hvilken strategi styrer tilgangen?</text>
+        <text class="lvl-val" x="56" y="300">Pragmatisk position (Rossman &amp; Wilson, 1984)</text>
+      </g>
+      <path class="arrow" d="M320,320 L320,346" marker-end="url(#arr)"/>
+      <text class="bridge" x="330" y="338">→ konkret design &amp; teknik</text>
+
+      <g>
+        <rect class="lvl" x="40" y="352" width="560" height="100" rx="10"/>
+        <text class="lvl-title" x="56" y="374">4. Metode &amp; teknik</text>
+        <text class="lvl-q" x="56" y="390">Hvad gør vi konkret?</text>
+        <text class="lvl-val" x="56" y="414">Sekventielt udforskende single-case:</text>
+        <text class="lvl-val" x="56" y="434">interviews → systemudtræk, triangulering, tværsnit F2026</text>
+      </g>
+    </svg>
+    <div class="fig-caption">Figur 1 — Lukas kongruenskæde. Læses ovenfra og ned; hvert lag begrundes i det ovenstående.</div>
+  </div>
+
+  <div class="callout ok">
+    <div class="label">Guld-sætning til eksamen</div>
+    <p>"Valget af pragmatisk ontologi peger frem mod et tilsvarende pragmatisk strategivalg på metodologi-niveau (Rossman &amp; Wilson, 1984), hvilket igen begrunder det sekventielt udforskende single-case design."</p>
+  </div>
+
+  <div class="jens">
+    <div class="q">"Beskriv kæden fra din ontologiske position til dit konkrete metodevalg i ét sammenhængende argument."</div>
+    <div class="a">Feltet har både observerbare spor og organisatorisk praksis (pragmatisk ontologi) → gyldig viden kræver begge spor (blandet epistemologi) → integration begrundes i R&amp;W's pragmatiske position → sekventielt udforskende single-case med triangulering.</div>
+  </div>
+</section>
+
+<!-- =========== SECTION 3: ONTOLOGI =========== -->
+<section id="s3">
+  <h2>3. Ontologi: pragmatisk</h2>
+  <p><b>Ontologi</b> = læren om hvad der antages at eksistere i feltet, <i>før</i> man vælger metode <span class="src src-bh">Beck Holm</span>.</p>
+
+  <h3>Tre hovedpositioner (kend dem så du kan kontrastere)</h3>
+  <div class="tbl-wrap"><table class="tbl-compact">
+    <tr><th>Position</th><th>Antagelse</th><th>Luka?</th></tr>
+    <tr><td>Realisme</td><td>Virkelighed eksisterer uafhængigt af observatør</td><td>Nej — reducerer praksis væk</td></tr>
+    <tr><td>Konstruktivisme</td><td>Virkelighed konstrueres socialt</td><td>Nej — mister de observerbare spor</td></tr>
+    <tr class="cell-ok"><td><b>Pragmatisme</b></td><td>Feltet er stabilt nok til at efterlade spor, men beskrivelser formes af begreber</td><td><b>Ja</b></td></tr>
+  </table></div>
+
+  <h3>Lukas genstandsfelt har to sider</h3>
+  <ol>
+    <li><b>Observerbare spor:</b> tidsstempler, beslutningsknudepunkter, overstyringer i SoluTalent</li>
+    <li><b>Organisatorisk praksis:</b> medarbejdernes vurdering af matchkvalitet, håndtering af usikkerhed, risikoafvejning</li>
+  </ol>
+  <p>Disse behandles som <b>to sider af samme felt</b> — ingen reduceres til den anden.</p>
+
+  <blockquote>"Feltet er tilstrækkeligt stabilt til at efterlade observerbare spor, men beskrivelserne formes af de begreber og spørgsmål der gør dem brugbare." <span class="src src-bh">Beck Holm (2023)</span></blockquote>
+
+  <div class="callout">
+    <div class="label">Pointe</div>
+    <p>Pragmatisk ontologi er det, der <b>legitimerer</b>, at man kan kombinere måling og fortolkning i samme design uden ontologisk selvmodsigelse.</p>
+  </div>
+
+  <div class="jens">
+    <div class="q">"Hvad er det præcise spørgsmål som ontologi besvarer — og hvad er det epistemologi besvarer?"</div>
+    <div class="a">Ontologi: <i>hvad eksisterer</i> i feltet. Epistemologi: <i>hvad kan vi vide om det, og hvordan</i>.</div>
+  </div>
+</section>
+
+<!-- =========== SECTION 4: EPISTEMOLOGI =========== -->
+<section id="s4">
+  <h2>4. Epistemologi: blandet — plus abduktion</h2>
+  <p><b>Epistemologi</b> = hvordan gyldig viden etableres; hvilken evidens der tæller <span class="src src-bh">Beck Holm</span>.</p>
+
+  <h3>Lukas to spor (holdes begrebsmæssigt adskilt)</h3>
+  <div class="tbl-wrap"><table>
+    <tr><th>Spor</th><th>Position</th><th>Hvad det legitimerer</th></tr>
+    <tr><td>Kvalitativt</td><td><b>Interpretivisme</b> + moderne hermeneutik <span class="src src-bh">BH</span></td><td>Aktørernes begrundelser og beslutningslogik kun forståes i kontekst; forforståelsen justeres cirkulært del↔helhed</td></tr>
+    <tr><td>Kvantitativt</td><td><b>Positivisme</b> <span class="src src-bh">BH</span> <span class="src src-sa">Saunders</span></td><td>Viden via observerbare, målbare spor (KPI, systemudtræk)</td></tr>
+  </table></div>
+  <p>De kombineres under en overordnet <b>pragmatisk ramme</b> <span class="src src-rw">R&amp;W (1984)</span> — men begreberne blandes ikke sammen.</p>
+
+  <h3>Hermeneutisk cirkel (kort)</h3>
+  <ul>
+    <li><b>Del → Helhed:</b> ét udsagn forstås ud fra hele interviewet og konteksten</li>
+    <li><b>Helhed → Del:</b> den samlede forståelse reviderer fortolkning af det enkelte udsagn</li>
+    <li><b>Forsker ↔ Tekst:</b> forforståelse bringes i spil, udfordres, justeres — <u>ikke</u> elimineres</li>
+  </ul>
+
+  <h3>Slutningsform: abduktion</h3>
+  <p>Abduktion = <i>slutning til den bedst forklarende hypotese</i> <span class="src src-bh">Beck Holm</span>. Tre trin:</p>
+  <ol>
+    <li><b>Anomali opdages</b> — et mønster passer ikke ("systemet rangerer korrekt, men medarbejderne overstyrer alligevel — hvorfor?")</li>
+    <li><b>Konkurrerende forklaringer</b> opstilles (mindst 2–3)</li>
+    <li><b>Bedste forklaring vælges midlertidigt</b> og afprøves mod supplerende data</li>
+  </ol>
+
+  <div class="tbl-wrap"><table class="tbl-compact">
+    <tr><th></th><th>Induktion</th><th>Deduktion</th><th>Abduktion</th></tr>
+    <tr><th>Bevægelse</th><td>Empiri → Teori</td><td>Teori → Empiri</td><td>Anomali → Bedste forklaring</td></tr>
+    <tr><th>Kontekst</th><td>Kvalitativ / grounded</td><td>Positivistisk / hypotesetest</td><td>Case-studier, mixed methods</td></tr>
+  </table></div>
+
+  <div class="callout warn">
+    <div class="label">Pas på</div>
+    <p>"Abduktion er et gæt" — <b>nej</b>. Det er systematisk, midlertidig forklaringsdannelse under usikkerhed. Forskel fra induktion: induktion generaliserer fra mange cases; abduktion forklarer én anomali.</p>
+  </div>
+
+  <div class="jens">
+    <div class="q">"Hvad er din epistemologiske position, og hvilken konsekvens har den for din metode?"</div>
+    <div class="a">Blandet — interpretivist på interviewsporet, positivistisk på systemudtræksporet, bundet af pragmatisk ramme. Konsekvens: semistruktureret interview + systemudtræk med eksplicit rollefordeling.</div>
+  </div>
+</section>
+
+<!-- =========== SECTION 5: METODOLOGI / R&W =========== -->
+<section id="s5">
+  <h2>5. Metodologi: Rossman &amp; Wilson (1984)</h2>
+
+  <div class="callout warn">
+    <div class="label">Årstal</div>
+    <p>Rossman &amp; Wilson (<b>1984</b>) — ikke 1985. Forkert årstal er en faktuel fejl censor markerer.</p>
+  </div>
+
+  <p><b>Metodologi</b> er begrundelsen for metoder — ikke metoder selv:</p>
+  <div class="tbl-wrap"><table class="tbl-compact">
+    <tr><th>Begreb</th><th>Spørgsmål</th><th>Lukas eksempel</th></tr>
+    <tr><td><b>Metodologi</b></td><td><i>Hvorfor</i> denne tilgang?</td><td>Problemformuleringen kræver både fortolkning og måling</td></tr>
+    <tr><td>Metode</td><td><i>Hvad</i> gør vi?</td><td>Semistruktureret interview + systemudtræk</td></tr>
+    <tr><td>Teknik</td><td><i>Hvordan</i>?</td><td>Interviewguide med åbne spørgsmål, tematisk kodning</td></tr>
+  </table></div>
+
+  <h3>R&amp;W's tre positioner</h3>
+  <div class="tbl-wrap"><table>
+    <tr><th>Position</th><th>Logik</th><th>Luka?</th></tr>
+    <tr><td><b>Puristisk</b></td><td>Kun ét paradigme (kvalitativ ELLER kvantitativ); datatyper må ikke blandes</td><td>Nej — mister halvdelen af feltet</td></tr>
+    <tr><td><b>Situationel</b></td><td>Metodevalg afgøres af situation/ressourcer; ingen stærk videnskabsteoretisk begrundelse</td><td>Nej — ligner opportunisme</td></tr>
+    <tr class="cell-ok"><td><b>Pragmatisk</b></td><td>Problemformuleringens karakter styrer; eksplicit rollefordeling mellem datatyper</td><td><b>Ja</b> — stærkest i blandet design</td></tr>
+  </table></div>
+
+  <h3>R&amp;W's tre funktioner for samspil mellem tal og ord</h3>
+  <ol>
+    <li><b>Bekræfte</b> (konvergens) — tal og ord peger samme vej → styrker troværdighed</li>
+    <li><b>Nuancere</b> (komplementaritet) — én kilde tilføjer dybde den anden ikke giver</li>
+    <li><b>Udfordre</b> (dissonans) — datatyperne er i konflikt → bruges som analyseelement, ikke elimineres</li>
+  </ol>
+  <p><b>Dissonans er ikke et problem.</b> Det er analytisk information.</p>
+
+  <div class="callout">
+    <div class="label">R&amp;W's specifikke bidrag (det Jens vil høre)</div>
+    <p>R&amp;W leverer <b>den videnskabsteoretiske begrundelse</b> for, at datatyperne integreres <i>kravdrevet</i> (ikke situationelt eller puristisk), og at tal og ord kan <i>bekræfte, nuancere og udfordre</i> samme problemfelt. Det er ikke noget Beck Holm, Kuada eller Saunders leverer.</p>
+  </div>
+
+  <div class="jens">
+    <div class="q">"Hvad er det specifikke bidrag fra Rossman &amp; Wilson — hvad siger de, som de andre ikke siger?"</div>
+    <div class="a">Begrundelsen for pragmatisk, kravdrevet integration af tal og ord — og de tre funktioner (bekræfte/nuancere/udfordre) der gør triangulering til andet end "vi bruger to metoder".</div>
+  </div>
+  <div class="jens">
+    <div class="q">"Hvorfor pragmatisme og ikke bare kvalitativ?"</div>
+    <div class="a">Fordi problemformuleringen kræver både fortolkning af praksis (interview) <i>og</i> dokumentation af observerbare mønstre (systemdata). En ren kvalitativ tilgang kunne ikke dokumentere mønstrenes omfang i SoluTalent.</div>
+  </div>
+</section>
+
+<!-- =========== SECTION 6: RESEARCH ONION =========== -->
+<section id="s6">
+  <h2>6. Research onion <span class="src src-sa">Saunders</span></h2>
+  <p>Løgmodel med 5 lag — læses <b>indefra og ud</b>. De inderste lag begrunder de ydre.</p>
+
+  <div class="fig" aria-label="Saunders' research onion med Lukas valg">
+    <svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Research onion">
+      <defs>
+        <style>
+          .ring { fill: none; stroke: #1e4d8c; stroke-width: 1.5; }
+          .r1 { fill: #cff7fb; } .r2 { fill: #dff1e3; } .r3 { fill: #ece2fa; }
+          .r4 { fill: #fbe2d6; } .r5 { fill: #f7eec2; }
+          .lbl { font: 700 13px sans-serif; fill: #15171a; }
+          .val { font: 600 12px sans-serif; fill: #1e4d8c; }
+          .desc { font: 11px sans-serif; fill: #4a4f57; }
+        </style>
+      </defs>
+      <g transform="translate(230,230)">
+        <circle class="r5 ring" r="210"/>
+        <circle class="r4 ring" r="170"/>
+        <circle class="r3 ring" r="130"/>
+        <circle class="r2 ring" r="90"/>
+        <circle class="r1 ring" r="50"/>
+        <text class="lbl" x="0" y="-4" text-anchor="middle">Filosofi</text>
+        <text class="val" x="0" y="12" text-anchor="middle">Pragmatisk</text>
+      </g>
+      <g>
+        <text class="lbl" x="460" y="120">Tilgang</text>
+        <text class="val" x="460" y="138">Abduktiv</text>
+        <line x1="330" y1="180" x2="455" y2="125" stroke="#1e4d8c" stroke-width="1"/>
+        <text class="lbl" x="460" y="175">Strategi</text>
+        <text class="val" x="460" y="193">Single-case</text>
+        <line x1="360" y1="220" x2="455" y2="180" stroke="#1e4d8c" stroke-width="1"/>
+        <text class="lbl" x="460" y="230">Valg</text>
+        <text class="val" x="460" y="248">Mixed, sekventielt udforskende</text>
+        <line x1="400" y1="235" x2="455" y2="235" stroke="#1e4d8c" stroke-width="1"/>
+        <text class="lbl" x="460" y="290">Tidshorisont</text>
+        <text class="val" x="460" y="308">Tværsnit, F2026</text>
+        <line x1="380" y1="290" x2="455" y2="293" stroke="#1e4d8c" stroke-width="1"/>
+        <text class="lbl" x="460" y="350">Teknik</text>
+        <text class="val" x="460" y="368">Semistrukt. interview</text>
+        <text class="val" x="460" y="384">+ systemudtræk</text>
+        <line x1="360" y1="360" x2="455" y2="355" stroke="#1e4d8c" stroke-width="1"/>
+      </g>
+      <text class="desc" x="50" y="440">Læses indefra og ud. Hvert lag begrundes i det indre.</text>
+    </svg>
+    <div class="fig-caption">Figur 2 — Lukas valg placeret på Saunders' research onion.</div>
+  </div>
+
+  <div class="callout warn">
+    <div class="label">Pas på</div>
+    <p>Læs <b>ikke</b> onion'en udefra og ind ("hvilke metoder kender jeg?" → derefter filosofi). Det er det omvendte af kongruens.</p>
+  </div>
+</section>
+
+<!-- =========== SECTION 7: SINGLE-CASE =========== -->
+<section id="s7">
+  <h2>7. Single-case studiet</h2>
+  <p>Case-studiet er passende når tre betingelser er opfyldt <span class="src src-bh">Beck Holm</span>:</p>
+  <ol>
+    <li>Forskningsspørgsmålet er et <b>"hvordan"</b> eller <b>"hvorfor"</b></li>
+    <li>Fænomenet er <b>aktuelt</b> (i gang nu)</li>
+    <li>Kontekst og fænomen kan <b>ikke adskilles</b> meningsfuldt</li>
+  </ol>
+  <p>Lukas problemformulering opfylder alle tre.</p>
+
+  <h3>Analyseenhed (unit of analysis)</h3>
+  <p><b>Den del af Support Solutions der arbejder med matching og klientindstilling i SoluTalent</b> — ikke organisationen som helhed, ikke hele branchen. Præcis afgrænsning bestemmer hvad fundene kan sige noget om.</p>
+
+  <h3>Single vs. multiple case</h3>
+  <div class="tbl-wrap"><table class="tbl-compact">
+    <tr><th></th><th>Single-case (Luka)</th><th>Multiple-case</th></tr>
+    <tr><th>Formål</th><td>Dybde, nuance, kontekst</td><td>Mønster på tværs</td></tr>
+    <tr><th>Generalisering</th><td>Analytisk til teori</td><td>Analytisk + replikationslogik</td></tr>
+    <tr><th>Risiko</th><td>Idiosynkratisk</td><td>Overfladisk</td></tr>
+  </table></div>
+  <p>Single-case er <b>ikke svagere</b> end multiple — det har et andet formål.</p>
+
+  <div class="jens">
+    <div class="q">"Hvorfor case-studie fremfor survey?"</div>
+    <div class="a">Fordi problemformuleringen er et "hvordan"-spørgsmål om et aktuelt fænomen i en specifik kontekst hvor kontekst og fænomen ikke kan adskilles. Survey kunne måle omfang, men ikke give den kontekstuelle indsigt problemformuleringen efterspørger.</div>
+  </div>
+  <div class="jens">
+    <div class="q">"Hvad er din analyseenhed?"</div>
+    <div class="a">Bemandingsprocessen fra registreret opgave til klientindstillet konsulent — i den del af Support Solutions der arbejder med matching i SoluTalent.</div>
+  </div>
+</section>
+
+<!-- =========== SECTION 8: SEKVENTIELT UDFORSKENDE =========== -->
+<section id="s8">
+  <h2>8. Sekventielt udforskende mixed methods <span class="src src-sa">Saunders</span></h2>
+
+  <div class="tbl-wrap"><table>
+    <tr><th>Designtype</th><th>Sekvens</th><th>Formål</th></tr>
+    <tr class="cell-ok"><td><b>Sekventielt udforskende</b></td><td>Kvalitativ → Kvantitativ</td><td>Forstå fænomenet, <i>derefter</i> måle det</td></tr>
+    <tr><td>Sekventielt forklarende</td><td>Kvantitativ → Kvalitativ</td><td>Forklare statistiske mønstre</td></tr>
+    <tr><td>Konvergent</td><td>Parallelt</td><td>Bekræfte via triangulering</td></tr>
+  </table></div>
+
+  <h3>Hvorfor <i>udforskende</i> og ikke forklarende hos Luka?</h3>
+  <p>Den kvalitative fase <b>informerer designet</b> af den kvantitative — interviewene kortlægger beslutningslogik, og <i>ud fra den forståelse</i> defineres KPI/KQI og systemudtræksdesign. Hvis det var forklarende, skulle vi først have statistiske mønstre og <i>derefter</i> forklare dem.</p>
+
+  <h3>Konkret logik</h3>
+  <ol>
+    <li><b>Fase 1 (Kvalitativt):</b> Semistrukturerede interviews → kortlægger beslutningslogik, praksis og nuancer</li>
+    <li><b>Kvalitativ analyse:</b> genererer kategorier og begreber der informerer fase 2</li>
+    <li><b>Fase 2 (Kvantitativt):</b> Systemudtræk / KPI-udtræk → måler omfang, hyppighed, mønstre</li>
+    <li><b>Integration:</b> konvergens, komplementaritet eller dissonans?</li>
+  </ol>
+
+  <div class="jens">
+    <div class="q">"Hvad ville du miste, hvis du droppede det kvantitative spor helt?"</div>
+    <div class="a">Dokumentation af mønstrenes omfang og frekvens — især override-rate og behandlingstider. Uden det kan jeg beskrive hvad der sker i beslutningslogikken, men ikke i hvilket omfang det sker i den faktiske praksis.</div>
+  </div>
+  <div class="jens">
+    <div class="q">"Hvad ville du miste, hvis du droppede det kvalitative spor?"</div>
+    <div class="a">Begrebsvaliditeten bag mine indikatorer. Uden interviews kunne jeg ikke vide hvad override-rate <i>betyder</i> i praksis — kun at den eksisterer. Interviews leverer operationaliseringsgrundlaget.</div>
+  </div>
+</section>
+
+<!-- =========== SECTION 9: TRIANGULERING =========== -->
+<section id="s9">
+  <h2>9. Triangulering <span class="src src-ku">Kuada</span> <span class="src src-rw">R&amp;W</span></h2>
+
+  <p>Triangulering = <b>eksplicit integrationslogik</b> mellem datakilder. <i>Ikke</i> bare "vi bruger to metoder" <span class="src src-ku">Kuada, 2012, kap. 10</span>.</p>
+
+  <h3>Kuadas tre trianguleringstyper</h3>
+  <div class="tbl-wrap"><table class="tbl-compact">
+    <tr><th>Type</th><th>Hvad kombineres</th><th>Formål</th></tr>
+    <tr><td><b>Datatriangulering</b></td><td>Samme fænomen fra forskellige kilder</td><td>Styrke troværdighed via uafhængighed</td></tr>
+    <tr class="cell-ok"><td><b>Metodetriangulering</b> (Luka)</td><td>Kvalitativ + kvantitativ metode</td><td>Fange fænomenet fra to epistemologiske vinkler</td></tr>
+    <tr><td>Teoritriangulering</td><td>Forskellige teoretiske linser</td><td>Udforske teoriens spændvidde</td></tr>
+  </table></div>
+
+  <h3>Rollefordeling i Lukas design</h3>
+  <ul>
+    <li><b>Interviews</b> kortlægger beslutningslogik og nuancer → leverer begreberne</li>
+    <li><b>Systemudtræk</b> dokumenterer mønstres omfang → tester om begreberne er observerbare</li>
+    <li><b>Integration:</b> konvergens / komplementaritet / dissonans (R&amp;W's tre funktioner)</li>
+  </ul>
+
+  <div class="callout warn">
+    <div class="label">Ikke pensum — nævn ikke</div>
+    <p><span class="src src-none">Denzin</span> er den klassiske reference for trianguleringstypologien, men han er <b>ikke pensum</b>. Hold dig til Kuada og R&amp;W.</p>
+  </div>
+
+  <div class="callout warn">
+    <div class="label">Risiko</div>
+    <p>Datatriangulering fra <b>ikke-uafhængige</b> kilder bidrager ikke til troværdighed. Dine interviews og dine systemudtræk skal være substantielt uafhængige i produktionsforstand — ellers er "triangulering" en illusion.</p>
+  </div>
+
+  <div class="jens">
+    <div class="q">"Hvad gør du, hvis interviews og systemdata modsiger hinanden?"</div>
+    <div class="a">Dissonansen er analytisk information, ikke et problem der skal fjernes. Jeg rapporterer konflikten eksplicit og undersøger hvorfor — er det en fejl i operationaliseringen, eller er der en reel diskrepans mellem hvad aktører siger og hvad systemet viser?</div>
+  </div>
+</section>
+
+<!-- =========== SECTION 10: TIDSHORISONT + SAMPLING =========== -->
+<section id="s10">
+  <h2>10. Tidshorisont &amp; sampling</h2>
+
+  <h3>Tidshorisont: tværsnit <span class="src src-sa">Saunders</span></h3>
+  <p>Tværsnit (cross-sectional) = data indsamles i <b>ét afgrænset observationsvindue</b> — hos Luka <b>foråret 2026</b>. Alternativet (longitudinal) er ikke realistisk i et bachelorprojekt og ikke påkrævet af problemformuleringen.</p>
+
+  <div class="tbl-wrap"><table class="tbl-compact">
+    <tr><th></th><th>Tværsnit (Luka)</th><th>Longitudinal</th></tr>
+    <tr><th>Billede</th><td>Øjebliksbillede</td><td>Filmoptagelse</td></tr>
+    <tr><th>Kan sige</th><td>Aktuelle mønstre, variation, sammenhænge</td><td>Forandring, udvikling over tid</td></tr>
+    <tr><th>Kan IKKE</th><td>Etablere kausalitet sikkert</td><td>—</td></tr>
+  </table></div>
+
+  <div class="callout warn">
+    <div class="label">Formuler det rigtigt</div>
+    <p>Tværsnit er et <b>bevidst metodologisk valg</b>, ikke "vi har ikke tid til longitudinal". Begrund i problemformuleringen: den efterspørger aktuelle mønstre, ikke forandringsprocesser.</p>
+  </div>
+
+  <h3>Sampling: purposive <span class="src src-sa">Saunders</span> <span class="src src-ku">Kuada</span></h3>
+  <p><b>Purposive sampling</b> = informanter vælges bevidst <i>fordi de kan belyse problemformuleringen</i>. Lukas tre informanter:</p>
+  <ul>
+    <li>Informant 1 — ledelse</li>
+    <li>Informant 2 — teknisk ansvarlig (platform-insider)</li>
+    <li>Informant 3 — ledelse</li>
+  </ul>
+  <p>Begrundelsen: komplementære organisatoriske perspektiver der tilsammen dækker beslutningsprocessen.</p>
+
+  <div class="callout warn">
+    <div class="label">Pas på sprogbrugen</div>
+    <p>"Vi valgte dem fordi de var tilgængelige" er <b>convenience sampling</b> — akademisk svag. "Fordi de repræsenterer de roller der driver beslutningen" er purposive.</p>
+  </div>
+
+  <h3>Empiri-typer i designet</h3>
+  <div class="tbl-wrap"><table class="tbl-compact">
+    <tr><th></th><th>Primære data</th><th>Sekundære data</th></tr>
+    <tr><th>Luka</th><td>Semistrukturerede interviews</td><td>Systemudtræk / KPI fra SoluTalent</td></tr>
+    <tr><th>Rolle</th><td>Beslutningslogik, praksis, mening</td><td>Omfang, hyppighed, mønster</td></tr>
+  </table></div>
+  <p><b>Semistruktureret interview</b> = interviewguide med temaer (ikke manuskript); åbenhed for informantens begreber; følger uventede pointer <span class="src src-ku">Kuada</span>.</p>
+  <p><b>Systemudtræk = artefaktanalyse:</b> data er produceret af organisationens praksis til andre formål — det "taler" ikke for sig selv, men fortolkes inden for sit epistemologiske spor.</p>
+</section>
+
+<!-- =========== SECTION 11: KVALITETSKRITERIER =========== -->
+<section id="s11">
+  <h2>11. Kvalitetskriterier — to sæt</h2>
+
+  <div class="callout warn">
+    <div class="label">Kritisk regel</div>
+    <p>De to spor har <b>hver sit sæt</b> kvalitetskriterier. <b>Aldrig</b> brug Lincoln &amp; Guba på kvantitativt spor. <b>Aldrig</b> brug reliabilitet/validitet-terminologien på interviewanalyse.</p>
+  </div>
+
+  <h3>A. Kvalitativt spor — Lincoln &amp; Guba via <span class="src src-ku">Kuada</span></h3>
+  <div class="tbl-wrap"><table>
+    <tr><th>Kriterium</th><th>Svarer til</th><th>Lukas konkrete greb</th></tr>
+    <tr><td><b>Credibility</b><br><small>troværdighed</small></td><td>Intern validitet</td><td>Triangulering (interview × systemdata); informantvalidering (member checking) af kondenserede udsagn</td></tr>
+    <tr><td><b>Transferability</b><br><small>overførbarhed</small></td><td>Ekstern validitet</td><td>Tyk beskrivelse af case-kontekst, afgrænsning, SoluTalent som organisatorisk artefakt</td></tr>
+    <tr><td><b>Dependability</b><br><small>pålidelighed</small></td><td>Reliabilitet</td><td>Audit trail — dokumenteret interviewguide, kodningsskema, analysebeslutninger</td></tr>
+    <tr><td><b>Confirmability</b><br><small>neutralitet</small></td><td>Objektivitet</td><td>Eksplicit bias-refleksion over insider-position; aktiv søgning efter disconfirming evidence; transparent vej empiri → fortolkning</td></tr>
+  </table></div>
+
+  <h3>B. Kvantitativt spor <span class="src src-sa">Saunders</span></h3>
+  <div class="tbl-wrap"><table>
+    <tr><th>Kriterium</th><th>Spørgsmål</th><th>Lukas håndtering</th></tr>
+    <tr><td><b>Reliabilitet</b></td><td>Samme resultat ved gentaget måling?</td><td>Præcise måledefinitioner (fx "override-rate = andel systemforslag tilsidesat af medarbejder")</td></tr>
+    <tr><td><b>Intern validitet</b></td><td>Kan vi slutte X → Y?</td><td>Erkendes svag i tværsnit; kvalitativt spor styrker mekanismeforståelsen</td></tr>
+    <tr><td><b>Ekstern validitet</b></td><td>Overførbar?</td><td>Ikke statistisk — analytisk til teori (se §12)</td></tr>
+    <tr class="cell-ok"><td><b>Begrebsvaliditet</b></td><td>Måler indikatorerne faktisk det vi påstår?</td><td><b>Bindeledet</b> mellem sporene: kvalitativt identificerer begreber → kvantitativt operationaliserer dem. Klientfeedback som <i>uafhængig</i> kontrolkilde til matchkvalitet</td></tr>
+  </table></div>
+
+  <div class="callout">
+    <div class="label">Censor-favorit</div>
+    <p>Begrebsvaliditet er den <b>mest undervurderede</b> dimension i mixed methods. Pressespørgsmål: "Måler din override-rate faktisk det du påstår?" Forsvar: interviews leverer operationaliseringen; override-rate er <i>én</i> indikator der trianguleres mod match-kvalitet og behandlingstid.</p>
+  </div>
+</section>
+
+<!-- =========== SECTION 12: GENERALISERING =========== -->
+<section id="s12">
+  <h2>12. Generalisering <span class="src src-bh">Beck Holm</span></h2>
+
+  <div class="tbl-wrap"><table>
+    <tr><th></th><th>Statistisk</th><th>Analytisk (Luka)</th></tr>
+    <tr><th>Gælder for</th><td>Bredere population</td><td>Teori</td></tr>
+    <tr><th>Krav</th><td>Repræsentativt sample, tilstrækkelig N</td><td>Dybde, kontekst, eksplicit teorikobling</td></tr>
+    <tr><th>Logik</th><td>Sandsynlighed</td><td>Forklaringskraft — i hvilke kontekster gælder mekanismen?</td></tr>
+    <tr><th>Design</th><td>Survey, register</td><td>Case-studie, mixed methods</td></tr>
+  </table></div>
+
+  <h3>Lukas formulering</h3>
+  <blockquote>"Generaliseringen er analytisk til teori om beslutningsstøtte(systemer) — casen viser hvordan human-in-the-loop-logikken opererer under specifikke organisatoriske betingelser."</blockquote>
+
+  <div class="callout warn">
+    <div class="label">Undvigelsesfælde</div>
+    <p><b>Aldrig</b> sig "vi generaliserer ikke". Det er en undvigelse. Analytisk generalisering <i>forventes</i> i case-studier. Sig hvad du generaliserer <i>til</i> — og vær præcis.</p>
+  </div>
+
+  <div class="callout warn">
+    <div class="label">Jens' skarpe kant</div>
+    <p>Jens presser sandsynligvis: <i>"Hvilken præcis teori om beslutningsstøtte — Beck Holm (2023) er ikke en DSS-teori."</i> Forberedt svar: vi generaliserer til DSS/human-in-the-loop-litteraturen som den er operationaliseret i synopsen; Beck Holm er kilde til selve logikken om analytisk generalisering, ikke til DSS-teorien.</p>
+  </div>
+
+  <h3>Transferability ≠ analytisk generalisering</h3>
+  <ul>
+    <li><b>Transferability</b> (L&amp;G): <i>læseren</i> vurderer overførbarhed; forsker leverer kontekst</li>
+    <li><b>Analytisk generalisering</b>: <i>forskeren</i> argumenterer aktivt for kobling til teori</li>
+  </ul>
+
+  <div class="jens">
+    <div class="q">"Hvad kan vi lære af dette udover Support Solutions?"</div>
+    <div class="a">Casen bidrager analytisk til teori om beslutningsstøttesystemer ved at vise hvilke organisatoriske og datamæssige forudsætninger der skal være opfyldt, for at en algoritmisk matchproces kan integreres forsvarligt i en praksis med human-in-the-loop.</div>
+  </div>
+</section>
+
+<!-- =========== SECTION 13: AKSIOLOGI / INSIDER =========== -->
+<section id="s13">
+  <h2>13. Aksiologi &amp; insider-position — Lukas akilleshæl</h2>
+
+  <p><b>Aksiologi</b> <span class="src src-sa">Saunders</span> = forskerens værdisyn og dets rolle. I pragmatisk design vejer <i>brugbar viden</i> tungere end <i>værdifri objektivitet</i> — men det er ikke en undskyldning for bias; det er en eksplicitering af det uundgåelige.</p>
+
+  <h3>Lukas situation</h3>
+  <p>Luka har som <b>udvikler bidraget til opbygningen af SoluTalent</b>. Det giver både ressourcer og risici:</p>
+
+  <h3>Ressourcer</h3>
+  <ul>
+    <li>Indgående systemkendskab</li>
+    <li>Sproglig nærhed til informanter</li>
+    <li>Effektiv adgang til feltet</li>
+  </ul>
+
+  <h3>Risici — tre biastyper <span class="src src-bh">Beck Holm</span></h3>
+  <div class="tbl-wrap"><table>
+    <tr><th>Biastype</th><th>Beskrivelse</th></tr>
+    <tr><td><b>Bekræftelsesbias</b></td><td>Søger ubevidst mønstre der bekræfter forventede resultater</td></tr>
+    <tr><td><b>Designbias</b></td><td>Systemkendskab påvirker selve forskningsdesignet — spørgsmål der ikke stilles</td></tr>
+    <tr><td><b>Informantpåvirkning</b></td><td>Informanters udsagn farves af relation til forsker/platform</td></tr>
+  </table></div>
+
+  <h3>Tre operationelle mitigeringsgreb (memorizer disse)</h3>
+  <ol>
+    <li><b>Negative indikatorer</b> (overstyringer, afvisninger, lange beslutningsforløb) kodes og rapporteres <i>på linje med</i> positive mønstre — ikke selektivt fravalgt</li>
+    <li><b>Aktiv konfrontation</b> — interviewdata og systemudtræk stilles op mod hinanden; hvor systemudtræk modsiger udviklerens forventning, <i>prioriteres det empiriske mønster</i></li>
+    <li><b>Eksplicit audit trail</b> i interviewguide, kodning og målepunkter</li>
+  </ol>
+
+  <div class="callout ok">
+    <div class="label">Guld-sætning</div>
+    <p>"Insider-position er et metodisk <i>vilkår</i> der håndteres, ikke elimineres. Mitigeringen ligger i negative indikatorer, konfrontation empiri-mod-forventning og audit trail — og i konfirmerbarheden via en <i>uafhængig</i> kontrolkilde (klientfeedback)."</p>
+  </div>
+
+  <div class="jens">
+    <div class="q">"Kan du lave troværdig forskning på en platform du selv har bygget?"</div>
+    <div class="a">Ja, under to betingelser: (1) insider-positionen er eksplicit reflekteret, og (2) der er konkrete mitigeringsgreb — negative indikatorer, konfrontation empiri-forventning, audit trail, samt klientfeedback som uafhængig kontrolkilde til matchkvalitet.</div>
+  </div>
+  <div class="jens">
+    <div class="q">"Hvad er den præcise forskel på insider-position og bekræftelsesbias?"</div>
+    <div class="a">Insider-position er <i>situationen</i> (adgang/kendskab indefra). Bekræftelsesbias er én af flere <i>risici</i> der følger af situationen — tendens til ubevidst at se det man forventer. De håndteres hver for sig.</div>
+  </div>
+
+  <h3>Etiske forpligtelser (kort)</h3>
+  <ul>
+    <li>Informeret samtykke (dokumenteret — mundtligt eller skriftligt, sidestillet)</li>
+    <li>Anonymisering via funktionsbetegnelse ("Informant 1, ledelse")</li>
+    <li>Mulighed for tilbagetrækning</li>
+    <li>GDPR-overvejelse for opbevaring/sletning</li>
+    <li>Transparens om insider-rollen</li>
+  </ul>
+</section>
+
+<!-- =========== SECTION 14: KPI/KQI =========== -->
+<section id="s14">
+  <h2>14. KPI &amp; KQI</h2>
+
+  <p>Indikatorerne holdes <b>bevidst få</b> på synopsis-niveau — fuld operationalisering hører i bachelorens metodekapitel.</p>
+
+  <div class="tbl-wrap"><table>
+    <tr><th>KPI (kvantitative proceseffektivitet)</th><th>KQI (kvalitative kvalitetsmål)</th></tr>
+    <tr>
+      <td>
+        <ol>
+          <li><b>Behandlingstid</b> — fra registrering til klientindstilling</li>
+          <li><b>Gentagne vurderinger</b> — antal reviews pr. profil</li>
+          <li><b>Override-rate</b> — andel systemforslag tilsidesat af medarbejder</li>
+        </ol>
+      </td>
+      <td>
+        <ol>
+          <li><b>Matchkvalitet</b> — vurderet via ekstern klientfeedback</li>
+          <li><b>Vurderingskonsistens</b> — på tværs af medarbejdere</li>
+          <li><b>Datakvalitet</b> — i profilgrundlaget</li>
+        </ol>
+      </td>
+    </tr>
+  </table></div>
+
+  <h3>Klientfeedback som <u>uafhængig</u> kontrolkilde</h3>
+  <p>Matchkvalitet vurderes via <b>skriftlig klientfeedback efter afsluttet indstilling</b>. Det giver to ting metodisk:</p>
+  <ol>
+    <li><b>Uafhængighed:</b> feedback produceres uden for SoluTalent, af parter der ikke har bygget platformen → styrker confirmability og håndterer insider-bias</li>
+    <li><b>Begrebsvaliditet:</b> matchkvalitet måles ikke af systemet selv (cirkulært), men af en ekstern kontrolkilde</li>
+  </ol>
+
+  <div class="callout warn">
+    <div class="label">Jens' sandsynlige angreb</div>
+    <p>"Override-rate — måler det systemets <i>utilstrækkelighed</i> eller medarbejderens <i>præference</i>?" Forberedt svar: override-rate alene er tvetydig. Den får sin betydning <i>kun</i> når den trianguleres mod interviewernes begrundelser — derfor begrebsvaliditet via det kvalitative spor.</p>
+  </div>
+
+  <div class="jens">
+    <div class="q">"Hvad er risikoen ved at have KPI-data fra en platform du selv har bygget?"</div>
+    <div class="a">Designbias: jeg kan ubevidst have valgt indikatorer der er lette at trække <i>fordi</i> jeg kender systemet — ikke nødvendigvis dem der bedst indfanger begrebet. Mitigeringen er klientfeedback som uafhængig kontrolkilde + audit trail på hvorfor hver indikator er valgt.</div>
+  </div>
+</section>
+
+<!-- =========== SECTION 15: KILDEMATRIX =========== -->
+<section id="s15">
+  <h2>15. Kilde-matrix — hvem siger hvad</h2>
+
+  <div class="tbl-wrap"><table>
+    <tr><th>Begreb / tema</th><th>Primær pensum-kilde</th></tr>
+    <tr><td>Ontologi, epistemologi, hermeneutik, abduktion, case-studie, aksiologi, Lincoln &amp; Guba (definition)</td><td><span class="src src-bh">Beck Holm (2023)</span></td></tr>
+    <tr><td>Lincoln &amp; Gubas 4 kriterier (operationel), triangulering, semistruktureret interview, purposive sampling, etik</td><td><span class="src src-ku">Kuada (2012)</span></td></tr>
+    <tr><td>Research onion, research approach, tidshorisont, sampling, aksiologi, mixed methods-designtyper, reliabilitet/validitet/begrebsvaliditet</td><td><span class="src src-sa">Saunders et al. (2023)</span></td></tr>
+    <tr><td>De 3 metodologiske positioner (puristisk/situationel/pragmatisk), bekræfte/nuancere/udfordre-logikken</td><td><span class="src src-rw">Rossman &amp; Wilson (1984)</span></td></tr>
+  </table></div>
+
+  <h3>Ikke-pensum — nævn ikke som autoritet</h3>
+  <p>Bliver fristet til at sige navnet? <b>Lad være</b>. Hold dig til de fire ovenfor.</p>
+  <ul>
+    <li><span class="src src-none">Yin</span> — case-studie-klassikeren: kendt via <b>Beck Holm</b>, ikke direkte</li>
+    <li><span class="src src-none">Denzin</span> — triangulering: brug <b>Kuada</b> og <b>R&amp;W</b> i stedet</li>
+    <li><span class="src src-none">Creswell</span> — mixed methods: brug <b>Saunders</b></li>
+    <li><span class="src src-none">Gadamer</span> — moderne hermeneutik: kendt via <b>Beck Holm</b></li>
+    <li><span class="src src-none">Peirce</span> — abduktion: kendt via <b>Beck Holm</b></li>
+    <li><span class="src src-none">Lincoln &amp; Guba</span> — citér dem via <b>Kuada (2012)</b>, ikke direkte</li>
+  </ul>
+
+  <div class="callout warn">
+    <div class="label">Ingen opdigtede sidetal</div>
+    <p>Ved tvivl: citer kilden <b>uden</b> sidetal. Brug evt. kapitelnummer (Kuada kap. 10 for triangulering). Opdigtede sidetal = akademisk uredelighed.</p>
+  </div>
+</section>
+
+<!-- =========== SECTION 16: SVAGE PUNKTER =========== -->
+<section id="s16">
+  <h2>16. Jens' svage-punkt-radar — og forsvar</h2>
+
+  <details class="sect" open>
+    <summary>1. Override-rate som begrebsvaliditet</summary>
+    <p><b>Angreb:</b> Måler override-rate "systemets utilstrækkelighed" eller "medarbejderens præference"?</p>
+    <p><b>Forsvar:</b> Tvetydig alene, får betydning via triangulering mod interview-begrundelser. Begrebsvaliditeten sikres ved at interview-sporet operationaliserer begrebet <i>før</i> måling.</p>
+  </details>
+
+  <details class="sect" open>
+    <summary>2. Klientfeedback som KQI</summary>
+    <p><b>Angreb:</b> Hvornår modtages den? Er den tilstrækkeligt uafhængig?</p>
+    <p><b>Forsvar:</b> Skriftlig, efter afsluttet indstilling, fra klient der ikke har bygget SoluTalent. Hvis ikke uafhængig nok → erkend begrænsningen og nuancér: "den er <i>relativt</i> uafhængig — det er det bedste tilgængelige kontrolled i casen."</p>
+  </details>
+
+  <details class="sect" open>
+    <summary>3. "Analytisk til teori om beslutningsstøtte" — hvilken teori?</summary>
+    <p><b>Angreb:</b> Beck Holm (2023) er ikke en beslutningsstøtte-teori.</p>
+    <p><b>Forsvar:</b> Korrekt — Beck Holm leverer selve logikken om analytisk generalisering. Vi generaliserer til DSS/human-in-the-loop-litteraturen som operationaliseret i synopsen; teorien specificeres fuldt ud i bachelorens teorikapitel.</p>
+  </details>
+
+  <details class="sect" open>
+    <summary>4. Sekventiel timing — forundersøgelse eller primær empiri?</summary>
+    <p><b>Angreb:</b> Interviewene er allerede gennemført — er det "forundersøgelse" eller "primær empiri"?</p>
+    <p><b>Forsvar:</b> Primær empiri i det kvalitative spor. "Forundersøgelse" er en sproglig konvention for rækkefølgen; metodologisk er de fase 1 i det sekventielt udforskende design og indgår i kodning og analyse på lige fod med kvantitativt spor.</p>
+  </details>
+
+  <details class="sect" open>
+    <summary>5. Abduktion uden eksplicit anomali</summary>
+    <p><b>Angreb:</b> Hvad er den konkrete anomali der udløser den abduktive slutning?</p>
+    <p><b>Forsvar:</b> Anomalien er spændet mellem systemets rangering og medarbejdernes overstyringer — "systemet peger, men ikke beslutter" (bilag B). Det empiriske mønster passer ikke til en ren automatiserings-hypotese og kræver derfor en alternativ forklaring (human-in-the-loop-logikken).</p>
+  </details>
+</section>
+
+<!-- =========== SECTION 17: PITFALLS =========== -->
+<section id="s17">
+  <h2>17. Top-15 faldgruber (rød tavle)</h2>
+  <p style="font-size:.88rem;color:var(--fg-mute);">Format: <b>fejl</b> → <em>korrektion</em>. Skim listen 10 min før du går ind.</p>
+
+  <ol class="pitfalls">
+    <li><b>"Vores epistemologi er pragmatisk fordi vi ser virkeligheden som…"</b> → <em>Det er ontologi. Epistemologi er om viden, ikke eksistens.</em></li>
+    <li><b>"Vores metodologi er semistrukturerede interviews"</b> → <em>Det er teknik. Metodologi er begrundelsesniveauet.</em></li>
+    <li><b>"Vi triangulerer fordi vi har interview og systemdata"</b> → <em>Triangulering kræver eksplicit rollefordeling og integrationslogik.</em></li>
+    <li><b>"Vi kan ikke generalisere fra ét case"</b> → <em>Undvigelse. Analytisk generalisering er altid mulig og forventes.</em></li>
+    <li><b>Rossman &amp; Wilson (1985)</b> → <em>1984. Altid.</em></li>
+    <li><b>"Pragmatisk tilgang (Kuada, 2012)"</b> → <em>R&amp;W bærer pragmatismen. Kuada leverer definitioner og L&amp;G.</em></li>
+    <li><b>Nævner Yin / Denzin / Creswell / Gadamer som pensum</b> → <em>Kun de fire pensum-kilder. Punktum.</em></li>
+    <li><b>Opfundne sidetal</b> → <em>Citer uden sidetal ved tvivl. Brug evt. kapitel.</em></li>
+    <li><b>"Vi har valgt pragmatisme fordi det passer til vores projekt"</b> → <em>"Passer til" er ikke en begrundelse. Kobl til problemformuleringen.</em></li>
+    <li><b>Namedumping uden forklaring ("abduktion, triangulering, DSS")</b> → <em>Forklar begrebet, derefter anvend det analytisk.</em></li>
+    <li><b>Lincoln &amp; Guba anvendt på KPI-sporet</b> → <em>L&amp;G = kvalitativt spor. Kvantitativt = reliabilitet/validitet/begrebsvaliditet.</em></li>
+    <li><b>"Vi er interpretivister fordi vi laver interviews"</b> → <em>Omvendt: epistemologi → metode, ikke metode → epistemologi.</em></li>
+    <li><b>"Hermeneutik er subjektivt, derfor dårligt"</b> → <em>Systematisk, refleksiv fortolkning er akademisk robust.</em></li>
+    <li><b>"Jeg eliminerer min forforståelse"</b> → <em>Umuligt. Den ekspliciteres, ikke elimineres.</em></li>
+    <li><b>"Det er komplekst…" som svar på pressespørgsmål</b> → <em>Tag et standpunkt, begrund det, anerkend usikkerheden bagefter.</em></li>
+  </ol>
+</section>
+
+<!-- =========== SECTION 18: ONE-LINERS =========== -->
+<section id="s18">
+  <h2>18. Ti one-liners — til sidste-minut-recitation</h2>
+  <p style="font-size:.88rem;color:var(--fg-mute);">Læs disse højt i toget. De er dine eksamens-reflekser.</p>
+
+  <div class="oneliners">
+    <div class="oneliner">Valget af pragmatisk ontologi peger frem mod et tilsvarende pragmatisk strategivalg på metodologi-niveau <i>(Rossman &amp; Wilson, 1984)</i>.</div>
+    <div class="oneliner">Problemformuleringens karakter — ikke ontologisk dogme — afgør metodevalget.</div>
+    <div class="oneliner">R&amp;W's specifikke bidrag: tal og ord kan bekræfte, nuancere og udfordre samme problemfelt — kravdrevet, ikke situationelt.</div>
+    <div class="oneliner">Single-case er passende fordi spørgsmålet er et "hvordan", fænomenet er aktuelt, og kontekst og fænomen kan ikke adskilles.</div>
+    <div class="oneliner">Generaliseringen er analytisk til teori om beslutningsstøtte — ikke statistisk til branchepopulation.</div>
+    <div class="oneliner">De to spor holdes begrebsmæssigt adskilt, men bindes af en overordnet pragmatisk ramme.</div>
+    <div class="oneliner">Begrebsvaliditet er bindeledet: kvalitativt spor identificerer begrebet, kvantitativt spor operationaliserer det.</div>
+    <div class="oneliner">Insider-position er et vilkår der håndteres via negative indikatorer, konfrontation empiri-mod-forventning og audit trail.</div>
+    <div class="oneliner">Klientfeedback fungerer som uafhængig kontrolkilde til matchkvalitet og håndterer insider-bias metodisk.</div>
+    <div class="oneliner">Dissonans mellem interview og systemdata er ikke et problem — det er analytisk information.</div>
+  </div>
+
+  <div class="callout ok" style="margin-top:20px;">
+    <div class="label">Mantra — sig det højt tre gange</div>
+    <p style="font-size:1.05rem;"><b>Pragmatisk ontologi → blandet epistemologi → Rossman &amp; Wilsons pragmatiske position → sekventielt udforskende single-case → triangulering.</b></p>
+  </div>
+</section>
+
+<footer>
+  <p>Cheat sheet til Lukas mundtlige eksamen i videnskabsteori.<br>
+  Kilder: Beck Holm (2023, 3. udg.) · Kuada (2012) · Saunders et al. (2023, 9. udg.) · Rossman &amp; Wilson (1984).<br>
+  Held og lykke.</p>
+</footer>
+
+</main>
+
+<script>
+(function(){
+  var btn = document.getElementById('themeBtn');
+  var body = document.body;
+  var saved;
+  try { saved = localStorage.getItem('cheat-theme'); } catch(e){}
+  if (saved === 'dark' || saved === 'light') { body.setAttribute('data-theme', saved); }
+  else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) { body.setAttribute('data-theme', 'dark'); }
+  function update(){ btn.textContent = body.getAttribute('data-theme') === 'dark' ? 'Lys' : 'Mørk'; }
+  update();
+  btn.addEventListener('click', function(){
+    var next = body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    body.setAttribute('data-theme', next);
+    try { localStorage.setItem('cheat-theme', next); } catch(e){}
+    update();
+  });
+})();
+</script>
+
+</body>
+</html>

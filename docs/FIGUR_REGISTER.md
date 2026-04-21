@@ -32,12 +32,12 @@ Formaal: Samlet figurregister til agentbrug med status, teoriankre og brugsregel
 | `Bachelor underviser materiale/Kritisk Rationalisme 2026F.pptx` | manuel_review | Popper/falsifikation | Kræver slideeksport |
 | `Bachelor underviser materiale/Socialkonstruktivisme 2026F.pptx` | manuel_review | Socialkonstruktivisme | Kræver slideeksport |
 
-## C) Projekt-synopsis (Luka / Support Solutions)
+## C) Projekt-synopsis (Support Solutions / SoluTalent)
 
 | Figurpath | Status | Budskab | Teoriankre | Brugsregel |
 |---|---|---|---|---|
 | `pptx_extract/content/ppt/media/image28.png` | godkendt | Research structure (pragmatisme, abduktion, case, tværsnit, multi-method, triangulering) | Holm, Kuada, Saunders, Rossman & Wilson | **Primær skabelon** fra undervisning; **tilpas** alle B&O-/eksempeltekster til Support Solutions / SoluTalent |
-| `docs/figures/RESEARCH_STRUCTURE_SYNOPSIS_LUKA.svg` | godkendt | PF → 4 vidensniveauer → empiri → triangulering → etik | Holm, Kuada, Saunders, Rossman & Wilson | Forenklet egen figur; indsæt i Word/PDF (SVG); tilpas labels ved ændret periode/afdeling |
+| `docs/figures/RESEARCH_STRUCTURE_SYNOPSIS.svg` | godkendt | PF → 4 vidensniveauer → empiri → triangulering → etik | Holm, Kuada, Saunders, Rossman & Wilson | Valgfri egen forenklet figur (SVG); tilpas labels; `docs/scripts/svg_to_png.py` kan generere PNG til Word-embed |
 
 ## Obligatorisk figurtekst under brug
 

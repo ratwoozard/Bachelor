@@ -40,7 +40,6 @@ Disse filer bruges til uddybning, opslag og censorforberedelse, men de må ikke 
 
 ## Filer der ikke er primær sandhed
 
-- `docs/SYNOPSIS_INDHOLDSFORTEGNELSE_LUKA.md` = personlig synopsis-skabelon
 - `docs/10_HURTIGE_TRAENINGSLOG_LUKA.md` = personlig træningslog
 - `videnskabsteori_arena/` = trænings-/quizlag
 - `NotebookLM_Kilder/` = noter og study guides

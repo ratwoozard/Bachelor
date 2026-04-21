@@ -19,7 +19,7 @@
 
 **Hovedtanke:** Forskningsspørgsmålet driver metodevalget. Ontologiske og epistemologiske debatter er sekundære i forhold til "hvad virker for at besvare dette spørgsmål?"
 
-**Nøgletænkere:** John Dewey, Charles Sanders Peirce, William James. I jeres 7. semesterkontekst bruges Kuada (2012) til korte begrebsdefinitioner og metode/kvalitetsramme, Holm (2023) og Saunders et al. (2023) til anvendt videnskabsteori, og Rossman & Wilson (1985) til pragmatismestrategi og kombination af kvalitative/kvantitative logikker.
+**Nøgletænkere:** John Dewey, Charles Sanders Peirce, William James. I jeres 7. semesterkontekst bruges Kuada (2012) til korte begrebsdefinitioner og metode/kvalitetsramme, Holm (2023) og Saunders et al. (2023) til anvendt videnskabsteori, og Rossman & Wilson (1984) til pragmatismestrategi og kombination af kvalitative/kvantitative logikker.
 
 **Fire dimensioner i jeres projekt:**
 

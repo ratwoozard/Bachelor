@@ -13,7 +13,7 @@
 |---|---------|------------|---------------------------|
 | 1.1 | **Klassisk positivisme** står under **fortolkende epistemologi** | Fjern positivisme her. Under fortolkende epistemologi: **interpretivisme** + **moderne hermeneutik**. Klassisk positivisme kun under den **positivistiske** epistemologi-gren. | Epistemologiske labels skal matche indhold; ellers mister redegørelsen intern kongruens. |
 | 1.2 | Forkert definition af **indlejret casestudie** (fx workflow-states, "analyseenheder" i platformen) | Indlejret case = undersøgelse af en **delmængde af organisationen** (fx afdeling), ikke tekniske trin/enheder. Argumentér med **afgrænsning til del af organisation**. | Holm/Saunders case-logik; undgå copy-paste fra bachelorens operative beskrivelse. |
-| 1.3 | **Pragmatisme / strategi** begrundet med **Kuada alene** | Brug **ikke** Kuada til at bære "pragmatisk strategi" / dobbelt virkelighedsforståelse, når teksten risikerer at blande pragmatisme og situationalisme i kapitel 5. Brug **Rossman & Wilson (1985)** til strategi og kombination af kvant/kval, men behold gerne Kuada til korte begrebsdefinitioner og metodekontekst. | Workspace-regel: Kuada = begrebsdefinitioner, metode og kvalitetskriterier; Rossman & Wilson = strategier og mixed-methods-logik. |
+| 1.3 | **Pragmatisme / strategi** begrundet med **Kuada alene** | Brug **ikke** Kuada til at bære "pragmatisk strategi" / dobbelt virkelighedsforståelse, når teksten risikerer at blande pragmatisme og situationalisme i kapitel 5. Brug **Rossman & Wilson (1984)** til strategi og kombination af kvant/kval, men behold gerne Kuada til korte begrebsdefinitioner og metodekontekst. | Workspace-regel: Kuada = begrebsdefinitioner, metode og kvalitetskriterier; Rossman & Wilson = strategier og mixed-methods-logik. |
 | 1.4 | **Triangulering** som løs opremsning | Forklar triangulering som **redskab**: at synliggøre **spændet mellem formelle principper og faktisk beslutningsadfærd** (jf. Rossman & Wilson), ikke bare liste datakilder. | Triangulering skal have analytisk funktion; ellers "lister I metoder". |
 | 1.5 | **Tidshorisont** mangler | Angiv eksplicit (fx som **tværsnitsundersøgelse**): data indsamles **på tværs af gruppe/segment** i et vindue, så kvantitativ del kan diskuteres som repræsentativ **inden for den valgte population og periode**. | Saunders/designbeskrivelse; kobling til "repræsentativitet" for kvantitative kvalitetskriterier. |
 | 1.6 | **"Systembrug af procesdata"** under videnskabsteoretiske positioner | Flyt ud eller fjern fra vidensteori-afsnit – for **teknisk** til synopsis. | Synopsis = research design og begreber; ikke teknisk systembeskrivelse. |
@@ -64,7 +64,7 @@ Vejleder: italesæt **etik** og **aksiologi** eksplicit (kan være kort), ikke k
 | Opgave | Primær kilde |
 |--------|----------------|
 | **Hvad ontologi og epistemologi er** (begrebsdefinition) | **Kuada (2012)** + supplerende **Holm (2023)** / **Saunders (2023)** hvor relevant |
-| **Strategivalg, pragmatisme som ramme, mixed methods, triangulering som strategi** | **Rossman & Wilson (1985)** |
+| **Strategivalg, pragmatisme som ramme, mixed methods, triangulering som strategi** | **Rossman & Wilson (1984)** |
 | **Organisatorisk case og anvendt forskning** | **Holm (2023); Saunders (2023)** |
 
 Undgå at lade **én** Kuada-passage bære både ontologi-definition *og* hele den pragmatiske strategi – det er her fejlplaceringen opstår.
@@ -108,7 +108,7 @@ Når pensum er **solidt**, kan eksaminator gå videre til fx **socialkonstruktiv
 |------|-------------|
 | Hermeneutik / positivisme | `teori_bibliotek/meta-videnskabsteori/hermeneutik/KONTEKST.md`, `.../positivisme/`, `.../logisk-positivisme/` |
 | Triangulering, case-design | `teori_bibliotek/method-forskningsdesign/triangulering/KONTEKST.md`, `.../case-design/` |
-| Rossman & Wilson | `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md` |
+| Rossman & Wilson | `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1984.md` |
 | Kuada | `docs/PENSUM_KILDEKORT_KUADA_2012.md` |
 | Forbudte formuleringer / kausalitet | `docs/FORBUDTE_FORMULERINGER.md` |
 | Fuld transskription | `Lyd_feedback/transcripts/review/MASTER_feedback_transcript.md` |

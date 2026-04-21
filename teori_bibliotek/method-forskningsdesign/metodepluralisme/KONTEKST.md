@@ -6,7 +6,7 @@ Metodepluralisme er pragmatisk kombination af metoder uden at paastaa fuld mixed
 ## 2. Tier og kilder
 - Tier: 1/2
 - Primaer kilde: Holm (2023) pragmatisk logik
-- Sekundaer forankring: Rossman & Wilson (1985); Saunders et al. (2023)
+- Sekundaer forankring: Rossman & Wilson (1984); Saunders et al. (2023)
 
 ## 3. Brug i jeres case
 Bruges som hovedetiket for jeres datakombination i bachelordesignet.
@@ -36,7 +36,7 @@ Begrebet kan virke uklart, hvis integrationslogikken ikke er eksplicit.
 
 ## 8. Koblinger
 - `docs/PENSUM_VIDENSBASE.md` (sektion 8 og 10.4)
-- `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md`
+- `docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1984.md`
 
 ## 9. Sidst opdateret
 - 2026-03-23

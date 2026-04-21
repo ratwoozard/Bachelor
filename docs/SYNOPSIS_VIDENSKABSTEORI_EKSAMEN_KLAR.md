@@ -20,7 +20,7 @@ Support Solutions ApS arbejder med leverance af konsulentkapacitet, hvor digital
 I den afgrænsede del af processen fra registreret opgave til klientindstillet konsulent opstår der beslutningsled, hvor manuelle godkendelser, overstyringer og gentagne gennemløb kan bidrage til ventetid og procesmæssigt spild. Spørgsmålet er derfor ikke primært, om AI «er god», men hvordan samspillet mellem systemlogik og organisatorisk praksis kan påvirke tidsforbrug og spild i et konkret workflow.
 
 **Forskningsgab og synopsisens formål:**  
-Der er behov for et kongruent research design, der kan legitimere både fortolkning af beslutningspraksis og dokumentation af observerbare mønstre i et digitalt arbejdsflow. Denne synopsis forsvarer derfor et sammenhængende valg af videnskabsteoretisk position, epistemologisk skelnen, metodologisk design, datatyper og kvalitetskriterier — i overensstemmelse med 7. semesters pensum (Holm, 2023; Kuada, 2012; Saunders et al., 2023) og med Rossman og Wilson (1985) som strategisk ramme for kombination af kvalitative og kvantitative logikker i samme undersøgelse.
+Der er behov for et kongruent research design, der kan legitimere både fortolkning af beslutningspraksis og dokumentation af observerbare mønstre i et digitalt arbejdsflow. Denne synopsis forsvarer derfor et sammenhængende valg af videnskabsteoretisk position, epistemologisk skelnen, metodologisk design, datatyper og kvalitetskriterier — i overensstemmelse med 7. semesters pensum (Holm, 2023; Kuada, 2012; Saunders et al., 2023) og med Rossman og Wilson (1984) som strategisk ramme for kombination af kvalitative og kvantitative logikker i samme undersøgelse.
 
 ---
 
@@ -57,7 +57,7 @@ Research designet præsenteres i **fire vidensniveauer**: ontologi → epistemol
 
 Projektet anlægger en **pragmatisk** position: problemformuleringen er handlings- og anvendelsesorienteret, og genstandsfeltet rummer både fortolkede praksisser og observerbare hændelser i et digitalt workflow (Holm, 2023; Saunders et al., 2023).
 
-**Kuada** (2012) anvendes til korte begrebsdefinitioner og til at forankre undersøgelsens metodiske logik i et projektvejledt perspektiv. **Den strategiske begrundelse** for at kombinere kvalitative og kvantitative spor i samme undersøgelse — og for at lade forskningsspørgsmålet styre metodevalget — forankres i **Rossman og Wilson** (1985), som eksplicit adresserer integration af «numbers and words» i ét design.
+**Kuada** (2012) anvendes til korte begrebsdefinitioner og til at forankre undersøgelsens metodiske logik i et projektvejledt perspektiv. **Den strategiske begrundelse** for at kombinere kvalitative og kvantitative spor i samme undersøgelse — og for at lade forskningsspørgsmålet styre metodevalget — forankres i **Rossman og Wilson** (1984), som eksplicit adresserer integration af «numbers and words» i ét design.
 
 ### 3.2 Ontologi
 
@@ -91,7 +91,7 @@ Empirien kombinerer:
 2. **Artefaktanalyse** af SoluTalent som digitalt artefakt: funktionel kortlægning af beslutningsflow, manuelle gates og systemets «formelle principper» (fx hvad der kan automatiseres under hvilke betingelser).  
 3. **Systemiske udtræk** knyttet til det afgrænsede workflow i en **angivet tidsperiode** (tværsnit).
 
-**Triangulering** opfattes ikke som en opremsning af tre kilder, men som et **analytisk redskab**: at synliggøre spændet mellem **formelt designede regler i platformen** og **faktisk beslutningsadfærd** i organisationen (Rossman & Wilson, 1985). Interview og artefakt kan fx forklare, hvorfor målbare ventetider opstår, selv når teknisk flow er «åbent».
+**Triangulering** opfattes ikke som en opremsning af tre kilder, men som et **analytisk redskab**: at synliggøre spændet mellem **formelt designede regler i platformen** og **faktisk beslutningsadfærd** i organisationen (Rossman & Wilson, 1984). Interview og artefakt kan fx forklare, hvorfor målbare ventetider opstår, selv når teknisk flow er «åbent».
 
 ### 3.6 Tidshorisont og repræsentativitet (kvantitativ del)
 
@@ -109,7 +109,7 @@ I en **pre-go-live** eller begrænset live-situation kan KPI-struktur ofte forst
 | Artefakt | Uafhængig beskrivelse af systemlogik og manuelle knudepunkter |
 | Systemdata / udtræk | Observerbare mønstre i forløb, herunder indikatorer for ventetid, overstyringer og afvisninger, defineret konsistent i tværsnittet |
 
-Ingen enkeltkilde kan alene besvare problemformuleringen om spildtid og manuelle trin i samspillet mellem AI-forslag og organisatorisk praksis; kombinationen er derfor begrundet strategisk (Rossman & Wilson, 1985).
+Ingen enkeltkilde kan alene besvare problemformuleringen om spildtid og manuelle trin i samspillet mellem AI-forslag og organisatorisk praksis; kombinationen er derfor begrundet strategisk (Rossman & Wilson, 1984).
 
 ---
 
@@ -134,7 +134,7 @@ Forskningen involverer personer og virksomhedsdata. **Aksiologisk** prioriteres 
 
 ### 5.4 Insider-position og bias
 
-Forfatteren kan have insider-adgang gennem praktik og/eller medudvikling af platformen. Det giver nærhed, men øger risiko for bekræftelsesbias. Det imødegås ved at behandle **negative indikatorer** (fx høj override rate, gentagne afvisninger, lange beslutningsforløb) som analytisk **lige så centrale** som positive mønstre, og ved at lade artefakt og systemdata kunne **modsige** interviewfortolkninger (Rossman & Wilson, 1985).
+Forfatteren kan have insider-adgang gennem praktik og/eller medudvikling af platformen. Det giver nærhed, men øger risiko for bekræftelsesbias. Det imødegås ved at behandle **negative indikatorer** (fx høj override rate, gentagne afvisninger, lange beslutningsforløb) som analytisk **lige så centrale** som positive mønstre, og ved at lade artefakt og systemdata kunne **modsige** interviewfortolkninger (Rossman & Wilson, 1984).
 
 ---
 
@@ -165,7 +165,7 @@ flowchart TB
   ONTO --> EPIST --> METH --> MET
 ```
 
-**Figur 1.** Research design fra ontologi til metode med pragmatisk ramme og triangulering som analytisk funktion. Begrebsmæssig forankring: Kuada (2012); Holm (2023); Saunders et al. (2023); strategisk kombination af spor: Rossman og Wilson (1985).
+**Figur 1.** Research design fra ontologi til metode med pragmatisk ramme og triangulering som analytisk funktion. Begrebsmæssig forankring: Kuada (2012); Holm (2023); Saunders et al. (2023); strategisk kombination af spor: Rossman og Wilson (1984).
 
 ---
 
@@ -188,7 +188,7 @@ Holm, A. B. (2023). *Videnskab i virkeligheden – En grundbog i videnskabsteori
 
 Kuada, J. (2012). *Research Methodology: A Project Guide for University Students*. Samfundslitteratur.
 
-Rossman, G. B. & Wilson, B. L. (1985). Numbers and Words: Combining Quantitative and Qualitative Methods in a Single Large-Scale Study. *Evaluation Review*, 9(5), 627–643.
+Rossman, G. B. & Wilson, B. L. (1984). Numbers and Words: Combining Quantitative and Qualitative Methods in a Single Large-Scale Study. *Evaluation Review*, 9(5), 627–643.
 
 Saunders, M. N. K., Lewis, P. & Thornhill, A. (2023). *Research Methods for Business Students* (9. udg.). Pearson.
 
@@ -200,7 +200,7 @@ Saunders, M. N. K., Lewis, P. & Thornhill, A. (2023). *Research Methods for Busi
 - [ ] Problemformulering er et HV-spørgsmål med `?`  
 - [ ] Ontologi og epistemologi er **to separate afsnit**  
 - [ ] Indlejret case er forklaret som **organisatorisk delmængde**, ikke som workflow-states  
-- [ ] Rossman og Wilson (1985) bærer **strategien** for mixed methods/triangulering; Kuada (2012) bruges til **definitioner og kvalitetskriterier**  
+- [ ] Rossman og Wilson (1984) bærer **strategien** for mixed methods/triangulering; Kuada (2012) bruges til **definitioner og kvalitetskriterier**  
 - [ ] Triangulering har **analytisk formål** (formelle principper vs. faktisk adfærd)  
 - [ ] Tidshorisont (tværsnit) er **eksplicit**  
 - [ ] Informantvalidering er nævnt under credibility  

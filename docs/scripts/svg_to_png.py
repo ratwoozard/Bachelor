@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-"""Convert docs/figures/RESEARCH_STRUCTURE_SYNOPSIS_LUKA.svg to PNG (300 DPI) for Word embed."""
+"""Convert docs/figures/RESEARCH_STRUCTURE_SYNOPSIS.svg to PNG (300 DPI) for Word embed."""
 from __future__ import annotations
 
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-SVG_PATH = ROOT / "docs" / "figures" / "RESEARCH_STRUCTURE_SYNOPSIS_LUKA.svg"
-PNG_PATH = ROOT / "docs" / "figures" / "RESEARCH_STRUCTURE_SYNOPSIS_LUKA.png"
+SVG_PATH = ROOT / "docs" / "figures" / "RESEARCH_STRUCTURE_SYNOPSIS.svg"
+PNG_PATH = ROOT / "docs" / "figures" / "RESEARCH_STRUCTURE_SYNOPSIS.png"
 
 TARGET_DPI = 300
 SVG_POINT_WIDTH = 720  # matches viewBox width in points

@@ -44,7 +44,7 @@
   - Metodisk projektstruktur og kvalitetskriterier med tydelig afgraensning
 - Eksplicit regel: Kuada bruges ikke som baerende pragmatismestrategi i jeres setup, men gerne til korte begrebsdefinitioner og kvalitetskriterier
 
-- ✅ **docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1985.md**
+- ✅ **docs/PENSUM_KILDEKORT_ROSSMAN_WILSON_1984.md**
   - Pragmatisk integrationslogik for kvant/kval i samme studie
   - Corroboration, elaboration og initiation operationaliseret til forsvar
 

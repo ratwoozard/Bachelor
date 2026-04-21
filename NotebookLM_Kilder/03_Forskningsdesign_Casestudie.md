@@ -19,7 +19,7 @@ En klassisk censor-fælde: "Kan jeres konklusioner generaliseres til hele branch
 
 ## 2. Metodedesign: Sekventiel og Pragmatisk
 
-Vi indsamler både kvantitative data (tallene) og kvalitative data (ordene). Hvad kalder man det? Vi kalder det **Pragmatisk Metodepluralisme**. I synopsis bør strategien forankres i **Rossman & Wilson (1985)**, mens Creswell & Plano Clark bruges som supplerende designforståelse.
+Vi indsamler både kvantitative data (tallene) og kvalitative data (ordene). Hvad kalder man det? Vi kalder det **Pragmatisk Metodepluralisme**. I synopsis bør strategien forankres i **Rossman & Wilson (1984)**, mens Creswell & Plano Clark bruges som supplerende designforståelse.
 
 Hvis vi skal bruge teorien fra Creswell & Plano Clark om Mixed Methods, bruges den som supplerende designtypologi. I jeres synopsislinje beskrives designet primært som **sekventielt udforskende** eller som pragmatisk kombination af kvalitative og kvantitative logikker, afhængigt af hvad PF og vejlederens krav kræver.
 

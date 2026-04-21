@@ -124,7 +124,7 @@ Informant 3 (Ledelse): [Indsæt svar]
 - [ ] Kondensér centrale udsagn i sektionen *Centrale sætninger og viden* øverst
 - [ ] Send kondenseret version + kontekst for brug tilbage til informanten (informantvalidering, Saifs fine standard)
 - [ ] Modtag skriftlig bekræftelse / korrektion fra informant og arkivér (bilag C)
-- [ ] Opdatér `docs/SYNOPSIS_LUKA_FAERDIG.md` §1 og §4.1 med relevante citat-/kilderefer­encer (bilag B, Interview 3)
+- [ ] Opdatér `docs/SYNOPSIS_VIDENSKABSTEORI_EKSAMEN_KLAR.md` §1 og §4.1 med relevante citat-/kilderefer­encer (bilag B, Interview 3)
 - [ ] Opdatér appendix-sætningen i §7 så Interview 3 indgår
 - [ ] Regenerér Word-filen via `docs/scripts/export_synopsis_to_docx.py`
 

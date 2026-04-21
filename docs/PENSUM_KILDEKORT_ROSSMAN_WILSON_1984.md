@@ -1,6 +1,6 @@
-# Kildekort: Rossman & Wilson (1985)
+# Kildekort: Rossman & Wilson (1984)
 
-Kilde: Rossman, G. B., & Wilson, B. L. (1985). *Numbers and Words: Combining Quantitative and Qualitative Methods in a Single Large-Scale Study.*
+Kilde: Rossman, G. B., & Wilson, B. L. (1984). *Numbers and Words: Combining Quantitative and Qualitative Methods in a Single Large-Scale Study.*
 
 ## Hvad Rossman & Wilson bruges til hos jer
 
@@ -35,11 +35,11 @@ Kilde: Rossman, G. B., & Wilson, B. L. (1985). *Numbers and Words: Combining Qua
 ## Typiske censor-angreb og svarlinjer
 
 1. "Hvorfor blander I metoder?"
-   - Svarlinje: "For at opnaa baade corroboration og elaboration: interview og artefakt forklarer mekanismer nu, mens KPI-maaling planlaegges til driftfasen (Rossman & Wilson, 1985)."
+   - Svarlinje: "For at opnaa baade corroboration og elaboration: interview og artefakt forklarer mekanismer nu, mens KPI-maaling planlaegges til driftfasen (Rossman & Wilson, 1984)."
 2. "Er I ikke bare inkonsistente?"
-   - Svarlinje: "Nej, vi bruger en pragmatisk integrationslogik med tydelig rollefordeling pr. datakilde (Rossman & Wilson, 1985)."
+   - Svarlinje: "Nej, vi bruger en pragmatisk integrationslogik med tydelig rollefordeling pr. datakilde (Rossman & Wilson, 1984)."
 3. "Hvad hvis jeres datakilder modsiger hinanden?"
-   - Svarlinje: "Det behandles som initiation, dvs. et signal om ny forklaring eller ny afgraensning, ikke som fejl der skjules (Rossman & Wilson, 1985)."
+   - Svarlinje: "Det behandles som initiation, dvs. et signal om ny forklaring eller ny afgraensning, ikke som fejl der skjules (Rossman & Wilson, 1984)."
 
 ## Reeksamen-beredskab (hurtig check)
 

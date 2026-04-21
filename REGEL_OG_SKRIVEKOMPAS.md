@@ -12,7 +12,7 @@
 
 | # | Kernebudskab | KILDE |
 |---|--------------|-------|
-| 1 | **Brug ikke "dobbelt virkelighedsforståelse" via Kuada.** Kuada har forvekslet pragmatisme og situationalisme. Brug i stedet Rossman & Wilson (1985) til at begrunde pragmatisme-strategi og mixed methods. | saif1 [01:54-02:39] |
+| 1 | **Brug ikke "dobbelt virkelighedsforståelse" via Kuada.** Kuada har forvekslet pragmatisme og situationalisme. Brug i stedet Rossman & Wilson (1984) til at begrunde pragmatisme-strategi og mixed methods. | saif1 [01:54-02:39] |
 | 2 | **Vægtning: 1/3 teori, 2/3 anvendelse.** Under ontologi: definer begrebet kort (Kuada), forklar strategi (Rossman & Wilson), anvend på problemformuleringens elementer. De to tredjedele er PF-koblingen. | saif4 [03:27-03:58] |
 | 3 | **Adskil ontologi og epistemologi i separate underafsnit.** Kombiner dem ikke i ét samlet afsnit – det gør det uklart og svækker redegørelsen. | saif2 [01:26-02:52] |
 | 4 | **Indlejret casestudie = delmængde af organisation, ikke tekniske workflow-states.** Argumentér med at I har afgrænset undersøgelsen til én afdeling. "Workflow-states" og "analyseenheder i platformen" er forkert forståelse. | saif5 [01:57-02:50] |
@@ -337,7 +337,7 @@
 
 **Sådan tjekker du:** Forklarer du HVORDAN de forskellige metoder triangulerer (supplerer/bekræfter hinanden)?
 
-**God formulering:** "Metodetriangulering opnås via det sekventielle udforskende design: kvalitative interviews afdækker mønstre, som efterfølgende undersøges kvantitativt. Dette synliggør forskellen mellem formelle principper og faktisk beslutningsadfærd (Rossman & Wilson, 1985)."
+**God formulering:** "Metodetriangulering opnås via det sekventielle udforskende design: kvalitative interviews afdækker mønstre, som efterfølgende undersøges kvantitativt. Dette synliggør forskellen mellem formelle principper og faktisk beslutningsadfærd (Rossman & Wilson, 1984)."
 
 **Dårlig formulering:** "Vi triangulerer via interviews, artefakter og data."
 
@@ -503,7 +503,7 @@
 
 **Sådan tjekker du:** Bruges Kuada til korte definitioner og metode/kvalitet, mens Rossman & Wilson bærer strategien?
 
-**God formulering:** "Ontologi defineres som læren om eksistens (Kuada, 2012). Pragmatisme som forskningsstrategi begrundes med Rossman & Wilson (1985)."
+**God formulering:** "Ontologi defineres som læren om eksistens (Kuada, 2012). Pragmatisme som forskningsstrategi begrundes med Rossman & Wilson (1984)."
 
 **Dårlig formulering:** "Vi anvender en dobbelt virkelighedsforståelse jf. Kuada (2012)."
 
@@ -513,7 +513,7 @@
 
 #### TEORI-02: Rossman & Wilson til pragmatisme og mixed methods
 
-**Regel:** Brug Rossman & Wilson (1985) til at begrunde pragmatisme-strategi og kombination af kvalitative/kvantitative data.
+**Regel:** Brug Rossman & Wilson (1984) til at begrunde pragmatisme-strategi og kombination af kvalitative/kvantitative data.
 
 **Hvorfor:** Det er den korrekte kilde til "strategierne" – Kuada kan ikke bære den.
 
@@ -521,7 +521,7 @@
 
 **Sådan tjekker du:** Er Rossman & Wilson citeret ved pragmatisme-strategi?
 
-**God formulering:** "Pragmatismen legitimerer kombination af kvalitative og kvantitative data, når problemformuleringen kræver det (Rossman & Wilson, 1985)."
+**God formulering:** "Pragmatismen legitimerer kombination af kvalitative og kvantitative data, når problemformuleringen kræver det (Rossman & Wilson, 1984)."
 
 **Dårlig formulering:** "Pragmatisme jf. Kuada (2012)."
 
@@ -857,9 +857,9 @@
 
 **Sådan tjekker du:** Siger du at kilden handler om jeres PF, eller at I anvender kildens principper på jeres PF?
 
-**God formulering:** "Pragmatisme legitimerer kombination af metoder (Rossman & Wilson, 1985). Jeres PF lægger op til netop dette, fordi..."
+**God formulering:** "Pragmatisme legitimerer kombination af metoder (Rossman & Wilson, 1984). Jeres PF lægger op til netop dette, fordi..."
 
-**Dårlig formulering:** "Jævnfør Rossman & Wilson (1985) kræver jeres PF kvalitative og kvantitative data."
+**Dårlig formulering:** "Jævnfør Rossman & Wilson (1984) kræver jeres PF kvalitative og kvantitative data."
 
 **KILDE:** saif1 [04:02-04:11]
 

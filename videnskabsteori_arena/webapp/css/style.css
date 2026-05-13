@@ -479,6 +479,7 @@ body {
 .progress-fill.metode { background: linear-gradient(90deg, #06b6d4, #22d3ee); }
 .progress-fill.teori { background: linear-gradient(90deg, #10b981, #34d399); }
 .progress-fill.case { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+.progress-fill.pensum { background: linear-gradient(90deg, #2563eb, #60a5fa); }
 
 .progress-percent {
     min-width: 45px;
@@ -1440,6 +1441,7 @@ body {
 .category-fill.metode { background: linear-gradient(90deg, #06b6d4, #22d3ee); }
 .category-fill.teori { background: linear-gradient(90deg, #10b981, #34d399); }
 .category-fill.case { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+.category-fill.pensum { background: linear-gradient(90deg, #2563eb, #60a5fa); }
 
 .category-percent {
     min-width: 50px;

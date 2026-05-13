@@ -37,11 +37,12 @@ const Arena = {
         
         const categoryCounts = {
             all: Data.items.length,
-            general: Data.items.filter(i => i.category !== 'case').length,
+            general: Data.items.filter(i => i.category !== 'case' && i.category !== 'pensum').length,
             videnskabsteori: Data.items.filter(i => i.category === 'videnskabsteori').length,
             metode: Data.items.filter(i => i.category === 'metode').length,
             teori: Data.items.filter(i => i.category === 'teori').length,
             case: Data.items.filter(i => i.category === 'case').length,
+            pensum: Data.items.filter(i => i.category === 'pensum').length,
             teoretiker: this.availableTheorists.reduce((sum, t) => sum + Data.items.filter(i => i.lens === t).length, 0)
         };
         
@@ -114,6 +115,9 @@ const Arena = {
                         </button>
                         <button class="category-chip ${this.selectedCategory === 'case' ? 'selected' : ''}" onclick="Arena.selectCategory('case')">
                             🎓 Case/Bachelor (${categoryCounts.case})
+                        </button>
+                        <button class="category-chip ${this.selectedCategory === 'pensum' ? 'selected' : ''}" onclick="Arena.selectCategory('pensum')">
+                            📘 Pensum (${categoryCounts.pensum})
                         </button>
                         <button class="category-chip ${this.selectedCategory === 'teoretiker' ? 'selected' : ''}" onclick="Arena.selectCategory('teoretiker')">
                             🧑‍🏫 Teoretiker (${categoryCounts.teoretiker})
@@ -192,7 +196,7 @@ const Arena = {
         
         // Filter by category
         if (this.selectedCategory === 'general') {
-            pool = pool.filter(i => i.category !== 'case');
+            pool = pool.filter(i => i.category !== 'case' && i.category !== 'pensum');
         } else if (this.selectedCategory === 'teoretiker') {
             // Filter by selected theorist if one is chosen
             if (this.selectedTheorist) {
